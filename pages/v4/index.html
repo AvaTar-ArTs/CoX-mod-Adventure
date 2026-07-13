@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CoX Mod Adventure - MANGA Edition</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&family=RocknRoll+One&display=swap');
+    body { 
+      font-family: 'Noto Sans JP', sans-serif;
+      background: #1a1a2e;
+      background-image: 
+        linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px),
+        linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px);
+      background-size: 24px 24px;
+    }
+    .manga-card {
+      background: #0f0f23;
+      border: 2px solid #ff6b6b;
+      position: relative;
+    }
+    .manga-card::after {
+      content: "";
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      width: 12px;
+      height: 12px;
+      border-top: 2px solid #ff6b6b;
+      border-right: 2px solid #ff6b6b;
+    }
+    .scream-text {
+      font-family: 'RocknRoll One', sans-serif;
+      letter-spacing: 0.1em;
+    }
+    .speed-line {
+      position: absolute;
+      border: 1px solid rgba(255,107,107,0.3);
+    }
+  </style>
+</head>
+<body class="min-h-[100dvh] text-white">
+  <!-- Speed Lines Background -->
+  <div class="fixed inset-0 pointer-events-none overflow-hidden">
+    <div class="speed-line w-full h-px top-1/4"></div>
+    <div class="speed-line w-px h-full left-1/3"></div>
+    <div class="speed-line w-px h-full left-2/3"></div>
+  </div>
+
+  <!-- Manga Hero -->
+  <section class="relative py-20 px-6 text-center">
+    <div class="max-w-4xl mx-auto">
+      <div class="manga-card rounded-xl p-10 mb-12 transform -skew-y-1">
+        <h1 class="text-6xl md:text-8xl font-black mb-4 scream-text">
+          コミックヒーロー
+        </h1>
+        <h2 class="text-3xl md:text-5xl mb-6 text-red-400">MOD ADVENTURE</h2>
+        <p class="text-lg">291 MODS • 8 CATEGORIES • POWER UP!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mangaka Grid -->
+  <section class="px-6 pb-16">
+    <div class="max-w-4xl mx-auto">
+      <h3 class="text-2xl font-bold mb-8 text-center scream-text">カテゴリー</h3>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <a href="#" class="manga-card p-8 text-center hover:border-red-500 transition-colors transform hover:-translate-y-1">
+          <div class="text-5xl mb-3">🗺️</div>
+          <div class="text-xl font-bold mb-2 scream-text">マップ</div>
+          <div class="text-sm text-slate-400">Vidiotmaps & Event Guides</div>
+        </a>
+        
+        <a href="#" class="manga-card p-8 text-center hover:border-blue-500 transition-colors transform hover:-translate-y-1">
+          <div class="text-5xl mb-3">🎵</div>
+          <div class="text-xl font-bold mb-2 scream-text">サウンド</div>
+          <div class="text-sm text-slate-400">Audio Replacements</div>
+        </a>
+        
+        <a href="#" class="manga-card p-8 text-center hover:border-green-500 transition-colors transform hover:-translate-y-1">
+          <div class="text-5xl mb-3">🎨</div>
+          <div class="text-xl font-bold mb-2 scream-text">グラフィックス</div>
+          <div class="text-sm text-slate-400">Textures & Costumes</div>
+        </a>
+        
+        <a href="#" class="manga-card p-8 text-center hover:border-yellow-500 transition-colors transform hover:-translate-y-1">
+          <div class="text-5xl mb-3">📋</div>
+          <div class="text-xl font-bold mb-2 scream-text">ポップメニュー</div>
+          <div class="text-sm text-slate-400">Quick Reference</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 text-center border-t-2 border-red-500">
+    <div class="scream-text text-sm">CoX モッドアドベンチャー • パワーを引き出す</div>
+  </footer>
+</body>
+</html>

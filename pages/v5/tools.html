@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gadgets - Graphic Novel</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400}&family=Oswald:wght@400;600;700&display=swap');
+    body { font-family: 'Oswald', sans-serif; background: #111; background-image: linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px), linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px); background-size: 40px 40px; }
+    .comic-book { background: rgba(0,0,0,0.7); border: 6px double #ff3333; }
+    .bold-title { font-family: 'Bebas Neue', cursive; letter-spacing: 0.08em; }
+  </style>
+</head>
+<body class="min-h-[100dvh] text-gray-100">
+  <nav class="py-6 px-6 border-b-2 border-red-500">
+    <div class="max-w-5xl mx-auto flex justify-between items-center">
+      <a href="/pages/v5/" class="text-xl bold-title text-red-500">← BACK</a>
+      <span class="text-xl bold-title">GEAR</span>
+    </div>
+  </nav>
+
+  <section class="py-12 px-6">
+    <div class="max-w-5xl mx-auto">
+      <h1 class="text-6xl font-black mb-8 bold-title">TOOLBOX</h1>
+      
+      <div class="comic-book p-8 mb-6">
+        <h3 class="bold-title text-3xl mb-4">DOWNLOAD-MODS.SH</h3>
+        <code class="block bg-black p-4 text-green-400 mb-4">./download-mods.sh</code>
+        <p>BASH script. All 291 mods in parallel.</p>
+      </div>
+      
+      <div class="comic-book p-8">
+        <h3 class="bold-title text-3xl mb-4">DOWNLOAD-MODS.PY</h3>
+        <code class="block bg-black p-4 text-green-400 mb-4">python3 download-mods.py</code>
+        <p>Python downloader. 5 concurrent workers.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

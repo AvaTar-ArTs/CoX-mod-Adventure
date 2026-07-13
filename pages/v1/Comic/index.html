@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Guide - Clean Comic</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;900&display=swap');
+    body { font-family: 'Outfit', sans-serif; background: #0f172a; color: #e0e0e0; }
+    .guide-card { border: 2px solid #3b82f6; background: rgba(30, 41, 59, 0.5); }
+  </style>
+</head>
+<body class="min-h-[100dvh]">
+  <nav class="fixed top-0 w-full z-50 bg-slate-950/80 backdrop-blur-sm border-b border-slate-800">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="/pages/v1/" class="text-xl font-bold">CoX Mod Adventure</a>
+      <a href="/pages/v1/Comic/" class="text-blue-400 hover:text-blue-300">Guide</a>
+    </div>
+  </nav>
+
+  <section class="pt-24 py-12 px-6">
+    <div class="max-w-5xl mx-auto">
+      <h1 class="text-4xl font-bold mb-8">Getting Started</h1>
+      
+      <div class="space-y-6">
+        <div class="guide-card p-8">
+          <h3 class="text-2xl font-bold mb-3 text-blue-400">Step 1: Download</h3>
+          <p class="mb-3">Run the download script to fetch all mods.</p>
+          <code class="bg-slate-800 p-3 rounded text-sm">./download-mods.sh</code>
+        </div>
+        
+        <div class="guide-card p-8">
+          <h3 class="text-2xl font-bold mb-3 text-blue-400">Step 2: Install</h3>
+          <p class="mb-3">Extract mods to the assets directory.</p>
+          <code class="bg-slate-800 p-3 rounded text-sm">~/Library/Application Support/LaunchCat/coh/assets/mods/</code>
+        </div>
+        
+        <div class="guide-card p-8">
+          <h3 class="text-2xl font-bold mb-3 text-blue-400">Step 3: Play</h3>
+          <p class="mb-3">Launch LaunchCat. Mods load automatically.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Downloaded mod files (large binaries, re-downloadable via scrape-mods.py)
+Mods/*.pigg
+Mods/*.zip
+Mods/CoHModdingTool-Windows.zip
+
+# Generated data (rebuilt by scrape-mods.py)
+# mods.json is intentionally tracked
+
+# Poolside / AI session files
+.poolside/
+
+# Log / temp files
+*.log
+2026-*-local-command-*.txt
+
+# Archives
+pages.zip
+
+# Large binaries in coh-modders (installers)
+coh-modders/
+
+# Exported session logs
+docs/full-conversation-export.md
+docs/undated_*.md
+docs/.exported_sessions.json

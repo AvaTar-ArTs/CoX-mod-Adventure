@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CoX Mod Adventure - Graphic Novel Edition</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&family=Oswald:wght@400;600;700&display=swap');
+    body { 
+      font-family: 'Oswald', sans-serif;
+      background: #111;
+      background-image: 
+        linear-gradient(rgba(255,255,255,0.01) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.01) 1px, transparent 1px);
+      background-size: 40px 40px;
+    }
+    .comic-book {
+      background: linear-gradient(135deg, #2d2d2d 0%, #1a1a1a 100%);
+      border: 6px double #ff3333;
+      box-shadow: 0 0 30px rgba(255,51,51,0.3);
+    }
+    .bold-title {
+      font-family: 'Bebas Neue', cursive;
+      letter-spacing: 0.08em;
+    }
+    .panel-rough {
+      clip-path: polygon(
+        0% 2%, 1% 0%, 3% 1%, 5% 0%, 7% 2%, 9% 0%,
+        100% 0%, 100% 100%, 93% 100%, 91% 98%, 89% 100%,
+        1% 100%, 0% 98%
+      );
+    }
+  </style>
+</head>
+<body class="min-h-[100dvh] text-gray-100">
+  <!-- GRITTY HERO -->
+  <section class="relative py-20 px-6">
+    <div class="max-w-5xl mx-auto">
+      <div class="comic-book panel-rough p-12 mb-16">
+        <h1 class="text-6xl md:text-7xl font-black mb-4 bold-title text-red-400 tracking-wider">
+          COX MOD ADVENTURE
+        </h1>
+        <p class="text-xl md:text-2xl leading-relaxed">
+          STREET-LEVEL CUSTOMIZATION FOR THE CITY'S GREATEST HEROES
+        </p>
+        <p class="text-lg text-gray-400 mt-4">
+          291 community mods. 8 categories. All free for the taking.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MOD ARCHIVE -->
+  <section class="px-6 pb-16">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold bold-title mb-8 border-b-2 border-red-500 pb-2">ARCHIVE FILES</h2>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <a href="#" class="comic-book p-6 text-center hover:scale-105 transition-transform">
+          <div class="text-3xl mb-2">🗺️</div>
+          <div class="bold-title text-lg mb-1">MAPS</div>
+          <div class="text-xs text-gray-500">THE STREET VIEW</div>
+        </a>
+        
+        <a href="#" class="comic-book p-6 text-center hover:scale-105 transition-transform">
+          <div class="text-3xl mb-2">🔊</div>
+          <div class="bold-title text-lg mb-1">AUDIO</div>
+          <div class="text-xs text-gray-500">SOUNDTRACK</div>
+        </a>
+        
+        <a href="#" class="comic-book p-6 text-center hover:scale-105 transition-transform">
+          <div class="text-3xl mb-2">🎭</div>
+          <div class="bold-title text-lg mb-1">POPUPS</div>
+          <div class="text-xs text-gray-500">QUICK MENU</div>
+        </a>
+        
+        <a href="#" class="comic-book p-6 text-center hover:scale-105 transition-transform">
+          <div class="text-3xl mb-2">🖼️</div>
+          <div class="bold-title text-lg mb-1">ICONS</div>
+          <div class="text-xs text-gray-500">UI WORK</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-8 text-center border-t-2 border-red-500">
+    <div class="bold-title text-sm">ISSUE #291 • CITY OF HEROES DEV</div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Hero's Journey - CoX Comic</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&family=Permanent+Marker&display=swap');
+    body { 
+      font-family: 'Bebas Neue', cursive;
+      background: #000;
+      background-image: radial-gradient(circle, rgba(255,0,0,0.1) 1px, transparent 1px);
+      background-size: 20px 20px;
+    }
+    .comic-panel {
+      border: 4px solid white;
+      box-shadow: 8px 8px 0 rgba(255,255,255,0.3);
+      background: linear-gradient(45deg, #1a1a2e 0%, #16213e 100%);
+    }
+    .action-text { font-family: 'Permanent Marker', cursive; }
+    .panel-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+  </style>
+</head>
+<body class="min-h-[100dvh] text-white">
+  <nav class="py-6 px-6 border-b-2 border-white">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <a href="/pages/v2/" class="text-2xl action-text">← HQ</a>
+      <span class="text-xl action-text">THE HERO'S JOURNEY</span>
+    </div>
+  </nav>
+
+  <section class="py-12 px-6">
+    <div class="max-w-6xl mx-auto">
+      <h1 class="text-6xl md:text-8xl font-black mb-12 text-center action-text">KICKSTART ADVENTURE</h1>
+      
+      <div class="panel-grid">
+        <!-- Page 1 -->
+        <div class="comic-panel p-8">
+          <div class="text-xs mb-2 action-text">PAGE 1</div>
+          <div class="text-3xl font-bold mb-4 action-text">THE CALL TO ACTION!</div>
+          <p class="text-lg leading-relaxed">
+            291 MODS AWAIT! Your hero needs enhancements. The city won't save itself.
+          </p>
+        </div>
+        
+        <!-- Page 2 -->
+        <div class="comic-panel p-8">
+          <div class="text-xs mb-2 action-text">PAGE 2</div>
+          <div class="text-3xl font-bold mb-4 action-text">DOWNLOAD!</div>
+          <p class="text-lg leading-relaxed">
+            `./download-mods.sh` - Fetch all mods in parallel. Teamwork makes the dream work!
+          </p>
+        </div>
+        
+        <!-- Page 3 -->
+        <div class="comic-panel p-8">
+          <div class="text-xs mb-2 action-text">PAGE 3</div>
+          <div class="text-3xl font-bold mb-4 action-text">INSTALL!</div>
+          <p class="text-lg leading-relaxed">
+            Extract to `~/Library/Application Support/LaunchCat/coh/assets/mods/`
+          </p>
+        </div>
+        
+        <!-- Page 4 -->
+        <div class="comic-panel p-8">
+          <div class="text-xs mb-2 action-text">PAGE 4</div>
+          <div class="text-3xl font-bold mb-4 action-text">POWER UP!</div>
+          <p class="text-lg leading-relaxed">
+            Launch LaunchCat. Mods load automatically with `-assetpath assets/mods`
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-8 text-center border-t-2 border-white">
+    <span class="action-text text-xl">THE END...? OR JUST THE BEGINNING!</span>
+  </footer>
+</body>
+</html>

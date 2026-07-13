@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tools Arsenal - KAPOW!</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&family=Permanent+Marker&display=swap');
+    body { 
+      font-family: 'Bebas Neue', cursive;
+      background: #000;
+      background-image: radial-gradient(circle, rgba(255,0,0,0.1) 1px, transparent 1px);
+      background-size: 20px 20px;
+    }
+    .comic-panel {
+      border: 4px solid white;
+      box-shadow: 8px 8px 0 rgba(255,255,255,0.2);
+      background: linear-gradient(45deg, #1a1a2e 0%, #16213e 100%);
+    }
+    .action-text { font-family: 'Permanent Marker', cursive; }
+  </style>
+</head>
+<body class="min-h-[100dvh] text-white">
+  <nav class="py-6 px-6 border-b-2 border-white">
+    <div class="max-w-5xl mx-auto flex justify-between items-center">
+      <a href="/pages/v2/" class="text-2xl action-text">← BACK TO HQ</a>
+      <span class="text-xl action-text">TOOLS ARMORY</span>
+    </div>
+  </nav>
+
+  <section class="py-12 px-6">
+    <div class="max-w-5xl mx-auto">
+      <h1 class="text-5xl md:text-7xl font-black mb-8 action-text">YOUR GEAR</h1>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="comic-panel p-8">
+          <h3 class="text-3xl font-bold mb-4 action-text">DOWNLOAD SCRIPT</h3>
+          <code class="block bg-black p-4 text-green-400 mb-4">./download-mods.sh</code>
+          <p>Fetches all 291 mods - ready to deploy!</p>
+        </div>
+        
+        <div class="comic-panel p-8">
+          <h3 class="text-3xl font-bold mb-4 action-text">PYTHON TOOL</h3>
+          <code class="block bg-black p-4 text-green-400 mb-4">python3 download-mods.py</code>
+          <p>Parallel download with 5 workers</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-8 text-center border-t-2 border-white">
+    <span class="action-text">ARMED AND READY FOR ACTION</span>
+  </footer>
+</body>
+</html>

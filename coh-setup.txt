@@ -1,0 +1,884 @@
+## User
+
+➜  ~ agy
+
+      ▄▀▀▄        Antigravity CLI 1.1.1
+     ▀▀▀▀▀▀       sjchaplinski@gmail.com (Antigravity Starter Quota)
+    ▀▀▀▀▀▀▀▀      Gemini 3.5 Flash (Medium)
+   ▄▀▀    ▀▀▄     ~
+  ▄▀▀      ▀▀▄
+
+────────────────────────────────────────────────────────────────────
+> review my wine / cityofheroes install from
+  "/Applications/LaunchCat.app"
+────────────────────────────────────────────────────────────────────
+                                           Gemini 3.5 Flash (Medium)
+
+
+## Tools
+
+- Lifecycle event
+
+## Assistant
+
+I'll inspect LaunchCat.app and any Wine/City of Heroes paths it references so we can review the install.
+
+## Tools
+
+- ListDir: /Applications/LaunchCat.app
+- Execute: ls -la "/Applications/LaunchCat.app" 2>/dev/null; ls -laR "/Applications/LaunchCat.app/Contents" 2>/dev/null | head -200; mdfind -name 'City of Heroes' 2>/dev/null | head -40; mdfind 'kMDItemDisplayName == *LaunchCat*' 2>/dev/null | head -20; ls -la ~/Library/Application\ Support/ 2>/dev/null | rg -i 'launchcat|wine|city|heroes|tequila|homecoming' || true; ls -la ~/ 2>/dev/null | rg -i 'wine|city|heroes|launchcat|tequila|homecoming' || true (Locate LaunchCat and CoH-related installs)
+
+## Assistant
+
+Found LaunchCat support data, `.lcwine`, and CityModInstaller — digging into those next.
+
+## Tools
+
+- Execute: plutil -p "/Applications/LaunchCat.app/Contents/Info.plist" 2>/dev/null; echo '--- Config.plist ---'; plutil -p "/Applications/LaunchCat.app/Contents/Resources/Config.plist" 2>/dev/null; echo '--- Documents/LaunchCat.plist ---'; plutil -p "/Users/steven/Documents/LaunchCat.plist" 2>/dev/null; echo '--- LaunchCat App Support ---'; ls -laR "/Users/steven/Library/Application Support/LaunchCat" 2>/dev/null | head -150; echo '--- .lcwine ---'; ls -la "/Users/steven/.lcwine" 2>/dev/null; ls -laR "/Users/steven/.lcwine" 2>/dev/null | head -80; echo '--- CityModInstaller ---'; ls -la "/Users/steven/CityModInstaller" 2>/dev/null; ls -laR "/Users/steven/CityModInstaller" 2>/dev/null | head -80; echo '--- ~/LaunchCat ---'; ls -laR "/Users/steven/LaunchCat" 2>/dev/null | head -80 (Read LaunchCat configs and related dirs)
+- Read: /Users/steven/Library/Application Support/LaunchCat/coh/LaunchCat-Diagnostics.txt (1-52)
+
+## Assistant
+
+Diagnostics already flag a missing launcher — verifying binaries, Wine prefix, and logs next.
+
+## Tools
+
+- Execute: COH="/Users/steven/Library/Application Support/LaunchCat/coh"
+echo '=== bin tree ==='
+find "$COH/bin" -type f 2>/dev/null | head -80
+ls -laR "$COH/bin" 2>/dev/null
+echo '=== wine version / structure ==='
+cat "$COH/wine/wineversion" 2>/dev/null
+ls -la "$COH/wine" 2>/dev/null
+ls -la "$COH/wine/bin" 2>/dev/null
+file "$COH/wine/bin/wine" "$COH/wine/bin/wine64" 2>/dev/null
+echo '=== launch.sh ==='
+cat "$COH/launch.sh" 2>/dev/null
+echo '=== settings ==='
+ls -laR "$COH/settings" 2>/dev/null
+echo '=== logs ==='
+ls -laR "$COH/logs" 2>/dev/null
+find "$COH/logs" -type f 2>/dev/null | while read f; do echo "--- $f ---"; tail -50 "$f" 2>/dev/null; done
+echo '=== Homecoming.lnk ==='
+file "$COH/Homecoming.lnk" 2>/dev/null
+strings "$COH/Homecoming.lnk" 2>/dev/null | head -40
+echo '=== disk usage ==='
+du -sh "$COH" "$COH/assets" "$COH/assets/issue24" "$COH/assets/live" "$COH/wine" "/Users/steven/.lcwine" 2>/dev/null
+echo '=== CityModInstaller home ==='
+ls -la "/Users/steven/CityModInstaller" 2>/dev/null
+find "/Users/steven/CityModInstaller" -maxdepth 3 2>/dev/null | head -50
+echo '=== launcher search ==='
+find "$COH" -iname '*launcher*' 2>/dev/null
+find "$COH" -iname '*.exe' 2>/dev/null | head -40
+echo '=== WINEPREFIX env in prefs/plist ==='
+defaults read com.powermad.launchcat 2>/dev/null || true
+ls -la ~/Library/Preferences/*launchcat* 2>/dev/null || true
+ls -la ~/Library/Preferences/*LaunchCat* 2>/dev/null || true
+plutil -p ~/Library/Preferences/com.powermad.launchcat.plist 2>/dev/null || true
+ (Inspect CoH bin, wine, logs, launcher)
+- Execute: echo '=== wine arch / version check ==='
+WINEPREFIX=/Users/steven/.lcwine "/Users/steven/Library/Application Support/LaunchCat/coh/wine/bin/wine64" --version 2>&1
+echo '=== dosdevices status ==='
+ls -la /Users/steven/.lcwine/dosdevices/
+for d in d e; do
+  t=$(readlink "/Users/steven/.lcwine/dosdevices/${d}:")
+  echo "drive $d: -> $t exists? $([ -e "/Users/steven/.lcwine/dosdevices/${d}:" ] && echo YES || echo NO)"
+done
+echo '=== CoHModdingTool / App Cleaner mounts ==='
+ls /Volumes/ 2>/dev/null
+echo '=== users/steven in wine ==='
+ls -laR "/Users/steven/.lcwine/drive_c/users" 2>/dev/null | head -60
+echo '=== registry coh/homecoming hints ==='
+rg -i 'homecoming|city of heroes|coh|launchcat|powermad' /Users/steven/.lcwine/user.reg /Users/steven/.lcwine/system.reg 2>/dev/null | head -40
+echo '=== Program Files (x86) ==='
+find "/Users/steven/.lcwine/drive_c/Program Files (x86)" -maxdepth 4 2>/dev/null | head -40
+echo '=== hardware ==='
+uname -m; sysctl -n machdep.cpu.brand_string 2>/dev/null; sw_vers
+ (Test wine, mounts, registry CoH refs)
+- Read: /Users/steven/Library/Application Support/LaunchCat/coh/settings/launcher/settings.json
+- Read: /Users/steven/Library/Application Support/LaunchCat/coh/settings/launcher/process.json
+- Execute: LOG="/Users/steven/Library/Application Support/LaunchCat/coh/logs/launcher/launcher.log"
+echo '=== log head ==='
+head -80 "$LOG"
+echo '=== errors/warnings ==='
+rg -i 'error|fail|warn|exception|crash|missing|unable|denied|dxvk|vulkan|opengl|gl_|wine' "$LOG" | head -80
+echo '=== full log size / launch count ==='
+wc -l "$LOG"
+rg -c 'Launching process|Exiting|error|fail' "$LOG" || true
+echo '=== process launch lines ==='
+rg 'gamemgr:|process:|error|fail|pkginstall:.*fail|transitioned' "$LOG" | head -100
+echo '=== CityModInstaller deep ==='
+ls -la /Users/steven/CityModInstaller 2>/dev/null; find /Users/steven/CityModInstaller -maxdepth 4 2>/dev/null | head -80
+echo '=== CoHModdingTool volume ==='
+ls -la /Volumes/CoHModdingTool 2>/dev/null | head -40
+echo '=== dxvk / d3d in wine ==='
+ls /Users/steven/.lcwine/drive_c/windows/system32/d3d* 2>/dev/null | head -20
+ls /Users/steven/Library/Application\ Support/LaunchCat/coh/wine/lib/wine/x86_64-windows/d3d* 2>/dev/null | head -20
+echo '=== codesign LaunchCat ==='
+codesign -dv --verbose=2 /Applications/LaunchCat.app 2>&1 | head -30
+spctl -a -vv /Applications/LaunchCat.app 2>&1 | head -10
+echo '=== arch of cityofheroes ==='
+file "/Users/steven/Library/Application Support/LaunchCat/coh/bin/win64/live/cityofheroes.exe" "/Users/steven/Library/Application Support/LaunchCat/coh/bin/win64/launcher.exe"
+ (Analyze logs, graphics, CityMod, signing)
+- Execute: echo '=== running wine/coh processes ==='
+ps aux | rg -i 'wine|cityofheroes|launchcat|LaunchCat' | rg -v rg || true
+echo '=== CityModInstaller ==='
+ls -la /Users/steven/CityModInstaller 2>&1; find /Users/steven/CityModInstaller -maxdepth 3 2>&1 | head -40
+echo '=== screenshots/cache ==='
+ls -la "/Users/steven/Library/Application Support/LaunchCat/coh/screenshots" "/Users/steven/Library/Application Support/LaunchCat/coh/cache" 2>/dev/null
+find "/Users/steven/Library/Application Support/LaunchCat/coh/cache" 2>/dev/null | head -20
+echo '=== pigg completeness sample vs package ==='
+# count piggs
+echo "issue24 piggs: $(ls "/Users/steven/Library/Application Support/LaunchCat/coh/assets/issue24"/*.pigg 2>/dev/null | wc -l)"
+echo "live piggs: $(ls "/Users/steven/Library/Application Support/LaunchCat/coh/assets/live"/*.pigg 2>/dev/null | wc -l)"
+# any leftover .stage files?
+find "/Users/steven/Library/Application Support/LaunchCat/coh" -name '*.stage' -o -name '*.removed' 2>/dev/null | head -20
+echo '=== graphics stack notes ==='
+# check if dxvk dlls (not wine stubs) - dxvk usually replaces d3d11 with large size
+ls -la /Users/steven/.lcwine/drive_c/windows/system32/d3d11.dll /Users/steven/.lcwine/drive_c/windows/system32/dxgi.dll 2>/dev/null
+file /Users/steven/.lcwine/drive_c/windows/system32/d3d11.dll 2>/dev/null
+# moltenvk?
+ls "/Users/steven/Library/Application Support/LaunchCat/coh/wine/lib" 2>/dev/null | head -20
+find "/Users/steven/Library/Application Support/LaunchCat/coh/wine" -iname '*vulkan*' -o -iname '*molten*' 2>/dev/null | head -20
+echo '=== Documents LaunchCat.plist ==='
+cat /Users/steven/Documents/LaunchCat.plist 2>/dev/null
+ (Check processes, mods, leftover stages, DXVK)
+
+## Assistant
+
+# LaunchCat / Wine / City of Heroes (Homecoming) install review
+
+**Verdict: install is complete and the client has launched.** Packages finished installing overnight; Homecoming `live` was started successfully under Wine. A few hygiene and performance issues are worth fixing.
+
+---
+
+## What’s in place
+
+| Piece | Status | Location / notes |
+|--------|--------|------------------|
+| **LaunchCat.app** | OK | `/Applications/LaunchCat.app` v2.0 (build `112420241`), notarized **Developer ID: Powermad Software LLC** |
+| **Game data** | OK (~5.6 GB) | `~/Library/Application Support/LaunchCat/coh/` |
+| **Bundled Wine** | OK | Wine **9.0**, native **x86_64** (matches your Intel i9-9880H) |
+| **Wine prefix** | OK | `~/.lcwine` (`WINEARCH=win64`) |
+| **Homecoming launcher** | OK | `bin/win64/launcher.exe` + win32 twin |
+| **Client** | OK | `bin/win64/live/cityofheroes.exe` (and win32) |
+| **Assets** | OK | 73 `issue24` piggs (~4.2 GB) + 25 `live` piggs (~584 MB) |
+| **Mods path** | Empty | `assets/mods/` present; nothing installed |
+| **Mac** | OK | macOS 15.7.7, Intel — no Rosetta tax for this Wine build |
+
+`launch.sh` correctly sets:
+
+- `WINEPREFIX=~/.lcwine`
+- runs `wine64` → `bin/win64/launcher.exe`
+
+---
+
+## Timeline (from `launcher.log`)
+
+1. **Jul 12 ~10:23** — First bootstrap under Wine; incomplete/corrupt launcher files repaired from CDN (one 404 on a readme fallback, then recovered).
+2. **EULA accepted**, account **`choake`** logged in (Homecoming).
+3. **Long download** of `hc_live`, bins, crashhandlers, `i24_piggs` across multiple sessions (~10:24 → ~00:32 next day).
+4. **Jul 13 00:32:10** — All packages **committed**; profile **`live` → installed**.
+5. **Jul 13 00:34:35** — Game launched:
+
+```text
+cityofheroes.exe -profile live -auth 51.161.76.201
+  -assetpath assets/issue24;assets/live -assetpath assets\mods
+```
+
+Architecture: **win-x64**.
+
+**Right now** Wine is still up: `cityofheroes.exe`, `launcher.exe`, `wineserver`, and a very busy `explorer.exe /desktop` (~92% CPU). So the stack is live, not a half-download.
+
+---
+
+## Issues (ordered by importance)
+
+### 1. `nohwaccel: true` in launcher settings
+
+In `settings/launcher/settings.json`:
+
+```json
+"nohwaccel": true
+```
+
+That usually forces **software / no hardware acceleration** for the Homecoming launcher UI (and can correlate with weak GPU paths under Wine). Your Mac has **MoltenVK** in LaunchCat’s Wine (`libMoltenVK.dylib` + `winevulkan`), so HW paths exist — this flag may be hurting you.
+
+**Suggestion:** set `"nohwaccel": false` (or toggle whatever LaunchCat/Homecoming UI option maps to it), then relaunch and compare FPS/UI.
+
+### 2. Broken Wine drive letters (`dosdevices`)
+
+```text
+d:  → /Volumes/App Cleaner 9.2.2   (NOT mounted)
+e:  → /Volumes/CoHModdingTool      (mounted)
+```
+
+Wine auto-mapped whatever was plugged in when the prefix ran. Dead `d:` is mostly harmless; it can confuse tools that enumerate drives. Prefer a clean prefix map (only `c:` + `z:` → `/`) unless you intentionally want the modding DMG as `e:`.
+
+**CoHModdingTool** volume is the **installer DMG** for `CoHModdingTool.app`, not an installed mods tree under LaunchCat.
+
+### 3. Stale diagnostics snapshot
+
+`LaunchCat-Diagnostics.txt` (Jul 12 10:20) said **`launcher exists: NO`**. That was true **before** the game package finished. **Out of date — ignore it.** Current tree has full win32/win64 launchers and clients.
+
+### 4. Orphan / high-CPU Wine session
+
+`explorer.exe /desktop` pegging CPU with game+launcher still attached is a common Wine-on-macOS pattern (virtual desktop spinning). If the game window is blank/frozen:
+
+- Quit LaunchCat fully, then:
+
+```bash
+WINEPREFIX=~/.lcwine \
+  "/Users/steven/Library/Application Support/LaunchCat/coh/wine/bin/wineserver" -k
+```
+
+- Relaunch only via **LaunchCat**, not a second manual `launch.sh` while another session is alive.
+
+### 5. Secrets on disk (awareness)
+
+`settings/launcher/settings.json` holds Homecoming **auth id/key/secret** in cleartext (normal for this launcher, still sensitive). Don’t sync that folder to public repos or untrusted backups without redaction.
+
+### 6. Cosmetic / minor
+
+- `launch.sh` has a double slash: `.../coh//bin/win64/launcher.exe` — harmless.
+- `Homecoming.lnk` points at the correct win64 launcher.
+- `Documents/LaunchCat.plist`: `autoLaunch=YES`, `setRetina=false` — fine for non-Retina-scaled windows; enable Retina only if you want sharper/blurrier tradeoffs under Wine.
+- `assets/mods` empty + `-assetpath assets\mods` already on the launch line — ready for icon/costume/popmenu packs when you add them.
+- No leftover `.stage` / incomplete package files spotted after the 00:32 commit.
+
+---
+
+## Architecture (how it wires)
+
+```text
+LaunchCat.app (macOS host)
+    └── launches Wine 9.0 (bundled under .../LaunchCat/coh/wine)
+            └── WINEPREFIX = ~/.lcwine
+                    └── Z:\Users\steven\Library\Application Support\LaunchCat\coh\
+                            ├── bin/win64/launcher.exe   (Homecoming)
+                            └── bin/win64/live/cityofheroes.exe
+                                    ├── assets/issue24  (base piggs)
+                                    ├── assets/live     (HC live piggs)
+                                    └── assets/mods     (empty)
+```
+
+Game does **not** live under `C:\Program Files`; it lives on **Z:** (macOS filesystem) — correct for LaunchCat.
+
+---
+
+## Health scorecard
+
+| Area | Grade | Notes |
+|------|-------|--------|
+| App authenticity | A | Notarized Dev ID |
+| Wine install | A | 9.0, native x86_64, MoltenVK present |
+| Game packages | A | All marked installed; sizes look complete |
+| First launch | A− | Logged successful start of live client |
+| Performance setup | B− | `nohwaccel: true`; explorer CPU hot |
+| Prefix hygiene | B | Stale/broken USB/DMG drive maps |
+| Mods | — | Path ready, nothing installed |
+| Docs/diagnostics | C | Old diagnostic report misleading |
+
+---
+
+## Recommended next steps
+
+1. **Confirm in-game:** can you get past character select / into a zone? (Log only proves process start.)
+2. **If black screen / low FPS:** turn off `nohwaccel`, kill wineserver, relaunch LaunchCat only.
+3. **Clean dosdevices:** unmount junk volumes, remove dead `d:` / optional `e:` symlinks under `~/.lcwine/dosdevices/` when nothing is using them.
+4. **Mods:** install into  
+   `~/Library/Application Support/LaunchCat/coh/assets/mods/`  
+   (not only into the CoHModdingTool DMG).
+5. **Don’t reinstall** unless packages fail verify — the Jul 12 “missing launcher” diagnostics are historical.
+
+---
+
+## Bottom line
+
+This is a **healthy LaunchCat + Wine 9 + Homecoming live** install on Intel Mac. Download finished; **live** client was launched with the correct auth/asset paths. Focus next on **runtime quality** (`nohwaccel`, Wine explorer CPU, drive letter cleanup) and whether the game window actually stays playable — not on re-downloading piggs.
+
+If you want, I can next: (a) flip `nohwaccel` and soft-clean the Wine prefix, (b) inspect why `explorer.exe` is burning CPU, or (c) sketch a safe mods layout under `assets/mods`.
+
+## User
+
+fix everything you can
+
+## Assistant
+
+I'll fix the issues we found: hardware acceleration, broken Wine drive maps, stale process state, `launch.sh` path, and a clean wineserver restart.
+
+## Tools
+
+- Read: /Users/steven/Library/Application Support/LaunchCat/coh/settings/launcher/settings.json (1-20)
+- Read: /Users/steven/Library/Application Support/LaunchCat/coh/launch.sh
+- Execute: ls -la /Users/steven/.lcwine/dosdevices/; ps aux | rg -i 'wine|cityofheroes|LaunchCat|launchcat' | rg -v 'rg -i' || true (Snapshot dosdevices and wine processes)
+- Execute: rg -n 'Desktop|VirtualDesktop|explorer|Mac Driver|Drives|Graphics|nohw|Retina|dpi' /Users/steven/.lcwine/user.reg /Users/steven/.lcwine/userdef.reg 2>/dev/null | head -60
+rg -n 'VirtualDesktop|Explorer|Desktop' /Users/steven/.lcwine/system.reg 2>/dev/null | head -30
+ (Find Wine desktop/graphics registry keys)
+- Edit: /Users/steven/Library/Application Support/LaunchCat/coh/settings/launcher/settings.json
+- Edit: /Users/steven/Library/Application Support/LaunchCat/coh/launch.sh
+- Edit: /Users/steven/Library/Application Support/LaunchCat/coh/settings/launcher/process.json
+- Execute: set -e
+DD=/Users/steven/.lcwine/dosdevices
+# Remove auto-mapped removable/DMG drives (broken D: and CoHModdingTool E:)
+rm -f "$DD/d:" "$DD/d::" "$DD/e:" "$DD/e::"
+ls -la "$DD"
+
+# Stop hung Wine session cleanly
+export WINEPREFIX=/Users/steven/.lcwine
+WINEBIN="/Users/steven/Library/Application Support/LaunchCat/coh/wine/bin"
+"$WINEBIN/wineserver" -k 2>/dev/null || true
+sleep 2
+# Force-kill any leftover preloaders if still present
+pkill -f 'LaunchCat/coh/wine' 2>/dev/null || true
+pkill -f '/Users/steven/.lcwine' 2>/dev/null || true
+sleep 1
+echo '=== remaining wine/coh processes ==='
+ps aux | rg -i 'wine|cityofheroes|LaunchCat/coh' | rg -v 'rg -i' || echo '(none)'
+
+# Verify settings + launch.sh
+echo '=== nohwaccel ==='
+python3 -c 'import json; p="/Users/steven/Library/Application Support/LaunchCat/coh/settings/launcher/settings.json"; d=json.load(open(p)); print("nohwaccel=", d.get("nohwaccel")); print("packages_ok=", all(v.get("installed") for v in d["packages"].values()))'
+echo '=== launch.sh ==='
+cat "/Users/steven/Library/Application Support/LaunchCat/coh/launch.sh"
+echo '=== process.json ==='
+cat "/Users/steven/Library/Application Support/LaunchCat/coh/settings/launcher/process.json"
+ (Clean dosdevices, kill wineserver, verify)
+
+## Assistant
+
+Retrying a safer wineserver kill without `pkill -f` matching our shell.
+
+## Tools
+
+- Execute: DD=/Users/steven/.lcwine/dosdevices
+rm -f "$DD/d:" "$DD/d::" "$DD/e:" "$DD/e::"
+echo "dosdevices after clean:"
+ls -la "$DD"
+
+export WINEPREFIX=/Users/steven/.lcwine
+WINEBIN="/Users/steven/Library/Application Support/LaunchCat/coh/wine/bin"
+"$WINEBIN/wineserver" -k
+sleep 2
+
+# Kill remaining wine/coh by PID only (avoid pkill -f self-match)
+pgrep -lf 'wine64-preloader|wineserver|cityofheroes|LaunchCat/coh/launch' || true
+for pid in $(pgrep -f 'bin/wine64-preloader' 2>/dev/null); do
+  case "$(ps -p "$pid" -o command= 2>/dev/null)" in
+    *LaunchCat/coh/wine*|*cityofheroes*|*wineserver*) kill "$pid" 2>/dev/null || true ;;
+  esac
+done
+for pid in $(pgrep -f 'LaunchCat/coh/wine/bin/wineserver' 2>/dev/null); do kill "$pid" 2>/dev/null || true; done
+for pid in $(pgrep -f 'LaunchCat/coh/launch.sh' 2>/dev/null); do kill "$pid" 2>/dev/null || true; done
+sleep 1
+echo "remaining:"
+pgrep -lf 'wine64-preloader|wineserver|cityofheroes|LaunchCat/coh/launch' || echo '(none)'
+ (Clean drives and kill wine by PID)
+- Execute: DD=/Users/steven/.lcwine/dosdevices
+rm -f "$DD/d:" "$DD/d::" "$DD/e:" "$DD/e::"
+ls -la "$DD"
+export WINEPREFIX=/Users/steven/.lcwine
+"/Users/steven/Library/Application Support/LaunchCat/coh/wine/bin/wineserver" -k
+sleep 3
+ps aux | grep -E '[w]ine64-preloader|[w]ineserver|[c]ityofheroes|[L]aunchCat/coh/launch' || echo '(none)'
+ (Remove drive links; wineserver -k only)
+- Execute: export WINEPREFIX=/Users/steven/.lcwine
+COH="/Users/steven/Library/Application Support/LaunchCat/coh"
+# Confirm wine quiet after kill
+ps -axo pid,pcpu,comm | awk 'tolower($0) ~ /wine|cityofh|launchcat/ {print}' || true
+echo "---"
+# Verify key paths exist
+for f in \
+  "$COH/bin/win64/launcher.exe" \
+  "$COH/bin/win64/live/cityofheroes.exe" \
+  "$COH/wine/bin/wine64" \
+  "$COH/wine/lib/libMoltenVK.dylib" \
+  "$COH/launch.sh" \
+  "/Users/steven/.lcwine/drive_c" \
+  "/Users/steven/.lcwine/dosdevices/c:" \
+  "/Users/steven/.lcwine/dosdevices/z:"
+do
+  if [ -e "$f" ]; then echo "OK  $f"; else echo "MISSING $f"; fi
+done
+# no leftover stage
+echo "stage leftovers: $(find "$COH" -name '*.stage' 2>/dev/null | wc -l | tr -d ' ')"
+# settings check without dumping secrets
+python3 <<'PY'
+import json
+p="/Users/steven/Library/Application Support/LaunchCat/coh/settings/launcher/settings.json"
+d=json.load(open(p))
+print("nohwaccel:", d["nohwaccel"])
+print("packages:")
+for k,v in d["packages"].items():
+    print(f"  {k}: installed={v.get('installed')}")
+print("profiles:", list(d.get("profiles",{}).keys()))
+print("auth user:", d.get("auth",{}).get("user",{}).get("name"))
+print("eula:", d.get("eula",{}).get("accepted"))
+PY
+# ensure launch.sh executable
+chmod +x "$COH/launch.sh"
+# write fresh diagnostics (no secrets)
+DIAG="$COH/LaunchCat-Diagnostics.txt"
+{
+  echo "LaunchCat Diagnostics (refreshed)"
+  echo "================================="
+  echo "Date: $(date -u '+%Y-%m-%d %H:%M:%S +0000')"
+  echo "User: $USER"
+  echo "Home: $HOME"
+  echo "macOS: $(sw_vers -productVersion)"
+  echo "Hardware: $(uname -m) $(sysctl -n machdep.cpu.brand_string 2>/dev/null)"
+  echo ""
+  echo "Paths"
+  echo "-----"
+  echo "folderPath: $COH/"
+  echo "WineAppPath: $COH/wine"
+  echo "MainWinePath64: $COH/wine/bin/wine64"
+  echo "mainLauncherName: $COH/bin/win64/launcher.exe"
+  echo "WINEPREFIX: $WINEPREFIX"
+  echo ""
+  echo "Exists"
+  echo "------"
+  echo "folder exists: $([ -d "$COH" ] && echo YES || echo NO)"
+  echo "wine exists: $([ -x "$COH/wine/bin/wine64" ] && echo YES || echo NO)"
+  echo "wineversion: $(cat "$COH/wine/wineversion" 2>/dev/null)"
+  echo "launcher exists: $([ -f "$COH/bin/win64/launcher.exe" ] && echo YES || echo NO)"
+  echo "client exists: $([ -f "$COH/bin/win64/live/cityofheroes.exe" ] && echo YES || echo NO)"
+  echo "MoltenVK exists: $([ -f "$COH/wine/lib/libMoltenVK.dylib" ] && echo YES || echo NO)"
+  echo ""
+  echo "Fixes applied 2026-07-13"
+  echo "-----------------------"
+  echo "- nohwaccel set to false"
+  echo "- removed broken dosdevices d:/e: (App Cleaner, CoHModdingTool)"
+  echo "- fixed launch.sh double slash"
+  echo "- cleared stale process.json"
+  echo "- wineserver -k to stop hung explorer/client"
+} > "$DIAG"
+echo "Wrote $DIAG"
+cat "$DIAG"
+echo "---"
+# quick wine version sanity (no GUI)
+"$COH/wine/bin/wine64" --version
+# confirm dosdevices stayed clean after wine --version (wine may remount)
+echo "dosdevices after wine --version:"
+ls -la /Users/steven/.lcwine/dosdevices/
+ (Verify install, rewrite diagnostics, test wine)
+- Edit: /Users/steven/Library/Application Support/LaunchCat/coh/settings/launcher/process.json
+- Execute: # Final state summary
+echo "=== dosdevices ==="
+ls -la /Users/steven/.lcwine/dosdevices/
+echo "=== launch.sh ==="
+cat "/Users/steven/Library/Application Support/LaunchCat/coh/launch.sh"
+echo "=== process.json ==="
+cat "/Users/steven/Library/Application Support/LaunchCat/coh/settings/launcher/process.json"
+echo "=== wine procs (should be empty) ==="
+ps -axo pid,pcpu,command | awk 'BEGIN{IGNORECASE=1} $0 ~ /Application Support\/LaunchCat\/coh\/wine/ || $0 ~ /cityofheroes\.exe/ {print}' || echo none
+# If CoHModdingTool volume is mounted, note it won't be in wine until remount event
+ls /Volumes 2>/dev/null
+ (Final verification of all fixes)
+
+## Assistant
+
+# Fixes applied
+
+All actionable items from the review are done. Summary:
+
+### 1. Hardware acceleration
+- `settings/launcher/settings.json`: **`nohwaccel: true` → `false`**
+- Auth, packages, and profiles left untouched
+
+### 2. Wine drive maps cleaned
+Removed auto-mapped junk from `~/.lcwine/dosdevices/`:
+
+| Removed | Was |
+|---------|-----|
+| `d:` / `d::` | dead **App Cleaner 9.2.2** volume |
+| `e:` / `e::` | **CoHModdingTool** DMG |
+
+Left only:
+
+- `c:` → `drive_c`
+- `z:` → `/`
+
+### 3. `launch.sh` path
+- Fixed double slash: `.../coh//bin/...` → `.../coh/bin/win64/launcher.exe`
+- Ensured executable bit is set
+
+### 4. Hung Wine session
+- Ran **`wineserver -k`**
+- Stopped the 100% CPU `explorer.exe /desktop`, stuck `cityofheroes.exe`, and leftover launcher
+- Confirmed no LaunchCat Wine processes remain
+
+### 5. Stale process state
+- `process.json` cleared to `{ "live": [] }` (was still listing old PID 760)
+
+### 6. Diagnostics refreshed
+- Rewrote `LaunchCat-Diagnostics.txt` with current truth:
+  - launcher **YES**, client **YES**, Wine **9.0**, MoltenVK **YES**
+  - lists the fixes above
+
+### 7. Sanity checks
+- All packages still `installed: true`
+- No leftover `.stage` files
+- `wine64 --version` → `wine-9.0`
+- dosdevices stayed clean after that check
+
+---
+
+## What you should do now
+
+1. **Open LaunchCat** from `/Applications` (one clean launch).
+2. Hit **Play** on **live** and confirm you get past login into a zone with better rendering.
+3. Optional: **eject** `/Volumes/CoHModdingTool` if you’re not using the mod tool right now. Wine sometimes re-adds volume drive letters on full boot while that DMG is mounted — harmless, but cleaner without it.
+
+---
+
+## What I did *not* change (on purpose)
+
+| Item | Why |
+|------|-----|
+| Auth tokens | Working login for `choake`; rewriting would force re-auth |
+| Game/piggs | Already complete |
+| Retina (`setRetina: false`) | Preference, not a bug |
+| Mods folder | Empty by design until you add mods |
+| CoHModdingTool volume itself | Still mounted; only removed Wine’s `e:` mapping |
+
+If LaunchCat rewrites `launch.sh` on update and the double slash comes back, that’s cosmetic and safe to ignore — or we can re-patch after the next LaunchCat update.
+
+## User
+
+you are in control -- resolve all a d get it runing
+
+## Assistant
+
+Taking ownership end-to-end: clean state, launch Homecoming, and fix anything that blocks a running client.
+
+## Tools
+
+- Execute: # Preflight: clean state
+export WINEPREFIX=/Users/steven/.lcwine
+COH="/Users/steven/Library/Application Support/LaunchCat/coh"
+WINEBIN="$COH/wine/bin"
+
+# Kill any existing wine session cleanly
+"$WINEBIN/wineserver" -k 2>/dev/null || true
+sleep 1
+
+# Ensure dosdevices clean
+DD="$WINEPREFIX/dosdevices"
+rm -f "$DD/d:" "$DD/d::" "$DD/e:" "$DD/e::" 2>/dev/null || true
+# keep only c and z
+ls -la "$DD"
+
+# Verify critical files
+python3 - <<'PY'
+import json, os
+coh=os.path.expanduser("~/Library/Application Support/LaunchCat/coh")
+s=json.load(open(f"{coh}/settings/launcher/settings.json"))
+assert s.get("nohwaccel") is False, s.get("nohwaccel")
+for k,v in s["packages"].items():
+    assert v.get("installed"), k
+for p in [
+ f"{coh}/bin/win64/launcher.exe",
+ f"{coh}/bin/win64/live/cityofheroes.exe",
+ f"{coh}/wine/bin/wine64",
+ f"{coh}/launch.sh",
+]:
+    assert os.path.exists(p), p
+print("preflight OK: nohwaccel=false, packages installed, binaries present")
+PY
+
+# Prefer LaunchCat.app host if present (sets env correctly)
+ls -la /Applications/LaunchCat.app/Contents/MacOS/LaunchCat
+# Unmount CoHModdingTool if possible to avoid wine remapping (non-destructive eject)
+if [ -d /Volumes/CoHModdingTool ]; then
+  diskutil unmount "/Volumes/CoHModdingTool" 2>/dev/null || hdiutil detach "/Volumes/CoHModdingTool" 2>/dev/null || true
+fi
+ls /Volumes 2>/dev/null
+ (Preflight clean state and verify install)
+- Execute: # Clear old process state; rotate log marker
+COH="/Users/steven/Library/Application Support/LaunchCat/coh"
+LOG="$COH/logs/launcher/launcher.log"
+echo '{"live":[]}' > "$COH/settings/launcher/process.json"
+# Mark log position
+LOG_BYTES=$(wc -c < "$LOG" | tr -d ' ')
+echo "$LOG_BYTES" > /tmp/coh_log_offset.txt
+echo "log offset: $LOG_BYTES"
+
+# Launch LaunchCat.app (macOS host) — opens UI and should auto-launch wine
+open -a "/Applications/LaunchCat.app"
+sleep 5
+ps -axo pid,pcpu,etime,command | awk 'BEGIN{IGNORECASE=1} $0 ~ /LaunchCat\.app/ || $0 ~ /LaunchCat\/coh\/wine/ || $0 ~ /cityofheroes/ || $0 ~ /launch\.sh/ {print}'
+echo "--- log tail after open ---"
+tail -30 "$LOG" 2>/dev/null
+ (Open LaunchCat.app and check startup)
+
+## Assistant
+
+Launcher is up and authenticated; launching the live client directly with the same args Homecoming uses.
+
+## Tools
+
+- Read: /Users/steven/Library/Application Support/LaunchCat/coh/settings/launcher/profiles/live.json (1-80)
+- Execute: # Check launchercli help / latest log for auth IP
+COH="/Users/steven/Library/Application Support/LaunchCat/coh"
+tail -40 "$COH/logs/launcher/launcher.log"
+# try strings on launchercli for commands
+strings "$COH/bin/win64/launchercli.exe" 2>/dev/null | head -5
+file "$COH/bin/win64/launchercli.exe"
+# Windows list via process.json
+cat "$COH/settings/launcher/process.json" 2>/dev/null
+# Wine windows if winedbg available - skip
+ls -la "$COH/settings/launcher/"
+ (Get launch args and launcher state)
+- Execute: COH="/Users/steven/Library/Application Support/LaunchCat/coh"
+strings "$COH/bin/win64/launchercli.exe" | grep -iE 'launch|profile|start|play|help|usage|auth' | head -40
+# list windows via applescript / system events
+osascript <<'APPLESCRIPT' 2>/dev/null || true
+tell application "System Events"
+  set out to ""
+  repeat with p in (every process whose background only is false)
+    try
+      set pn to name of p
+      set wins to name of every window of p
+      set out to out & pn & " :: " & (wins as string) & linefeed
+    end try
+  end repeat
+  return out
+end tell
+APPLESCRIPT
+# also wine processes window titles via lsof?
+lsappinfo list 2>/dev/null | head -5 || true
+# Find wine-related apps in dock
+osascript -e 'tell application "System Events" to get name of every process' 2>/dev/null | tr ',' '\n' | grep -iE 'wine|launch|city|coh|homecoming' || true
+ (Find launcher CLI args and window titles)
+- Execute: # Activate Homecoming launcher and try to start (Enter / Space / P for Play)
+osascript <<'APPLESCRIPT'
+tell application "System Events"
+  set wineProcs to every process whose name is "wine64-preloader"
+  repeat with p in wineProcs
+    try
+      set winNames to name of every window of p
+      repeat with w in winNames
+        if (w as string) contains "Homecoming" then
+          set frontmost of p to true
+          delay 0.5
+          -- click Play via Return (default button often focused)
+          keystroke return
+          delay 1
+          key code 49 -- space
+          delay 0.5
+          -- sometimes Play is accessed with tab-tab-return
+          keystroke tab
+          delay 0.2
+          keystroke return
+          return "activated and keyed: " & (w as string)
+        end if
+      end repeat
+    end try
+  end repeat
+  return "no Homecoming window found"
+end tell
+APPLESCRIPT
+
+sleep 8
+echo "=== after keystrokes ==="
+ps -axo pid,pcpu,etime,command | awk '/cityofheroes\.exe/ || /LaunchCat\/coh\/wine.*launcher/ {print}'
+tail -25 "/Users/steven/Library/Application Support/LaunchCat/coh/logs/launcher/launcher.log"
+cat "/Users/steven/Library/Application Support/LaunchCat/coh/settings/launcher/process.json"
+ (Click Play via keyboard on Homecoming window)
+- Execute: # Full process/window inventory for wine
+osascript <<'APPLESCRIPT'
+tell application "System Events"
+  set out to ""
+  repeat with p in (every process)
+    try
+      set pn to name of p
+      if pn contains "wine" or pn contains "Wine" or pn contains "Launch" or pn contains "city" then
+        set out to out & "PROC:" & pn & " pid=" & (unix id of p as string) & linefeed
+        try
+          repeat with w in (every window of p)
+            set out to out & "  WIN:" & (name of w as string) & " role=" & (role of w as string) & linefeed
+          end repeat
+        end try
+      end if
+    end try
+  end repeat
+  -- also any process with windows containing Homecoming
+  repeat with p in (every process)
+    try
+      repeat with w in (every window of p)
+        set wn to name of w as string
+        if wn contains "Homecoming" or wn contains "Heroes" or wn contains "launcher" then
+          set out to out & "MATCH proc=" & (name of p) & " win=" & wn & linefeed
+        end if
+      end repeat
+    end try
+  end repeat
+  return out
+end tell
+APPLESCRIPT
+
+# Accessibility check
+sqlite3 "/Library/Application Support/com.apple.TCC/TCC.db" "SELECT client FROM access WHERE service='kTCCServiceAccessibility';" 2>/dev/null | head -5 || echo "no system tcc"
+# Direct launch cityofheroes with known working args
+export WINEPREFIX=/Users/steven/.lcwine
+COH="/Users/steven/Library/Application Support/LaunchCat/coh"
+cd "$COH"
+# Launch in background via wine64
+nohup "$COH/wine/bin/wine64" "$COH/bin/win64/live/cityofheroes.exe" \
+  -profile live \
+  -auth 51.161.76.201 \
+  -assetpath "assets/issue24;assets/live" \
+  -assetpath "assets/mods" \
+  > /tmp/coh-client.out 2>&1 &
+echo "spawned client pid $!"
+sleep 6
+ps -axo pid,pcpu,rss,etime,command | awk '/cityofheroes/ {print}'
+echo "--- client out ---"
+cat /tmp/coh-client.out 2>/dev/null | tail -40
+echo "--- windows again ---"
+osascript -e 'tell application "System Events" to get {name, unix id} of every process whose name contains "wine"' 2>/dev/null
+ (List wine windows; direct-launch cityofheroes.exe)
+
+## Assistant
+
+Client is live with a **City of Heroes** window. Cleaning residual drive maps, re-applying launch fixes, and bringing the game to the front.
+
+## Tools
+
+- Execute: export WINEPREFIX=/Users/steven/.lcwine
+COH="/Users/steven/Library/Application Support/LaunchCat/coh"
+DD="$WINEPREFIX/dosdevices"
+# Clean orphan device node from ejected CoHModdingTool
+rm -f "$DD/d:" "$DD/d::" "$DD/e:" "$DD/e::" 2>/dev/null || true
+ls -la "$DD"
+
+# Re-fix launch.sh (LaunchCat rewrote double-slash)
+cat > "$COH/launch.sh" <<'EOF'
+#!/bin/sh
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+export WINEARCH=win64
+export WINEPREFIX="/Users/steven/.lcwine"
+cd "/Users/steven/Library/Application Support/LaunchCat/coh/"
+"/Users/steven/Library/Application Support/LaunchCat/coh/wine/bin/wine64" "/Users/steven/Library/Application Support/LaunchCat/coh/bin/win64/launcher.exe"
+EOF
+chmod +x "$COH/launch.sh"
+
+# Durable direct-start helper (LaunchCat may rewrite launch.sh)
+cat > "$COH/start-live.sh" <<'EOF'
+#!/bin/sh
+# Direct start Homecoming live client under LaunchCat Wine
+set -e
+export WINEARCH=win64
+export WINEPREFIX="${WINEPREFIX:-/Users/steven/.lcwine}"
+COH="/Users/steven/Library/Application Support/LaunchCat/coh"
+cd "$COH"
+# Prefer existing wineserver if launcher already running
+exec "$COH/wine/bin/wine64" "$COH/bin/win64/live/cityofheroes.exe" \
+  -profile live \
+  -auth 51.161.76.201 \
+  -assetpath "assets/issue24;assets/live" \
+  -assetpath "assets/mods"
+EOF
+chmod +x "$COH/start-live.sh"
+
+# Ensure nohwaccel still false
+python3 - <<'PY'
+import json
+p="/Users/steven/Library/Application Support/LaunchCat/coh/settings/launcher/settings.json"
+d=json.load(open(p))
+changed=False
+if d.get("nohwaccel") is not False:
+    d["nohwaccel"]=False
+    changed=True
+if changed:
+    json.dump(d, open(p,"w"), indent=4)
+    print("fixed nohwaccel")
+else:
+    print("nohwaccel already false")
+print("auth user:", d.get("auth",{}).get("user",{}).get("name"))
+PY
+
+# Bring game window frontmost
+osascript <<'AS'
+tell application "System Events"
+  repeat with p in (every process whose name is "wine64-preloader")
+    try
+      repeat with w in (windows of p)
+        if (name of w as string) is "City of Heroes" then
+          set frontmost of p to true
+          perform action "AXRaise" of w
+          return "raised City of Heroes"
+        end if
+      end repeat
+    end try
+  end repeat
+  -- fallback Homecoming launcher
+  repeat with p in (every process whose name is "wine64-preloader")
+    try
+      if (count of windows of p) > 0 then
+        set frontmost of p to true
+        return "raised wine process with windows"
+      end if
+    end try
+  end repeat
+  return "could not raise"
+end tell
+AS
+
+# Final status
+echo "======== RUNNING STATUS ========"
+ps -axo pid,pcpu,rss,etime,command | awk '/cityofheroes\.exe/ && !/awk/ {printf "CLIENT  pid=%s cpu=%s%% rss_mb=%.0f etime=%s\n",$1,$2,$3/1024,$4}'
+ps -axo pid,pcpu,etime,command | awk '/launcher\.exe/ && !/awk/ {printf "LAUNCHER pid=%s cpu=%s%% etime=%s\n",$1,$2,$3}'
+echo "Windows:"
+osascript <<'AS'
+tell application "System Events"
+  set out to ""
+  repeat with p in (every process whose name is "wine64-preloader")
+    try
+      repeat with w in (windows of p)
+        set out to out & "  - " & (name of w as string) & linefeed
+      end repeat
+    end try
+  end repeat
+  return out
+end tell
+AS
+echo "GPU/log last lines:"
+tail -5 /tmp/coh-client.out
+echo "OpenGL was: AMD Radeon Pro 560X"
+echo "dosdevices:"; ls -la "$DD"
+echo "DONE"
+ (Finalize fixes, raise game window, report status)
+- Execute: sleep 5
+tail -40 /tmp/coh-client.out
+echo "---"
+ps -axo pid,pcpu,rss,etime,command | awk '/cityofheroes\.exe/ && !/awk/ {print}'
+# Check for game logs under coh
+find "/Users/steven/Library/Application Support/LaunchCat/coh" -name '*.log' -o -name 'debug*' 2>/dev/null | head -20
+ls -la "/Users/steven/Library/Application Support/LaunchCat/coh/logs/" 2>/dev/null
+# wine stderr for errors
+ls -lt /tmp/coh* 2>/dev/null
+# windows still up
+osascript <<'AS'
+tell application "System Events"
+  set out to ""
+  repeat with p in (every process whose name is "wine64-preloader")
+    try
+      repeat with w in (windows of p)
+        set out to out & (name of w as string) & linefeed
+      end repeat
+    end try
+  end repeat
+  return out
+end tell
+AS
+ (Confirm auth progress and game still up)
+
+## User
+
+logging in
+
+## User
+
+export

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mod Archive - MANGA</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=RocknRoll+One&display=swap');
+    body { font-family: 'Noto Sans JP', sans-serif; background: #1a1a2e; }
+    .manga-card { border: 2px solid #ff6b6b; position: relative; }
+    .manga-card::after { content: ""; position: absolute; top: 8px; right: 8px; width: 10px; height: 10px; border-top: 2px solid #ff6b6b; border-right: 2px solid #ff6b6b; }
+    .scream-text { font-family: 'RocknRoll One', sans-serif; letter-spacing: 0.1em; }
+  </style>
+</head>
+<body class="min-h-[100dvh] text-white">
+  <nav class="py-6 px-6 border-b-2 border-red-500">
+    <div class="max-w-4xl mx-auto flex justify-between items-center">
+      <a href="/pages/v4/" class="text-xl scream-text">← 戻る</a>
+      <span class="text-xl scream-text">モッドアーカイブ</span>
+    </div>
+  </nav>
+
+  <section class="py-12 px-6">
+    <div class="max-w-4xl mx-auto">
+      <h1 class="text-5xl md:text-6xl font-black mb-8 scream-text">データベース</h1>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="manga-card p-6 text-center">
+          <div class="text-3xl mb-2">🗺️</div>
+          <div class="scream-text text-xl mb-1">マップ</div>
+          <div class="text-sm">バッジ地図</div>
+        </div>
+        
+        <div class="manga-card p-6 text-center">
+          <div class="text-3xl mb-2">🎵</div>
+          <div class="scream-text text-xl mb-1">サウンド</div>
+          <div class="text-sm">音声パック</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

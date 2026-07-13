@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CoX Mod Adventure - Noir Edition</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;900&family=Source+Code+Pro:wght@400;600&display=swap');
+    body { 
+      font-family: 'Playfair Display', serif;
+      background: linear-gradient(135deg, #0c0c0c 0%, #1a0000 50%, #00001a 100%);
+      color: #e0e0e0;
+    }
+    .noir-panel {
+      background: rgba(0,0,0,0.7);
+      border-left: 3px solid #ff0000;
+    }
+    .typewriter {
+      font-family: 'Source Code Pro', monospace;
+    }
+    .ink-splash {
+      position: relative;
+    }
+    .ink-splash::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10,10 Q50,5 90,10 T180,10 L180,180 Q140,175 100,180 T10,180 Z' fill='none' stroke='%23333' stroke-width='1'/%3E%3C/svg%3E");
+      opacity: 0.03;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body class="min-h-[100dvh]">
+  <!-- Noir Hero -->
+  <section class="relative py-20 px-6 overflow-hidden">
+    <div class="max-w-4xl mx-auto relative">
+      <div class="absolute -top-20 -right-20 text-[200px] opacity-5">🕵️</div>
+      <div class="noir-panel p-12 mb-12 ink-splash">
+        <h1 class="text-5xl md:text-7xl font-bold mb-4 tracking-wider">THE CASE FILES</h1>
+        <h2 class="text-3xl md:text-5xl mb-8 text-red-500">CoX MOD ADVENTURE</h2>
+        <p class="text-lg leading-relaxed typewriter max-w-2xl">
+          A city of heroes needs its legends told in style. Every mod is evidence. Every download, a clue. The villains won't stop - neither should your customization.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Evidence Board -->
+  <section class="px-6 mb-16">
+    <div class="max-w-4xl mx-auto">
+      <h3 class="text-2xl font-bold mb-6 border-b border-red-900 pb-2">EVIDENCE BOARD</h3>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="noir-panel p-6">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="text-red-500 text-2xl">📍</span>
+            <h4 class="text-xl font-bold">MAPS UNFINISHED</h4>
+          </div>
+          <p class="typewriter text-sm mb-3">291 cases open. 31,000+ sightings logged.</p>
+          <a href="#" class="text-red-400 hover:text-red-300 text-sm underline">VIEW CASE FILES →</a>
+        </div>
+        
+        <div class="noir-panel p-6">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="text-red-500 text-2xl">📻</span>
+            <h4 class="text-xl font-bold">AUDIO SURVEILLANCE</h4>
+          </div>
+          <p class="typewriter text-sm mb-3">Intercepted broadcast signals. Power-up sound trails.</p>
+          <a href="#" class="text-red-400 hover:text-red-300 text-sm underline">LISTEN TO INTEL →</a>
+        </div>
+        
+        <div class="noir-panel p-6">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="text-red-500 text-2xl">🎨</span>
+            <h4 class="text-xl font-bold">VISUAL PROFILE</h4>
+          </div>
+          <p class="typewriter text-sm mb-3">Costume descriptions. Facial composites. Identity changes.</p>
+          <a href="#" class="text-red-400 hover:text-red-300 text-sm underline">VIEW DOSSIERS →</a>
+        </div>
+        
+        <div class="noir-panel p-6">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="text-red-500 text-2xl">📡</span>
+            <h4 class="text-xl font-bold">ENHANCEMENT LOG</h4>
+          </div>
+          <p class="typewriter text-sm mb-3">DO/SO standardization. Interface tweaks. Quality of life.</p>
+          <a href="#" class="text-red-400 hover:text-red-300 text-sm underline">ACCESS ARCHIVE →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 text-center border-t border-red-900">
+    <div class="typewriter text-sm">CASE #COX-2024 • PAROLE VIOLATION IN PROGRESS</div>
+  </footer>
+</body>
+</html>

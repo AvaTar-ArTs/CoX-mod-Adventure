@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CoX Mod Adventure - City of Heroes Mods</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap');
+    body { font-family: 'Outfit', sans-serif; }
+    .hero-gradient { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); }
+    .hover-lift { transition: transform 0.2s ease, box-shadow 0.2s ease; }
+    .hover-lift:hover { transform: translateY(-4px); }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-[100dvh]">
+  <!-- Navigation -->
+  <nav class="fixed top-0 w-full z-50 bg-slate-950/80 backdrop-blur-sm border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="/" class="text-xl font-bold">CoX Mod Adventure</a>
+      <div class="flex gap-6 text-sm">
+        <a href="/pages/mods.html" class="text-slate-300 hover:text-white">Mods</a>
+        <a href="/pages/tools.html" class="text-slate-300 hover:text-white">Tools</a>
+        <a href="/pages/categories/maps.html" class="text-slate-300 hover:text-white">Maps</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero-gradient min-h-[60vh] flex items-center pt-16">
+    <div class="max-w-7xl mx-auto px-6 py-24">
+      <h1 class="text-5xl md:text-6xl font-bold tracking-tighter mb-4">
+        CoX Mod Adventure
+      </h1>
+      <p class="text-lg text-slate-300 max-w-2xl leading-relaxed mb-8">
+        Curated mods for City of Heroes Homecoming. Download, install, and enhance your superhero experience with community creations.
+      </p>
+      <div class="flex gap-4">
+        <a href="/pages/mods.html" class="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold transition-colors">
+          Browse Mods
+        </a>
+        <a href="/pages/tools.html" class="px-6 py-3 bg-slate-800 hover:bg-slate-700 rounded-lg font-semibold transition-colors">
+          Install Tools
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="py-12 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+      <div>
+        <div class="text-4xl font-bold text-blue-400">291</div>
+        <div class="text-slate-400 mt-1">Mods Available</div>
+      </div>
+      <div>
+        <div class="text-4xl font-bold text-emerald-400">31K+</div>
+        <div class="text-slate-400 mt-1">Downloads (Vidiotmaps)</div>
+      </div>
+      <div>
+        <div class="text-4xl font-bold text-violet-400">8</div>
+        <div class="text-slate-400 mt-1">Categories</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Start -->
+  <section class="py-16 px-6">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="text-3xl font-bold mb-8">Quick Start</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="border border-slate-800 rounded-xl p-8">
+          <h3 class="text-xl font-bold mb-3">Download All Mods</h3>
+          <p class="text-slate-300 mb-4">Fetch all 291 mods using the provided scripts.</p>
+          <code class="block bg-slate-800 p-3 rounded text-sm text-blue-300">./download-mods.sh</code>
+        </div>
+        <div class="border border-slate-800 rounded-xl p-8">
+          <h3 class="text-xl font-bold mb-3">Install Mod Tools</h3>
+          <p class="text-slate-300 mb-4">Get the official GUI tool for managing mods.</p>
+          <a href="/pages/tools.html" class="text-blue-400 hover:text-blue-300 font-semibold">View Tools →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 px-6 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto text-slate-500 text-sm">
+      CoX Mod Adventure • For City of Heroes Homecoming • Mods sourced from cityofheroes.dev
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" class="w-full h-auto">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#000" stroke="#fff" stroke-width="4"/>
+  
+  <!-- Title -->
+  <text x="400" y="60" font-family="'Permanent Marker', cursive" font-size="36" fill="#ff0000" text-anchor="middle" letter-spacing="2">
+    COX MOD VAULT
+  </text>
+  
+  <!-- Grid of Categories -->
+  <g font-family="Arial, sans-serif">
+    <!-- Maps - Large -->
+    <rect x="50" y="100" width="300" height="150" fill="#16213e" stroke="#3b82f6" stroke-width="3"/>
+    <text x="200" y="140" font-size="24" fill="#3b82f6" text-anchor="middle" font-weight="bold">🗺️ MAPS</text>
+    <text x="200" y="170" font-size="14" fill="#fff" text-anchor="middle">Vidiotmaps (31K+)</text>
+    
+    <!-- Popmenus -->
+    <rect x="380" y="100" width="150" height="100" fill="#1a1a2e" stroke="#10b981" stroke-width="3"/>
+    <text x="455" y="140" font-size="18" fill="#10b981" text-anchor="middle" font-weight="bold">POPMENUS</text>
+    
+    <!-- Audio -->
+    <rect x="560" y="100" width="150" height="100" fill="#1a1a2e" stroke="#ec4899" stroke-width="3"/>
+    <text x="635" y="140" font-size="18" fill="#ec4899" text-anchor="middle" font-weight="bold">AUDIO</text>
+    
+    <!-- Graphics -->
+    <rect x="380" y="230" width="150" height="100" fill="#1a1a2e" stroke="#8b5cf6" stroke-width="3"/>
+    <text x="455" y="270" font-size="18" fill="#8b5cf6" text-anchor="middle" font-weight="bold">GRAPHICS</text>
+    
+    <!-- GUI/Icons -->
+    <rect x="560" y="230" width="150" height="100" fill="#1a1a2e" stroke="#f59e0b" stroke-width="3"/>
+    <text x="635" y="270" font-size="18" fill="#f59e0b" text-anchor="middle" font-weight="bold">GUI/ICONS</text>
+    
+    <!-- Cursors -->
+    <rect x="380" y="360" width="150" height="100" fill="#1a1a2e" stroke="#06b6d4" stroke-width="3"/>
+    <text x="455" y="400" font-size="18" fill="#06b6d4" text-anchor="middle" font-weight="bold">CURSORS</text>
+    
+    <!-- Languages -->
+    <rect x="560" y="360" width="150" height="100" fill="#1a1a2e" stroke="#14b8a6" stroke-width="3"/>
+    <text x="635" y="400" font-size="18" fill="#14b8a6" text-anchor="middle" font-weight="bold">LANGUAGES</text>
+    
+    <!-- Other -->
+    <rect x="380" y="490" width="330" height="50" fill="#1a1a2e" stroke="#64748b" stroke-width="3"/>
+    <text x="545" y="520" font-size="18" fill="#64748b" text-anchor="middle" font-weight="bold">MISCELLANEOUS</text>
+  </g>
+  
+  <!-- Stats -->
+  <text x="400" y="580" font-size="16" fill="#fff" text-anchor="middle">291 MODS • 8 CATEGORIES • FREE FOR HEROES</text>
+</svg>
