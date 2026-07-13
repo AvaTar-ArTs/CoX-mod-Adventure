@@ -29,3 +29,5 @@ coh-modders/
 docs/full-conversation-export.md
 docs/undated_*.md
 docs/.exported_sessions.json
+docs/tmp-artifacts/*.zip
+docs/tmp-artifacts/*.pigg

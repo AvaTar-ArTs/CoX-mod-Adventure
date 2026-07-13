@@ -1,0 +1,2912 @@
+[
+  {
+    "id": 9,
+    "name": "Vidiotmaps for Homecoming",
+    "author": "AboveTheChemist",
+    "category": "Maps",
+    "downloads": 31340,
+    "description": "",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=9&file=mods/117/hc_vidiotmaps.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/9"
+  },
+  {
+    "id": 11,
+    "name": "Badge Set List popmenu",
+    "author": "AboveTheChemist",
+    "category": "Popmenus",
+    "downloads": 13344,
+    "description": "",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=11&file=mods/117/badge_set_list.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/11"
+  },
+  {
+    "id": 19,
+    "name": "Optimal Badge/Plaque Collection Path maps",
+    "author": "AboveTheChemist",
+    "category": "Maps",
+    "downloads": 6945,
+    "description": "",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=19&file=mods/117/hc_vidiotmaps_opt_path.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/19"
+  },
+  {
+    "id": 12,
+    "name": "Universal Emotes popmenu",
+    "author": "AboveTheChemist",
+    "category": "Popmenus",
+    "downloads": 3548,
+    "description": "",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=12&file=mods/5/universal_emotes.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/12"
+  },
+  {
+    "id": 75,
+    "name": "Female Nude Patch",
+    "author": "Imported",
+    "category": "Graphics",
+    "downloads": 3465,
+    "description": "Original Author: Unknown Allows someone to make a fully nude female character by using the following two costume pieces: Upper Body > Tops With Skin > Eden Lower Body > Bottoms With Skin > Bikini 3 Original Author: Unknown - Sent to me via personal message by anonymous source Packaged By: Westley Bennett",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=75&file=mods/0/FemaleNudePatch.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/75"
+  },
+  {
+    "id": 1,
+    "name": "Michiyo&#039;s Enhancement Standardization pack",
+    "author": "Michiyo",
+    "category": "GUI / Icons",
+    "downloads": 3002,
+    "description": "Standardizes DO/SO enhancement icons, uses the TO icons to make it more clear what SO/DOs actually enhance. Also swaps Resist Damage enhancements to their originally intended, but never correctly implemented teal. 4/8/2024: Fixed the 14 (FOURTEEN!) New IO sets added in Issue 24 and 26 to have the correct background pogs, and not show the TO/DO/SO Icons under their icons. 4/7/2024: Fixed Defense and Resist enhancement icons 7/9/2026: Fixed broken mipmap header in .textures",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=1&file=mods/17/MichiyosEnhancementPack.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/1"
+  },
+  {
+    "id": 195,
+    "name": "Everlasting Basecode Popmenu",
+    "author": "Teirusu",
+    "category": "Popmenus",
+    "downloads": 2801,
+    "description": "",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=195&file=mods/19/EverlastingBases.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/195"
+  },
+  {
+    "id": 20,
+    "name": "Winter Event Gift maps",
+    "author": "AboveTheChemist",
+    "category": "Maps",
+    "downloads": 2593,
+    "description": "This mod contains in-game maps depicting the locations of the clickable gifts that appear throughout various zones during the winter event. When in use, this map mod will be preferentially displayed over other map mods like vidiotmaps. When gift collection is complete, simply uninstall this mod. More information regarding map symbology and use, as well as background information on map development, can be found in the following thread on the Homecoming forums: https://forums.homecomingservers.com",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=20&file=mods/5/maps_winter.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/20"
+  },
+  {
+    "id": 17,
+    "name": "Halloween Event GM maps",
+    "author": "AboveTheChemist",
+    "category": "Maps",
+    "downloads": 2270,
+    "description": "This mod contains in-game maps depicting the potential spawn locations of Halloween GMs that appear throughout various zones during the Halloween event. When in use, this map mod will be preferentially displayed over other map mods like vidiotmaps. When GM hunting is complete, simply uninstall this mod. More information regarding map symbology and use, as well as background information on map development, can be found in the following thread on the Homecoming forums: https://forums.homecomingser",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=17&file=mods/117/maps_halloween.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/17"
+  },
+  {
+    "id": 62,
+    "name": "Digital Camo -Camo Pants Texture Replacer-",
+    "author": "Imported",
+    "category": "Graphics",
+    "downloads": 2154,
+    "description": "Original Author: Kataklysm This mod I've had for ages but, simply put replaces the default camo pants texture with a more modern digital camo. Enjoy!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=62&file=mods/0/DigitalCamoPants.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/62"
+  },
+  {
+    "id": 16,
+    "name": "Conversion Possibilities popmenu",
+    "author": "AboveTheChemist",
+    "category": "Popmenus",
+    "downloads": 2104,
+    "description": "",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=16&file=mods/5/conv_poss.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/16"
+  },
+  {
+    "id": 51,
+    "name": "Inspiration Combine/Use PopMenu",
+    "author": "psyheal",
+    "category": "Popmenus",
+    "downloads": 2100,
+    "description": "Original Author: Larry Johnson This is a popmenu that will quickly combine your inspriations from one type to another of the same level. It also has options to use an inspriation by using the highest level available. /popmenu Combines",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=51&file=mods/10/Combines.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/51"
+  },
+  {
+    "id": 189,
+    "name": "Better Icons - Inspirations and Powers!",
+    "author": "rcarmin",
+    "category": "GUI / Icons",
+    "downloads": 2038,
+    "description": "I mixed several Icons and Inspirations mods until I was satisfied with what I wanted. These are better visually and easier to identify than the original inspiration icons. I do not know where I got them (been too long) but they work flawlessly for me!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=189&file=mods/11/BetterIcons.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/189"
+  },
+  {
+    "id": 110,
+    "name": "Lore Pet Summoning/Commands Popmenu",
+    "author": "psyheal",
+    "category": "Popmenus",
+    "downloads": 2027,
+    "description": "Original Author: Larry Johnson This popmenu has summmoing commands for all lore pets as well as having commands for them. Your lore pets will be summoned next to you. Added the dismiss all command and changed the summone to be 2 menus for readability.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=110&file=mods/10/LorePets.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/110"
+  },
+  {
+    "id": 91,
+    "name": "High Visibility Mouse Cursors Set A",
+    "author": "Imported",
+    "category": "Cursors",
+    "downloads": 1952,
+    "description": "Original Author: 12thPower Busy screens can make you lose track of your mouse cursor. These cursors should stand out a little more. There are a few variants. If you have requests for different styles, please let me know. I made these back in 2011 and have since lost the original PSD files. Original Source: https://forums.homecomingservers.com/topic/9304-quality-of-life-texture-mods-and-other-things/ Repackaged by Westley Bennett",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=91&file=mods/0/HighVisibilityMouseCursorsSetA.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/91"
+  },
+  {
+    "id": 239,
+    "name": "Smog Free CoH",
+    "author": "Hobo Master",
+    "category": "Graphics",
+    "downloads": 1931,
+    "description": "An adjustment to all the exterior fog values to let you actually *see* a decent amount of the city at once. Finally, Paragon no longer has the visibility of a California forest fire! Updated to fix the broken dense fog skies in bases.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=239&file=mods/202/SmogFreeCoH_update.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/239"
+  },
+  {
+    "id": 64,
+    "name": "Double Loud Glowie",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1874,
+    "description": "Original Author: Westley Bennett Makes the glowies double high pitched! It really works! =)",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=64&file=mods/0/DoubleLoudGlowie.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/64"
+  },
+  {
+    "id": 201,
+    "name": "High Contrast Cursors",
+    "author": "Astralock",
+    "category": "Cursors",
+    "downloads": 1839,
+    "description": "Made by Dodger, this mod replaces the game's cursors with larger high contrast cursors, and enlarges character and NPC borders to make them easier to target. You can find the thread at https://forums.homecomingservers.com/topic/8887-wheres-my-cursor/",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=201&file=mods/28/high_contrast_cursors.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/201"
+  },
+  {
+    "id": 202,
+    "name": "VFX Visual Improvement Mod",
+    "author": "Astralock",
+    "category": "Graphics",
+    "downloads": 1811,
+    "description": "Made by Titanman, this mod reduces VFX that blind the screen during team content, especially raids and trials. There's many various VFX changes. See the Homecoming forums thread for details at https://forums.homecomingservers.com/topic/23701-titanman-animation-sprite-ui-texture-mod-tutorial/#comment-285552",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=202&file=mods/28/titanman_vfx.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/202"
+  },
+  {
+    "id": 247,
+    "name": "Skin Texture Plus - Female",
+    "author": "Lumenia",
+    "category": "Graphics",
+    "downloads": 1759,
+    "description": "For comparison: https://forums.homecomingservers.com/topic/51413-alternative-female-skin-textures This is a side project to update the skin textures for female human characters, to add more details and define the parts of the body, without breaking the graphical immersion. The style of choice is more of a \"toned\" look than heavily muscular like the vanilla skin texture. Currently does not work with the skinless tights due to tights option using a different texture file. I'll add that into the mo",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=247&file=mods/99/SkinTexturePlus_Female.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/247"
+  },
+  {
+    "id": 57,
+    "name": "Daft Punk Pocket D Mix",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1751,
+    "description": "Original Author: Dynamo-Joe I created this music mod pack in honor of the outstanding AE addition to Pocket D and it's two \"Daft Punk\" inspired DJs rocking the tunes there. This is a client-side mod package that replaces the standard music of the D with some Daft Punk tunes and remixes. Original Source: https://forums.homecomingservers.com/topic/21195-daft-punk-pocket-d-mix/",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=57&file=mods/0/DaftPunkPocketDMix.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/57"
+  },
+  {
+    "id": 54,
+    "name": "Custom Enhancement Pack",
+    "author": "Imported",
+    "category": "GUI / Icons",
+    "downloads": 1733,
+    "description": "Original Author: Michiyo Replaces many of the Enhancement Icons with higher res versions of the icons. Original Source - Unknown Repackaged by Westley Bennett",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=54&file=mods/0/CustomEnhancementPack.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/54"
+  },
+  {
+    "id": 15,
+    "name": "Banshee-themed Sonic Attack sounds",
+    "author": "AboveTheChemist",
+    "category": "Audio",
+    "downloads": 1720,
+    "description": "This mod uses existing CoH sound files to tranform the sounds of the sonic attack powerset into those of a female banshee. NOTE: This mod cannot be installed alongside the Banshee Sonic Blast Custom SFX sound mod. Original Source: https://forums.homecomingservers.com/topic/15062-sound-mod-banshee-themed-sonic-attack-sound-effects/ Currently maintained by AboveTheChemist Last revision: Sep 23, 2020 (version 1)",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=15&file=mods/5/sonic_attack_banshee.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/15"
+  },
+  {
+    "id": 22,
+    "name": "Aggressive Savage Melee",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1688,
+    "description": "Original Author: Solarverse This gives Savage Melee a more aggressive sound effects.This takes SFX bites from Dark Melee and random animal growls and combines them to create a bit of a unique SFX that I believe a power based on Beast Powers should have had at launch of the powerset. Much more aggressive and it actually sounds like you are doing some serious damage. This is now completed.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=22&file=mods/0/AggressiveSavageMeleeSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/22"
+  },
+  {
+    "id": 111,
+    "name": "Loud Glowie",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1573,
+    "description": "Original Author: Lithobraker This is just an extremely simple mod that makes the glowie sound 5 decibels louder.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=111&file=mods/0/LoudGlowie.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/111"
+  },
+  {
+    "id": 18,
+    "name": "Rare Roulette Quick Reference popmenu",
+    "author": "AboveTheChemist",
+    "category": "Popmenus",
+    "downloads": 1569,
+    "description": "",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=18&file=mods/5/rare_roulette.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/18"
+  },
+  {
+    "id": 78,
+    "name": "Flight Realistic SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1568,
+    "description": "Original Author: Solarverse Gives the sound of flying through the air a more realistic SFX.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=78&file=mods/0/FlightRealisticSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/78"
+  },
+  {
+    "id": 36,
+    "name": "Base Teleporter Beacon Labels",
+    "author": "Imported",
+    "category": "Graphics",
+    "downloads": 1554,
+    "description": "Original Author: 12thPower Ever been confused by base teleporters? This texture pack puts clear text labels on them. Original Source: https://forums.homecomingservers.com/topic/9304-quality-of-life-texture-mods-and-other-things/ Repackaged by Westley Bennett",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=36&file=mods/0/BaseTeleporterBeaconLabels.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/36"
+  },
+  {
+    "id": 205,
+    "name": "Vidiotmaps for OuroDev",
+    "author": "Astralock",
+    "category": "Maps",
+    "downloads": 1535,
+    "description": "This mod is Vidiotmaps for servers that are based off of OuroDev, (such as Rebirth). It is not compatible with the Homecoming nor Victory servers.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=205&file=mods/28/issue23_vidiotmaps.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/205"
+  },
+  {
+    "id": 85,
+    "name": "Glowie Ping (v1)",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1516,
+    "description": "Original Author: Ura Hero Changes the Glowie sound into a distinctive ping sound which can be located more easily for those that have hearing impairment.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=85&file=mods/0/GLowieMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/85"
+  },
+  {
+    "id": 132,
+    "name": "Outlined Cursors",
+    "author": "Imported",
+    "category": "Cursors",
+    "downloads": 1496,
+    "description": "Original Author: Koopak Simply outlined vanilla cursors for increased visability without disrupting the original look and feel.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=132&file=mods/0/OutlinedCursorsCoHModder.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/132"
+  },
+  {
+    "id": 37,
+    "name": "Base Teleporter Beacon Labels - Addendum for Issue 27",
+    "author": "Imported",
+    "category": "Graphics",
+    "downloads": 1454,
+    "description": "Original Author: JamMan Ever been confused by base teleporters? This texture pack puts clear text labels on them. This addendum includes textures for the new I27 base teleporter beacons",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=37&file=mods/0/BaseTeleporterLabels.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/37"
+  },
+  {
+    "id": 208,
+    "name": "Story Arc HUD Icon Recolor",
+    "author": "Michiyo",
+    "category": "GUI / Icons",
+    "downloads": 1425,
+    "description": "",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=208&file=mods/3/StoryArc_HUD_Icon_Recolor.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/208"
+  },
+  {
+    "id": 193,
+    "name": "Office Plant Upgrade",
+    "author": "Flashtoo",
+    "category": "Graphics",
+    "downloads": 1424,
+    "description": "Replaces the graphic for the large bamboo palm potted plant with a sharper and less grainy image of a similar plant. Resolution is unchanged, therefore performance should be unchanged. Screenshot here: https://forums.homecomingservers.com/topic/25467-flashtoos-graphic-mod-compendium/",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=193&file=mods/22/OfficePlantReplacer.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/193"
+  },
+  {
+    "id": 27,
+    "name": "Atlas Park Original Music",
+    "author": "Tarrquinn",
+    "category": "Audio",
+    "downloads": 1422,
+    "description": "Original Author: Tarrquinn Atlas Park got new music as part of its Issue 21 revamp, but I prefer the old songs. They're nostalgic to me, and I think they fit in better with the other zone tracks. This mod replaces the current Atlas songs with the old ones. Aside from just swapping tracks, I did make one change: I replaced the old Atlas Plaza theme with Galaxy City's Freedom Court theme. Reason being is they're the same track; one's shorter (Atlas Plaza) and one's longer (Freedom Court).",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=27&file=mods/7/APOGMusic.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/27"
+  },
+  {
+    "id": 41,
+    "name": "Bio Armor Effects Remover v1",
+    "author": "Imported",
+    "category": "Graphics",
+    "downloads": 1419,
+    "description": "Original Author: Spctr Removes most, if not all, of Bio Armor's effects (I know there's already min fx for it, but this one also targets the ones without that option. Looking right at you Ablative Carapace.)",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=41&file=mods/0/BioArmorEffectsRemoverv1.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/41"
+  },
+  {
+    "id": 40,
+    "name": "Better Super Strength Impact",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1402,
+    "description": "Original Author: Lithobraker Changes Super Strength impact sounds to have a bit more punch. The comic book \"pow!\" sound is intact, but I've added an extra \"smack\" sound, since the originals felt too light to me.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=40&file=mods/0/BetterSuperStrengthImpact.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/40"
+  },
+  {
+    "id": 93,
+    "name": "High Visibility Mouse Cursors Set C",
+    "author": "Imported",
+    "category": "Cursors",
+    "downloads": 1397,
+    "description": "Original Author: 12thPower Busy screens can make you lose track of your mouse cursor. These cursors should stand out a little more. There are a few variants. If you have requests for different styles, please let me know. I made these back in 2011 and have since lost the original PSD files. Original Source: https://forums.homecomingservers.com/topic/9304-quality-of-life-texture-mods-and-other-things/ Repackaged by Westley Bennett",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=93&file=mods/0/HighVisibilityMouseCursorsSetC.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/93"
+  },
+  {
+    "id": 28,
+    "name": "Archery Movie SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1382,
+    "description": "Original Author: Solarverse Gives Archery the sound effects of the movies!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=28&file=mods/0/ArcheryMovieSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/28"
+  },
+  {
+    "id": 102,
+    "name": "Less Annoying Sounds Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1355,
+    "description": "Original Author: BernardTheBeast Hello and welcome to this little mod for City of Heroes/Villains that will make some of the sounds in the game, just a little bit less obnoxious! The idea is simple: certain powers, npcs and world sound effects that would ordinarily shatter your ears have been turned down, altered, or replaced with new (but hopefully fitting!) sounds that will let your ears continue functioning in peace! Original Source: https://forums.homecomingservers.com/topic/10632-bernard-th",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=102&file=mods/0/LessAnnoyingSoundsMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/102"
+  },
+  {
+    "id": 118,
+    "name": "Hasten Muted",
+    "author": "Tarrquinn",
+    "category": "Audio",
+    "downloads": 1355,
+    "description": "Original Author: Tarrquinn I don't like how noisy Hasten is, so I've decided to mute it. If you dislike Hasten's sound too, then this is for you!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=118&file=mods/7/MutedHasten.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/118"
+  },
+  {
+    "id": 84,
+    "name": "Glowie - Music Box",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1352,
+    "description": "Original Author: Camden Jaxx This changes the glowie sound into a looping music box sound, which makes them easier to identify.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=84&file=mods/0/Glowie-MusicBox.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/84"
+  },
+  {
+    "id": 104,
+    "name": "Lightning Improved SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1344,
+    "description": "Original Author: Solarverse Lightning has always been missing the crack of thunder that comes with a lightning attack! Now get the thunder you have been missing and more for all ranged Lightning DPS powers! (Snipe now has a snappy thunder in this latest mod version. Enjoy!)",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=104&file=mods/0/LightningImprovedSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/104"
+  },
+  {
+    "id": 70,
+    "name": "Erroneous Power Icon Fix Pack",
+    "author": "Imported",
+    "category": "GUI / Icons",
+    "downloads": 1323,
+    "description": "Original Author: Vanden AKA Vanden's Power Icon Pack. Back during Live I put together a pack that fixed a few dozen icons that were wrong somehow, for example having erroneous borders, or mismatched colors, or swapped with another power, etc. I've had a few people ask me about it, so I put it back together for people to download. Original Source: https://forums.homecomingservers.com/topic/5426-erroneous-power-icon-fix-pack/ Repackaged by Westley Bennett",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=70&file=mods/0/ErroneousPowerIconFixPack.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/70"
+  },
+  {
+    "id": 123,
+    "name": "Boombox New Songs!",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1300,
+    "description": "Original Author: StarVoid All the songs that I changed in my Boombox options! Hope you all like it!!!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=123&file=mods/0/newboombox.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/123"
+  },
+  {
+    "id": 146,
+    "name": "Psionic Blast Movie SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1269,
+    "description": "Original Author: Solarverse Gets rid of the sheet metal wobble effect and updates the Sound Effects of Psionics and brings them in line with what they would sound like in movies today!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=146&file=mods/0/PsionicBlastMovieSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/146"
+  },
+  {
+    "id": 138,
+    "name": "Powerful Electricity",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1261,
+    "description": "Original Author: Lithobraker From this post: https://forums.homecomingservers.com/topic/9586-various-powerset-soundmods/ Original description: I've always found the electricity sounds in this game to be strange. That odd, swirling fizzy noise doesn't sound very electric, and powers like Charged Bolts just sound plain weird. So what I've done here is replace many electricity related power sounds with new ones, sampling sound effects from a great variety of sources and combining them into mostly o",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=138&file=mods/0/PowerfulElectricity.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/138"
+  },
+  {
+    "id": 253,
+    "name": "Powerful Electricity V3",
+    "author": "Lithobraker",
+    "category": "Audio",
+    "downloads": 1260,
+    "description": "This is an updated version of the mod by the original creator! V3: Added a thunderous echo to Charged Bolts, Lightning Bolt, Zapp, Ball Lightning and Havoc Punch powers. Shortened the windup for Charged Bolts to improve sync with the visual effects. I've always found the electricity sounds in this game to be strange. That odd, swirling fizzy noise doesn't sound very electric, and powers like Charged Bolts just sound plain weird. So what I've done here is replace many electricity related power so",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=253&file=mods/100/powerfulelectricity.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/253"
+  },
+  {
+    "id": 23,
+    "name": "Alignment Change Now with Epic Music",
+    "author": "Tarrquinn",
+    "category": "Audio",
+    "downloads": 1258,
+    "description": "Original Author: Tarrquinn I found the default tracks for the alignment changes to be.... lame, so I wanted to spice it up. In line with my other audio mods, this one uses parts of songs from the original COH soundtrack when you change alignment. Blueside & Redside have their own leitmotif; heroes & villains play it loud and proud, while vigilantes & rogues are more subdued. Now with booms to amplify the epicness. Try it out with Null the Gull! Royalty-free sound effects from SoundsCrate.com - \"",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=23&file=mods/7/AlignmentMusicChange.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/23"
+  },
+  {
+    "id": 45,
+    "name": "Beam Rifle Movie SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1253,
+    "description": "Original Author: Solarverse Gives Beam Rifle a much more movie realistic SFX that is more appealing to the ears and sounds like it hits much harder.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=45&file=mods/0/BRMovieSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/45"
+  },
+  {
+    "id": 74,
+    "name": "Female Boot Walking Sounds",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1250,
+    "description": "Original Author: slightlyrandom If you'd prefer your female presenting heroes to sound like they're wearing boots instead of high heels, here's a way to do so. Original Source: https://forums.homecomingservers.com/topic/15112-replacing-female-footstep-sounds/ Repackaged by Westley Bennett",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=74&file=mods/0/FemaleBootSteps.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/74"
+  },
+  {
+    "id": 101,
+    "name": "Leadership Pool New SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1244,
+    "description": "Original Author: Solarverse Gives the Leadership Pool powers a different and less annoying SFX!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=101&file=mods/0/LeadershipPoolNewSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/101"
+  },
+  {
+    "id": 220,
+    "name": "Pet Summons Pop Menu (v3)",
+    "author": "psyheal",
+    "category": "Popmenus",
+    "downloads": 1227,
+    "description": "Ladies and gentlemen! Allow me to introduce to you...PetSummons Pop-Menu v3! Building upon v2, I have added the popmenu that I made that summons all of the class pets. The class pets menus all use the PowerReady flag. I had wanted to do what was done for the Lore pet summons, but I never got it to work. Maybe version 4? All of the functionality from version 2 has been kept.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=220&file=mods/10/PetSummonsPopMenu(v3).pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/220"
+  },
+  {
+    "id": 89,
+    "name": "Heavy Assault Rifle",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1222,
+    "description": "Original Author: Lithobraker This new soundpack overhauls some of the sound effects used for the Assault Rifle powerset, to give them more of a beefy feeling. This includes Burst, Slug, Buckshot, M30 Grenade, Sniper Rifle, and Full Auto.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=89&file=mods/0/HeavyAssaultRifle.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/89"
+  },
+  {
+    "id": 83,
+    "name": "Glowie - Annoyingly Loud",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1218,
+    "description": "Original Author: Someone Created by someone, uploaded by someone else",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=83&file=mods/0/Glowie-AnnoyinglyLoud.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/83"
+  },
+  {
+    "id": 26,
+    "name": "Ape face",
+    "author": "Imported",
+    "category": "Graphics",
+    "downloads": 1207,
+    "description": "Original Author: Mantic Ape face replaces alien face. Works for both male and female (sharing the one texture).",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=26&file=mods/0/Ape_face.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/26"
+  },
+  {
+    "id": 122,
+    "name": "Neutral Character Selection and Creation Backgrounds",
+    "author": "Imported",
+    "category": "Graphics",
+    "downloads": 1186,
+    "description": "Original Author: 12thPower During character creation dark powers have a red tint. These backgrounds are grey so you can see what your powers really look like. Original Source: https://forums.homecomingservers.com/topic/9304-quality-of-life-texture-mods-and-other-things/ Repackaged by Westley Bennett",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=122&file=mods/0/NeutralCharacterSelectionandCreationBackgrounds.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/122"
+  },
+  {
+    "id": 25,
+    "name": "Ambassador Dual Pistols",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1184,
+    "description": "Original Author: Lithobraker This mod was not originally present on the same post as my other mods. It edits many of the sounds for Dual Pistols, mixing in the firing sound for the Ambassador from Team Fortress 2, to give them more of a 'magnum', lower-tech feel.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=25&file=mods/0/AmbassadorDualPistols.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/25"
+  },
+  {
+    "id": 264,
+    "name": "Animal Fur and Reptilian Texture Overhaul",
+    "author": "Torrent",
+    "category": "Graphics",
+    "downloads": 1181,
+    "description": "If you've ever used the Animal Fur or Reptilian patterns with a high value color, you've no doubt found that there is a peachy skin pattern that appears, causing a mangier look. This mod replaces those textures so that you can create lighter-colored looks that don't look like patches of fur or scales are missing. Preview: https://imgur.com/a/5nHTjEv",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=264&file=mods/106/Fur_and_Scale_Improvement.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/264"
+  },
+  {
+    "id": 176,
+    "name": "Teleport SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1172,
+    "description": "Original Author: Solarverse Gives Teleportation a more natural sound effect, somewhat magical but more along the lines of Nightcrawler.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=176&file=mods/0/TeleportSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/176"
+  },
+  {
+    "id": 94,
+    "name": "High Visibility Mouse Cursors Set D",
+    "author": "Imported",
+    "category": "Cursors",
+    "downloads": 1164,
+    "description": "Original Author: 12thPower Busy screens can make you lose track of your mouse cursor. These cursors should stand out a little more. There are a few variants. If you have requests for different styles, please let me know. I made these back in 2011 and have since lost the original PSD files. Original Source: https://forums.homecomingservers.com/topic/9304-quality-of-life-texture-mods-and-other-things/ Repackaged by Westley Bennett",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=94&file=mods/0/HighVisibilityMouseCursorsSetD.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/94"
+  },
+  {
+    "id": 48,
+    "name": "City of Heroes Theme Reimagined",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1161,
+    "description": "Original Author: Solarverse A recreation of the City of Heroes Theme that puts the song more closely to what you may here in the movies if they were to make a City of Heroes Motion Picture.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=48&file=mods/0/CityofHeroesRemakeThemetest.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/48"
+  },
+  {
+    "id": 180,
+    "name": "The Matrix Rave Pocket D Music Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1155,
+    "description": "Original Author: Solarverse This pulls some of the best dance music straight out of the movie The Matrix! Villains get the villainous song from Rob Zombie's remix of Dragula from Neo's first encounter with Trinity at the Dance Club; Hero side gets the famous Clubbed to Death track from the \"Look again...\" Lady in Red scene; AE area gets the famous \"You see, he's just human!\" Chateau fight scene; and the best yet, the famous naked cave rave dance scene, Flux -Zion! Players should enjoy, hero and ",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=180&file=mods/0/TheMatrixRavePocketDMusicMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/180"
+  },
+  {
+    "id": 29,
+    "name": "Assassins Blade Upgrade",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1148,
+    "description": "Original Author: Solarverse Just a much needed upgrade for Assassin's Blade under the Stalker Ninja Blade.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=29&file=mods/0/AssassinsBladeUpgrade.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/29"
+  },
+  {
+    "id": 106,
+    "name": "Lightsaber SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1147,
+    "description": "Original Author: Solarverse Changes both Katana and Dual Blades Sound Effects to that of a Lightsaber.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=106&file=mods/0/Lightsaber_SFX_Mod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/106"
+  },
+  {
+    "id": 35,
+    "name": "Banshee Sonic Blast Custom SFX",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1145,
+    "description": "Original Author: Solarverse Brand new custom SFX that has unique SFX of ghostly screams like a real Banshee. All sounds minus the T9 all created custom. I loved the other one that currently exists, but I wanted something with a bit more scream and a little les digital. I also wanted a Scream that could sound like a male or a female, since a Banshees' scream is made up of all the souls it has taken, it only made sense to have both male and female screams mixed in to one. WARNING: This mod cannot ",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=35&file=mods/0/BansheeSonicBlastCustomSFX.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/35"
+  },
+  {
+    "id": 156,
+    "name": "Satisfying Archery",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1144,
+    "description": "Original Author: Lithobraker This mod gives Archery, Trick Arrow and Tactical Arrow some new sound effects, using audio from Immersive Sounds - Compendium, a Skyrim mod, and a few sounds from the original Skyrim as well. Most of the sound effects are new, but a few have been mixed with parts of the originals.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=156&file=mods/0/SatisfyingArchery.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/156"
+  },
+  {
+    "id": 66,
+    "name": "Full-color Statesman statue",
+    "author": "Imported",
+    "category": "Graphics",
+    "downloads": 1143,
+    "description": "Original Author: Anonymous Brightly-clad and realistic, the titanic statue of Statesman has been restored to the hero's red, white, and blue glory.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=66&file=mods/0/Dull-colorStatesmanstatue.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/66"
+  },
+  {
+    "id": 61,
+    "name": "Demon Summoning Devils Choir",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1130,
+    "description": "Original Author: Solarverse Music from the famous Choral Symphony Orchestra Carmina Burana incorporated in to the Summoning Sound Effects of all three Demon Spawn abilities. For you Symphony Orchestra finatics and for fans of the move Omen (although this particular peice was not in that movie) I think you'll very much appreciate this mod!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=61&file=mods/0/DemonSummoningDevilsChoir.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/61"
+  },
+  {
+    "id": 263,
+    "name": "Colorized Monuments",
+    "author": "Mathew322",
+    "category": "Graphics",
+    "downloads": 1129,
+    "description": "Bringing a world of color to the monuments of Paragon City and the Rogue Isles! Check the Homecoming Forums for more info: https://forums.homecomingservers.com/topic/53139-colorized-monuments/ v1.0: Innitial release with basic understanding of graphics modding. v1.5: Complete project restart, all previous work redone along with a substantial amount of new smaller work done with more experiance and testing.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=263&file=mods/171/Colorized Monuments.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/263"
+  },
+  {
+    "id": 191,
+    "name": "Epic level up",
+    "author": "captainstar",
+    "category": "Audio",
+    "downloads": 1127,
+    "description": "Testing a Epic version sound for level up.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=191&file=mods/12/levelup7.ogg",
+    "page_url": "https://cityofheroes.dev/mods/mod/191"
+  },
+  {
+    "id": 52,
+    "name": "Improved Circle of thorns pieces",
+    "author": "Imported",
+    "category": "Graphics",
+    "downloads": 1120,
+    "description": "Original Author: Flashtoo This adds details to some of the circle of thorns pieces, runes, altered the coloring of some of the thorn-patterned pieces to be a little less busy-looking, like taking primary and secondary colors differently.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=52&file=mods/0/CoTalternativeappearance.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/52"
+  },
+  {
+    "id": 158,
+    "name": "Base TP Beacon Labels - Issue27",
+    "author": "Imported",
+    "category": "Graphics",
+    "downloads": 1120,
+    "description": "Original Author: Vel Mori Adds text labels to base teleport beacons. This is a re-spin of the old beacon mod from live, including issue 27 beacons.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=158&file=mods/0/SG_TP_Label_Mod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/158"
+  },
+  {
+    "id": 240,
+    "name": "Invisible War Walls",
+    "author": "Hobo Master",
+    "category": "Graphics",
+    "downloads": 1119,
+    "description": "Tired of living in a giant blue box all the time? This mod disables the war walls in Paragon (not including Dark Astoria) to help open up the view.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=240&file=mods/90/InvisibleWarWalls.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/240"
+  },
+  {
+    "id": 127,
+    "name": "Numbered Inspirations",
+    "author": "Imported",
+    "category": "GUI / Icons",
+    "downloads": 1089,
+    "description": "Original Author: The Philotic Knight This mod adds a small black number in the top right corner of the icon of all inspirations that have \"levels\". Most, if not all, standard inspiratons should show these values for levels 1-3. I chose not to show them on level 4 inspirations (the \"Super!\" type), because the graphic on the button is so large that there was no empty space to put a number! The numbers may not be in the exact same position for each inspiration. I tried to get them as close to the t",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=127&file=mods/0/NumberedInspirations.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/127"
+  },
+  {
+    "id": 80,
+    "name": "Force Field SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1087,
+    "description": "Original Author: Solarverse Gets rid of the twangy bubbles sound and gives Force Field a SFX that sounds more like something out of a movie! This mod pairs well with the Psionics Movie SFX Mod.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=80&file=mods/0/ForceFieldSFXMovieMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/80"
+  },
+  {
+    "id": 182,
+    "name": "Transformers Bots MM SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1087,
+    "description": "Original Author: Solarverse \"Transforms\" your Robot Master Mind's attacks and gives them Sound Effects straight out of G1 Transformers!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=182&file=mods/0/Transformers_Bots_MM_SFX_Mod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/182"
+  },
+  {
+    "id": 126,
+    "name": "Beast Mastery -  No Wolf Whimper on Hit",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1083,
+    "description": "Original Author: TheScruple Removes the whimper sounds when your wolves get hit. Tested on base wolves so far, will add more if I find the other pets whimper when they get hit.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=126&file=mods/0/NoWolfWhimper.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/126"
+  },
+  {
+    "id": 215,
+    "name": "Font_Readable_Exo",
+    "author": "Svarty",
+    "category": "GUI / Icons",
+    "downloads": 1081,
+    "description": "Description: Author of font: Google Replaces some of the game fonts with an elegant, slightly futuristic (but more importantly readable) font. You can preview it here: https://www.ffonts.net/Exo-SemiBold.font or https://www.fontpalace.com/font-details/exo-semibold or https://www.1001fonts.com/exo-font.html",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=215&file=mods/41/Readable_Font_Exo.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/215"
+  },
+  {
+    "id": 233,
+    "name": "Exo 2 Fonts",
+    "author": "Lunar Ronin",
+    "category": "GUI / Icons",
+    "downloads": 1081,
+    "description": "This mod replaces the three Montreal fonts with Google's Exo 2 fonts. These fonts are used for most UI elements, chat text, loading screen zone names, button tooltips, status text, character names, supergroup names, and more. You can read more about the Exo 2 fonts (and see examples), at https://fonts.google.com/specimen/Exo+2",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=233&file=mods/69/Exo_2.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/233"
+  },
+  {
+    "id": 151,
+    "name": "Realistic Lightning",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1073,
+    "description": "Original Author: Zed Gives Lightning Blast and Mu AoE power a more powerful and realistic touch.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=151&file=mods/0/Realistic_Lightning_SFX.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/151"
+  },
+  {
+    "id": 168,
+    "name": "Star Wars Beam Rifle",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1072,
+    "description": "Original Author: Lithobraker Made to a (somewhat) higher quality standard than the others, I actually bothered to pop into the testing server and polish these sounds to a mirror shine! Or at least... they would shine, if sounds could reflect light. This pack features sounds from Star Wars, chosen to create a consistent, blaster-y overall feel for your Beam Rifle.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=168&file=mods/0/StarWarsBeamRifle.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/168"
+  },
+  {
+    "id": 192,
+    "name": "Noto Sans Font Replacer",
+    "author": "Teirusu",
+    "category": "Other",
+    "downloads": 1066,
+    "description": "Author of font: Google License: SIL Open Font License City of Heroes two main True-Type fonts: Montreal-DemiBold and Montreal-Heavy. Are nearly 30 years old and are missing quite a bit of modern character/glyphs support. They also make it impossible to tell lower case L 'l' from uppercase i 'I' which, for some people, that's a feature as far as names go but, I find that annoying when trying to type out someone's name for team invites. So, after lots of testing of various different fonts and styl",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=192&file=mods/19/NotoSansFont.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/192"
+  },
+  {
+    "id": 65,
+    "name": "Dual Pistols Kata-dition",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1063,
+    "description": "Original Author: Kataklysm I like dual pistols, but always wanted a deeper more resonant sound, as well as fixing some of the SFX mis-matching I've noticed. This was designed for me and a friend but felt like sharing it.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=65&file=mods/0/DP_Kata-dition.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/65"
+  },
+  {
+    "id": 139,
+    "name": "Power Rad Blast",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1049,
+    "description": "Original Author: Solarverse This is a mod that gives Radiation a Movie-like Sound Effect and in my opinion is way more exciting to hear! This is a completed mod that covers all of the Radiation Blast Pwoers and some (but not all) of the Atomic Manipulation Powers as well.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=139&file=mods/0/PowerRadBlast.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/139"
+  },
+  {
+    "id": 71,
+    "name": "Explosive Dark Blast",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1023,
+    "description": "Original Author: Solarverse Gives Dark Blast a bit more umph",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=71&file=mods/0/ExplosiveDarkBlast.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/71"
+  },
+  {
+    "id": 43,
+    "name": "Blunt-Sounding War Mace",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1014,
+    "description": "Original Author: Lithobraker From this post: https://forums.homecomingservers.com/topic/9586-various-powerset-soundmods/ Original description: War Mace has a lot of weapon options that are blunt with no sharp ends- and the powerset deals no Lethal damage- but the sound effects sound pretty rip-and-tear-y! It simply doesn't fit your baseball bat, mallet or warhammer. So, I made a soundpack that changes the impact sounds to sound more blunt. Sledgehammer and Street Justice impacts were mixed and e",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=43&file=mods/0/BluntSoundingWarMace.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/43"
+  },
+  {
+    "id": 229,
+    "name": "Symphony Control Sound Mod",
+    "author": "Michiyo",
+    "category": "Audio",
+    "downloads": 1012,
+    "description": "Author: Solarverse Replaces Sympony Control with actual Symphony Magical Sound Effects. Uses Mozart, Beethoven and other famous composers along with some Magical Sound Effects.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=229&file=mods/3/SymphonyControlMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/229"
+  },
+  {
+    "id": 68,
+    "name": "Energy Melee Bone Smasher SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 1006,
+    "description": "Original Author: Solarverse Gives Bone Smasher the sound it deserves. All the other powers sound like they hit very hard, but Bone Smasher was left out and now has the same ahrd hitting effect the others have. Same sound with an extra added smashing bonus sound!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=68&file=mods/0/EnergyMeleeBoneSmasherSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/68"
+  },
+  {
+    "id": 82,
+    "name": "Gender-Neutral Sonic Blast",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 995,
+    "description": "Original Author: Lithobraker From this post: https://forums.homecomingservers.com/topic/9586-various-powerset-soundmods/ Original description: I tried to make a Sonic Blast character earlier- she was a Sentinel who used special gadgets to blast music at her foes, and amplify her voice. But that Scream sound effect... GRAAH! It didn't fit at all, and irritated me so much I abandoned her. Well, with these two sound effects installed your lovely loud ladies no longer sound like extremely angry men!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=82&file=mods/0/GenderNeutralSonicBlast.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/82"
+  },
+  {
+    "id": 42,
+    "name": "2-hand, massive block throw for Bitter Ice Blast",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 974,
+    "description": "Original Author: Zed This mod basically adds some surround effect for Bitter Ice Blast sound FX so it really feels like the big hitter it is.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=42&file=mods/0/Bitter_Ice_Throw_Surround_SFX.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/42"
+  },
+  {
+    "id": 87,
+    "name": "Hasten Optional SFX",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 969,
+    "description": "Original Author: Solarverse Not so noisey Hasten, made by request.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=87&file=mods/0/HastenOptionalSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/87"
+  },
+  {
+    "id": 21,
+    "name": "Yellow Background UI",
+    "author": "Imported",
+    "category": "GUI / Icons",
+    "downloads": 966,
+    "description": "Original Author: Zed Gives the praetoria yellow background no matter your alignment. Applies to character creation and costume editor.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=21&file=mods/0/YellowBackgroundUI.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/21"
+  },
+  {
+    "id": 49,
+    "name": "Claws Out SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 964,
+    "description": "Original Author: Solarverse Gives Claws a better SFX for when you pop out those nasty claws! (Shares SFX of pulling out Katana)",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=49&file=mods/0/ClawsOutSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/49"
+  },
+  {
+    "id": 60,
+    "name": "Demon Kitties",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 961,
+    "description": "Original Author: Vayek Changes the sound files for demon summoning to humorous kitten sounds. Repackaged by Westley Bennett",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=60&file=mods/0/DemonKitties.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/60"
+  },
+  {
+    "id": 92,
+    "name": "High Visibility Mouse Cursors Set B",
+    "author": "Imported",
+    "category": "Cursors",
+    "downloads": 961,
+    "description": "Original Author: 12thPower Busy screens can make you lose track of your mouse cursor. These cursors should stand out a little more. There are a few variants. If you have requests for different styles, please let me know. I made these back in 2011 and have since lost the original PSD files. Original Source: https://forums.homecomingservers.com/topic/9304-quality-of-life-texture-mods-and-other-things/ Repackaged by Westley Bennett",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=92&file=mods/0/HighVisibilityMouseCursorsSetB.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/92"
+  },
+  {
+    "id": 147,
+    "name": "Psionic Melee SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 957,
+    "description": "Original Author: Solarverse This mod is now complete!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=147&file=mods/0/PsionicMeleeSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/147"
+  },
+  {
+    "id": 116,
+    "name": "Smoothed Metallic 2",
+    "author": "Imported",
+    "category": "Graphics",
+    "downloads": 956,
+    "description": "Original Author: Flashtoo A version of the Metallic 2 body textures for males with the compression damage smoothed out and re-saved without compression. Much larger file size than the original; don't get this if you have a potato machine or have already installed many retexture mods with large file size. IMO worth it, YMMV.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=116&file=mods/0/metallictexturessmoothed.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/116"
+  },
+  {
+    "id": 119,
+    "name": "Completely Muted Recharge Sound",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 953,
+    "description": "Original Author: Kataklysm The name says it all, I don't know if this is redundant but I noticed another mod almost had it right, This was a change I did -right away- Enjoy!!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=119&file=mods/0/MutedRechargeSound.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/119"
+  },
+  {
+    "id": 257,
+    "name": "Corvus&#039; Enhancement Standardization V4",
+    "author": "LKN-351",
+    "category": "GUI / Icons",
+    "downloads": 953,
+    "description": "I took V3 and made the standard enhancements as uniform as I could and removed old artifacts from the icons that never really made any sense to me. Keep the style uniform with the Ultramode Origin/AT icons and Corvus' power icons, but only use one version of the enhancements or your game will crash. The enhancement packs are up to date as of June 2024. There are a few optional enhancement icons you can use in V2/V3/V4 but to do so you have to install them manually, the download link is in the pr",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=257&file=mods/101/CorvusV4.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/257"
+  },
+  {
+    "id": 238,
+    "name": "Grounded Helicopters (Quieter SFX)",
+    "author": "Bloodom",
+    "category": "Audio",
+    "downloads": 944,
+    "description": "This SFX mod will make the grounded helicopter looping rotor SFX a little more than 50% quieter.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=238&file=mods/74/groundedhelicopterquiet.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/238"
+  },
+  {
+    "id": 90,
+    "name": "Heavy Hands Energy Melee",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 942,
+    "description": "Original Author: Lithobraker Energy Melee's sounds are alright by themselves, but something always seemed to be... lackluster about them. It doesn't help that most of the powers in the set share slight variations on the exact same impact sound. I can't quite fix the second part, but the former is an easy fix by editing them to use the impact sounds from the melee attacks of the Resistance Heavy Hands enemies- which are considerably more SMACK-y.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=90&file=mods/0/HeavyHandsEnergyMelee.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/90"
+  },
+  {
+    "id": 63,
+    "name": "Dimmer smoke particles FX",
+    "author": "Imported",
+    "category": "Graphics",
+    "downloads": 929,
+    "description": "Original Author: Zed Replace smoke textures with softer ones that won't make your eyes bleed, even with bright power colors. Note: the affected textures are generic, meaning a -lot- of things are going to be affected, probably much more than only super powers.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=63&file=mods/0/DimmerSmokeParticles.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/63"
+  },
+  {
+    "id": 246,
+    "name": "Alternative Female Death Animation",
+    "author": "Lumenia",
+    "category": "Other",
+    "downloads": 927,
+    "description": "Changes the default death animation of the female player characters and NPCs to a quicker version of the \"Collapse\" emote. Male characters are unchanged to resemble some variety.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=246&file=mods/99/AltFemDeathAnim.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/246"
+  },
+  {
+    "id": 179,
+    "name": "Atlas Park Theme Reimagined",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 925,
+    "description": "Original Author: Solarverse A recreation of the Atlas Park Theme which gives it a bit more depth and spirit.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=179&file=mods/0/TestTwo.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/179"
+  },
+  {
+    "id": 216,
+    "name": "Font_Large_Comic_Book",
+    "author": "Svarty",
+    "category": "GUI / Icons",
+    "downloads": 917,
+    "description": "Replaces the large font (Redcircl) with Heroes Legend by Imagex. You can preview the font here; https://www.fontriver.com/font/heroes_legend or https://www.dafont.com/heroes-legend.font or https://www.fontmagic.com/heroes-legend.font This font is free for personal use. For any commercial use, please contact imagex1@wanadoo.fr Cette police est gratuite pour un usage personnel. Pour toute utilisation commerciale, contactez-moi SVP. There are some occurrences where the font looks a bit crappy, such",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=216&file=mods/41/Comic_Book_Font_Large.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/216"
+  },
+  {
+    "id": 169,
+    "name": "Star Wars Blaster SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 914,
+    "description": "Original Author: Solarverse Gives Duel Wield Pistols the sounds of a blaster straight out of Star Wars!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=169&file=mods/0/StarWarsBlasterSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/169"
+  },
+  {
+    "id": 209,
+    "name": "Silent Quills",
+    "author": "Baldur9",
+    "category": "Audio",
+    "downloads": 913,
+    "description": "This mod silences the pulsing sound from Spines-Quills toggle power.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=209&file=mods/38/SilentQuills.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/209"
+  },
+  {
+    "id": 39,
+    "name": "Beast Mastery Direwolf Frost Breath Improvement",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 909,
+    "description": "Original Author: Solarverse Gives the Direwolf a much needed and improved Frost Breath Sound Effect, this mod is a request by a player.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=39&file=mods/0/BeastMasteryDirewolfFrostBreathImprovementMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/39"
+  },
+  {
+    "id": 196,
+    "name": "Chat Ranges PopMenu",
+    "author": "CrystalDragon",
+    "category": "Popmenus",
+    "downloads": 907,
+    "description": "",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=196&file=mods/8/ChatRanges.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/196"
+  },
+  {
+    "id": 120,
+    "name": "Mute Umbra Beast",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 899,
+    "description": "Original Author: Solarverse This is a mod by request from a player who desires his Umbra Beast to be mute. All dog barking and howling is removed in this mod.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=120&file=mods/0/MuteUmbraBeast.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/120"
+  },
+  {
+    "id": 222,
+    "name": "Fire Blazing Aura Loop Silenced",
+    "author": "Svarty",
+    "category": "Audio",
+    "downloads": 895,
+    "description": "Silences the Blazing Aura SFX loop. Files: powers/aura5.ogg powers/aura6.ogg powers/aura7.ogg powers/firesword_loop.ogg",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=222&file=mods/41/BlazingAuraSilenced.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/222"
+  },
+  {
+    "id": 148,
+    "name": "Psionic Melee new SFX",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 868,
+    "description": "Original Author: Zed Get rid of the weird 8-bit feeling Psionic Melee sounds have for something more in line with other game sounds! Mixed from original sound FX",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=148&file=mods/0/Psionic_Melee_new_SFX.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/148"
+  },
+  {
+    "id": 254,
+    "name": "Heavy Hands Energy Melee v2",
+    "author": "Lithobraker",
+    "category": "Audio",
+    "downloads": 863,
+    "description": "This is an updated version of the mod by the original creator! V2: Increased loudness and added a sound for Assassin's Strike. Energy Melee's sounds are alright by themselves, but something always seemed to be... lackluster about them. It doesn't help that most of the powers in the set share slight variations on the exact same impact sound. I can't quite fix the second part, but the former is an easy fix by editing them to use the impact sounds from the melee attacks of the Resistance Heavy Hand",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=254&file=mods/100/heavyhandsenergymelee.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/254"
+  },
+  {
+    "id": 30,
+    "name": "Epic Atlas intro!",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 860,
+    "description": "Original Author: StarVoid Waaaay better Atlas Park theme. It's a bit longer, but pretty cool!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=30&file=mods/0/atlasepictheme.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/30"
+  },
+  {
+    "id": 207,
+    "name": "Battle Axe SFX Titan Overhaul",
+    "author": "Shadowrex",
+    "category": "Audio",
+    "downloads": 858,
+    "description": "This mod replaces the Battle Axe 'hit' sound effects with different SFX from the Titan Weapons power line to give a more powerful and \"crunchier\" feel to Battle Axe. The \"woosh\" sound effect used for swinging your weapon has been reduced by 14db so that it is still noticeable when you miss with an attack but doesn't distract from the weapon hitting an enemy. V2: Mixed War Mace SFX into the Titan sounds so that they sound less like an explosion and have more of a contact/crunch Created custom \"wo",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=207&file=mods/35/BattleAxeSFX-TitanOverhaul.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/207"
+  },
+  {
+    "id": 259,
+    "name": "Corvus&#039; power icons",
+    "author": "LKN-351",
+    "category": "GUI / Icons",
+    "downloads": 858,
+    "description": "Corvus_NA wanted to update all the power icons so they looked more in line with the Ultramode graphics that we got years ago, so he created this power icon pack to go along with his shiney domed enhancements. This pack is not up to date so any power icons that have been changed or added since the live server days where never created. I tried, but I couldn't get them to look as good as Corvus did. Keep the style uniform with the Ultramode Origin/AT icons and Corvus' power icons, but only use one ",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=259&file=mods/101/Corvuspowers.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/259"
+  },
+  {
+    "id": 140,
+    "name": "Powers Recharging Less Annoying SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 855,
+    "description": "Original Author: Solarverse When you hit that power that is still recharging and you get that annoying \"Duh!\" Sound Effect....extremely annoying, right? Worry o more, this is a new SFX that gives it a way less annoying SFX that you don't want to cringe every time you accidently hit a power that is still recharging!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=140&file=mods/0/PowersRechargingLessAnnoyingSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/140"
+  },
+  {
+    "id": 197,
+    "name": "City of Heroes: Freedom login screen music",
+    "author": "Adipup",
+    "category": "Audio",
+    "downloads": 851,
+    "description": "Replaces the login screen music with the \"City of Heroes: Freedom\" theme, for the few players that enjoy it (like me).",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=197&file=mods/25/FreedomTitleMusic.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/197"
+  },
+  {
+    "id": 225,
+    "name": "Arctic_Air_Loop_Silenced",
+    "author": "Svarty",
+    "category": "Audio",
+    "downloads": 846,
+    "description": "By default, Arctic Air (Dominator) has a noisy wind loop. Now it doesn't. File altered: powers/cold_loop.ogg",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=225&file=mods/41/Ice_Arctic_Air_Loop_Silenced.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/225"
+  },
+  {
+    "id": 44,
+    "name": "Brawl &amp;amp; Boxing SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 845,
+    "description": "Original Author: Solarverse Gives Brawl and Boxing the same SFX as Jab or Punch from the Super Strength Set.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=44&file=mods/0/BrawlingAndBoxingSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/44"
+  },
+  {
+    "id": 165,
+    "name": "Staff Mastery Hard Hitting SFX",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 841,
+    "description": "Original Author: Solarverse Adds a whistling effect and Dark Melee's hit files to Staff Mastery by request.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=165&file=mods/0/StaffMasteryHardHittingSFX.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/165"
+  },
+  {
+    "id": 76,
+    "name": "Fireblast Screaming from Hell",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 836,
+    "description": "Original Author: Solarverse Makes the Fireblast set sound like it rages straight out of hell!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=76&file=mods/0/FireblastScreamingfromHell.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/76"
+  },
+  {
+    "id": 211,
+    "name": "Dual Pistols Bang by Svarty",
+    "author": "Svarty",
+    "category": "Audio",
+    "downloads": 836,
+    "description": "This gives dual pistols an impactful \"Bang\" sound instead of the default puny \"Woosh\". This should now work - thanks for your patience.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=211&file=mods/41/Svarty_DW_Guns.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/211"
+  },
+  {
+    "id": 88,
+    "name": "Heartbeat Energy and Endurance Crash Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 835,
+    "description": "Original Author: Solarverse Hitting a power when you have no endurance will now produce a heavy, rythmic heartbeat, and hitting a power when you have no indurance will produce a heavy and even faster heartbeat",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=88&file=mods/0/HeartbeatEnergyandEnduranceCrashMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/88"
+  },
+  {
+    "id": 136,
+    "name": "Portal Corpse Quieter Portals SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 828,
+    "description": "Original Author: Solarverse Changes the sound completely to the portals in Portal Corpse in to something a bit easier on the ears.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=136&file=mods/0/PortalCorpseSilentPortalsSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/136"
+  },
+  {
+    "id": 166,
+    "name": "Staff Fighting  blunt sounds",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 827,
+    "description": "Original Author: Zed From when Staff Fighting was still in beta stage. Louder sounds and more CRASH effects!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=166&file=mods/0/Staff_Fighting_blunt_sounds.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/166"
+  },
+  {
+    "id": 98,
+    "name": "Jacobs Ladder SFX Boost Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 812,
+    "description": "Original Author: Solarverse Gives Jacobs Ladder a more satisfying sound effect that sounds like it charges and now fires with authority!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=98&file=mods/0/JacobsLadderSFXBoostMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/98"
+  },
+  {
+    "id": 157,
+    "name": "Savage Claws FX",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 806,
+    "description": "Original Author: Arknight Replaces the audio files for the, imo, somewhat lackluster savage melee sound effects with some edited ones from the claws powerset. Hopefully other will like it as much as me!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=157&file=mods/0/SavageClawsUpload.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/157"
+  },
+  {
+    "id": 47,
+    "name": "Lightsaber SFX for Broad Sword",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 805,
+    "description": "Original Author: TheRon Adds Lightsaber SFX for Broad Sword. Please install Lightsaber SFX Mod by Solarverse also. (I will add more of Solarverse's sounds to Broad Sword as I find them)",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=47&file=mods/0/BS_Lightsaber_SFX_Mod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/47"
+  },
+  {
+    "id": 194,
+    "name": "Base TP Beacons Fancy Fonts",
+    "author": "Flashtoo",
+    "category": "Graphics",
+    "downloads": 802,
+    "description": "Another option for adding text labels to your base teleport beacons. Similar to other beacon mods but uses thematic computer-text font on the Tech beacons and handwriting font on Arcane beacons. Screenshots available here: https://forums.homecomingservers.com/topic/25467-flashtoos-graphic-mod-compendium/",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=194&file=mods/22/BeaconFontLabels.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/194"
+  },
+  {
+    "id": 142,
+    "name": "Praetoria Police Pants -improved!",
+    "author": "Imported",
+    "category": "Graphics",
+    "downloads": 794,
+    "description": "Original Author: Flashtoo Brightens over-shaded areas of the Praetoria Police bottom to undo the effect that you have wet yourself.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=142&file=mods/0/PraetoriaPolicePantsFix.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/142"
+  },
+  {
+    "id": 223,
+    "name": "Cloaking_Device_Loop_Silenced",
+    "author": "Svarty",
+    "category": "Audio",
+    "downloads": 791,
+    "description": "Replaces the incessant drone with silence. File: glow8_loop.ogg",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=223&file=mods/41/Cloaking_Device_Silenced.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/223"
+  },
+  {
+    "id": 184,
+    "name": "Verdana Font Replacer",
+    "author": "Imported",
+    "category": "Other",
+    "downloads": 785,
+    "description": "Original Author: AXER Replace game font with Verdana",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=184&file=mods/0/VerdanaFontReplacer.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/184"
+  },
+  {
+    "id": 149,
+    "name": "Quieter Storm Powers",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 776,
+    "description": "Original Author: Solarverse Makes Hurricane, Tornado, Storm and Freezing Rain's loop sound effects much quieter.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=149&file=mods/0/QuieterStormPowers.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/149"
+  },
+  {
+    "id": 72,
+    "name": "Sonic Blast Shout - F-16 sonic boom",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 775,
+    "description": "Original Author: Zed A more powerful, with no woobing sounds version for Sonic Blast Shout SFX. Based on a F-16 sonic boom sound effect.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=72&file=mods/0/F-16_Shout.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/72"
+  },
+  {
+    "id": 163,
+    "name": "Sixfold Snowflakes",
+    "author": "Imported",
+    "category": "Graphics",
+    "downloads": 772,
+    "description": "Original Author: Flashtoo Changes the Snowflake 2 chest emblem and the Cryo Ammo icon to hexagonal instead of octagonal designs, because ice crystals don't have eight points, damn it.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=163&file=mods/0/Snowflake2a.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/163"
+  },
+  {
+    "id": 112,
+    "name": "Halo Magnum Dual Pistols",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 763,
+    "description": "Original Author: Arknight Gives the Dual Pistols powerset a bit of a chonky-er sound set based off the classic Magnum from the Halo series!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=112&file=mods/0/MagnumDualPistolsArknight.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/112"
+  },
+  {
+    "id": 134,
+    "name": "Pet Summon Pop Menu (v2)",
+    "author": "Teirusu",
+    "category": "Popmenus",
+    "downloads": 763,
+    "description": "This is a popmenu containing most of the common summonable pet powers found in the game, minus the prestige pets. (Those are now included in the Hologram Matrix Accolade/popmenu) The first menu contains the common summons that are available on both sides (Hero and Villian) and are generally easily re-loadable. The other nested menu contains powers that you typically get through missions/story arcs. Forum Link: https://forums.homecomingservers.com/topic/38759-pet-summons-pop-menu-v2/ Features: No",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=134&file=mods/19/PetSummons.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/134"
+  },
+  {
+    "id": 128,
+    "name": "OG Male Taunt SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 761,
+    "description": "Original Author: Solarverse Brings back the original taunt that was taken away sometimes around the time the game went free to play. Bring back a little nostalgia and enjoy the good times taunting the way you remember!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=128&file=mods/0/OGMaleTauntSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/128"
+  },
+  {
+    "id": 155,
+    "name": "Resistance Boots -no baked on shadows-",
+    "author": "Imported",
+    "category": "Graphics",
+    "downloads": 750,
+    "description": "Original Author: Flashtoo Resistance Boots had unusual baked on shadows that where not the prettiest, no more! Requested by @Kataklysm",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=155&file=mods/0/ResistanceBootsShaderFix.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/155"
+  },
+  {
+    "id": 241,
+    "name": "Mastermind (Thugs) - Bullet Sounds",
+    "author": "DregnRyder",
+    "category": "Audio",
+    "downloads": 737,
+    "description": "This is a sound replacer for the Mastermind Thug powerset, specifically for Pistols, Dual Wield, and Empty Clips. The original sounds were more like cap guns going off than actual guns IMO. This is a much deeper and heavier sound. The sound files are a direct pull from the awesome \"Ambassador Dual Pistols\" mod by Michiyo (they are akin to a .44 Caliber Magnum being fired). The reason this is needed is because the MM Thugs archetype pulls from a different sound library than the Blaster / Corrupto",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=241&file=mods/92/Mastermind-Thugs_BulletSounds.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/241"
+  },
+  {
+    "id": 200,
+    "name": "Pocket D Long Range Teleport Icon",
+    "author": "Astralock",
+    "category": "GUI / Icons",
+    "downloads": 736,
+    "description": "Made by Jimmy, this mod replaces the Long Range Teleport power icon with the old Pocket D VIP Pass power icon.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=200&file=mods/28/accolade_lrt.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/200"
+  },
+  {
+    "id": 213,
+    "name": "Hasten_Lightning",
+    "author": "Svarty",
+    "category": "Audio",
+    "downloads": 736,
+    "description": "Changes Hasten Activation SFX to thunder/lightning.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=213&file=mods/41/Hasten_Lightning.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/213"
+  },
+  {
+    "id": 210,
+    "name": "Pocket D New Techno music",
+    "author": "Frethia",
+    "category": "Audio",
+    "downloads": 735,
+    "description": "a mod set for Pocket D, aiming to use another set of music by Assemblage 23.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=210&file=mods/39/PocketDAssemblage23.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/210"
+  },
+  {
+    "id": 108,
+    "name": "Lines Wub Wub Sonic Blast",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 733,
+    "description": "Original Author: Lines A more consistent sounding audio set for Sonic Blast. - Less reverb on most powers. - More consisent audial theme, targetted towards tech-based characters. - Reduced pitch for most part, to try to make the sounds less obnoxious. - More WUB WUB WUB.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=108&file=mods/0/LinesWubWubSonicBlast.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/108"
+  },
+  {
+    "id": 152,
+    "name": "Silent_Recharge",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 731,
+    "description": "Original Author: Itiger013 This mod will silence the sound when you click a power that is currently recharging. Useful if you do something like this: /bind w \"+forward$$powexecname Kuji-In-Rin\" /bind w \"+forward$$powexecname Domination\" /bind w \"+forward$$powexecname Active Defense\" Have fun!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=152&file=mods/0/Recharge_Sound_Mod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/152"
+  },
+  {
+    "id": 237,
+    "name": "Portal Corp Portals (Quieter SFX)",
+    "author": "Bloodom",
+    "category": "Audio",
+    "downloads": 725,
+    "description": "This SFX mod will make the large Portal Corp Portals a little more than 50% quieter. As with other mods of this nature, any SFX shared with the Portal Corp Portals used elsewhere in the game may be quieter as well (these portals are actually around seven different SFX piled on top of each other).",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=237&file=mods/74/portalcorpportalquiet.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/237"
+  },
+  {
+    "id": 172,
+    "name": "Powerful Electric Control",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 724,
+    "description": "Original Author: Zed Supercharged, powerful sounds for Electric Control! Partially based on Powerful Lightning mod and miscellaneous sound effect packs. Affects player sounds and Freakshow super stunners. Note: most sounds FX done but it isn't complete support. E.g. when you reapply Tesla Cage you won't hear anything.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=172&file=mods/0/Supercharged_Electric_Control_SFX.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/172"
+  },
+  {
+    "id": 171,
+    "name": "Statesman statue retexture",
+    "author": "Imported",
+    "category": "Graphics",
+    "downloads": 724,
+    "description": "Original Author: Anonymous The Statesman statue retextured in slightly blue tones with pitted stone or concrete surface and accentuated star costume details.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=171&file=mods/0/Statesmanstatueretexture.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/171"
+  },
+  {
+    "id": 38,
+    "name": "Beam Rifle Kata-mashup!",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 712,
+    "description": "Original Author: @kataklysm I found myself liking aspects of the pew pew beam rifle mod and terminator beam rifle mod. So I took my audacity and mashed them together for my own enjoyment Figured I would add it here too for others to appreciate",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=38&file=mods/0/BeamRifleKata-mashup.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/38"
+  },
+  {
+    "id": 129,
+    "name": "Original Login Screen UI Select SFX",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 712,
+    "description": "Original Author: Solarverse The original click sounds when you eneter character select screen and when you acknoweldge your password.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=129&file=mods/0/OriginalLoginScreenUISelect.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/129"
+  },
+  {
+    "id": 56,
+    "name": "Custom Warshade Morph Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 710,
+    "description": "Original Author: Solarverse A request from a player for a differentand easier on the ears morphing for Warshades.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=56&file=mods/0/CustomWarshadeMorphMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/56"
+  },
+  {
+    "id": 135,
+    "name": "Pew-Pew Beam Rifle",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 710,
+    "description": "Original Author: Lithobraker From this post: https://forums.homecomingservers.com/topic/9586-various-powerset-soundmods/ Original description: Ugh... While I love the concepts of the Beam Rifle powerset, a lot of its effects are just obnoxious buzzing sounds. So I made new ones, which again combine multiple sources to create new sounds, which I think are more snappy and satisfying without all the electric bees.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=135&file=mods/0/PewpewBeamRifle.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/135"
+  },
+  {
+    "id": 79,
+    "name": "Foot Stomp Fault Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 707,
+    "description": "Original Author: Solarverse Gives Fault and Tremor the same hard hitting SFX of Foot Stomp! Enjoy!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=79&file=mods/0/FootStompFaultMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/79"
+  },
+  {
+    "id": 175,
+    "name": "TARDIS SOUND!",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 706,
+    "description": "Original Author: StarVoid TARDIS sound effects for PI Portal.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=175&file=mods/0/tardis2.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/175"
+  },
+  {
+    "id": 178,
+    "name": "Terminator Plasma Rifle SFX for Beam Rifle",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 703,
+    "description": "Original Author: Solarverse This mod gives Beam Rifle the Plasma Rifle Sound Effects from the movie Terminator!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=178&file=mods/0/TerminatorSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/178"
+  },
+  {
+    "id": 77,
+    "name": "Fire Mod Alpha",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 702,
+    "description": "Original Author: Solarverse A different take on Fire for blaster types. A heavier hitting and sounding fire effects. This Mod is not complete.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=77&file=mods/0/FireModAlpha.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/77"
+  },
+  {
+    "id": 137,
+    "name": "Post Apoc. Pants -Clean w/tintable knees-",
+    "author": "Imported",
+    "category": "Graphics",
+    "downloads": 702,
+    "description": "Original Author: Flashtoo This mod removes the dirty layer from the post apoc. pants for all gender models Kneepads are now tintable but the stripes on the pants are not, and carry the primary color. As requested by @Kataklysm",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=137&file=mods/0/PostApoc.clean_w_Kneepads.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/137"
+  },
+  {
+    "id": 95,
+    "name": "Ice OG SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 700,
+    "description": "Original Author: Soalrverse Gives Ice powers the x2 ice crackle on the targets you hit and for an extra bonus, does the same for Frozen Fists and Frost! (Removed Frozen Foot Stomp from this mod as it directly conflicts with the actual Frozen Foot Stomp Mod)",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=95&file=mods/0/IceOGSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/95"
+  },
+  {
+    "id": 130,
+    "name": "Original Peacebringer SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 695,
+    "description": "Original Author: Solarverse This puts back what the Devs took away! There were a lot of people who were upset about the Devs removing the angelic howling of a Peace Bringer when they attack, well guess what, you are in luck, because with this Mod it's back!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=130&file=mods/0/OriginalPeacebringerSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/130"
+  },
+  {
+    "id": 170,
+    "name": "Statesmans Eye Login UI Background Fix",
+    "author": "Imported",
+    "category": "Graphics",
+    "downloads": 693,
+    "description": "Original Author: ?",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=170&file=mods/0/StatesmansEyeLoginUIBackgroundFix.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/170"
+  },
+  {
+    "id": 242,
+    "name": "Beam Rifle - Sound Compilation",
+    "author": "DregnRyder",
+    "category": "Audio",
+    "downloads": 692,
+    "description": "This is a compilation of the different sounds that I liked from all the other Beam Rifle mods on here. All credit goes to these authors, I just did the mashup. Also, I may credit someone that also borrowed from others. I have no idea whose mod came first (they all show a publish date of 10-14-2022), so I just went by alphabetical order. My apologies in advance if this is wrong. BR_ChargedShot_Attack_01.ogg (Beam Rifle Movie SFX Mod) BR_CuttingBeam_Attack_01.ogg (Terminator Plasma Rifle SFX for B",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=242&file=mods/92/BeamRifle-SoundCompilation.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/242"
+  },
+  {
+    "id": 160,
+    "name": "Silent Stone Armor SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 689,
+    "description": "Original Author: Solarverse Gets rid of some, tones down other armors in the set for people who don't particularly care for the SFX Loop sounds. Enjoy!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=160&file=mods/0/SilentStoneAromorSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/160"
+  },
+  {
+    "id": 250,
+    "name": "Muzzle Demons",
+    "author": "Lunar Ronin",
+    "category": "Audio",
+    "downloads": 688,
+    "description": "Courtesy of Herotu, this silences all Demon Summoning henchmen completely.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=250&file=mods/69/MuzzleDemons.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/250"
+  },
+  {
+    "id": 217,
+    "name": "Spines Aura Silent",
+    "author": "Svarty",
+    "category": "Audio",
+    "downloads": 687,
+    "description": "Silences the aura loop in the Spines powerset (Quills).",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=217&file=mods/41/Spines_Aura_Silent.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/217"
+  },
+  {
+    "id": 115,
+    "name": "Mercy Island Original Music",
+    "author": "Tarrquinn",
+    "category": "Audio",
+    "downloads": 684,
+    "description": "Original Author: Tarrquinn Mercy Island got new music as part of its Issue 21 revamp, but I prefer the old songs. They're nostalgic to me, and I think they fit in better with the other zone tracks. This mod replaces the current Mercy songs with the old ones.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=115&file=mods/7/MercyIslandOGMusic.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/115"
+  },
+  {
+    "id": 248,
+    "name": "Arcade Street Justice",
+    "author": "Lithobraker",
+    "category": "Audio",
+    "downloads": 684,
+    "description": "With a little filtering and sound effects from Kirby Super Star Ultra, I've beefed up the sound effects for Street Justice. This mod replaces every Street Justice sound effect, including the swings, Combat Readiness, and Assassin's Strike.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=248&file=mods/100/ArcadeStreetJustice.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/248"
+  },
+  {
+    "id": 97,
+    "name": "Invasive Spectral Wounds SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 681,
+    "description": "Original Author: Solarverse Gives Spectral Wounds a much more invasive and thumping sound effect.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=97&file=mods/0/InvasiveSpectralWoundsSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/97"
+  },
+  {
+    "id": 232,
+    "name": "Vought&#039;s Pocket D",
+    "author": "Lady Victory",
+    "category": "Audio",
+    "downloads": 675,
+    "description": "This Mod replaces all of the various Pocket D looped tracks with 3 In-Universe tracks from The Boys, along with a rave remix of We Didn't Start The Fire by Billy Joel, for that Vought feel. - Remember, \"dont you ever besmirch the name of Billy Joel\"",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=232&file=mods/30/VoughtsPocketD.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/232"
+  },
+  {
+    "id": 53,
+    "name": "Custom Elec Control",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 673,
+    "description": "Original Author: Solarverse Fully Customized Elec Control sound effects for the Elec Control set. Nearly complete, will be finished within 1 or 2 days. Will update when this set has been completed.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=53&file=mods/0/CustomElecControl.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/53"
+  },
+  {
+    "id": 162,
+    "name": "Slightly improved generic ring",
+    "author": "Imported",
+    "category": "Graphics",
+    "downloads": 671,
+    "description": "Original Author: Zed Replace the generic ring texture with a slightly improved one with some highlights. Depending on where it is used a power fx can look more arcane-ish or look like a liquid bubble. Warning: applying this mod will change a -lot- of things. From the reticle of location powers, to fortunata psychic blasts, to radiation melee \"bubbles\" effects. Blazing aura and the like are unaffected by this mod.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=162&file=mods/0/SlightlyImprovedGenericRing.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/162"
+  },
+  {
+    "id": 59,
+    "name": "Dark Control Slight Alteration",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 668,
+    "description": "Original Author: Solarverse Changes the attack and hit sounds of the Dark Control Pets, both Wolf and Ghosts.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=59&file=mods/0/DarkControlSlightAlteration.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/59"
+  },
+  {
+    "id": 150,
+    "name": "Quiet Lightning Field SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 660,
+    "description": "Original Author: Solarverse Adds a unique charge up sound to Lightning Field while giving it a quieter yet very ear appealing SFX. I myself enjoyed the original, but this new one I liked even more. And this comes from somebody who had no issues with the original volume...so even if you love the one you have, I suggest at least giving this onea try!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=150&file=mods/0/QuietLightningFieldSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/150"
+  },
+  {
+    "id": 173,
+    "name": "Svarty Teleport",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 659,
+    "description": "Original Author: Svarty Teleport is now a fun POP sound, It's less noisy, and has less bass too.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=173&file=mods/0/SvartyTeleport.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/173"
+  },
+  {
+    "id": 58,
+    "name": "Dark Astoria Original Music",
+    "author": "Tarrquinn",
+    "category": "Audio",
+    "downloads": 658,
+    "description": "Original Author: Tarrquinn Dark Astoria got new music as part of its Issue 22 revamp, but I prefer the old songs. They're nostalgic to me, and I think they fit in better with the other zone tracks. This mod replaces the current Dark Astoria songs with the old ones. I could not replace the hospital music, but everything else is there.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=58&file=mods/7/DarkAstoriaOGMusic.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/58"
+  },
+  {
+    "id": 50,
+    "name": "Cold Dom Adjustments Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 653,
+    "description": "Original Author: Solarverse Makes Arctic Fog Louder (since the sound fades to a barely noticable voume0 and turns Snow Storm in to the same sound effect as Arctic Fog.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=50&file=mods/0/ColdDomAdjustmentsMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/50"
+  },
+  {
+    "id": 161,
+    "name": "Slight Claws Adjustments Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 652,
+    "description": "Original Author: Solarverse Gives Claws some slight adjustments to make Eviscerate sound as though it hits harder and gets rid of the swoosh with the Slash power due to the swoosh sound being timed so badly.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=161&file=mods/0/SlightClawsAdjustmentsMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/161"
+  },
+  {
+    "id": 221,
+    "name": "Dark Death Shroud Loop Silenced",
+    "author": "Svarty",
+    "category": "Audio",
+    "downloads": 652,
+    "description": "Silences the Death Shroud looping SFX File: forcefield5_loop.ogg",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=221&file=mods/41/DeathShroudSilenced.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/221"
+  },
+  {
+    "id": 198,
+    "name": "Pocket D Ski Chalet - no yodeling",
+    "author": "Adipup",
+    "category": "Audio",
+    "downloads": 647,
+    "description": "Replaces the ski chalet's outdoor ambience with a cold, mountain wind sound effect. No more annoying yodeling!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=198&file=mods/25/SkiChaletNoYodeling.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/198"
+  },
+  {
+    "id": 153,
+    "name": "Regenerative Tissue distinctive icon",
+    "author": "Imported",
+    "category": "GUI / Icons",
+    "downloads": 646,
+    "description": "Original Author: Zed Gives Regenerative Tissue IO an icon that is not that similar to Harmonized Healing. Icon from Skyforge game.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=153&file=mods/0/Regenerative_Tissue_icon.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/153"
+  },
+  {
+    "id": 154,
+    "name": "Repel Less Annoying SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 646,
+    "description": "Original Author: Solarverse Gives Repel a less annoying sound effect, but still sounds like it hits hard! Huge improvement if you would have asked me!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=154&file=mods/0/RepelLessAnnoyingSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/154"
+  },
+  {
+    "id": 113,
+    "name": "Vought Menu Replacement V.10",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 636,
+    "description": "Original Author: The Watch This simple change will replace/overwrite the menu music you have at the login & character selection Front-End GUI screens in CoH by changing it into the Vought theme from Amazon Primes The Boys️. For BlueSide, you will hear the Heroic Vought Theme. For RedSide, you will hear the Homelander Theme",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=113&file=mods/0/MenuMusicReplacement.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/113"
+  },
+  {
+    "id": 117,
+    "name": "Kinetic Melee Soul Mage Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 619,
+    "description": "Original Author: Solarverse Gives Kinetic Melee a Sound Effect as if you were a mage out of a class A movie...even better; A Soul Mage!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=117&file=mods/0/MineticMeleeSoulMage.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/117"
+  },
+  {
+    "id": 81,
+    "name": "Frozen Foot Stomp SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 618,
+    "description": "Original Author: Solarverse Gives Frozen Aura the sound of a Frozen Foot Stomp! If you love Foot Stomp then you will love this! (Warning: If you find Foot Stomp to be too loud, this mod is not for you as it is just as loud as Foot Stomp)",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=81&file=mods/0/FrozenFootStompMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/81"
+  },
+  {
+    "id": 105,
+    "name": "Lightning CC SFX",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 615,
+    "description": "Original Author: JodaBean New Audio",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=105&file=mods/0/LightningSFX.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/105"
+  },
+  {
+    "id": 252,
+    "name": "Crumbly Stone Impacts",
+    "author": "Lithobraker",
+    "category": "Audio",
+    "downloads": 607,
+    "description": "This mod just replaces a few sounds related to various Stone/Earth powersets which I felt didn't quite sound rocky enough. These sounds are shared by many powers. Update: Shortened the tail end of the crumbling noises a bit to fit the animations a little better.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=252&file=mods/100/crumblystoneimpacts.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/252"
+  },
+  {
+    "id": 67,
+    "name": "Electronic/Trippy Login Screen Music",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 605,
+    "description": "Original Author: Zed Because super-powered beings deserve a super-powered background music. Infinite loop mix from The Overlords - Sundown (Ionizer Remix '96), approx. 4 minutes long. Full track: https://www.youtube.com/watch?v=RIeQ3h6Bs6Y",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=67&file=mods/0/Electro-TrippyLoginBackgroundMusic.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/67"
+  },
+  {
+    "id": 143,
+    "name": "Praetoria Rescore Project",
+    "author": "Tarrquinn",
+    "category": "Audio",
+    "downloads": 605,
+    "description": "Original Author: Tarrquinn Ever wondered what Praetoria would sound like with music from the original COH soundtrack? No? Well I did, and I've picked songs to replace the music in Nova Praetoria, Imperial City, Neutropolis, First Ward, AND Night Ward. Each track was picked to fit the vibe of the area while also being distinctive. I think the music in Praetoria quite good, but it's a very different style than the rest of COH. The Praetoria Rescore Project is an attempt to bring Praetoria's score ",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=143&file=mods/7/PraetoriaRescore.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/143"
+  },
+  {
+    "id": 249,
+    "name": "Muzzle Demons Roar",
+    "author": "Lunar Ronin",
+    "category": "Audio",
+    "downloads": 604,
+    "description": "This mod silences the roar of the Demon Summoning lieutenant henchmen. If you wish to silence the Demon Summoning henchmen entirely, see either the Muzzle Demons mod or Muzzle Demons and Whips mod instead. Both of those mods include this effect.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=249&file=mods/69/MuzzleDemonsRoar.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/249"
+  },
+  {
+    "id": 265,
+    "name": "Never Dark Skies",
+    "author": "Michiyo",
+    "category": "Other",
+    "downloads": 602,
+    "description": "This replaces *EVERY* sky in every zone with the Atlas Park blue sky, that has no day/night cycle.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=265&file=mods/3/NeverDarkSkies.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/265"
+  },
+  {
+    "id": 260,
+    "name": "Ultramode Origin/AT icons",
+    "author": "LKN-351",
+    "category": "GUI / Icons",
+    "downloads": 598,
+    "description": "These where created by either Basilikon or Corvus_NA to go along with Corvus' 'candy coated' ultramode enhancements and power icons. Keep the style uniform with the Ultramode Origin/AT icons and Corvus' power icons, but only use one version of the enhancements or your game will crash. The enhancement packs are up to date as of June 2024. There are a few optional enhancement icons you can use in V2/V3/V4 but to do so you have to install them manually, the download link is in the preview forum pos",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=260&file=mods/101/UltramodeOriginAT.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/260"
+  },
+  {
+    "id": 109,
+    "name": "Lion and Panther Taunt SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 597,
+    "description": "Original Author: Solarverse If male, you sound like a Lion roaring when taunting or if female you sound like a Panther Roaring when you taunt an enemy! Sorry folks, since the base SFX is coded for male and female specific characters, there is no way to reverse this unless you contact me for a personalized Taunting Mod @Solarverse on the Excelsior server or on the Homecoming Forums!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=109&file=mods/0/LionandPantherTauntSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/109"
+  },
+  {
+    "id": 185,
+    "name": "New Villain intro!",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 595,
+    "description": "Original Author: StarVoid New theme for villains in the intro of our game!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=185&file=mods/0/villaintheme.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/185"
+  },
+  {
+    "id": 121,
+    "name": "Nature Affinity Regrowth alt SFX",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 590,
+    "description": "Original Author: Zed From when Nature Affinity was in beta stage. Calming birds and butterflies...",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=121&file=mods/0/NA_Regrowth_alt_SFX.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/121"
+  },
+  {
+    "id": 214,
+    "name": "Superspeed_Cartoon_Activation",
+    "author": "Svarty",
+    "category": "Audio",
+    "downloads": 587,
+    "description": "Changes Superspeed Activation to that famous Cartoon Ricochet sound. FUN! Remember fun?!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=214&file=mods/41/Superspeed_Cartoon_Activation.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/214"
+  },
+  {
+    "id": 224,
+    "name": "Music Character Creator Music Silenced",
+    "author": "Svarty",
+    "category": "Audio",
+    "downloads": 586,
+    "description": "This mutes the Character Creator music. AKA Menu Music. The files muted are: city of heroes/data/sound/ogg/N_UI/Music/N_MenuMusic_loop.ogg, city of heroes/data/sound/ogg/frontend/v_menumusic_loop.ogg, city of heroes/data/sound/ogg/frontend/h_menumusic_loop.ogg Thanks to Red Oubliette for their help finding these, and everybody else for their help and encouragement. Even Snarky.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=224&file=mods/41/MusicCharacterCreatorMusicSilenced.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/224"
+  },
+  {
+    "id": 261,
+    "name": "Peacebringer Morph Silence",
+    "author": "Killjoy",
+    "category": "Audio",
+    "downloads": 586,
+    "description": "Must have for changeling builds removes the morph boom and hum",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=261&file=mods/104/Peacebringermorphsilence.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/261"
+  },
+  {
+    "id": 107,
+    "name": "Lines Hasten Fwoosh!",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 571,
+    "description": "Original Author: Lines Alternative for Hasten that goes Fwoosh! - Aiming for a quieter, less intrustive sound whenever Hasten fires off.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=107&file=mods/0/LinesHastenFwoosh.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/107"
+  },
+  {
+    "id": 164,
+    "name": "Soul Mage Energy Aura",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 571,
+    "description": "Original Author: Solarverse The sister mod for Soul Mage Kinetic Melee. Makes Energy Aura sound like energy fields made from souls and dark magic. Unfinished mod, mod still being worked on, will erase this when finished.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=164&file=mods/0/SoulMageEnergyAura.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/164"
+  },
+  {
+    "id": 69,
+    "name": "Energy Transfer Original SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 570,
+    "description": "Original Author: Solarverse Brings the original sound effects to Energy Transfer. Works best if used with the quick Energy Transfer, may not sound right with the long version since this sound mod was designed for those who refuse to activate EnergyTransfer if they cannot quick fire it. Also, this mod effects Foot Stomp and most of the Hit files for Super Strength, I suggest moving this mod to Uninstalled Local Mods folder when not playing Energy Melee.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=69&file=mods/0/EnergyTransferOriginalSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/69"
+  },
+  {
+    "id": 114,
+    "name": "Merc Terminator SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 568,
+    "description": "Original Author: Solarverse Turn your Soldiers into Soldiers from the future with this Sound Effects Mod that gives them Plasma Rifle Sounds and a special Inspirational Treat when equipping them! (Recommended that you use Mod ONLY when playing your Mercs MM. This mod affects more sounds than jsut your Mercs due to sounds being shared with other NPC's. Recommend uninstalling Mod when not in use for load and relaod upon Mastermind dependency. *Also works for Assault Rifle*",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=114&file=mods/0/MercTerminatorSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/114"
+  },
+  {
+    "id": 145,
+    "name": "Propel Original SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 568,
+    "description": "Original Author: Solarverse The original sound effects for the Hit portion of Propel. The sound was changed with the release of City of Villains to be a much softer sound effect. This mod brings the original sound back to Propel upon hitting the target.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=145&file=mods/0/PropelHitSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/145"
+  },
+  {
+    "id": 272,
+    "name": "MSR Popmenu",
+    "author": "Porche",
+    "category": "Popmenus",
+    "downloads": 560,
+    "description": "MSR Popmenu used on Everlasting for leading raids, Made to be a bit more generic",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=272&file=mods/111/MSRPopMenu.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/272"
+  },
+  {
+    "id": 133,
+    "name": "Penelope Yin TK AoE silencer",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 554,
+    "description": "Original Author: Zed A much less agressive to hear version of Penelope Yin AoE lift power.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=133&file=mods/0/PenelopeYinTKAoESilencer.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/133"
+  },
+  {
+    "id": 159,
+    "name": "Silence Dehydrate",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 552,
+    "description": "Original Author: Destruktor This mod silences Dehydrate from the Water Blast set",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=159&file=mods/0/silence_dehydrate.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/159"
+  },
+  {
+    "id": 141,
+    "name": "Praetorian Interface Recolor",
+    "author": "Imported",
+    "category": "Graphics",
+    "downloads": 549,
+    "description": "Original Author: Unknown Discovered by Lazarillo. Original Author unknown. Back in the day, when every side had its own character creation screen that matched the colors of the Enhancement screen, and such, some of us found the Praetorian gold one a little jarring, so some nice player created this Interface update that changes the gold to purple. In the game's current format, this only changes the enhancement screen and the level up screen, and doesn't modify character creation at all, but it st",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=141&file=mods/0/PraetorianInterfaceRecolor.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/141"
+  },
+  {
+    "id": 46,
+    "name": "Brooms Over Katanas",
+    "author": "Imported",
+    "category": "Graphics",
+    "downloads": 548,
+    "description": "Original Author: Spctr Makes Impervium Katana into a Broom.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=46&file=mods/0/BroomsOverKatanas.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/46"
+  },
+  {
+    "id": 96,
+    "name": "Inky Aspect Silenced Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 548,
+    "description": "Original Author: Solarverse Silences one of two sounds that Inky Aspect makes. This is a custom mod as per requested.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=96&file=mods/0/InkyAspectSilencedMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/96"
+  },
+  {
+    "id": 99,
+    "name": "Kinetic Melee Soul Mage Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 543,
+    "description": "Original Author: Solarverse Gives Kinetic Melee a Sound Effect as if you were a mage out of a class A movie...even better; A Soul Mage!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=99&file=mods/0/KineticMeleeSoulMage.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/99"
+  },
+  {
+    "id": 267,
+    "name": "Muted Robot Footsteps",
+    "author": "Michiyo",
+    "category": "Audio",
+    "downloads": 541,
+    "description": "This mutes Robotic MM pet foot steps.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=267&file=mods/3/RoboticMMMutedFeet.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/267"
+  },
+  {
+    "id": 190,
+    "name": "Corrupted Mod DO NOT DOWNLOAD",
+    "author": "Michiyo",
+    "category": "Other",
+    "downloads": 537,
+    "description": "This is a broken test mod, DO NOT INSTALL unless specifically instructed to. THIS WILL CAUSE YOUR GAME TO CRASH!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=190&file=mods/3/CorruptedMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/190"
+  },
+  {
+    "id": 278,
+    "name": "Basilikon&#039;s Chiclet Inspirations",
+    "author": "Healix",
+    "category": "GUI / Icons",
+    "downloads": 527,
+    "description": "This makes the dull, flat inspirations look much better. I used this mod on live, and really liked the appearance.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=278&file=mods/121/BasilikonsChicletInspirations.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/278"
+  },
+  {
+    "id": 277,
+    "name": "Numina TF Popmenu",
+    "author": "Basilisk",
+    "category": "Popmenus",
+    "downloads": 526,
+    "description": "Gives you a popmenu to guide a team through the Numina TF's hunts. Each individual hunt selection tells the current channel what is currently active, and which hunt is up next. It also features a full callout which sends all of the hunts to chat in one message, useful for the start of the TF. Once installed, to use, simply type \" /popmenu NuminaTF \" in chat. Alternately, you can bind to a key press with: /bind \"keyname\" popmenu NuminaTF or, create a button for your hotbar with: /macro_image \"Awa",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=277&file=mods/119/NuminaTF.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/277"
+  },
+  {
+    "id": 206,
+    "name": "Original GR Login Music",
+    "author": "Michiyo",
+    "category": "Audio",
+    "downloads": 519,
+    "description": "Restores the original Going Rogue login screen music.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=206&file=mods/3/OriginalGRLoginMusic.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/206"
+  },
+  {
+    "id": 226,
+    "name": "Eggman Recluse Mod",
+    "author": "darkgob",
+    "category": "Audio",
+    "downloads": 519,
+    "description": "I'VE COME TO MAKE AN ANNOUNCEMENT! I replaced Lord Recluse's Grandville speech with Eggman's \"announcement\" speech from the SnapCube dub of Sonic Adventure 2. (WARNING: CONTAINS HARSH LANGUAGE)",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=226&file=mods/44/EggmanRecluseMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/226"
+  },
+  {
+    "id": 245,
+    "name": "Vie Face Replacer",
+    "author": "vellux",
+    "category": "Graphics",
+    "downloads": 518,
+    "description": "PSIREN aka Vie Oberlin Face Replacer for my OC =)",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=245&file=mods/94/sf_face_skin_head_03.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/245"
+  },
+  {
+    "id": 276,
+    "name": "Texture Mod - Blast = Succubus Shredded",
+    "author": "logandwj",
+    "category": "Graphics",
+    "downloads": 518,
+    "description": "If you want to show even more of a battle-damaged look to your costume or if you wish to make a Demonic/Succubus like character that matches the Circle of Thorns Succubus NPCS or - if you just like to live life a little more dangerously in general, then this mod will help. I found the texture file for the Circle of Thorns Succubus tights pattern and made a \"Blast\" pattern replacement for it. Note - Male lower body does not have a full bare skin tights option (that I'm aware of). So it'll be of m",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=276&file=mods/117/SuccubusBlastPattern.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/276"
+  },
+  {
+    "id": 258,
+    "name": "Corvus&#039; Enhancement Standardization V1",
+    "author": "LKN-351",
+    "category": "GUI / Icons",
+    "downloads": 516,
+    "description": "This was the first iteration of Corvus_NAs enhancement standardization packs, it only changes the colored section of the enhancements to a shiney domed version. Keep the style uniform with the Ultramode Origin/AT icons and Corvus' power icons, but only one version of the enhancements or your game will crash. The enhancement packs are up to date as of June 2024. There are a few optional enhancement icons you can use in V2/V3/V4 but to do so you have to install them manually, the download link is ",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=258&file=mods/101/CorvusV1.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/258"
+  },
+  {
+    "id": 86,
+    "name": "Halloween Undead MM SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 514,
+    "description": "Original Author: Solarverse (Deleted for overlapping sound effects)",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=86&file=mods/0/HalloweenUndeadMMSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/86"
+  },
+  {
+    "id": 234,
+    "name": "Silent Symphony",
+    "author": "Cyclone Jack",
+    "category": "Audio",
+    "downloads": 505,
+    "description": "Silences the Symphony Control sounds (which will also affect the enemies that use these sounds). There is still an \"on hit\" sound, but it is somewhat quiet.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=234&file=mods/75/SilentSymphony.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/234"
+  },
+  {
+    "id": 269,
+    "name": "Beam Rifle - Pulse Phase SFX Pack",
+    "author": "labdriver",
+    "category": "Audio",
+    "downloads": 505,
+    "description": "An original sound effects pack for the Beam Rifle. Originally made for personal use, but I think others could enjoy them.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=269&file=mods/108/BeamRifle-PulsePhaseSFX.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/269"
+  },
+  {
+    "id": 167,
+    "name": "Stalker OG SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 504,
+    "description": "Original Author: Solarverse Gives Dark/Spines/Elec/Claws Assassin Strike abilities back the original sound effecst. The original sound effect gave the spook howl upon hitting your target with A.S. and now you can have that back!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=167&file=mods/0/StalkerOGSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/167"
+  },
+  {
+    "id": 181,
+    "name": "The Philotic Knights Phantastick Phorce Phield Phononomic Sounds",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 497,
+    "description": "Original Author: The Philotic Knight Are you tired of living with the same \"woom woom\" day in and day out? Does your Repulsion Bomb just.... \"bomb\" in the \"oomph\" department? Do your force fields need a dose of AWESOMENESS??? Then install this mod. You'll be glad you did. Or, you'll hate me forever. Either way... it'll be an ADVENTURE! Packaged by Westley Bennett",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=181&file=mods/0/ThePhiloticKnightsPhantastickPhorcePhieldPhononomicSoundsPack.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/181"
+  },
+  {
+    "id": 199,
+    "name": "TitanWeaponsLS",
+    "author": "void",
+    "category": "Audio",
+    "downloads": 497,
+    "description": "Initial attempt to modify Titan Weapons using Lightsaber SFX. (Will delete it if it fails. -void)",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=199&file=mods/26/TitanWeaponsLS.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/199"
+  },
+  {
+    "id": 251,
+    "name": "Muzzle Demons and Whips",
+    "author": "Lunar Ronin",
+    "category": "Audio",
+    "downloads": 497,
+    "description": "Courtesy of Herotu, this mod silences Demon Summoning henchmen and whip attacks completely. You do not need the Muzzle Demons mod in addition to this one.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=251&file=mods/69/MuzzleDemonsExtra.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/251"
+  },
+  {
+    "id": 236,
+    "name": "Menu music by  OminousVoice",
+    "author": "Hatty",
+    "category": "Audio",
+    "downloads": 487,
+    "description": "Replaces hero and villain menu music to arrangements made by https://www.youtube.com/@OminousVoice",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=236&file=mods/81/MenuMusicReplacer.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/236"
+  },
+  {
+    "id": 243,
+    "name": "Legacy Origin Sounds and Icons",
+    "author": "megaericzero",
+    "category": "GUI / Icons",
+    "downloads": 486,
+    "description": "Replaces the sounds and icons for origins in the character creator with their old versions. Science, Mutation, and Technology are just a bit longer; Magic and Natural are completely different.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=243&file=mods/93/legacy-origin-sounds-and-icons.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/243"
+  },
+  {
+    "id": 262,
+    "name": "SuperSpeedNoFX",
+    "author": "Michiyo",
+    "category": "Graphics",
+    "downloads": 486,
+    "description": "Removes ALL FX from SuperSpeed on ALL characters, yourself and others.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=262&file=mods/3/SuperSpeedNoFX.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/262"
+  },
+  {
+    "id": 125,
+    "name": "No Fade Orbiting Death SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 484,
+    "description": "Original Author: Soalrverse So because Orbiting Death for Warshades fades, I decided to add the sound effect to Twilight Shield instead. There is no way to actually make it permanent due to the file used for Orbiting Death being coded on server side to fade out after a certain amount of time. So with this mod, Twilight Shield keeps the original SFX, but also includes the sound bite for Orbiting Death, dueto Twilight Shield not fading. It's not perfect, but achieves the same permanent effect, jus",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=125&file=mods/0/NoFadeOrbitingDeathSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/125"
+  },
+  {
+    "id": 174,
+    "name": "Takeoff Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 482,
+    "description": "Original Author: Solarverse Give Takeoff from the Force of Will Pool Power set the same sound effect as Foot Stomp when hitting NPCs with it. Warning, will also change the Hit Sound Effect for Project Will and Wall of Force. However, if you do not use these two other powers, you should be okay.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=174&file=mods/0/TakeoffMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/174"
+  },
+  {
+    "id": 271,
+    "name": "Transparent Scorpion Shield",
+    "author": "_Zed_",
+    "category": "Graphics",
+    "downloads": 474,
+    "description": "Makes Scorpion Shield completely invisible. Only the weird energy rings around character will be affected, some particles and sparkling will still show up. For best effect use Minimal Theme power setting.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=271&file=mods/110/transparent_scorpion_shield.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/271"
+  },
+  {
+    "id": 244,
+    "name": "Legacy Hero Archetype Sounds",
+    "author": "megaericzero",
+    "category": "Audio",
+    "downloads": 472,
+    "description": "Replaces the sounds for hero archetypes in the character creator with their old (longer) versions. This is primarily for Blaster, Defender, Scrapper, and Tanker. Controller, Peacebringer, and Warshade are redundant as their files are seemingly the same between old and new but I've included them anyways as a bit of future-proofing in case they ever do change.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=244&file=mods/93/legacy-hero-archetype-sounds.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/244"
+  },
+  {
+    "id": 187,
+    "name": "VineSPEEN - Whirlwind",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 468,
+    "description": "Original Author: Lithobraker \"MY NAME IS GENOME SOLDIER, AND I LIKE TO SPEEEeeEeeeEEN.\" This is a pair of sound mods which replace the audio for two powers - \"Spin\", from Claws and Arachnos Widow, and \"Whirlwind\", from the Speed pool. \"Whirlwind\" has a looped \"SPEEEeeEeeeeEeeEEeeEeE\" sound, for constant vine-flavored sauce action. \"SPuEEeeEEEeEEeuUEeEeeeUeeeN.\"",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=187&file=mods/0/VineSPEEN-Whirlwind.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/187"
+  },
+  {
+    "id": 266,
+    "name": "Tie dyed Tshirt",
+    "author": "LKN-351",
+    "category": "Graphics",
+    "downloads": 468,
+    "description": "I took the Tie Dyed Tshirt that the NPCs wear and made it available for the players. It replaces the 'tights' 'T-Shirt' pattern, just for the male body type. It will take custom colors, but results will vary due to the baked in color. Link to image: https://forums.homecomingservers.com/uploads/monthly_2024_09/Tiedyeddone.jpg.f4c4db0668af4e69e1c4d4c19de8af7d.jpg",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=266&file=mods/101/TiedyedTshirt.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/266"
+  },
+  {
+    "id": 274,
+    "name": "Energy Melee to Kinetic Melee (Partial)",
+    "author": "madimp",
+    "category": "Other",
+    "downloads": 464,
+    "description": "Partial transformation of Energy Melee to utilize Kinetic Melee's animations. Barrage->Quick Strike, Bone Smasher->Smashing Blow, Whirling Hands->Burst Total Focus->Focused Burst. I left the glowy balls of Energy Doom instead of swapping wholly to Kin's stylings so they didn't end up identical. There is a slight mismatch between animation time and damage dealt on Bone Smasher -> Smashing Blow by about .07 seconds. Changelog: Update 0.2.4: Corrected animation path for Flying Bone Smasher (2hsmash",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=274&file=mods/115/EnMtoKinMPartial.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/274"
+  },
+  {
+    "id": 188,
+    "name": "Vortexs Vibrant Verisimilitude of Grave Grimalkin Gnashing",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 459,
+    "description": "Original Author: VortexMaster Vortex's Vibrant Verisimilitude of Grave Grimalkin Gnashing Or the remaking of demon sounds into cat sounds. Version 1.0 As many of you here I enjoy playing Masterminds, but find my enjoyment a little lacking luster when it comes to the demons, and their constant noisome emanations, and violently vehement vociferating. Thus, I set upon my quest to tame the savage nether spawn to behave as Bohemian bastardization of kitty cats. Tucked with the zipped files you will f",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=188&file=mods/0/VortexsVibrantVerisimilitudeofGraveGrimalkinGnashing.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/188"
+  },
+  {
+    "id": 131,
+    "name": "Original Thermal Radiation",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 453,
+    "description": "Original Author: Solarverse An attempt to bring back the stacking SFX from Thermal Radiation's, Empathy and Pain Dom's AoE Heal. This is now complete but suggest only using while playing your Healer Class as some sounds may conflict with other in game sounds that use the same SFX files.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=131&file=mods/0/OriginalThermalRadiation.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/131"
+  },
+  {
+    "id": 177,
+    "name": "Invuln No Fade SFX Mod",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 452,
+    "description": "Original Author: Solarverse Replicates the no fade sound effect for Unyielding, by placing the sound in combination with Temp Invulnerability. Edit: Won't work because the Devs even silenced the SFX for Temp invuln. Pretty soon I won't be able to bring any sound loops back because they are all being silenced one by one. Sorry for the missinformation, folks. This should still work for many patron shields that use the same sound effect if you still wish to use it.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=177&file=mods/0/TempInvulnNoFadeSFXMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/177"
+  },
+  {
+    "id": 186,
+    "name": "VineSPEEN - Spin",
+    "author": "Imported",
+    "category": "Audio",
+    "downloads": 447,
+    "description": "Original Author: Lithobraker \"Y'know, I could say something like, 'speen'... but I'll let you use your imagination.\" This is part of a pair of sound mods which replace the audio for two powers - \"Spin\", from Claws and Arachnos Widow, and \"Whirlwind\", from the Speed pool. \"Spin\" now has the voice of a New York jabroni streamer saying SPEEN in a silly voice. \"I can! I can... SPE-\"",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=186&file=mods/0/VineSPEEN-Spin.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/186"
+  },
+  {
+    "id": 285,
+    "name": "Alternate Animations - Haymaker Alt to Spinning Strike",
+    "author": "sigr",
+    "category": "Other",
+    "downloads": 440,
+    "description": "This animation mod was created to primarily change Crippling Axe Kick Alt -> Street Justice Spinning Strike. But also affects: Super Strength/Haymaker Stone Melee/Stone Mallet Electricity Manipulation/Havoc Punch Kick away! Notes: - For flying Shield users, Storm Kick was not changed to Spinning Kick due to an animation bug. - This was my former Martial Arts Animation mod and has been split up for more customizability.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=285&file=mods/591/CAKtoSpinningStrike.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/285"
+  },
+  {
+    "id": 268,
+    "name": "MainMenu Music Beep Fix",
+    "author": "Pandize",
+    "category": "Audio",
+    "downloads": 437,
+    "description": "There's a drone at about 15732.01Hz, and this removes that. While you may not hear it, you still NEED this enabled if you listen to the main menu music as it could impact your hearing health. The 15732.01Hz drone completely pierces through the mix of the song. Almost similar to that beep/drone coming from an old CRT TV. It's a very high frequency that some people actually get tinnitus from and start hearing when in absolute silence, since it was around us all the time with CRTs. Check the forum ",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=268&file=mods/107/MainMenu_Music_Fix.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/268"
+  },
+  {
+    "id": 204,
+    "name": "Void",
+    "author": "Lady Victory",
+    "category": "Audio",
+    "downloads": 427,
+    "description": "",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=204&file=mods/30/RiotRangerTheme.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/204"
+  },
+  {
+    "id": 280,
+    "name": "French Client Translation",
+    "author": "Michiyo",
+    "category": "Languages",
+    "downloads": 426,
+    "description": "This is a VERY incomplete translation of the game client to French. This will ONLY EVER translate client strings, nothing from Missions, or NPC Dialog as that text is stored on the server. Il s'agit d'une traduction très incomplète du client du jeu en français. Elle ne traduira QUE les chaînes du client, et non celles des missions ou des dialogues des PNJ, car ces textes sont stockés sur le serveur.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=280&file=mods/17/FrenchClient.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/280"
+  },
+  {
+    "id": 256,
+    "name": "Corvus&#039; Enhancement Standardization V3",
+    "author": "LKN-351",
+    "category": "GUI / Icons",
+    "downloads": 418,
+    "description": "For V3 I whitened the whites of the Enhancements, sharpened the images a tiny bit and fixed some image alignment issues. Keep the style uniform with the Ultramode Origin/AT icons and Corvus' power icons, but only one version of the enhancements or your game will crash. The enhancement packs are up to date as of June 2024. There are a few optional enhancement icons you can use in V2/V3/V4 but to do so you have to install them manually, the download link is in the preview forum post. Preview: http",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=256&file=mods/101/CorvusV3.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/256"
+  },
+  {
+    "id": 301,
+    "name": "Dynamic Accolades Popmenu",
+    "author": "Vanden",
+    "category": "Popmenus",
+    "downloads": 417,
+    "description": "Adds a popmenu that aids in collecting accolade powers. Each menu entry prints a description of how to earn each badge, and entries become options to use the accolades when badges are earned. On Beta shards, the menu has options to immediately grant the accolade power. Update 1.1: The menu can now be used to activate accolades, and on beta shards to grant the accolades for free. Full description: https://forums.homecomingservers.com/topic/61799-dynamic-accolades-popmenu/",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=301&file=mods/751/DynamicAccoladesPopmenu.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/301"
+  },
+  {
+    "id": 235,
+    "name": "Orbiting Death w/o Target Hit SFX",
+    "author": "Bloodom",
+    "category": "Audio",
+    "downloads": 410,
+    "description": "Removes the repeating sound that occurs when Warshade's Orbiting Death hits a target (will unfortunate remove this sound from a dozen or so other places its used in Warshade's powers but it's the price you pay).",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=235&file=mods/74/orbitingdeathnosfx.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/235"
+  },
+  {
+    "id": 255,
+    "name": "Corvus&#039; Enhancement Standardization V2",
+    "author": "LKN-351",
+    "category": "GUI / Icons",
+    "downloads": 409,
+    "description": "This one is pretty much Corvus_NAs final 'Candy coated' Ultramode version he actually worked on back when the game was live, but I added in the IO sets that have been created for the game since then. Keep the style uniform with the Ultramode Origin/AT icons and Corvus' power icons, but only one version of the enhancements or your game will crash. The enhancement packs are up to date as of June 2024. There are a few optional enhancement icons you can use in V2/V3/V4 but to do so you have to insta",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=255&file=mods/101/CorvusV2.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/255"
+  },
+  {
+    "id": 270,
+    "name": "Louder Titan Weapons",
+    "author": "_Zed_",
+    "category": "Audio",
+    "downloads": 405,
+    "description": "Simple volume boost for titan weapons attacks to mimic volume before stacking changes. Warning: may be *extremely* loud if used with /loudstacking 1 !",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=270&file=mods/110/louder_titan_weapons.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/270"
+  },
+  {
+    "id": 275,
+    "name": "Explosive Material Symbol",
+    "author": "Basilisk",
+    "category": "Graphics",
+    "downloads": 405,
+    "description": "This mod replaces the \"Mushroom Cloud\" emblem with the triangular ISO 7010 \"Explosive Materials\" warning symbol. This is the common \"circle of material in the process of blowing the **** up\" symbol in a triangular border that you're likely familiar with from cans of spraypaint or hairspray. It can be seen in the character creator here: https://i.imgur.com/TdZQGRZ.png",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=275&file=mods/119/ExplosiveHazardSymbol.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/275"
+  },
+  {
+    "id": 212,
+    "name": "Original GR Login Music alternate",
+    "author": "Vindicator",
+    "category": "Audio",
+    "downloads": 403,
+    "description": "Restores the alternate version of the original Going Rogue login screen music.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=212&file=mods/42/H_MENUMUSIC_LOOP.mp3",
+    "page_url": "https://cityofheroes.dev/mods/mod/212"
+  },
+  {
+    "id": 218,
+    "name": "Swap Brickstown Ambient with KR Ambient",
+    "author": "Michiyo",
+    "category": "Audio",
+    "downloads": 390,
+    "description": "Swaps the Brickstown ambient background loop with the Kings Row ambient background loop. Seems the Bricks loop has a very low frequency sound that some folks find unpleasant, Hopefully KR doesn't.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=218&file=mods/3/SwapBricksAmbientToKR.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/218"
+  },
+  {
+    "id": 203,
+    "name": "Riot Ranger Theme",
+    "author": "Lady Victory",
+    "category": "Audio",
+    "downloads": 388,
+    "description": "Riot Ranger Theme Replacement for the Praetorian Theme",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=203&file=mods/30/RiotRangerTheme.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/203"
+  },
+  {
+    "id": 281,
+    "name": "German Client Translation",
+    "author": "Michiyo",
+    "category": "Languages",
+    "downloads": 327,
+    "description": "This is a VERY incomplete translation of the game client to German. This will ONLY EVER translate client strings, nothing from Missions, or NPC Dialog as that text is stored on the server. Dies ist eine SEHR unvollständige Übersetzung des Spielclients ins Deutsche. Es werden NUR Client-Strings übersetzt, nichts aus Missionen oder NPC-Dialogen, da dieser Text auf dem Server gespeichert ist.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=281&file=mods/17/GermanClient.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/281"
+  },
+  {
+    "id": 279,
+    "name": "Spanish Client Translation",
+    "author": "Michiyo",
+    "category": "Languages",
+    "downloads": 321,
+    "description": "This is a VERY incomplete translation of the game client to Spanish. This will ONLY EVER translate client strings, nothing from Missions, or NPC Dialog as that text is stored on the server. Esta es una traducción MUY incompleta del cliente del juego al español. Solo traducirá las cadenas del cliente, nada de las misiones ni del diálogo de los PNJ, ya que ese texto se almacena en el servidor.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=279&file=mods/17/SpanishClient.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/279"
+  },
+  {
+    "id": 283,
+    "name": "Symphony Control Broadway",
+    "author": "ArcticPrince",
+    "category": "Audio",
+    "downloads": 273,
+    "description": "Replaces Symphony Control sounds with orchestral moments from various shows including West Side Story, The King and I, A Chorus Line and Cats.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=283&file=mods/540/SymphonyControlMod.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/283"
+  },
+  {
+    "id": 300,
+    "name": "Warrior Robe Colorable Trim",
+    "author": "Vanden",
+    "category": "Graphics",
+    "downloads": 270,
+    "description": "Adds a colorable trim to the Warrior Robe, Warrior Belt, and Terra Robe. Preview: https://forums.homecomingservers.com/topic/61772-warrior-robe-colorable-trim/",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=300&file=mods/751/WarriorRobeColorableTrim.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/300"
+  },
+  {
+    "id": 286,
+    "name": "1 Hand Weapon Overhead Smash to Whirling",
+    "author": "sigr",
+    "category": "Other",
+    "downloads": 265,
+    "description": "Ever felt like the Headsplitter/Cleave/Shatter animation was lacking? This mod aims to make it a bit flashier! Changes the shared animation for Headsplitter/Cleave/Shatter to the Whirling weapon animation. Untested on Arachnos Bane AT.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=286&file=mods/591/1HWeaponSmashtoWhirl.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/286"
+  },
+  {
+    "id": 303,
+    "name": "Clearly Marked Invention Salvage Tiers",
+    "author": "Vanden",
+    "category": "GUI / Icons",
+    "downloads": 263,
+    "description": "Adds indicators to the UI that clearly designate what level tier each piece of Invention Salvage belongs to. Low-level salvage is marked with 1 star, mid-level is marked with 2 stars, and high-level is marked with 3 stars. Preview: https://forums.homecomingservers.com/topic/61804-invention-salvage-tier-indicators/",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=303&file=mods/751/InventionSalvageTierIcons.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/303"
+  },
+  {
+    "id": 295,
+    "name": "No Forcefield Bubbles",
+    "author": "Porche",
+    "category": "Graphics",
+    "downloads": 261,
+    "description": "This mod removes the Forcefield bubble effect as well as the Excelsion Hex effect. This does not remove Dark bubbles, although they will have no texture. Updated to remove Sonic Bubbles! Issues or comments let me know on Everlasting @RayolaRayons",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=295&file=mods/223/NoFFBubbles.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/295"
+  },
+  {
+    "id": 287,
+    "name": "Alternate Animations - Shin Breaker to Spinning Kick",
+    "author": "sigr",
+    "category": "Other",
+    "downloads": 259,
+    "description": "You can do a spinning heel kick, why not a spinning roundhouse kick as well? Replaces Shin Breaker's animation with the Spinning Kick animation from the Blaster and Dominator Martial Arts sets.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=287&file=mods/591/ShinBreakertoSpinningKick.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/287"
+  },
+  {
+    "id": 282,
+    "name": "Issue 2 Passive Accolade Icons",
+    "author": "Dark Bladed",
+    "category": "GUI / Icons",
+    "downloads": 257,
+    "description": "This mod restores the original icons for the passive accolades as they were in Issue 2. The affected Accolades are: Atlas Medallion/Marshall Portal Jockey/Born in Battle Freedom Phalanx Reserve/High Pain Threshold",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=282&file=mods/523/Issue2PassiveAccoladeIcons.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/282"
+  },
+  {
+    "id": 291,
+    "name": "Power Icon Ring Replacement - Team AOE / Teammate-Centered AOE",
+    "author": "megaericzero",
+    "category": "GUI / Icons",
+    "downloads": 251,
+    "description": "",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=291&file=mods/205/powicon_team_ring_replacement.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/291"
+  },
+  {
+    "id": 288,
+    "name": "Expanded Accolade Power Icons",
+    "author": "megaericzero",
+    "category": "GUI / Icons",
+    "downloads": 244,
+    "description": "Gives a glossy or semi-glossy accolade-style backing to the following icons: Ouroboros Portal Architect Comlink While neither are truly accolades, one can be earned via certain badges and the other is a macro whose functions are unlocked by the Mission Engineer badge.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=288&file=mods/205/expanded_accolade_powicons.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/288"
+  },
+  {
+    "id": 284,
+    "name": "Street Justice Shin Breaker to Rib Cracker",
+    "author": "sigr",
+    "category": "Other",
+    "downloads": 243,
+    "description": "Replaces Shin Breaker's animation with the Rib Cracker animation, for Stalkers that prefer the Rib Cracker animation. Very seamless as they share the same animation time. Changelog: - Updated to work with Huge body types",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=284&file=mods/591/ShinBreakertoRibCracker.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/284"
+  },
+  {
+    "id": 290,
+    "name": "Expanded Veteran Power Icons",
+    "author": "megaericzero",
+    "category": "GUI / Icons",
+    "downloads": 238,
+    "description": "",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=290&file=mods/205/expanded_veteran_powicons.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/290"
+  },
+  {
+    "id": 289,
+    "name": "Special Teleport Power Icons",
+    "author": "megaericzero",
+    "category": "GUI / Icons",
+    "downloads": 215,
+    "description": "Gives the Base Transporter and Mission Transporter the same symbol as Long Range Teleporter. Also gives Mission Transporter and Team Transporter the same palette as the quick travel popmenu icon.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=289&file=mods/205/special_teleport_powicons.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/289"
+  },
+  {
+    "id": 302,
+    "name": "Dynamic Costume Powers Popmenu",
+    "author": "Vanden",
+    "category": "Popmenus",
+    "downloads": 209,
+    "description": "Adds a popmenu containing entries for Costume Powers and Vanity Pets that only shows those items the character owns. Full description: https://forums.homecomingservers.com/topic/61801-dynamic-costume-powers-and-vanity-pets-popmenu/",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=302&file=mods/751/DynamicCostumesPetsPopmenu.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/302"
+  },
+  {
+    "id": 299,
+    "name": "Tech Knight Backpack Mask Swap",
+    "author": "Vanden",
+    "category": "Graphics",
+    "downloads": 203,
+    "description": "Modifies the texture mask of the Tech Knight Reactor backpack for better color balance. Preview: https://forums.homecomingservers.com/topic/61771-tech-knight-backpack-color-swap/",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=299&file=mods/751/TechKnightBackpackMaskSwap.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/299"
+  },
+  {
+    "id": 293,
+    "name": "Power Icon Ring Swap - Chain AOE",
+    "author": "megaericzero",
+    "category": "GUI / Icons",
+    "downloads": 192,
+    "description": "",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=293&file=mods/205/chain_ring_replacement.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/293"
+  },
+  {
+    "id": 309,
+    "name": "Helper Popmenu",
+    "author": "Porche",
+    "category": "Popmenus",
+    "downloads": 190,
+    "description": "A super popmenu that brings in a lot of commands and controls right into one place. This menu has merged in the fast travel menu, the holographic menu, chat ranges, a number of one off powers, auction house, Build switching, Settings, and it has integrated in the difficulty menus. Create a button to use it with the command /Macro Help \"popmenu helperpro\" Alternatively How I use it is the command /bind Control+rclick \"popmenu HelperPro\"",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=309&file=mods/223/HelperPro.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/309"
+  },
+  {
+    "id": 304,
+    "name": "Classic QuickChat Menu",
+    "author": "macskull",
+    "category": "Popmenus",
+    "downloads": 187,
+    "description": "Brings back the difficulty settings in the QuickChat menu that were relocated with Issue 28 Page 3. Unlike the new ingame menu, this menu does not have badge checks for +5/+6/+7.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=304&file=mods/755/ClassicQuickChat.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/304"
+  },
+  {
+    "id": 294,
+    "name": "Vortexs Varied Verses of Somnolent Sonorous Songs",
+    "author": "vortexmaster",
+    "category": "Audio",
+    "downloads": 179,
+    "description": "The making of Sonic Sounds to Whooooo Knows? To Owls, that's Who! *Warning not to be used while drowsy or tired! (its very soothing)* This set was made at the inspiration and request of my good friend Arbiter Armora. This was primarily made to change sonic attacks Coruptors/Blasters/Defenders/Sentinals As City tends to recycle sounds, you will get random Owl sounds from other things in the game. Notably, some Psionic powers.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=294&file=mods/618/data.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/294"
+  },
+  {
+    "id": 292,
+    "name": "Deprecated - Power Icon Ring Replacement - Teammate-Centered AOE",
+    "author": "megaericzero",
+    "category": "GUI / Icons",
+    "downloads": 176,
+    "description": "This mod is now consolidated with the team-AOE ring replacement mod. Please install that one instead if you haven't already. This space reserved for future use.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=292&file=mods/205/teammate_aoe_ring_replacement.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/292"
+  },
+  {
+    "id": 308,
+    "name": "No Excelsion Effect",
+    "author": "Porche",
+    "category": "Graphics",
+    "downloads": 175,
+    "description": "Standalone Mod that removes the Excelsion effect on bubbles. The effect induces migraines, vertigo, and motion sickness in some people so this removes the effect to eliminate those negative impacts.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=308&file=mods/223/NoExcelsion.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/308"
+  },
+  {
+    "id": 310,
+    "name": "Disco Bottom Tights",
+    "author": "Kimmy_Kim",
+    "category": "Graphics",
+    "downloads": 166,
+    "description": "Lowers the top of the Disco Bottom for females to resemble thigh-high stockings and changes the briefs to the same as Bikini 2",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=310&file=mods/922/DiscoBottomStockings.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/310"
+  },
+  {
+    "id": 306,
+    "name": "1 Hand Weapon Overhead Smash to Crushing Blow",
+    "author": "sigr",
+    "category": "Other",
+    "downloads": 158,
+    "description": "Changes the Headsplitter/Cleave/Shatter animation to Titan Weapons/Crushing Blow (fast version).",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=306&file=mods/591/1HWeaponSmashtoCrushingBlow.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/306"
+  },
+  {
+    "id": 307,
+    "name": "Cinematic Broadsword",
+    "author": "RobotRobot",
+    "category": "Audio",
+    "downloads": 143,
+    "description": "A mod that replaces Broadsword SFX with sounds from Mortal Kombat 1. Basically makes Broadsword feel more... swordy. Will unfortunately also affect sets that use the same sounds, like Dual Blades, which doesn't sound as good. :(",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=307&file=mods/878/CinematicBroadsword.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/307"
+  },
+  {
+    "id": 296,
+    "name": "Teleport Portal Gun Sounds",
+    "author": "megaericzero",
+    "category": "Audio",
+    "downloads": 139,
+    "description": "Replaces the loud sound effect of most teleport powers with sounds from the Portal Gun taken from the first Portal game. This affects travel teleports, long-range/zone teleports, and some enemy-teleporting powers. The intent was to make traveling long distances with Teleport easier on the ears without silencing it completely. Enjoy!",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=296&file=mods/205/teleport-portal-gun-sounds.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/296"
+  },
+  {
+    "id": 298,
+    "name": "Claws Sound Muffler",
+    "author": "apache",
+    "category": "Audio",
+    "downloads": 135,
+    "description": "This reduces the sharpness of the claws powerset sounds. It also slightly reduces the volume. Treble and amplification were reduced, while bass was slightly boosted. I found the claws sound effects to be too sharp, much like scratching fingernails on a chalkboard. This mod makes it much easier on the ears.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=298&file=mods/748/ClawsMuffler.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/298"
+  },
+  {
+    "id": 305,
+    "name": "Alternate Animations - Concentrated Strike to Energy Transfer",
+    "author": "sigr",
+    "category": "Other",
+    "downloads": 132,
+    "description": "Swaps Kinetic Melee's Concentrated Strike animation to Energy Melee's full Energy Transfer animation.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=305&file=mods/591/ConcentratedStriketoEnergyTransfer.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/305"
+  },
+  {
+    "id": 297,
+    "name": "Spin to Typhoon&#039;s Edge",
+    "author": "sigr",
+    "category": "Other",
+    "downloads": 131,
+    "description": "",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=297&file=mods/591/SpintoTyphoon.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/297"
+  },
+  {
+    "id": 316,
+    "name": "Imperial Defense/Blackwing Gloves color re-mask",
+    "author": "Vanden",
+    "category": "Graphics",
+    "downloads": 112,
+    "description": "Improves the colors on the Imperial Defense and Blackwing gloves. For the Imperial Defense gloves, parts of the gloves with glowing lights (which take Color 2) will now always take Color 1. The armor plates on the fingers now simply take Color 1, instead of being a blend of Color 1 and Color 2. For the Blackwing gloves, adds some extra glowing hexagons, primarily on the Heavy variety so it's not mostly a flat color. Also cleaned up some errant color splotches present on the unmodded color mask. ",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=316&file=mods/751/ImperialDefenseBlackwingGloves.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/316"
+  },
+  {
+    "id": 311,
+    "name": "Skunk Tail",
+    "author": "Kimmy_Kim",
+    "category": "Graphics",
+    "downloads": 109,
+    "description": "Changes the color mask for Ragged Wolf Tail to a striped pattern for skunks",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=311&file=mods/922/SkunkTail.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/311"
+  },
+  {
+    "id": 312,
+    "name": "Sonic Melee - Quiet Attune",
+    "author": "Basilisk",
+    "category": "Audio",
+    "downloads": 98,
+    "description": "Silences the Sonic Melee \"Attune\" power's activation sound. This leaves the quiet loop, only the loud initial activation is affected.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=312&file=mods/299/SilenceAttune.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/312"
+  },
+  {
+    "id": 314,
+    "name": "Alternate Animations - Storm Kick to Spinning Strike",
+    "author": "sigr",
+    "category": "Other",
+    "downloads": 95,
+    "description": "Storm Kick -> Martial Assault Spinning Kick Changes the melee AT Storm Kick animation to Spinning Kick/Blaster version of Storm Kick.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=314&file=mods/591/StormKicktoSpinningKick.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/314"
+  },
+  {
+    "id": 313,
+    "name": "Alternate Animations - Storm Punch to Ki Push",
+    "author": "sigr",
+    "category": "Other",
+    "downloads": 80,
+    "description": "Storm Kick Alt -> Ki Push/Quick Strike Changes the animation from a gut punch to match the Ki Push animation that Blasters get in Martial Combat.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=313&file=mods/591/StormPunchtoQuickStrike.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/313"
+  },
+  {
+    "id": 315,
+    "name": "Alternate Animations - Thunder Kick to Spinning Kick",
+    "author": "sigr",
+    "category": "Other",
+    "downloads": 80,
+    "description": "Thunder Kick -> Martial Assault Spinning Kick Changes the Thunder Kick animation to a Spinning Kick. Also affects Thunder Kick in Martial Assault.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=315&file=mods/591/ThunderKicktoSpinningKick.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/315"
+  },
+  {
+    "id": 317,
+    "name": "Russian Client Translation",
+    "author": "Michiyo",
+    "category": "Languages",
+    "downloads": 50,
+    "description": "This is a VERY incomplete translation of the game client to Spanish. This will ONLY EVER translate client strings, nothing from Missions, or NPC Dialog as that text is stored on the server. Это ОЧЕНЬ неполный перевод игрового клиента на русский язык. Переводятся ТОЛЬКО строки клиента — тексты миссий и диалоги NPC не затрагиваются, так как они хранятся на сервере.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=317&file=mods/17/RussianClient.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/317"
+  },
+  {
+    "id": 318,
+    "name": "Alternate Animations - Hand Clap to Ground Punch",
+    "author": "sigr",
+    "category": "Other",
+    "downloads": 22,
+    "description": "Swaps the animation for Hand Clap to the Ground Punch from the alternate animation for Super Strength/Foot Stomp. Note: The animation does not change when you have a shield toggled on from Shield Defense.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=318&file=mods/591/Hand Clap to Ground Punch.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/318"
+  },
+  {
+    "id": 319,
+    "name": "Alternate Animations - Thunder Strike to Eagle&#039;s Claw",
+    "author": "sigr",
+    "category": "Other",
+    "downloads": 13,
+    "description": "Replaces the Thunder Strike animation with Martial Arts/Eagle's Claw. Note: The animation does not change when you have a shield toggled on from Shield Defense.",
+    "download_url": "https://cityofheroes.dev/mods//mods/download.php?id=319&file=mods/591/Thunder Strike to Eagles Claw.pigg",
+    "page_url": "https://cityofheroes.dev/mods/mod/319"
+  }
+]
