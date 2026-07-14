@@ -1,4 +1,4 @@
-import raw from '../../mods.json'
+import raw from '../../../mods.json'
 
 const ART_BASE = 'file:///Users/steven/Pictures/CoH-ComicArt/'
 const ART_MAP = {
