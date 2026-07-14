@@ -1,0 +1,15 @@
+{
+  "payload": {
+    "content": [
+      {
+        "text": "The runtime model is corrected in the doc. I’ll verify the patched section and then summarize the corrected implications for the browser/control surface.",
+        "type": "output_text"
+      }
+    ],
+    "phase": "commentary",
+    "role": "assistant",
+    "type": "message"
+  },
+  "timestamp": "2026-07-13T20:33:41.196Z",
+  "type": "response_item"
+}

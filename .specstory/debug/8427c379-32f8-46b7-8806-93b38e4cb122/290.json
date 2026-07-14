@@ -1,0 +1,20 @@
+{
+  "attachment": {
+    "filename": "/Users/steven/CoX-mod-Adventure/.gitignore",
+    "snippet": "16\t.poolside/\n17\t\n18\t# Log / temp files\n19\t*.log\n20\t2026-*-local-command-*.txt\n21\t\n22\t# Archives\n23\tpages.zip\n24\t\n25\t# Large binaries in coh-modders (installers)\n26\tcoh-modders/\n27\t\n28\t# Exported session logs\n29\tdocs/full-conversation-export.md\n30\tdocs/undated_*.md\n31\tdocs/.exported_sessions.json",
+    "type": "edited_text_file"
+  },
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "parentUuid": "1531ebb4-f1aa-493f-a84c-d2c742050ba7",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "timestamp": "2026-07-13T19:11:19.949Z",
+  "type": "attachment",
+  "userType": "external",
+  "uuid": "0eb2b7a5-3f1d-47d1-9276-f31cbf12b2b6",
+  "version": "2.1.179"
+}

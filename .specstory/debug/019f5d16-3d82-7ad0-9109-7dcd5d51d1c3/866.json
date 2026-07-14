@@ -1,0 +1,15 @@
+{
+  "payload": {
+    "content": [
+      {
+        "text": "I’m going to preserve this as another plan note. The important distinction I’m documenting is “completion status” versus “upgrade value”: a file can be incomplete but still worth mining, and a complete file can be promoted into the next version if it has real data, interaction, or verified local-runtime knowledge.",
+        "type": "output_text"
+      }
+    ],
+    "phase": "commentary",
+    "role": "assistant",
+    "type": "message"
+  },
+  "timestamp": "2026-07-13T20:41:10.744Z",
+  "type": "response_item"
+}

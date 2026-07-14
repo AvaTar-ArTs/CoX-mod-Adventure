@@ -1,0 +1,35 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "Removed corrupt zips. Remaining:\nCoHModdingTool-Windows.zip",
+        "is_error": false,
+        "tool_use_id": "toolu_01EtotJfEZbz31Fj4xBYh6iK",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "c2d7bf61-f11f-4d3d-9d04-b8e7ebde09c3",
+  "promptId": "21ef8620-0dc3-4168-97cd-73ded0c11162",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolAssistantUUID": "c2d7bf61-f11f-4d3d-9d04-b8e7ebde09c3",
+  "timestamp": "2026-07-13T19:04:59.417Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "",
+    "stdout": "Removed corrupt zips. Remaining:\nCoHModdingTool-Windows.zip"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "f932bef7-95ad-49b6-8e09-5a5e188a43a2",
+  "version": "2.1.179"
+}

@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "memory_citation": null,
+    "message": "The two warnings are caused by unquoted `description:` values containing colon-space text, not by broken Markdown bodies. `~/.codex/skills/using-superpowers` is currently absent, so I’m going to install a clean Codex copy there and quote the frontmatter so it can load.",
+    "phase": "commentary",
+    "type": "agent_message"
+  },
+  "timestamp": "2026-07-13T20:17:54.097Z",
+  "type": "event_msg"
+}

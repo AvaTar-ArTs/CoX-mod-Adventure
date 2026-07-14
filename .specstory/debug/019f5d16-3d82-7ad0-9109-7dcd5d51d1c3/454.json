@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"sed -n '1,220p' docs/plans/2026-07-13-mod-browser-design.md\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":12000}",
+    "call_id": "call_UDNuh0QrNrF1lGsXkadMWL58",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:25:50.768Z",
+  "type": "response_item"
+}

@@ -1,0 +1,19 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "durationMs": 76652,
+  "entrypoint": "cli",
+  "gitBranch": "main",
+  "isMeta": false,
+  "isSidechain": false,
+  "messageCount": 102,
+  "parentUuid": "7eb5f2cd-3fcd-48cf-8095-3dd744e25339",
+  "pendingWorkflowCount": 1,
+  "sessionId": "86fc7165-d979-4827-b088-5359d5c69c61",
+  "slug": "zesty-hopping-oasis",
+  "subtype": "turn_duration",
+  "timestamp": "2026-07-13T19:59:53.367Z",
+  "type": "system",
+  "userType": "external",
+  "uuid": "e9a1aa89-429e-418b-8d85-a457f597dcdc",
+  "version": "2.1.179"
+}

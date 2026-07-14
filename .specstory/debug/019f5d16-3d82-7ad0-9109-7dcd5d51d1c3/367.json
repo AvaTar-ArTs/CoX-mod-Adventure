@@ -1,0 +1,15 @@
+{
+  "payload": {
+    "content": [
+      {
+        "text": "Right now `innate-workflow` calls `using-superpowers`, but `using-superpowers` does not mention `innate-workflow`, so the loop is one-way. I’m going to add a small bridge section to both `using-superpowers` copies so the relationship is explicit without changing the core behavior.",
+        "type": "output_text"
+      }
+    ],
+    "phase": "commentary",
+    "role": "assistant",
+    "type": "message"
+  },
+  "timestamp": "2026-07-13T20:21:55.246Z",
+  "type": "response_item"
+}

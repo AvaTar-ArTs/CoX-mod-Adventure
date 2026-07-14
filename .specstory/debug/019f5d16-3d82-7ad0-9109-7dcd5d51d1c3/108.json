@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"session_id\":89822,\"chars\":\"\",\"yield_time_ms\":1000,\"max_output_tokens\":12000}",
+    "call_id": "call_AUyHTjMbQdykDVjNphlocpoO",
+    "name": "write_stdin",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:09:10.138Z",
+  "type": "response_item"
+}

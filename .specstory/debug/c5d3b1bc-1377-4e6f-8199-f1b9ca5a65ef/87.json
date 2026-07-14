@@ -1,0 +1,60 @@
+{
+  "cwd": "/Users/steven",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "text": "Full session mapped: `wineserver` (33595), `launcher.exe` (33593), `launch.sh` (33592), `explorer.exe`, plus the Wine service ring (winedevice ×2, rpcss, svchost, plugplay, services). I'll do a clean `wineserver -k` first (graceful), then force-kill any stragglers by PID, quit the LaunchCat GUI host, and verify nothing survives.",
+        "type": "text"
+      }
+    ],
+    "diagnostics": null,
+    "id": "msg_011CcyU9Zdq75rzqNXXFCQiM",
+    "model": "claude-opus-4-8",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "tool_use",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 1108
+      },
+      "cache_creation_input_tokens": 1108,
+      "cache_read_input_tokens": 90500,
+      "inference_geo": "global",
+      "input_tokens": 29,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 1108
+          },
+          "cache_creation_input_tokens": 1108,
+          "cache_read_input_tokens": 90500,
+          "input_tokens": 29,
+          "output_tokens": 1331,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 1331,
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  },
+  "parentUuid": "27f94ad9-0f35-4f07-b519-518fcb3ee2d2",
+  "requestId": "req_011CcyU9XXaY4Vtt5ZeWzgU9",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "timestamp": "2026-07-13T05:01:25.276Z",
+  "type": "assistant",
+  "userType": "external",
+  "uuid": "f26a49c2-a8e2-4661-9f7c-0d290c4b125e",
+  "version": "2.1.179"
+}

@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"rg -n \\\"https?://|\u003cscript src=|@import\\\" Upgraded/mod-browser-layout-playground.html docs/plans/2026-07-13-cox-mod-adventure-context-and-direction.md\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":4000}",
+    "call_id": "call_ZhiZPSgyNOSJj6VAoEMzBz8P",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:28:22.139Z",
+  "type": "response_item"
+}

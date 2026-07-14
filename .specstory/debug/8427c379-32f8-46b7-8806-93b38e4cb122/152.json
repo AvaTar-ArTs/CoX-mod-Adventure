@@ -1,0 +1,35 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "drwxr-xr-x@    - steven 13 Jul 13:54 accounts\ndrwxr-xr-x@    - steven 13 Jul 13:54 assets\ndrwxr-xr-x@    - steven 13 Jul 13:54 bin\ndrwxr-xr-x@    - steven 13 Jul 13:54 cache\ndrwxr-xr-x@    - steven 13 Jul 08:55 data\ndrwxr-xr-x@    - steven 13 Jul 13:54 logs\ndrwxr-xr-x@    - steven 13 Jul 08:55 screenshots\ndrwxr-xr-x@    - steven 13 Jul 13:54 settings\ndrwxr-xr-x@    - steven 13 Jul 13:54 wine\n.rw-r--r--@  10k steven 13 Jul 14:31 .DS_Store\n.rw-r--r--@  990 steven 13 Jul 09:18 Homecoming.lnk\n.rwxr-xr-x@  364 steven 13 Jul 09:18 launch.sh\n.rw-r--r--@ 1.7k steven 13 Jul 08:54 LaunchCat-Diagnostics.txt\n.rwxr-xr-x   478 steven 13 Jul 09:16 start-live.sh\n.rw-r--r--@ 6.5k steven 13 Jul 08:59 THIRDPARTYSOFTWAREREADME.txt\n---\n5.6G\t/Applications/coh/",
+        "is_error": false,
+        "tool_use_id": "toolu_01VfTnNUXzxR7raVrLunz7oK",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "41d41e48-d789-4da9-acf7-f65d423863b3",
+  "promptId": "21ef8620-0dc3-4168-97cd-73ded0c11162",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolAssistantUUID": "41d41e48-d789-4da9-acf7-f65d423863b3",
+  "timestamp": "2026-07-13T18:57:29.228Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "",
+    "stdout": "drwxr-xr-x@    - steven 13 Jul 13:54 accounts\ndrwxr-xr-x@    - steven 13 Jul 13:54 assets\ndrwxr-xr-x@    - steven 13 Jul 13:54 bin\ndrwxr-xr-x@    - steven 13 Jul 13:54 cache\ndrwxr-xr-x@    - steven 13 Jul 08:55 data\ndrwxr-xr-x@    - steven 13 Jul 13:54 logs\ndrwxr-xr-x@    - steven 13 Jul 08:55 screenshots\ndrwxr-xr-x@    - steven 13 Jul 13:54 settings\ndrwxr-xr-x@    - steven 13 Jul 13:54 wine\n.rw-r--r--@  10k steven 13 Jul 14:31 .DS_Store\n.rw-r--r--@  990 steven 13 Jul 09:18 Homecoming.lnk\n.rwxr-xr-x@  364 steven 13 Jul 09:18 launch.sh\n.rw-r--r--@ 1.7k steven 13 Jul 08:54 LaunchCat-Diagnostics.txt\n.rwxr-xr-x   478 steven 13 Jul 09:16 start-live.sh\n.rw-r--r--@ 6.5k steven 13 Jul 08:59 THIRDPARTYSOFTWAREREADME.txt\n---\n5.6G\t/Applications/coh/"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "6e56464e-63ba-40fc-9b34-e5627a4af32a",
+  "version": "2.1.179"
+}

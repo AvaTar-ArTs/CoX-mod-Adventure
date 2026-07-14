@@ -1,0 +1,22 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure/Upgraded",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": "i meant as in i can't even scroll up the window",
+    "role": "user"
+  },
+  "parentUuid": "ebd4144b-2ef3-4b38-a737-5312d50ef290",
+  "permissionMode": "default",
+  "promptId": "718ed1f1-7710-49ce-9af6-1c8200785afe",
+  "promptSource": "typed",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "timestamp": "2026-07-13T19:46:45.974Z",
+  "type": "user",
+  "userType": "external",
+  "uuid": "68389c69-3ae8-4445-a11e-f53c2b73d4f9",
+  "version": "2.1.179"
+}

@@ -1,0 +1,9 @@
+{
+  "payload": {
+    "call_id": "call_2WxGOC6EFjKWgTpY5nsAs95T",
+    "output": "Chunk ID: a38d2b\nWall time: 0.0000 seconds\nProcess exited with code 0\nOriginal token count: 49\nOutput:\nname              value               \n----------------  --------------------\nautoupdate        True                \ngamepath          z:\\Applications\\coh\\\ndontCheckforData  True                \n",
+    "type": "function_call_output"
+  },
+  "timestamp": "2026-07-13T20:34:32.716Z",
+  "type": "response_item"
+}

@@ -1,0 +1,60 @@
+{
+  "cwd": "/Users/steven",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "text": "Done — everything Wine-related is fully torn down.\n\n## What was killed / cleaned\n\n| Item | Before | Now |\n|------|--------|-----|\n| `launcher.exe` (pid 33593) | running | ✅ gone |\n| `launch.sh` wrapper (33592) | running | ✅ gone |\n| `wineserver` (33595) | running | ✅ gone |\n| `explorer.exe /desktop` | running | ✅ gone |\n| Wine service ring — `services`, `winedevice`×2, `rpcss`, `svchost`, `plugplay` | running | ✅ gone |\n| System-wide Wine procs | — | ✅ none anywhere |\n| Stale wineserver sockets `/private/tmp/.wine-501/` (2 dirs) | orphaned | ✅ removed |\n| CoH auto-mapped volumes | — | ✅ none mounted |\n\n`★ Insight ─────────────────────────────────────`\n- I used a **two-phase kill**: `wineserver -k` first (graceful — it signals every process in the prefix to shut down through Wine's own supervisor, so registry/prefix state flushes cleanly), *then* a PID sweep for stragglers. Going straight to `kill -9` risks leaving the prefix's `system.reg`/`user.reg` mid-write.\n- The `/private/tmp/.wine-501/server-*` dirs are Wine's **per-session IPC rendezvous** (Unix domain sockets + lock files). They're keyed by prefix, and Wine happily recreates them on next launch — so deleting them while the server is dead is zero-risk and clears the \"lingering\" state you asked about. If a wineserver had still been alive, removing them would have been the wrong move, which is why I re-checked for live processes right before `rm`.\n`─────────────────────────────────────────────────`\n\n**Load average is settling** (2.89, down from the spin — the 99% `explorer.exe` core-burn is gone). Top consumers now are just `claude`, `iTerm2`, and `WindowServer` — nothing Wine.\n\nYour **install is untouched and intact** — `~/Library/Application Support/LaunchCat/coh/` (game data, Wine 9, piggs) and the `~/.lcwine` prefix are all still there with the fixes applied (`nohwaccel: false`, clean drive maps). This was purely a process/runtime shutdown, not an uninstall. Whenever you want to play again, launching `/Applications/LaunchCat.app` spins the whole stack back up clean.\n\nWant me to also clear the scratch files I left in `/tmp` (`coh-client.out`, the two launcher screenshots, `coh_log_offset.txt`), or leave those for reference?",
+        "type": "text"
+      }
+    ],
+    "diagnostics": null,
+    "id": "msg_011CcyUDyvgu5r7uU6ghofdt",
+    "model": "claude-opus-4-8",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 1084
+      },
+      "cache_creation_input_tokens": 1084,
+      "cache_read_input_tokens": 94522,
+      "inference_geo": "global",
+      "input_tokens": 157,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 1084
+          },
+          "cache_creation_input_tokens": 1084,
+          "cache_read_input_tokens": 94522,
+          "input_tokens": 157,
+          "output_tokens": 908,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 908,
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  },
+  "parentUuid": "09558b7c-98e4-4253-b466-ee926a4a69ee",
+  "requestId": "req_011CcyUDxUsaMQPqKMTXxmZi",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "timestamp": "2026-07-13T05:02:33.535Z",
+  "type": "assistant",
+  "userType": "external",
+  "uuid": "4333914d-9cc0-4678-95ec-f06cdde29183",
+  "version": "2.1.179"
+}

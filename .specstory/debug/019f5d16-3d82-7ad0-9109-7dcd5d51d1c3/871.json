@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "memory_citation": null,
+    "message": "The upgrade research note is in place. I’m linking it into the main workflow note and doing a quick readback/status check.",
+    "phase": "commentary",
+    "type": "agent_message"
+  },
+  "timestamp": "2026-07-13T20:41:49.797Z",
+  "type": "event_msg"
+}

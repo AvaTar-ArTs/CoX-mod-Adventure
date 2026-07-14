@@ -1,0 +1,24 @@
+{
+  "attachment": {
+    "content": "- using-superpowers: Use when starting any conversation where implementation, debugging, or building work is expected. Symptoms: you're about to respond without checking if a skill applies, or you reached for a clarifying question before checking the skill list.",
+    "isInitial": false,
+    "names": [
+      "using-superpowers"
+    ],
+    "skillCount": 1,
+    "type": "skill_listing"
+  },
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "parentUuid": "ae73f798-d36a-4c20-b0e7-6607e533faa4",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "timestamp": "2026-07-13T19:24:06.460Z",
+  "type": "attachment",
+  "userType": "external",
+  "uuid": "8f9e501b-123f-42cf-becd-dbfd3bdd4e4d",
+  "version": "2.1.179"
+}

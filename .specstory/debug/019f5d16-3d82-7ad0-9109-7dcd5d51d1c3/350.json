@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"perl -0pi -e 's/^description: .*$/description: \\\"Use when starting or ending a session that should follow the local audit, skill-selection, task-work, and memory-update rhythm.\\\"/m' /Users/steven/.agent-skills/skills/innate-workflow/SKILL.md\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":4000,\"sandbox_permissions\":\"require_escalated\",\"justification\":\"Allow editing ~/.agent-skills/skills/innate-workflow/SKILL.md to fix invalid YAML frontmatter?\"}",
+    "call_id": "call_aaaA70cwNNgNhElWifpzhEcl",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:21:33.215Z",
+  "type": "response_item"
+}

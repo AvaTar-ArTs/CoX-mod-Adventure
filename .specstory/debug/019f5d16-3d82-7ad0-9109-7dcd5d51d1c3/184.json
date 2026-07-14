@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "memory_citation": null,
+    "message": "The audit surface is now clear enough: data and scripts validate structurally, but the download path is broken and the active homepage points users at the stale downloader instead of the newer scraper/browser work. I’m checking whether the root and `Upgraded` scraper copies are identical so the recommended fix can avoid duplicate edits.",
+    "phase": "commentary",
+    "type": "agent_message"
+  },
+  "timestamp": "2026-07-13T20:10:41.231Z",
+  "type": "event_msg"
+}

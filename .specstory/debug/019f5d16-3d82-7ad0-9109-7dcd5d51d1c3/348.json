@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "memory_citation": null,
+    "message": "`using-superpowers` in `.agent-skills` is already valid now. The remaining parse failure is `innate-workflow`, and the frontmatter also violates the local skill guidance by describing a workflow instead of a trigger, so I’m replacing that one line with a quoted “Use when...” description.",
+    "phase": "commentary",
+    "type": "agent_message"
+  },
+  "timestamp": "2026-07-13T20:21:28.696Z",
+  "type": "event_msg"
+}

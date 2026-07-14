@@ -1,0 +1,9 @@
+{
+  "payload": {
+    "call_id": "call_VpHgiEaXwX6iYIjTCJVk4QhI",
+    "output": "Chunk ID: 4ff204\nWall time: 0.0000 seconds\nProcess exited with code 0\nOriginal token count: 288\nOutput:\n/Applications/CoHModdingTool.app\n/Applications/CoHModdingTool.app/Contents\n/Applications/CoHModdingTool.app/Contents/_CodeSignature\n/Applications/CoHModdingTool.app/Contents/_CodeSignature/CodeResources\n/Applications/CoHModdingTool.app/Contents/MacOS\n/Applications/CoHModdingTool.app/Contents/MacOS/applet\n/Applications/CoHModdingTool.app/Contents/Resources\n/Applications/CoHModdingTool.app/Contents/Resources/CoHModdingTool.exe\n/Applications/CoHModdingTool.app/Contents/Resources/Wine.app\n/Applications/CoHModdingTool.app/Contents/Resources/x64\n/Applications/CoHModdingTool.app/Contents/Resources/applet.rsrc\n/Applications/CoHModdingTool.app/Contents/Resources/description.rtfd\n/Applications/CoHModdingTool.app/Contents/Resources/modder.db\n/Applications/CoHModdingTool.app/Contents/Resources/MyApp.icns\n/Applications/CoHModdingTool.app/Contents/Resources/wineprefix\n/Applications/CoHModdingTool.app/Contents/Resources/x86\n/Applications/CoHModdingTool.app/Contents/Resources/Scripts\n/Applications/CoHModdingTool.app/Contents/Resources/applet.icns\n/Applications/CoHModdingTool.app/Contents/Info.plist\n/Applications/CoHModdingTool.app/Contents/PkgInfo\n",
+    "type": "function_call_output"
+  },
+  "timestamp": "2026-07-13T20:32:04.563Z",
+  "type": "response_item"
+}

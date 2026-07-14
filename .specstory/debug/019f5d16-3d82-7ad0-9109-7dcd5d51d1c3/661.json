@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"find '/Users/steven/Library/Application Support/LaunchCat/coh/assets/mods' -maxdepth 1 -type f -exec shasum {} \\\\; 2\u003e/dev/null | sort\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":8000}",
+    "call_id": "call_6o8pfD5ySdJI1kQzJ3c5PuJV",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:34:32.669Z",
+  "type": "response_item"
+}

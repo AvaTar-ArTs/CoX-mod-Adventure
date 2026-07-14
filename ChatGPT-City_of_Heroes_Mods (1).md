@@ -1,0 +1,789 @@
+---
+title: City of Heroes Mods
+source: https://chatgpt.com/c/6a54669c-3dec-83ea-9ada-13c3eada9a4f
+---
+
+# City of Heroes Mods
+
+#### You:
+https://cityofheroes.dev/mods/ // 
+
+#### ChatGPT:
+<details>
+<summary>Thought for 22 seconds</summary>
+
+- Inspecting contents of zip file
+- Searching the web
+- Performing static analysis on CityMod installer
+
+Searched the web and cityofheroes.dev
+
+Inspected contents of zip file
+
+Searched the web and cityofheroes.dev
+
+Performed static analysis and checked metadata on CityMod installer
+
+</details>
+
+I’m opening the mods catalog and unpacking the installer so I can map what it supports, how it works, and where the gaps are.
+
+I inspected both the live mod catalog and `CityModInstaller.zip`.
+
+The site is an active City of Heroes mod repository aimed primarily at i27+ servers. It currently organizes mods into Audio, Cursors, Graphics, GUI/Icons, Languages, Maps, Other, and Popmenus, with notable packages such as VidiotMaps, badge menus, emote menus, UI replacements, and sound-effect packs. ([City of Heroes](https://cityofheroes.dev/mods/))
+
+The key architectural detail is clever: rather than dumping loose overrides into the game’s `data` folder, the installer builds or installs packaged `.pigg` archives under an additional asset path. The launcher must start the game with:
+
+```text
+-assetpath assets\mods
+```
+
+That allows the game to read the mod packages natively. ([City of Heroes](https://cityofheroes.dev/mods/instructions.php))
+
+### What is inside your ZIP
+
+```text
+CityModInstaller.zip
+├── CoHModdingTool.exe
+├── x64/
+│   └── SQLite.Interop.dll
+└── x86/
+    └── SQLite.Interop.dll
+```
+
+`CoHModdingTool.exe` is:
+
+```text
+32-bit Windows GUI application
+.NET / Mono-compatible assembly
+Approximately 3.27 MB
+```
+
+It is not source code and it is not a native macOS application. The two SQLite libraries provide separate 32-bit and 64-bit database backends.
+
+SHA-256 for the main executable:
+
+```text
+e0ccee93ecfebf25979c7faed0c567c8318cf03c13b54a6f06854fb376fb3db4
+```
+
+Static inspection reveals that the installer contains functionality for:
+
+- Browsing server-hosted mods
+- Installing, updating, and uninstalling mods
+- Tracking installed mods in SQLite
+- Automatic updates through `AutoUpdater.NET`
+- Building new `.pigg` mod packages
+- Updating files inside existing `.pigg` archives
+- Installing a mod passed through a command-line argument
+- Highlighting installed mods when updates are available
+- Upload-oriented package creation for the mods website
+
+The embedded database contains at least these structures:
+
+```sql
+installedMods
+config
+```
+
+It appears to track settings such as:
+
+```text
+installPath
+autoupdate
+autoinstall
+installed mod identifiers
+```
+
+### Important Mac wrinkle
+
+Although the website offers separate Windows and Mac downloads, the uploaded ZIP is clearly the Windows build. ([City of Heroes](https://cityofheroes.dev/mods/))
+
+On your Intel Mac, it might run through Wine or CrossOver, but the better route would be to either:
+
+1. Download and inspect the site’s actual Mac package.
+2. Reverse-engineer this .NET application and create a native or cross-platform replacement.
+3. Build a Python-based City Mod Manager that consumes the same catalog and `.pigg` workflow.
+
+The third option fits your ecosystem particularly well. The bones are already visible: remote catalog, SQLite state, package builder, install/update/uninstall engine, launcher configuration, and a more modern interface. In other words, this little EXE is less a black box and more a mechanical crab waiting to be unscrewed. 🦀🔧
+
+**Sources:**
+
+- [City of Heroes](https://cityofheroes.dev/mods/)
+
+
+#### You:
+i use the mac one https://cityofheroes.dev/download/go.php?id=2
+
+#### ChatGPT:
+<details>
+<summary>Thought for 21 seconds</summary>
+
+- Searching the web
+- Handling redirects with curl and requests
+- Searching for City of Heroes Mac installer
+
+Searched the web
+
+Handled redirects with curl and requests
+
+Searched for City of Heroes Mac installer and forums
+
+</details>
+
+Got it. I’ll inspect the actual macOS package from that download link and correct the earlier conclusions around architecture, install paths, and compatibility.
+
+You’re right. The ZIP you uploaded is the Windows build, but the installer you actually use is the separate **Mac OS download at `id=2`**. The mods page explicitly offers distinct Windows and macOS installers. ([City of Heroes](https://cityofheroes.dev/mods/?utm_source=chatgpt.com))
+
+So my earlier Wine/CrossOver conclusion does **not** apply to your setup. The correct next step is to inspect the actual Mac package itself, including:
+
+- whether it is Intel-only, Apple Silicon, or universal
+- whether it is a native `.app`, Mono bundle, Electron app, or shell wrapper
+- its signing and notarization status
+- where it stores SQLite data and downloaded `.pigg` files
+- how it detects your City of Heroes installation
+- whether its update/build logic matches the Windows executable
+- how easily it can be improved, repaired, or rebuilt
+
+The direct download endpoint resisted automated retrieval, so I could not reliably inspect its binary from the URL alone. Upload the Mac download ZIP, DMG, or `.app` bundle here and I’ll dissect the correct beast rather than its Windows cousin. 🧰
+
+**Sources:**
+
+- [City of Heroes](https://cityofheroes.dev/mods/?utm_source=chatgpt.com)
+
+
+#### You:
+![image](data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAkACQAAD/4QCSRXhpZgAATU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAACQAAAAAQAAAJAAAAABAAOShgAHAAAAEgAAAHigAgAEAAAAAQAAAz6gAwAEAAAAAQAAAdwAAAAAQVNDSUkAAABTY3JlZW5zaG90/+EKdmh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8APD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNi4wLjAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczpleGlmPSJodHRwOi8vbnMuYWRvYmUuY29tL2V4aWYvMS4wLyIgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iIGV4aWY6UGl4ZWxZRGltZW5zaW9uPSI0NzYiIGV4aWY6UGl4ZWxYRGltZW5zaW9uPSI4MzAiIHRpZmY6UmVzb2x1dGlvblVuaXQ9IjIiIHRpZmY6WFJlc29sdXRpb249IjE0NC8xIiB0aWZmOllSZXNvbHV0aW9uPSIxNDQvMSI+IDxleGlmOlVzZXJDb21tZW50PiA8cmRmOkFsdD4gPHJkZjpsaSB4bWw6bGFuZz0ieC1kZWZhdWx0Ij5TY3JlZW5zaG90PC9yZGY6bGk+IDwvcmRmOkFsdD4gPC9leGlmOlVzZXJDb21tZW50PiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg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jjwr4G8WXmg/Eb7L8aPHP2D+2fHf9jwv9q/syYi1/wCJM8zWUfl2TG1/d7d3+tbMlHiD9kLwPp3gbwnoPwMuP+FceI/hz9v/AOES1nZNrH9j/wBsTB9T/wBFvLgx3X2qMyR/6QX8rfuj2lRX1xRQB8j/ABO/Zw8caj451L4kfs9/Eb/hUviPxX5P/CT3X9jw69/bH2GFINP/AHd9MI7X7LGJF/cKvm+ZmTJUGvriiigDwX9mL4If8M4/A7w18Gf7a/4SH/hHvtn+nfZvsnnfa7ya7/1PmTbdvnbfvnOM8ZwPBP8Ahk/44+BP+KV/Zu+Of/Cr/hzY/wDIL8Of8IzZ639h8395cf6ffztczedctLN+8J2b9i/Kq1960UAfBXwj/Yh/4VZ/woL/AIrT+0/+FHf8JV/zDvI/tT/hJvM/6eX+z/Z9/wD018zH8Ga97+IPwQ/4Tv44/Cb4zf219h/4Vf8A29/oP2bzft39t2aWn+u8xfJ8nbu+4+/OPl6171RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/0v38ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK8U+IH/ACVD4ef9xb/0nSva68U+IH/JUPh5/wBxb/0nSgBuu/8AJUvAf/cU/wDSYV6LXnWu/wDJUvAf/cU/9JhXotABRRXAnxZr2ozSf8IjoP8AbNrHj999qS2zkf3ZVB6hh+Ge4oA76iuC/tn4l/8AQk/+VK3/AMKjl8R+PLOM3Gp+EPs1un3pP7QhfGeB8qjJycCgD0Giqen6haapaR31jJ5sEudrYK52kg8EA9RVygAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA/9P9/KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACvFPiB/wAlQ+Hn/cW/9J0r2uvFPiB/yVD4ef8AcW/9J0oAbrv/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)
+i do need wine Launcher version: wine-x64-release-7904 
+
+#### ChatGPT:
+<details>
+<summary>Thought for 9 seconds</summary>
+
+- Searching for Mac Wine launcher instructions and mods
+- Searching for Homecoming Launcher and mods info
+
+Searched multiple sources for Mac Wine launcher mods and instructions
+
+</details>
+
+Yes, exactly. Your screenshot confirms the real setup:
+
+- The **Mac launcher is a wrapper around the Windows Homecoming launcher**
+- The game itself is running as **64-bit Windows x86\_64 through Wine**
+- Your bundled runtime is `wine-x64-release-7904`
+- Therefore the selected **64-bit (Windows x86\_64)** option is correct
+- The extra parameter is correctly entered as:
+
+```text
+-assetpath assets\mods
+```
+
+The macOS package prepares the environment, supplies Wine, and launches the same Windows Homecoming launcher used on Windows. So you do need Wine, but it is usually the private bundled Wine runtime, not a separate Homebrew installation. ([Homecoming Wiki](https://homecoming.wiki/wiki/Homecoming_Launcher_Manual?utm_source=chatgpt.com), [LaunchCat](https://launchcat.powermadsoftware.com/how-it-works/?utm_source=chatgpt.com))
+
+Your configuration should look like this:
+
+```text
+Architecture:
+● 64-bit (Windows x86_64)
+
+Extra launch parameters:
+-assetpath assets\mods
+```
+
+That `-assetpath` argument tells the City of Heroes client to load packaged `.pigg` mod files from:
+
+```text
+<Homecoming installation>/assets/mods
+```
+
+The City Mod Installer uses this packaged-mod approach instead of relying exclusively on loose files inside `data`. ([City of Heroes](https://cityofheroes.dev/mods/instructions.php?utm_source=chatgpt.com), [Homecoming Wiki](https://homecoming.wiki/wiki/Assetpath_%28Command_Line_Parameter%29?utm_source=chatgpt.com))
+
+One important correction to my earlier analysis: the Mac City Mod Installer can still be a Windows `.exe` internally. The “Mac version” may simply package or invoke it through the same Wine environment. So seeing Windows architecture controls inside the launcher is expected, not evidence that you downloaded the wrong game package.
+
+A healthy layout will resemble:
+
+```text
+Homecoming/
+├── assets/
+│   ├── Issue24/
+│   ├── live/
+│   └── mods/
+│       ├── example-mod.pigg
+│       └── another-mod.pigg
+├── bin/
+│   └── win64/
+└── launcher files
+```
+
+Also watch for old loose mods here:
+
+```text
+<Homecoming>/data/
+```
+
+Loose overrides in `data` may take precedence over packaged mods and cause confusing conflicts. The installer community guidance recommends cleaning or reviewing that folder when mods appear not to update correctly. ([Massively Overpowered](https://massivelyop.com/2024/01/25/working-as-intended-how-to-mod-city-of-heroes-homecoming-the-easy-way/?utm_source=chatgpt.com))
+
+So the verdict is: **your screenshot is configured correctly**, and `wine-x64-release-7904` explains precisely why the launcher presents Windows x86 architecture choices on macOS. The Mac coat contains a Windows skeleton, politely translated by Wine. 🍷🦸
+
+**Sources:**
+
+- [Homecoming Wiki](https://homecoming.wiki/wiki/Homecoming_Launcher_Manual?utm_source=chatgpt.com)
+- [City of Heroes](https://cityofheroes.dev/mods/instructions.php?utm_source=chatgpt.com)
+- [Massively Overpowered](https://massivelyop.com/2024/01/25/working-as-intended-how-to-mod-city-of-heroes-homecoming-the-easy-way/?utm_source=chatgpt.com)
+
+
+#### You:
+view-source:https://cityofheroes.dev
+
+#### ChatGPT:
+<details>
+<summary>Thought for 7 seconds</summary>
+
+- Searching the web
+- Fetching and summarizing web page source
+
+Searched the web and cityofheroes.dev
+
+Fetched and summarized web page source
+
+</details>
+
+That URL format is the browser’s “show me the raw HTML” command:
+
+```text
+view-source:https://cityofheroes.dev
+```
+
+The homepage source itself reveals a fairly traditional server-rendered site rather than a modern single-page JavaScript app. Publicly visible content identifies it as an “Open Source PHP User Management Framework,” with login, registration, password recovery, and a collection of City of Heroes tools linked from one central portal. ([City of Heroes](https://cityofheroes.dev/))
+
+From the rendered structure, the homepage currently exposes these tool families:
+
+- Base Planner
+- Translation Project
+- Name Colors
+- Blinky Finder
+- City Chat Watcher, with separate Windows and Mac downloads
+- Costume Extractor
+- Demo Player
+- Character Sorter
+- City of Heroes Mods
+- City Vault
+- Forum Archive
+- Costume Gallery
+- Wiki and character-suggestion services ([City of Heroes](https://cityofheroes.dev/))
+
+A useful distinction: **View Source only shows what the server sends to the browser.** It will not reveal:
+
+- PHP source code
+- database credentials
+- server-side download logic
+- authentication internals
+- filesystem paths
+- the code behind `download/go.php?id=2`
+
+For the Mac download, this:
+
+```text
+https://cityofheroes.dev/download/go.php?id=2
+```
+
+probably means `go.php` accepts a database or configuration ID, resolves the corresponding package, possibly logs the download, and then sends a redirect or file response. The actual PHP implementation remains hidden because PHP executes on the server before the browser receives anything.
+
+To inspect the parts relevant to your Mac/Wine setup, the browser tools that matter are:
+
+```text
+Developer Tools → Network → reload page
+```
+
+Then click the Mac download and inspect:
+
+```text
+Request URL
+Status code
+Redirect chain
+Content-Disposition
+Content-Type
+Response headers
+Final filename
+```
+
+In Chrome or Opera, this can also be done from the terminal:
+
+```bash
+curl -I -L "https://cityofheroes.dev/download/go.php?id=2"
+```
+
+For deeper download tracing:
+
+```bash
+curl -L -v \
+  -o CityModInstaller-Mac.zip \
+  "https://cityofheroes.dev/download/go.php?id=2"
+```
+
+Then inspect the archive:
+
+```bash
+file CityModInstaller-Mac.zip
+unzip -l CityModInstaller-Mac.zip
+```
+
+And after extraction:
+
+```bash
+find . -maxdepth 4 -type f -print
+file path/to/app-or-executable
+```
+
+The homepage confirms that the mods system is only one branch of a larger PHP-based City of Heroes tooling portal, not a standalone static download page. ([City of Heroes](https://cityofheroes.dev/))
+
+**Sources:**
+
+- [City of Heroes](https://cityofheroes.dev/)
+
+
+#### You:
+https://github.com/CaitlynMainer/CityVault/
+
+#### ChatGPT:
+<details>
+<summary>Thought for 23 seconds</summary>
+
+- Fetching repository metadata and files
+- Fetching repository metadata and README content
+- Searching for CityVault repository and related sites
+- Inspecting package.json for relevant dependencies
+- Searching for mod-related files in Github repository
+- Fetching file content from GitHub repository
+- Fetching file content for CityVault launcher inspection
+
+Fetched repository metadata, files, and README content
+
+Searched for CityVault repository and related sites
+
+Inspected dependencies and fetched files from GitHub repository
+
+</details>
+
+This repository is the missing blueprint. **CityVault is not the City Mod Installer itself**, but it is the open-source platform behind the wider `cityofheroes.dev` ecosystem: server control panel, character profiles, user management, manifest generation, and a custom launcher.
+
+The project is a Node.js application using EJS, Tailwind, Express, SQLite, and Microsoft SQL Server connectivity. Its README describes automatic launcher manifest generation, multi-server support, character views, and admin tooling.
+
+The especially relevant part for your Mac setup is the bundled **Electron launcher**. It explicitly includes cross-platform Wine launching:
+
+```js
+if (os.platform() === 'win32') {
+  command = path.resolve(cwd, exec);
+} else {
+  const wineCmd = config.linuxLaunchCommand || 'wine';
+  command = wineCmd;
+  finalArgs = [path.resolve(cwd, exec), ...args];
+}
+```
+
+So on macOS or Linux, it expects a configured Wine command, verifies that command exists, and then launches the Windows City of Heroes executable through Wine.
+
+That validates the architecture you showed earlier:
+
+```text
+macOS application or wrapper
+        ↓
+Wine x64 runtime
+        ↓
+Windows x86_64 City of Heroes executable
+        ↓
+launch parameters such as:
+-assetpath assets\mods
+```
+
+The launcher reads executable names and launch parameters directly from an XML manifest:
+
+```js
+return [...extract('launch'), ...extract('devlaunch')].map((entry) => ({
+  name: entry['#text'] || 'Unnamed Profile',
+  exec: entry['@_exec'],
+  params: entry['@_params']
+}));
+```
+
+That means `-assetpath assets\mods` can live inside the server-generated manifest profile rather than being manually added by every user. CityVault’s admin documentation confirms that profiles contain an executable and arbitrary launch parameters.
+
+There is one Mac-specific weakness in the current code. The configuration property is named:
+
+```json
+"linuxLaunchCommand": "wine"
+```
+
+but the code uses it for every non-Windows system, including macOS. Functionally it works, but the naming is misleading. A cleaner design would be:
+
+```json
+{
+  "launchCommands": {
+    "win32": null,
+    "darwin": "/path/to/wine64",
+    "linux": "wine"
+  }
+}
+```
+
+There is another important issue for your bundled runtime. The launcher uses `which(wineCmd)`, so `wine-x64-release-7904` must either:
+
+- be available in `PATH`, or
+- be configured using its complete executable path.
+
+For example:
+
+```json
+{
+  "linuxLaunchCommand": "/Applications/Homecoming Launcher.app/Contents/Resources/wine/bin/wine64"
+}
+```
+
+The exact path will depend on where the Homecoming wrapper stores that runtime.
+
+CityVault also contains its own patcher and self-updater. The launcher downloads a remote `launcher.zip`, checks a SHA-256 hash, extracts it, validates that `main.js` and `package.json` exist, and then copies the update over the installed launcher files.
+
+The stack is fairly Windows-oriented despite the Wine support. For example, its npm scripts invoke Tailwind using Windows path separators:
+
+```json
+"tailwind:build": "tools\\tailwind.exe ..."
+```
+
+and it relies on `msnodesqlv8`, which can complicate native macOS development.
+
+So the clean verdict is:
+
+**CityVault explains the website/server/launcher side of the ecosystem.**\
+**The City Mod Installer remains a separate program.**\
+**Both can feed into the same mod-enabled game launch through `-assetpath assets\mods`.**
+
+A better integrated version could let CityVault generate a manifest profile like:
+
+```xml
+<launch
+  exec="cityofheroes.exe"
+  params="-patchdir homecoming -auth SERVER_ADDRESS -assetpath assets\mods">
+  Homecoming Modded
+</launch>
+```
+
+Then the Mac Electron launcher would automatically run that profile through your bundled `wine-x64-release-7904`, no repeated manual configuration required. That turns the current collection of tools into one tidy superhero utility belt instead of three capes tangled in a washing machine. 🛠️🦸
+
+
+#### You:
+https://github.com/CaitlynMainer?tab=repositories
+
+#### ChatGPT:
+<details>
+<summary>Thought for 27 seconds</summary>
+
+- Listing repositories by owner
+- Searching GitHub repositories for user CaitlynMainer
+- Searching and filtering relevant repositories
+
+Searching repository files for relevant README content
+
+</details>
+
+This profile fills in the family tree. CaitlynMainer has several repositories, but only a small cluster is directly relevant to the City of Heroes tooling you’re tracing.
+
+The most important discovery is **`piggtools`**. It is an older C#/.NET solution containing a reusable “Pigg Interface” library and a Windows Forms application called “Pigg Viewer Pro.” The codebase includes classes for reading PIGG archives, streams, textures, OGG audio, file nodes, collections, extraction options, and utility functions.
+
+That makes it much more relevant to the City Mod Installer than CityVault itself.
+
+The likely ecosystem now looks like this:
+
+```text
+piggtools
+    ↓
+PIGG archive reading, extraction, textures and audio
+
+City Mod Installer
+    ↓
+Catalog, install/update state, packaging and mod deployment
+
+CityVault
+    ↓
+Account portal, game hosting, manifest generation and launcher
+
+Homecoming Mac launcher
+    ↓
+Bundled Wine x64 runtime
+
+City of Heroes client
+    ↓
+-assetpath assets\mods
+```
+
+The City-focused repositories I found are:
+
+**`CaitlynMainer/piggtools`**\
+The archive-engine layer. This is the strongest lead for understanding `.pigg` internals and possibly recreating a native Mac mod utility. Its default branch is `master`, and the repository is roughly 1.9 MB.
+
+**`CaitlynMainer/CityVault`**\
+The newer Node.js control panel and Electron launcher we already inspected. It handles server manifests, accounts, profiles, patching, and Wine-based game launching.
+
+**`CaitlynMainer/City-of-Heroes-Account-Portal`**\
+An older or parallel account-management portal. It is probably the architectural predecessor to parts of CityVault, especially authentication and server-account workflows.
+
+**`CaitlynMainer/cohcombatparser`**\
+A much smaller City of Heroes combat-log parser. It is unrelated to installing mods, but could be useful later for character analytics or combat dashboards.
+
+The profile also contains many unrelated Minecraft, OpenComputers, chatbot, and hardware projects, so searching the entire account indiscriminately creates a lot of glittery repository fog. `piggtools` is the vein of ore we want.
+
+The next technically valuable target is the `Pigg Interface` project, especially:
+
+```text
+PiggFile.cs
+PiggStream.cs
+PiggCollection.cs
+PiggLeaf.cs
+PiggNode.cs
+PiggUtilities.cs
+PiggTexture.cs
+PiggOgg.cs
+Enums.cs
+```
+
+Those files should tell us:
+
+- the PIGG header and directory structure
+- compression and decompression behavior
+- filename and checksum tables
+- whether archives can be written or only read
+- texture conversion handling
+- audio extraction behavior
+- whether the City Mod Installer reused this exact library
+
+One caution: the repository appears to contain old Visual Studio build artifacts and absolute file-list output under `obj`, so it will need archaeological brushing before reuse.
+
+The strongest conclusion is that **City Mod Installer is probably built from, derived from, or conceptually adjacent to this older PIGG tooling**, even though the installer source itself is not immediately visible among the obvious repositories. `piggtools` is the mechanical heart; CityVault is the newer control tower. 🧩
+
+
+#### You:
+https://forums.homecomingservers.com/forum/60-tools-utilities-amp-downloads/
+
+#### ChatGPT:
+<details>
+<summary>Thought for 9 seconds</summary>
+
+- Searching repositories for City Mod Installer
+- Searching the web
+
+Searched the web and forums.homecomingservers.com
+
+Searched repositories for City Mod Installer
+
+Searched the web and forums.homecomingservers.com
+
+</details>
+
+This forum is the canonical community index, and it gives us stronger evidence than the homepage alone.
+
+The **Tools, Utilities & Downloads** section currently contains 432 topics across 18 pages, with the City Mod Installer, VidiotMaps, BindControl, City of Data, badge tools, combat parsers, translation tools, popmenu editors, and newer mod packs all living in the same ecosystem. ([Homecoming](https://forums.homecomingservers.com/forum/60-tools-utilities-amp-downloads/))
+
+The most important thread is the pinned **City Mod Installer (Released)** topic. Michiyo’s own release post confirms several things:
+
+- The installer points at the City of Heroes install directory.
+- It detects an existing loose `data` folder and may prompt to rename it.
+- It deliberately avoids the old loose-file override model.
+- It packages mods into native `.pigg` files.
+- It requires `-assetpath assets\mods`.
+- It includes a built-in **Tools → Create Mod** workflow for converting a correctly structured `data` directory into a `.pigg`. ([Homecoming](https://forums.homecomingservers.com/topic/49175-city-mod-installer-released/))
+
+That directly corrects one earlier uncertainty: the installer is not merely consuming prebuilt PIGGs. It contains an actual PIGG-writing/build path.
+
+The creation workflow is explicitly described as:
+
+```text
+1. Create a separate data folder
+2. Reproduce the correct internal City of Heroes folder structure
+3. Open Tools → Create Mod
+4. Choose the output .pigg filename
+5. Select the prepared data folder
+6. Click Build
+7. Upload the resulting .pigg
+```
+
+([Homecoming](https://forums.homecomingservers.com/topic/49175-city-mod-installer-released/))
+
+There is also a crucial source-code breadcrumb. In the thread, Michiyo says the original app’s source had been shared by PK, but also states that the City Mod Installer was **not based on that code** and had already been started independently. ([Homecoming](https://forums.homecomingservers.com/topic/49175-city-mod-installer-released/))
+
+So the evidence now points to three separate code lineages:
+
+```text
+PK’s original modding app
+    separate source release
+
+Michiyo’s City Mod Installer
+    independent C# application
+    reads catalog
+    tracks installs
+    builds PIGG archives
+    installs packaged mods
+
+CaitlynMainer/piggtools
+    older reusable PIGG parsing/viewing code
+    possibly related knowledge or shared concepts
+    not yet proven to be the installer’s source
+```
+
+I also searched GitHub specifically for a public repository named around “City Mod Installer” and did not find a direct source repository. That means the installer source may be unpublished, embedded elsewhere under a different project name, shared only through the forum, or derived from code not indexed under the obvious title.
+
+The forum also reveals the wider product opportunity. The current tooling is fragmented into separate islands:
+
+```text
+Mod installation
+PIGG packaging
+Popmenu editing
+Keybind management
+Maps and badges
+Combat parsing
+Character data
+Build planning
+Translation
+Launcher configuration
+```
+
+A modern Mac-first utility could combine the highest-value pieces into one control panel:
+
+```text
+CityForge
+├── Discover and install mods
+├── Build and inspect PIGGs
+├── Detect loose-file conflicts
+├── Configure -assetpath automatically
+├── Manage Wine/Homecoming paths
+├── Edit popmenus and binds
+├── Back up and restore mod states
+└── Export diagnostic reports
+```
+
+The forum is effectively a requirements database disguised as 18 pages of heroic archaeology. The next richest move is to mine the City Mod Installer thread’s later pages for Mac failures, Wine path issues, update bugs, missing mods, and feature requests. That is where the sharp edges will be hiding.
+
+**Sources:**
+
+- [Homecoming](https://forums.homecomingservers.com/forum/60-tools-utilities-amp-downloads/)
+
+
+#### You:
+https://costumes.cityofheroes.dev https://forums.homecomingservers.com/forum/3-city-of-heroes/
+
+#### ChatGPT:
+<details>
+<summary>Thought for 17 seconds</summary>
+
+- Searching GitHub repositories for CostumeGallery and related terms
+- Searching the web
+
+Searched the web, costumes.cityofheroes.dev, and homecomingservers.com
+
+Searched GitHub repositories for CostumeGallery and related terms
+
+Searched the web and specific costume-related websites
+
+</details>
+
+These two links expose the other half of the ecosystem: not just tooling, but the community’s actual creative payload.
+
+`costumes.cityofheroes.dev` is a public **downloadable costume catalogue** for i27+ servers. Users can register, upload costume files, tag them, browse rendered previews, comment, and download the original costume asset. Individual entries include uploader, upload date, tags, and a direct download action. ([Costumes City of Heroes](https://costumes.cityofheroes.dev/), [Costumes City of Heroes](https://costumes.cityofheroes.dev/costumeView?id=8))
+
+The site also reveals an automated rendering backend. It currently says the rendering machine was repaired in November 2025, but only front views can be generated for now. It warns that asymmetric costumes from other server branches may upload but will not render correctly. ([Costumes City of Heroes](https://costumes.cityofheroes.dev/))
+
+That suggests a pipeline roughly like:
+
+```text
+User uploads .costume file
+        ↓
+Server parses costume definition
+        ↓
+Rendering machine launches game/render process
+        ↓
+Preview image generated
+        ↓
+Costume metadata + file + image stored
+        ↓
+Public searchable catalogue entry
+```
+
+This is especially interesting because it is not merely an image gallery. The downloadable object is a reusable game asset, with the rendered image acting as its visual index.
+
+I checked GitHub for an obvious public repository matching this catalogue, including CaitlynMainer’s repositories, but found no clearly named source project. That makes it likely that the catalogue is either private, stored under an unexpected name, or part of the PHP code running `cityofheroes.dev`.
+
+The main Homecoming City of Heroes forum shows where every major community lane lives:
+
+```text
+City of Heroes
+├── General Discussion
+├── Tools, Utilities & Downloads
+├── Archetypes
+├── Guides
+├── Base Construction
+├── Badges
+├── Roleplaying
+├── Mission Architect
+├── The Market
+├── PvP
+└── Art & Multimedia
+```
+
+([Homecoming](https://forums.homecomingservers.com/forum/3-city-of-heroes/))
+
+For the project we are uncovering, three sections are especially valuable.
+
+**Tools, Utilities & Downloads** is the technical requirements mine. It has 432 topics and includes the City Mod Installer, VidiotMaps, BindControl, City of Data, badge menus, translation tools, combat parsers, PopMenu Hero, costume-related mods, and web build viewers. ([Homecoming](https://forums.homecomingservers.com/forum/60-tools-utilities-amp-downloads/))
+
+**Art & Multimedia** is the creative-demand mine. The largest costume-sharing thread has more than 8,000 replies and roughly 2.1 million views. There are also dedicated costume request, costume-piece request, screenshots, character biographies, AI art, comics, music, and video threads. ([Homecoming](https://forums.homecomingservers.com/forum/62-art-amp-multimedia/))
+
+**General Discussion and the archetype/build forums** provide the context needed to attach character identity to mechanics, lore, builds, powers, and play style. ([Homecoming](https://forums.homecomingservers.com/forum/3-city-of-heroes/))
+
+Together, the architecture becomes much larger than a mod manager:
+
+```text
+CityForge / HeroVault concept
+
+Discovery
+├── Browse mods
+├── Browse costume files
+├── Browse builds
+└── Browse community creations
+
+Character Workshop
+├── Import .costume
+├── Render previews
+├── Tag costume pieces
+├── Attach biography
+├── Attach archetype and powers
+└── Generate character cards
+
+Mod Workshop
+├── Install PIGGs
+├── Build PIGGs
+├── Detect conflicts
+├── Manage -assetpath
+└── Back up mod states
+
+Creator Publishing
+├── Publish costumes
+├── Publish character profiles
+├── Publish screenshots
+├── Publish comics or videos
+└── Export forum-ready posts
+
+Community Intelligence
+├── Popular costume themes
+├── Requested costume pieces
+├── Mod problems and requests
+├── Trending archetypes
+└── Unmet tool needs
+```
+
+The costume catalogue supplies structured assets. The forums supply discussions, pain points, popularity signals, requests, and culture. CityVault supplies accounts, characters, manifests, and launcher infrastructure. `piggtools` supplies archive mechanics. The Mod Installer supplies packaged deployment.
+
+That is no longer a pile of fan utilities. It is the scattered anatomy of a complete **City of Heroes creator platform**, currently distributed across several websites, executables, databases, and decades of forum sediment. 🦸‍♀️🧬
+
+**Sources:**
+
+- [Costumes City of Heroes](https://costumes.cityofheroes.dev/)
+- [Homecoming](https://forums.homecomingservers.com/forum/3-city-of-heroes/)

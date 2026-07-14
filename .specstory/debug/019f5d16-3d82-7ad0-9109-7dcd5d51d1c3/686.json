@@ -1,0 +1,15 @@
+{
+  "payload": {
+    "content": [
+      {
+        "text": "Mapped both paths and updated the project direction doc.\n\nVerified surfaces:\n\n- `/Users/steven/Library/Application Support/LaunchCat`\n  - `5.6G`\n  - Contains the real `coh` runtime tree.\n  - `coh/assets/mods` is `32M` with:\n    - `BetterIcons.pigg`\n    - `PocketDAssemblage23.pigg`\n    - `accolade_lrt.pigg`\n\n- `/Users/steven/Library/Application Support/CityModInstaller`\n  - `334M`\n  - Contains:\n    - `CoHModdingTool.exe`\n    - `config.json`\n    - `launcher.log`\n    - `modder.db`\n    - `wineprefix/`\n    - `x86/SQLite.Interop.dll`\n    - `x64/SQLite.Interop.dll`\n\nDatabase read:\n\n- `modder.db` tables: `config`, `installedMods`, `trackedFiles`\n- Installed IDs resolve against `mods.json` as:\n  - `189` -\u003e `BetterIcons.pigg` -\u003e Better Icons - Inspirations and Powers!\n  - `210` -\u003e `PocketDAssemblage23.pigg` -\u003e Pocket D New Techno music\n  - `200` -\u003e `accolade_lrt.pigg` -\u003e Pocket D Long Range Teleport Icon\n\nImportant config detail:\n\n`CityModInstaller/config.json` has:\n\n```json\n\"gamepath\": \"z:\\\\Applications\\\\coh\\\\\"\n```\n\nSo the installer is configured toward the `/Applications/coh` convenience path in Wine terms, while the real game/assets tree lives under LaunchCat. I documented that caveat so we don’t mistake one for the other again.\n\nUpdated file:\n\n[2026-07-13-cox-mod-adventure-context-and-direction.md](/Users/steven/CoX-mod-Adventure/docs/plans/2026-07-13-cox-mod-adventure-context-and-direction.md)",
+        "type": "output_text"
+      }
+    ],
+    "phase": "final_answer",
+    "role": "assistant",
+    "type": "message"
+  },
+  "timestamp": "2026-07-13T20:35:10.844Z",
+  "type": "response_item"
+}

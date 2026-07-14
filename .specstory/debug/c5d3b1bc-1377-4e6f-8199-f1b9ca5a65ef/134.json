@@ -1,0 +1,18 @@
+{
+  "attachment": {
+    "content": [],
+    "itemCount": 0,
+    "type": "task_reminder"
+  },
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "parentUuid": "ed73da3b-1d0c-4ac7-8cd5-673c5ba6a3bf",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "timestamp": "2026-07-13T05:05:51.648Z",
+  "type": "attachment",
+  "userType": "external",
+  "uuid": "3115215b-e534-4536-8af9-a38de3ba149e",
+  "version": "2.1.179"
+}

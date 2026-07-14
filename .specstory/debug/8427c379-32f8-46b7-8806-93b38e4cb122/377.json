@@ -1,0 +1,52 @@
+{
+  "compactMetadata": {
+    "durationMs": 116567,
+    "postTokens": 16884,
+    "preCompactDiscoveredTools": [
+      "WebFetch",
+      "WebSearch",
+      "mcp__claude_ai_Notion__notion-create-attachment",
+      "mcp__claude_ai_Notion__notion-create-comment",
+      "mcp__claude_ai_Notion__notion-fetch",
+      "mcp__engram__search"
+    ],
+    "preTokens": 134872,
+    "preservedMessages": {
+      "allUuids": [
+        "1719cfcf-f4c9-4db2-ac1b-2166cfb57ff4",
+        "14b92e6f-b248-4f2f-aaa5-f0d98aa76b2b",
+        "9e1284b0-c576-4146-8808-74bfae84e60d"
+      ],
+      "anchorUuid": "fda914e4-c3a6-4637-add2-e5492a44b402",
+      "uuids": [
+        "1719cfcf-f4c9-4db2-ac1b-2166cfb57ff4",
+        "14b92e6f-b248-4f2f-aaa5-f0d98aa76b2b",
+        "9e1284b0-c576-4146-8808-74bfae84e60d"
+      ]
+    },
+    "preservedSegment": {
+      "anchorUuid": "fda914e4-c3a6-4637-add2-e5492a44b402",
+      "headUuid": "1719cfcf-f4c9-4db2-ac1b-2166cfb57ff4",
+      "tailUuid": "9e1284b0-c576-4146-8808-74bfae84e60d"
+    },
+    "trigger": "manual"
+  },
+  "content": "Conversation compacted",
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isMeta": false,
+  "isSidechain": false,
+  "level": "info",
+  "logicalParentUuid": "9e1284b0-c576-4146-8808-74bfae84e60d",
+  "parentUuid": null,
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "subtype": "compact_boundary",
+  "timestamp": "2026-07-13T19:21:45.172Z",
+  "type": "system",
+  "userType": "external",
+  "uuid": "1970c64f-fe8e-428f-b087-33a0923e2bcb",
+  "version": "2.1.179"
+}

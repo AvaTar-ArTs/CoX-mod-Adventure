@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"rg -n \\\"agent-skills|contains-studio|tree-explorer|using-superpowers\\\" /Users/steven/.codex/memories/MEMORY.md 2\u003e/dev/null\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":4000}",
+    "call_id": "call_0J0y3TFzHp1Pp9rCyyqDhzDE",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:29:21.896Z",
+  "type": "response_item"
+}

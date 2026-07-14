@@ -1,0 +1,14 @@
+{
+  "payload": {
+    "content": [
+      {
+        "text": "actually instead of using this Skipped loading 4 skill(s) due to invalid SKILL.md files.\n\n⚠ /Users/steven/.agent-skills/skills/innate-workflow/SKILL.md: invalid YAML:\n  mapping values are not allowed in this context at line 2 column 32\n\n⚠ /Users/steven/.agent-skills/skills/using-superpowers/SKILL.md: invalid\n  YAML: mapping values are not allowed in this context at line 2 column 120\n\n⚠ /Users/steven/.agent-skills/skills/innate-workflow/SKILL.md: invalid YAML:\n  mapping values are not allowed in this context at line 2 column 32\n\n⚠ /Users/steven/.agent-skills/skills/using-superpowers/SKILL.md: invalid\n  YAML: mapping values are not allowed in this context at line 2 column 120\n == $skill-installer",
+        "type": "input_text"
+      }
+    ],
+    "role": "user",
+    "type": "message"
+  },
+  "timestamp": "2026-07-13T20:15:12.178Z",
+  "type": "response_item"
+}

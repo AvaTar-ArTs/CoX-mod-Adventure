@@ -1,0 +1,9 @@
+{
+  "payload": {
+    "call_id": "call_CslFW1HXyJkCzTnheCDYDL3R",
+    "output": "Chunk ID: 8b10d8\nWall time: 0.0000 seconds\nProcess exited with code 0\nOriginal token count: 363\nOutput:\n---\nname: ecosystem-intelligence\ndescription: Use when auditing, analyzing, or evolving your AI agent ecosystem. Coordinates ecosystem-dev, ecosystem-analyzer, and self-improvement capabilities. Tracks cross-tool patterns and optimizes the multi-platform environment.\n---\n\n# Ecosystem Intelligence\n\n## Overview\n\nA unified skill for understanding and evolving your multi-tool AI ecosystem\n(Codex, Poolside, Gemini, Cursor, Qwen). Combines analysis, development, and\ncontinuous improvement.\n\n## Related Agents \u0026 Skills\n- **ecosystem-analyzer.md** - Audits directory structures\n- **ecosystem-dev.md** - Implements ecosystem changes\n- **ecosystem-navigation.md** - How to use ecosystem\n- **self-improvement.md** - Continuous enhancement patterns\n- **self-evolving-memory.md** - Persistent knowledge across sessions\n\n## When to Use\n\n- Audit your `~/.agents`, `~/.gemini`, `~Codex` structures\n- Plan ecosystem migrations or consolidations\n- Debug cross-tool integration issues\n- Evolve memory and learning systems\n\n## Workflow\n\n### Phase 1: Analysis\nUse ecosystem-navigation to understand structure, then ecosystem-analyzer to audit.\n\n### Phase 2: Memory Integration\nRecord findings in self-evolving-memory before making changes.\n\n### Phase 3: Evolution\nApply self-improvement patterns, test with subagents.\n\n## Memory Integration\n\nQuery past ecosystem decisions before acting:\n`~/.agent-skills/skills/self-evolving-memory/scripts/query_memory.py ecosystem`\n",
+    "type": "function_call_output"
+  },
+  "timestamp": "2026-07-13T20:37:45.944Z",
+  "type": "response_item"
+}

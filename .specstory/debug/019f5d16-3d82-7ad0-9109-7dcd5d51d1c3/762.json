@@ -1,0 +1,9 @@
+{
+  "payload": {
+    "call_id": "call_Wj9toeT0gwfTS8wdd3u9JqBh",
+    "output": "Plan updated",
+    "type": "function_call_output"
+  },
+  "timestamp": "2026-07-13T20:38:10.148Z",
+  "type": "response_item"
+}

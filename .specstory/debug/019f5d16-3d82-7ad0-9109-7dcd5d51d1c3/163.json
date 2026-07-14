@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"curl -I -L --max-time 20 'https://cityofheroes.dev/mods//mods/download.php?id=9\u0026file=mods/117/hc_vidiotmaps.pigg'\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":8000}",
+    "call_id": "call_uLN8SfOZoMVb576OVkQfPvxl",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:10:25.713Z",
+  "type": "response_item"
+}

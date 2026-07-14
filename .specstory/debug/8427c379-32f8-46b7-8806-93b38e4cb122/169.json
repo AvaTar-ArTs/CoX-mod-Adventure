@@ -1,0 +1,35 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "drwxr-xr-x@    - steven 13 Jul 13:54 accounts\ndrwxr-xr-x@    - steven 13 Jul 13:54 assets\ndrwxr-xr-x@    - steven 13 Jul 13:54 bin\n/Users/steven/Library/Application Support/LaunchCat/coh",
+        "is_error": false,
+        "tool_use_id": "toolu_01Lu38c1EhmWaYAenJp61B69",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "e491231d-fb7a-43d6-b021-7538c7f304da",
+  "promptId": "21ef8620-0dc3-4168-97cd-73ded0c11162",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolAssistantUUID": "e491231d-fb7a-43d6-b021-7538c7f304da",
+  "timestamp": "2026-07-13T18:58:07.365Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "",
+    "stdout": "drwxr-xr-x@    - steven 13 Jul 13:54 accounts\ndrwxr-xr-x@    - steven 13 Jul 13:54 assets\ndrwxr-xr-x@    - steven 13 Jul 13:54 bin\n/Users/steven/Library/Application Support/LaunchCat/coh"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "66134882-7c4f-4479-9eb9-b28f188c6888",
+  "version": "2.1.179"
+}

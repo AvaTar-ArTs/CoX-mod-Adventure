@@ -1,0 +1,9 @@
+{
+  "payload": {
+    "call_id": "call_6Fl3bieZZcdAcz7PACXdZl7m",
+    "output": "Chunk ID: be0db4\nWall time: 0.0000 seconds\nProcess exited with code 0\nOriginal token count: 121\nOutput:\n---\nname: using-superpowers\ndescription: \"Use when starting any conversation where implementation, debugging, or building work is expected. Symptoms: you're about to respond without checking if a skill applies, or you reached for a clarifying question before checking the skill list.\"\n---\n\n\u003e **Core library copy:** Same behavioral content as `skills/using-superpowers/SKILL.md` for consumers that load from `core/skills/`; includes `references/` beside this file.\n\n\u003cSUBAGENT-STOP\u003e\n",
+    "type": "function_call_output"
+  },
+  "timestamp": "2026-07-13T20:20:14.345Z",
+  "type": "response_item"
+}

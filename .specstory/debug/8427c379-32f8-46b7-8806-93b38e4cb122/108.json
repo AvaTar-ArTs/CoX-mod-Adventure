@@ -1,0 +1,35 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "The server returned HTTP 403 Forbidden.\n\nThe response body was not retrieved. If this URL requires authentication, use an authenticated tool (e.g. `gh` for GitHub, or an MCP-provided fetch tool) instead of WebFetch.",
+        "tool_use_id": "toolu_01PKkJ3rNWoXvvVzLjmB3zrh",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "911a4da7-06cf-4867-8dfa-8fc0a13c7c96",
+  "promptId": "eddf8e22-0c9d-4cd3-9a14-63efc4928f68",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolAssistantUUID": "911a4da7-06cf-4867-8dfa-8fc0a13c7c96",
+  "timestamp": "2026-07-13T18:52:33.396Z",
+  "toolUseResult": {
+    "bytes": 0,
+    "code": 403,
+    "codeText": "Forbidden",
+    "durationMs": 208,
+    "result": "The server returned HTTP 403 Forbidden.\n\nThe response body was not retrieved. If this URL requires authentication, use an authenticated tool (e.g. `gh` for GitHub, or an MCP-provided fetch tool) instead of WebFetch.",
+    "url": "https://forums.homecomingservers.com/forum/60-tools-utilities-amp-downloads/"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "d3b96193-1a44-4b95-b946-b731a6aae664",
+  "version": "2.1.179"
+}

@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"rg -n \\\"innate-workflow|using-superpowers|workflow\\\" /Users/steven/.agent-skills/skills/using-superpowers/SKILL.md /Users/steven/.codex/skills/using-superpowers/SKILL.md\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":6000}",
+    "call_id": "call_PmXxq5hVvxONMITGdbwxV0E8",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:21:49.886Z",
+  "type": "response_item"
+}

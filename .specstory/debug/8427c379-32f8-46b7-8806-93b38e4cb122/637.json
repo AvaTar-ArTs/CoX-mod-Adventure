@@ -1,0 +1,35 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure/Upgraded",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "bin.pigg\nbin_fxinfo.pigg\nbin_minimap.pigg\nbin_particles.pigg\nbin_powers.pigg\nbin_sequencers.pigg\nbin_villaincostume.pigg\ngeobin.pigg\ngeobin_czh.pigg\ngeobin_czn.pigg\ngeobin_czt.pigg\ngeobin_czv.pigg\ngeobin_obj.pigg\nkallisti.pigg\nmissions.pigg\nmissions_i27.pigg\nmissions_outdoor.pigg\nmissions_unique.pigg\nobject_library.pigg\nscenes.pigg\n---\naccolade_lrt.pigg\nBetterIcons.pigg\nPocketDAssemblage23.pigg\n---\n#!/bin/sh\nexport PATH=\"/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin\"\nexport WINEARCH=win64\nexport WINEPREFIX=\"/Users/steven/.lcwine\"\nUSE=\"-cups\"\ncd \"/Users/steven/Library/Application Support/LaunchCat/coh/\"\n\"/Users/steven/Library/Application Support/LaunchCat/coh/wine/bin/wine64\" \"/Users/steven/Library/Application Support/LaunchCat/coh//bin/win64/launcher.exe\"",
+        "is_error": false,
+        "tool_use_id": "toolu_0175DozWaRg3S7hfFWMEFG9k",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "437b8ce3-f87d-4b49-95d3-1c96e55134d7",
+  "promptId": "70dfe62b-ddfe-4190-b643-e3b20fb41c5d",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolAssistantUUID": "437b8ce3-f87d-4b49-95d3-1c96e55134d7",
+  "timestamp": "2026-07-13T19:43:42.299Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "",
+    "stdout": "bin.pigg\nbin_fxinfo.pigg\nbin_minimap.pigg\nbin_particles.pigg\nbin_powers.pigg\nbin_sequencers.pigg\nbin_villaincostume.pigg\ngeobin.pigg\ngeobin_czh.pigg\ngeobin_czn.pigg\ngeobin_czt.pigg\ngeobin_czv.pigg\ngeobin_obj.pigg\nkallisti.pigg\nmissions.pigg\nmissions_i27.pigg\nmissions_outdoor.pigg\nmissions_unique.pigg\nobject_library.pigg\nscenes.pigg\n---\naccolade_lrt.pigg\nBetterIcons.pigg\nPocketDAssemblage23.pigg\n---\n#!/bin/sh\nexport PATH=\"/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin\"\nexport WINEARCH=win64\nexport WINEPREFIX=\"/Users/steven/.lcwine\"\nUSE=\"-cups\"\ncd \"/Users/steven/Library/Application Support/LaunchCat/coh/\"\n\"/Users/steven/Library/Application Support/LaunchCat/coh/wine/bin/wine64\" \"/Users/steven/Library/Application Support/LaunchCat/coh//bin/win64/launcher.exe\""
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "d549287c-4d7c-46b9-afd7-54c68f7beb6e",
+  "version": "2.1.179"
+}

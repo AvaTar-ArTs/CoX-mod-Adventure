@@ -1,0 +1,29 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "Was there a typo in the url or port?",
+        "is_error": true,
+        "tool_use_id": "toolu_0197q3Kg3sMuGY2ayD8PgyvX",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "075b7b6a-5237-48f1-b93c-496cb7220cf2",
+  "promptId": "21ef8620-0dc3-4168-97cd-73ded0c11162",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolAssistantUUID": "075b7b6a-5237-48f1-b93c-496cb7220cf2",
+  "timestamp": "2026-07-13T18:59:23.056Z",
+  "toolUseResult": "Error: Was there a typo in the url or port?",
+  "type": "user",
+  "userType": "external",
+  "uuid": "dda82597-ec1b-4599-9f8d-37dc988342ab",
+  "version": "2.1.179"
+}

@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"du -sh '/Users/steven/Library/Application Support/LaunchCat/coh' '/Users/steven/Library/Application Support/LaunchCat/coh/assets' '/Users/steven/Library/Application Support/LaunchCat/coh/assets/mods' 2\u003e/dev/null\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":4000}",
+    "call_id": "call_C6l2lHrm5TFmGMWGbNj7tw0w",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:33:19.176Z",
+  "type": "response_item"
+}

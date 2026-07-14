@@ -1,0 +1,34 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "=== preflight ===\nstale lock present? no ✅\nwine procs running? 0\nlog offset marked: 114396\n\n=== LAUNCH /Applications/LaunchCat.app ===\n  open command issued\nt=2s  window=waiting  launcher.exe=none\nt=4s  window=waiting  launcher.exe=none\nt=6s  window=waiting  launcher.exe=34087\nt=8s  window=waiting  launcher.exe=34087\nt=10s  window=waiting  launcher.exe=34087\nt=12s  window=WINDOW-UP  launcher.exe=34087",
+        "is_error": false,
+        "tool_use_id": "toolu_01Frp45KT4tJFhnfiAp1hcGE",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "61eec611-f7ee-4bcc-a0f6-f7d1fb06625f",
+  "promptId": "740d5ca3-ecdd-406e-bba5-2b5835bede49",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "slug": "playful-petting-ritchie",
+  "sourceToolAssistantUUID": "61eec611-f7ee-4bcc-a0f6-f7d1fb06625f",
+  "timestamp": "2026-07-13T05:11:45.035Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "",
+    "stdout": "=== preflight ===\nstale lock present? no ✅\nwine procs running? 0\nlog offset marked: 114396\n\n=== LAUNCH /Applications/LaunchCat.app ===\n  open command issued\nt=2s  window=waiting  launcher.exe=none\nt=4s  window=waiting  launcher.exe=none\nt=6s  window=waiting  launcher.exe=34087\nt=8s  window=waiting  launcher.exe=34087\nt=10s  window=waiting  launcher.exe=34087\nt=12s  window=WINDOW-UP  launcher.exe=34087"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "785c803b-3930-46fe-b8a0-9a1007078af5",
+  "version": "2.1.179"
+}

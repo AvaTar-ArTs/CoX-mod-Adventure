@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "memory_citation": null,
+    "message": "Using `skill-installer` for the install/copy workflow, and I’ll inspect `using-superpowers` directly because you named it as the target skill. First I’m checking which copies exist and exactly what frontmatter is broken.",
+    "phase": "commentary",
+    "type": "agent_message"
+  },
+  "timestamp": "2026-07-13T20:17:39.003Z",
+  "type": "event_msg"
+}

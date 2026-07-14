@@ -1,0 +1,31 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "error": {
+    "connection": {
+      "code": "ECONNRESET",
+      "isSSLError": false,
+      "message": "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+    },
+    "formatted": "Unable to connect to API (ECONNRESET)",
+    "isNetworkDown": false,
+    "message": "Connection error.",
+    "rateLimits": null
+  },
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "level": "error",
+  "maxRetries": 10,
+  "parentUuid": "dbec62ca-b1c0-4169-a561-aa82e5125c1e",
+  "retryAttempt": 1,
+  "retryInMs": 504.2695935184987,
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "subtype": "api_error",
+  "timestamp": "2026-07-13T19:07:47.747Z",
+  "type": "system",
+  "userType": "external",
+  "uuid": "1a85071b-49b9-4ac4-b1c8-ceb2b400c35e",
+  "version": "2.1.179"
+}

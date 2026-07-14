@@ -1,0 +1,15 @@
+{
+  "payload": {
+    "content": [
+      {
+        "text": "{\"outcome\":\"allow\"}",
+        "type": "output_text"
+      }
+    ],
+    "phase": "final_answer",
+    "role": "assistant",
+    "type": "message"
+  },
+  "timestamp": "2026-07-13T20:19:09.492Z",
+  "type": "response_item"
+}

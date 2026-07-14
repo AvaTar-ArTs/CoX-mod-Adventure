@@ -1,0 +1,26 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure/Upgraded",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isMeta": true,
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "text": "[Image: source: /Users/steven/Pictures/cLeanSHoT/07-13-2026-iTerm2 2.jpg]",
+        "type": "text"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "b776d704-0bb3-490e-89fe-6096af17efd2",
+  "promptId": "d8661f60-ac4f-4c9b-8ed2-d324ed4aaff7",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "timestamp": "2026-07-13T19:46:32.067Z",
+  "type": "user",
+  "userType": "external",
+  "uuid": "ebd4144b-2ef3-4b38-a737-5312d50ef290",
+  "version": "2.1.179"
+}

@@ -1,0 +1,27 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure/Upgraded",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isMeta": true,
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "text": "Run the \"deep-research\" workflow.\n\nDeep research harness — fan-out web searches, fetch sources, adversarially verify claims, synthesize a cited report.\n\nWhen the user wants a deep, multi-source, fact-checked research report on any topic. BEFORE invoking, check if the question is specific enough to research directly — if underspecified (e.g., \"what car to buy\" without budget/use-case/region), ask 2-3 clarifying questions to narrow scope. Then pass the refined question as args, weaving the answers in.\n\nPhases:\n- Scope: Decompose question (from args) into 5 search angles\n- Search: 5 parallel WebSearch agents, one per angle\n- Fetch: URL-dedup, fetch top 15 sources, extract falsifiable claims\n- Verify: 3-vote adversarial verification per claim (need 2/3 refutes to kill)\n- Synthesize: Merge semantic dupes, rank by confidence, cite sources\n\nInvoke: Workflow({ name: \"deep-research\" })",
+        "type": "text"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "7217c9ca-961f-47b3-a0ef-1252a3d8613c",
+  "promptId": "d8b5eba9-ea96-463f-8054-da9fbf2c09df",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolUseID": "toolu_01DWQq2YUPRGospu3qkpADH6",
+  "timestamp": "2026-07-13T19:40:31.633Z",
+  "type": "user",
+  "userType": "external",
+  "uuid": "5d68ea95-122f-4bbe-8de3-3849fd1c9af3",
+  "version": "2.1.179"
+}

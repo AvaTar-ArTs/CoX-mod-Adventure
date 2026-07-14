@@ -1,0 +1,35 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "drwxr-xr-x    - steven 13 Oct  2020 _CodeSignature\ndrwxr-xr-x    - steven 28 Feb 14:25 MacOS\ndrwxr-xr-x    - steven 28 Feb 13:54 Resources\n.rw-r--r-- 2.8k steven 28 Feb 13:56 Info.plist\n.rw-r--r--    8 steven  5 Apr  2024 PkgInfo\n---\n{\n  \"CFBundleAllowMixedLocalizations\" =\u003e 1\n  \"CFBundleDevelopmentRegion\" =\u003e \"en\"\n  \"CFBundleExecutable\" =\u003e \"applet\"\n  \"CFBundleIconFile\" =\u003e \"MyApp\"\n  \"CFBundleIdentifier\" =\u003e \"com.powermad.coh-launcher\"\n  \"CFBundleInfoDictionaryVersion\" =\u003e \"6.0\"\n  \"CFBundleName\" =\u003e \"CoH Launcher\"\n  \"CFBundlePackageType\" =\u003e \"APPL\"\n  \"CFBundleShortVersionString\" =\u003e \"1.1\"\n  \"CFBundleSignature\" =\u003e \"aplt\"\n  \"CFBundleVersion\" =\u003e \"1.1\"\n  \"LSMinimumSystemVersionByArchitecture\" =\u003e {\n    \"x86_64\" =\u003e \"10.6\"\n  }\n  \"LSRequiresCarbon\" =\u003e 1\n  \"NSAppleEventsUsageDescription\" =\u003e \"This script needs to control other applications to run.\"\n  \"NSAppleMusicUsageDescription\" =\u003e \"This script needs access to your music to run.\"\n  \"NSCalendarsUsageDescription\" =\u003e \"This script needs access to your calendars to run.\"\n  \"NSCameraUsageDescription\" =\u003e \"This script needs access to your camera to run.\"\n  \"NSContactsUsageDescription\" =\u003e \"This script needs access to your contacts to run.\"\n  \"NSHomeKitUsageDescription\" =\u003e \"This script needs access to your HomeKit Home to run.\"\n  \"NSHumanReadableCopyright\" =\u003e \"© 2023 Powermad Software\"\n  \"NSMicrophoneUsageDescription\" =\u003e \"This script needs access to your microphone to run.\"\n  \"NSPhotoLibraryUsageDescription\" =\u003e \"This script needs access to your photos to run.\"\n  \"NSRemindersUsageDescription\" =\u003e \"This script needs access to your reminders to run.\"\n  \"NSSiriUsageDescription\" =\u003e \"This script needs access to Siri to run.\"\n  \"NSSystemAdministrationUsageDescription\" =\u003e \"This script needs access to administer this system to run.\"\n  \"OSAAppletShowStartupScreen\" =\u003e 0\n  \"OSAScriptingDefinition\" =\u003e \"CoH Launcher\"",
+        "is_error": false,
+        "tool_use_id": "toolu_01Ervmcoz1Anu4b8A61pB5Yg",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "32e5241f-48ba-4838-8499-598adba96714",
+  "promptId": "21ef8620-0dc3-4168-97cd-73ded0c11162",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolAssistantUUID": "32e5241f-48ba-4838-8499-598adba96714",
+  "timestamp": "2026-07-13T18:57:31.778Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "",
+    "stdout": "drwxr-xr-x    - steven 13 Oct  2020 _CodeSignature\ndrwxr-xr-x    - steven 28 Feb 14:25 MacOS\ndrwxr-xr-x    - steven 28 Feb 13:54 Resources\n.rw-r--r-- 2.8k steven 28 Feb 13:56 Info.plist\n.rw-r--r--    8 steven  5 Apr  2024 PkgInfo\n---\n{\n  \"CFBundleAllowMixedLocalizations\" =\u003e 1\n  \"CFBundleDevelopmentRegion\" =\u003e \"en\"\n  \"CFBundleExecutable\" =\u003e \"applet\"\n  \"CFBundleIconFile\" =\u003e \"MyApp\"\n  \"CFBundleIdentifier\" =\u003e \"com.powermad.coh-launcher\"\n  \"CFBundleInfoDictionaryVersion\" =\u003e \"6.0\"\n  \"CFBundleName\" =\u003e \"CoH Launcher\"\n  \"CFBundlePackageType\" =\u003e \"APPL\"\n  \"CFBundleShortVersionString\" =\u003e \"1.1\"\n  \"CFBundleSignature\" =\u003e \"aplt\"\n  \"CFBundleVersion\" =\u003e \"1.1\"\n  \"LSMinimumSystemVersionByArchitecture\" =\u003e {\n    \"x86_64\" =\u003e \"10.6\"\n  }\n  \"LSRequiresCarbon\" =\u003e 1\n  \"NSAppleEventsUsageDescription\" =\u003e \"This script needs to control other applications to run.\"\n  \"NSAppleMusicUsageDescription\" =\u003e \"This script needs access to your music to run.\"\n  \"NSCalendarsUsageDescription\" =\u003e \"This script needs access to your calendars to run.\"\n  \"NSCameraUsageDescription\" =\u003e \"This script needs access to your camera to run.\"\n  \"NSContactsUsageDescription\" =\u003e \"This script needs access to your contacts to run.\"\n  \"NSHomeKitUsageDescription\" =\u003e \"This script needs access to your HomeKit Home to run.\"\n  \"NSHumanReadableCopyright\" =\u003e \"© 2023 Powermad Software\"\n  \"NSMicrophoneUsageDescription\" =\u003e \"This script needs access to your microphone to run.\"\n  \"NSPhotoLibraryUsageDescription\" =\u003e \"This script needs access to your photos to run.\"\n  \"NSRemindersUsageDescription\" =\u003e \"This script needs access to your reminders to run.\"\n  \"NSSiriUsageDescription\" =\u003e \"This script needs access to Siri to run.\"\n  \"NSSystemAdministrationUsageDescription\" =\u003e \"This script needs access to administer this system to run.\"\n  \"OSAAppletShowStartupScreen\" =\u003e 0\n  \"OSAScriptingDefinition\" =\u003e \"CoH Launcher\""
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "804899d2-4d3f-4b74-8eb9-97716559f3c6",
+  "version": "2.1.179"
+}

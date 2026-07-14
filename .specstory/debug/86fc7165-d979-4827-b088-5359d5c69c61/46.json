@@ -1,0 +1,25 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "main",
+  "isMeta": true,
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "text": "Run the \"deep-research\" workflow.\n\nDeep research harness — fan-out web searches, fetch sources, adversarially verify claims, synthesize a cited report.\n\nWhen the user wants a deep, multi-source, fact-checked research report on any topic. BEFORE invoking, check if the question is specific enough to research directly — if underspecified (e.g., \"what car to buy\" without budget/use-case/region), ask 2-3 clarifying questions to narrow scope. Then pass the refined question as args, weaving the answers in.\n\nPhases:\n- Scope: Decompose question (from args) into 5 search angles\n- Search: 5 parallel WebSearch agents, one per angle\n- Fetch: URL-dedup, fetch top 15 sources, extract falsifiable claims\n- Verify: 3-vote adversarial verification per claim (need 2/3 refutes to kill)\n- Synthesize: Merge semantic dupes, rank by confidence, cite sources\n\nInvoke: Workflow({ name: \"deep-research\", args: \"CSS grid mesh layouts for mod/card browsers — masonry, bento, asymmetric grids, card density patterns\" })",
+        "type": "text"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "2ddaf2be-71c3-419c-b54f-b5a1226347fe",
+  "promptId": "36361822-87fa-4f36-ab6a-71a9c0ac20a8",
+  "sessionId": "86fc7165-d979-4827-b088-5359d5c69c61",
+  "sourceToolUseID": "toolu_01WaVDjD2cWaj6eE5MbadJRu",
+  "timestamp": "2026-07-13T19:55:59.377Z",
+  "type": "user",
+  "userType": "external",
+  "uuid": "79dd509d-d447-4abd-b43a-c856da7e1f87",
+  "version": "2.1.179"
+}

@@ -1,0 +1,18 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "durationMs": 19000,
+  "entrypoint": "cli",
+  "gitBranch": "main",
+  "isMeta": false,
+  "isSidechain": false,
+  "messageCount": 55,
+  "parentUuid": "d92e4f40-4ab0-4822-9b2b-01727dbd0879",
+  "pendingWorkflowCount": 1,
+  "sessionId": "86fc7165-d979-4827-b088-5359d5c69c61",
+  "subtype": "turn_duration",
+  "timestamp": "2026-07-13T19:56:12.611Z",
+  "type": "system",
+  "userType": "external",
+  "uuid": "cd191790-04e1-4350-ae9d-9e548d5e34d3",
+  "version": "2.1.179"
+}

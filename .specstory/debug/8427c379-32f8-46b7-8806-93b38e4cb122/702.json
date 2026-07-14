@@ -1,0 +1,54 @@
+{
+  "apiErrorStatus": 400,
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "error": "billing_error",
+  "gitBranch": "main",
+  "isApiErrorMessage": true,
+  "isSidechain": false,
+  "message": {
+    "container": null,
+    "content": [
+      {
+        "text": "Credit balance is too low",
+        "type": "text"
+      }
+    ],
+    "context_management": null,
+    "id": "ee9698cb-03a5-43dd-a0fb-111cfa88425a",
+    "model": "\u003csynthetic\u003e",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "stop_sequence",
+    "stop_sequence": "",
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": null,
+      "input_tokens": 0,
+      "iterations": null,
+      "output_tokens": 0,
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": null,
+      "speed": null
+    }
+  },
+  "parentUuid": "33492eac-5d5d-44bb-8448-4db8fe209285",
+  "requestId": "req_011Cczg3YDVGZBSJSeBn7V5A",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "timestamp": "2026-07-13T20:17:55.757Z",
+  "type": "assistant",
+  "userType": "external",
+  "uuid": "35e6563b-16f3-4ea7-8442-f3607c1122e0",
+  "version": "2.1.179"
+}

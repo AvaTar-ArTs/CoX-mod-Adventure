@@ -1,0 +1,17 @@
+{
+  "cwd": "/Users/steven",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": "\u003clocal-command-stdout\u003eLogin successful\u003c/local-command-stdout\u003e",
+    "role": "user"
+  },
+  "parentUuid": "11e2ebda-5e04-4a7f-bad1-90e5c6149608",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "timestamp": "2026-07-13T04:54:32.131Z",
+  "type": "user",
+  "userType": "external",
+  "uuid": "c9e71b18-93f3-40fc-a8dc-0e34c3ede153",
+  "version": "2.1.179"
+}

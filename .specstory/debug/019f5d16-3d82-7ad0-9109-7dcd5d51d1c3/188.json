@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"find . -maxdepth 3 -type f -size +1M -print\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":6000}",
+    "call_id": "call_SmS40P9Tl6n29kApsVBdXUZz",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:10:41.245Z",
+  "type": "response_item"
+}

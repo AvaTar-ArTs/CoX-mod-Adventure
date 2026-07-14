@@ -1,0 +1,60 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "text": "Now you're pointing me at the **settings subtree** — the in-game graphics/client config plus the launcher state. This is exactly where runtime *quality* lives (and where I set `nohwaccel: false` earlier). Two things I especially want to check: your `gfx.json` (graphics tuning for the Radeon Pro 560X) and whether `launcher.running` is a **stale lock** left over from our `wineserver -k`.",
+        "type": "text"
+      }
+    ],
+    "diagnostics": null,
+    "id": "msg_011CcyUf7NN2asLd5DjQtbYR",
+    "model": "claude-opus-4-8",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "tool_use",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 3938
+      },
+      "cache_creation_input_tokens": 3938,
+      "cache_read_input_tokens": 114009,
+      "inference_geo": "global",
+      "input_tokens": 29,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 3938
+          },
+          "cache_creation_input_tokens": 3938,
+          "cache_read_input_tokens": 114009,
+          "input_tokens": 29,
+          "output_tokens": 770,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 770,
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  },
+  "parentUuid": "5876556d-0633-41af-abe9-7ec4de8f796f",
+  "requestId": "req_011CcyUf3k5UGe7DRSe7GgPf",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "timestamp": "2026-07-13T05:08:07.706Z",
+  "type": "assistant",
+  "userType": "external",
+  "uuid": "aea5b744-bb7e-4730-9920-9f4fbaa03693",
+  "version": "2.1.179"
+}

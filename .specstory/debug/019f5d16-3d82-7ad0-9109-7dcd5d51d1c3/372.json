@@ -1,0 +1,15 @@
+{
+  "payload": {
+    "content": [
+      {
+        "text": "The bridge is added. I’m validating YAML again and checking that the inserted section appears once in each copy.",
+        "type": "output_text"
+      }
+    ],
+    "phase": "commentary",
+    "role": "assistant",
+    "type": "message"
+  },
+  "timestamp": "2026-07-13T20:22:12.106Z",
+  "type": "response_item"
+}

@@ -1,0 +1,39 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": [
+          {
+            "tool_name": "WebFetch",
+            "type": "tool_reference"
+          }
+        ],
+        "tool_use_id": "toolu_016NhiW9qbSJwWrjArQLtY73",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "1d0bd31d-d523-4be9-9084-963cc30d5b6a",
+  "promptId": "eddf8e22-0c9d-4cd3-9a14-63efc4928f68",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolAssistantUUID": "1d0bd31d-d523-4be9-9084-963cc30d5b6a",
+  "timestamp": "2026-07-13T18:52:24.532Z",
+  "toolUseResult": {
+    "matches": [
+      "WebFetch"
+    ],
+    "query": "select:WebFetch",
+    "total_deferred_tools": 55
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "db726cba-0232-4d84-8eea-6151126b2dc0",
+  "version": "2.1.179"
+}

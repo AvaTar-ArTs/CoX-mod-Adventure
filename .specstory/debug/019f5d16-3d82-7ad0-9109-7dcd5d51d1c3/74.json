@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"rg -n \\\"CoX-mod-Adventure|mod browser|cox\\\" /Users/steven/.codex/memories/MEMORY.md\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":4000}",
+    "call_id": "call_ZvIgBCg5w9yEt0Lk5BQjYvla",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:08:41.793Z",
+  "type": "response_item"
+}

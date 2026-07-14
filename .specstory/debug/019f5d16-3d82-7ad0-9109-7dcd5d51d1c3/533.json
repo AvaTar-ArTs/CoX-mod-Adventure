@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "memory_citation": null,
+    "message": "The routing is documented. I’ll verify the edited section and then give you the concise map of how these agents should drive the next browser pass.",
+    "phase": "commentary",
+    "type": "agent_message"
+  },
+  "timestamp": "2026-07-13T20:30:05.666Z",
+  "type": "event_msg"
+}

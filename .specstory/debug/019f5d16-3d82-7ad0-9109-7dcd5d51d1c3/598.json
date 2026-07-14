@@ -1,0 +1,11 @@
+{
+  "payload": {
+    "images": [],
+    "local_images": [],
+    "message": "/Applications/coh == \"/Users/steven/Library/Application Support/LaunchCat/coh/assets\" \"/Users/steven/Library/Application Support/LaunchCat/coh/assets/issue24\" \"/Users/steven/Library/Application Support/LaunchCat/coh/assets/live\" \"/Users/steven/Library/Application Support/LaunchCat/coh/assets/mods\" \"/Users/steven/Library/Application Support/LaunchCat/coh/assets/mods/PocketDAssemblage23.pigg\" \"/Users/steven/Library/Application Support/LaunchCat/coh/assets/mods/BetterIcons.pigg\" \"/Users/steven/Library/Application Support/LaunchCat/coh/assets/mods/accolade_lrt.pigg\" \"/Users/steven/Library/Application Support/LaunchCat/coh/assets/launcher\" \"/Users/steven/Library/Application Support/LaunchCat/coh/wine\" \"/Users/steven/Library/Application Support/LaunchCat/coh/bin\" \"/Users/steven/Library/Application Support/LaunchCat/coh/cache\" \"/Users/steven/Library/Application Support/LaunchCat/coh/settings\" \"/Users/steven/Library/Application Support/LaunchCat/coh/logs\" \"/Users/steven/Library/Application Support/LaunchCat/coh/accounts\" \"/Users/steven/Library/Application Support/LaunchCat/coh/THIRDPARTYSOFTWAREREADME.txt\" \"/Users/steven/Library/Application Support/LaunchCat/coh/LaunchCat-Diagnostics.txt\" \"/Users/steven/Library/Application Support/LaunchCat/coh/Homecoming.lnk\" \"/Users/steven/Library/Application Support/LaunchCat/coh/start-live.sh\" \"/Users/steven/Library/Application Support/LaunchCat/coh/launch.sh\" \"/Users/steven/Library/Application Support/LaunchCat/coh/data\" \"/Users/steven/Library/Application Support/LaunchCat/coh/screenshots\"",
+    "text_elements": [],
+    "type": "user_message"
+  },
+  "timestamp": "2026-07-13T20:33:08.876Z",
+  "type": "event_msg"
+}

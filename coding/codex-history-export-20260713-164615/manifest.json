@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAtIso": "2026-07-13T20:46:15.825Z",
+  "roots": {
+    "codexSessionsRoot": "/Users/steven/.codex/sessions",
+    "claudeSessionsRoot": "/Users/steven/.claude/projects"
+  },
+  "files": [
+    {
+      "source": "codex",
+      "originalPath": "/Users/steven/.codex/sessions/2026/07/13/rollout-2026-07-13T16-09-47-019f5d19-9ca1-7be0-bb00-5f9da8b2be84.jsonl",
+      "relativePathFromSourceRoot": "2026/07/13/rollout-2026-07-13T16-09-47-019f5d19-9ca1-7be0-bb00-5f9da8b2be84.jsonl",
+      "exportedRelativePath": "codex/2026/07/13/rollout-2026-07-13T16-09-47-019f5d19-9ca1-7be0-bb00-5f9da8b2be84.jsonl",
+      "sessionId": "019f5d19-9ca1-7be0-bb00-5f9da8b2be84"
+    },
+    {
+      "source": "codex",
+      "originalPath": "/Users/steven/.codex/sessions/2026/07/13/rollout-2026-07-13T16-06-06-019f5d16-3d82-7ad0-9109-7dcd5d51d1c3.jsonl",
+      "relativePathFromSourceRoot": "2026/07/13/rollout-2026-07-13T16-06-06-019f5d16-3d82-7ad0-9109-7dcd5d51d1c3.jsonl",
+      "exportedRelativePath": "codex/2026/07/13/rollout-2026-07-13T16-06-06-019f5d16-3d82-7ad0-9109-7dcd5d51d1c3.jsonl",
+      "sessionId": "019f5d16-3d82-7ad0-9109-7dcd5d51d1c3"
+    },
+    {
+      "source": "codex",
+      "originalPath": "/Users/steven/.codex/sessions/2026/07/13/rollout-2026-07-13T14-21-28-019f5cb6-73ad-7161-b55f-343da6eb83a0.jsonl",
+      "relativePathFromSourceRoot": "2026/07/13/rollout-2026-07-13T14-21-28-019f5cb6-73ad-7161-b55f-343da6eb83a0.jsonl",
+      "exportedRelativePath": "codex/2026/07/13/rollout-2026-07-13T14-21-28-019f5cb6-73ad-7161-b55f-343da6eb83a0.jsonl",
+      "sessionId": "019f5cb6-73ad-7161-b55f-343da6eb83a0"
+    },
+    {
+      "source": "codex",
+      "originalPath": "/Users/steven/.codex/sessions/2026/07/13/rollout-2026-07-13T14-13-43-019f5caf-596d-7283-8942-6785699ecfae.jsonl",
+      "relativePathFromSourceRoot": "2026/07/13/rollout-2026-07-13T14-13-43-019f5caf-596d-7283-8942-6785699ecfae.jsonl",
+      "exportedRelativePath": "codex/2026/07/13/rollout-2026-07-13T14-13-43-019f5caf-596d-7283-8942-6785699ecfae.jsonl",
+      "sessionId": "019f5caf-596d-7283-8942-6785699ecfae"
+    },
+    {
+      "source": "codex",
+      "originalPath": "/Users/steven/.codex/sessions/2026/07/13/rollout-2026-07-13T00-38-50-019f59c5-4cc1-79e3-8daf-da0071493e94.jsonl",
+      "relativePathFromSourceRoot": "2026/07/13/rollout-2026-07-13T00-38-50-019f59c5-4cc1-79e3-8daf-da0071493e94.jsonl",
+      "exportedRelativePath": "codex/2026/07/13/rollout-2026-07-13T00-38-50-019f59c5-4cc1-79e3-8daf-da0071493e94.jsonl",
+      "sessionId": "019f59c5-4cc1-79e3-8daf-da0071493e94"
+    }
+  ]
+}

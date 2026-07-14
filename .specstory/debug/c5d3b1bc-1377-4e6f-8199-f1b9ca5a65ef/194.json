@@ -1,0 +1,54 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "The file /Users/steven/Library/Application Support/LaunchCat/coh/settings/live/gfx.json has been updated successfully. (file state is current in your context — no need to Read it back)",
+        "tool_use_id": "toolu_01UazG1bGT3NZgrUyQixQ2vB",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "694f2b3f-f707-4978-b018-61c61e633c48",
+  "promptId": "543dd3e3-341d-40e1-8c7a-667c20e9576e",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "slug": "playful-petting-ritchie",
+  "sourceToolAssistantUUID": "694f2b3f-f707-4978-b018-61c61e633c48",
+  "timestamp": "2026-07-13T05:10:13.043Z",
+  "toolUseResult": {
+    "filePath": "/Users/steven/Library/Application Support/LaunchCat/coh/settings/live/gfx.json",
+    "newString": "    \"detail\": {\n        \"world\": 3,\n        \"entity\": 3\n    },",
+    "oldString": "    \"detail\": {\n        \"world\": 1,\n        \"entity\": 1\n    },",
+    "originalFile": "{\n    \"prompts\": { },\n    \"version\": 7,\n    \"screen\": {\n        \"size\": {\n            \"width\": 1920,\n            \"height\": 1080\n        },\n        \"pos\": {\n            \"x\": -4,\n            \"y\": 23\n        },\n        \"borderless\": {\n            \"monitor\": 0\n        },\n        \"fsaa\": 2,\n        \"vsync\": 1\n    },\n    \"fov\": { },\n    \"texture\": {\n        \"miplevel\": -1,\n        \"charactermiplevel\": 1,\n        \"lodbias\": 2,\n        \"aniso\": 4\n    },\n    \"detail\": {\n        \"world\": 1,\n        \"entity\": 1\n    },\n    \"shadow\": {\n        \"mode\": 1,\n        \"shader\": 1,\n        \"mapsize\": 1,\n        \"distance\": 1\n    },\n    \"reflections\": { },\n    \"physx\": {\n        \"quality\": 2\n    },\n    \"advanced\": { },\n    \"particles\": {\n        \"max\": 50000,\n        \"fill\": 10\n    },\n    \"render\": {\n        \"vbo\": 1,\n        \"shader\": {\n            \"quality\": 3\n        }\n    },\n    \"renderscale\": { },\n    \"water\": {\n        \"quality\": 2\n    },\n    \"postproc\": {\n        \"bloom\": {\n            \"enabled\": 1,\n            \"magnitude\": 1\n        },\n        \"desaturate\": 1,\n        \"dof\": {\n            \"enabled\": 1,\n            \"magnitude\": 1\n        },\n        \"ao\": {\n            \"resolution\": 1,\n            \"blur\": 3\n        }\n    },\n    \"experimental\": { },\n    \"celshader\": { }\n}\n",
+    "replaceAll": false,
+    "structuredPatch": [
+      {
+        "lines": [
+          "         \"aniso\": 4",
+          "     },",
+          "     \"detail\": {",
+          "-        \"world\": 1,",
+          "-        \"entity\": 1",
+          "+        \"world\": 3,",
+          "+        \"entity\": 3",
+          "     },",
+          "     \"shadow\": {",
+          "         \"mode\": 1,"
+        ],
+        "newLines": 8,
+        "newStart": 24,
+        "oldLines": 8,
+        "oldStart": 24
+      }
+    ],
+    "userModified": false
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "ede32fbe-76e7-405f-9e92-f37aacf1b381",
+  "version": "2.1.179"
+}

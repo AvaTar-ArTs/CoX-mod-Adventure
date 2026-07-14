@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "memory_citation": null,
+    "message": "I’ve got enough for the `tree-explorer` pass. I’m going to add a short live inventory section to the direction doc so this evidence stays attached to the project rather than only living in chat.",
+    "phase": "commentary",
+    "type": "agent_message"
+  },
+  "timestamp": "2026-07-13T20:32:17.937Z",
+  "type": "event_msg"
+}

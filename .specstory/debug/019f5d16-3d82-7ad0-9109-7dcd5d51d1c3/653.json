@@ -1,0 +1,9 @@
+{
+  "payload": {
+    "call_id": "call_12c20OL89otRx1GiAvs5XnDU",
+    "output": "Chunk ID: 6d8054\nWall time: 0.0000 seconds\nProcess exited with code 0\nOriginal token count: 67\nOutput:\nCREATE TABLE IF NOT EXISTS \"config\" (\n\t\"name\"\tTEXT UNIQUE,\n\t\"value\"\tTEXT\n);\nCREATE TABLE IF NOT EXISTS \"installedMods\" (\n\t\"id\"\tTEXT UNIQUE,\n\t\"name\"\tTEXT, md5 TEXT,\n\tPRIMARY KEY(\"id\")\n);\nCREATE TABLE IF NOT EXISTS \"trackedFiles\" (\n\t\"ownerMod\"\tTEXT,\n\t\"filename\"\tTEXT\n);\n",
+    "type": "function_call_output"
+  },
+  "timestamp": "2026-07-13T20:34:24.576Z",
+  "type": "response_item"
+}

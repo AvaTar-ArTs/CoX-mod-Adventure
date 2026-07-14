@@ -1,0 +1,19 @@
+{
+  "payload": {
+    "images": [],
+    "local_images": [],
+    "message": "$eza-nav /Users/steven/CoX-mod-Adventure",
+    "text_elements": [
+      {
+        "byte_range": {
+          "end": 8,
+          "start": 0
+        },
+        "placeholder": "$eza-nav"
+      }
+    ],
+    "type": "user_message"
+  },
+  "timestamp": "2026-07-13T20:07:44.379Z",
+  "type": "event_msg"
+}

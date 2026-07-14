@@ -1,0 +1,71 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "caller": {
+          "type": "direct"
+        },
+        "id": "toolu_01JQWNXQsKveyiuFHpnUGBvy",
+        "input": {
+          "file_path": "/Users/steven/Library/Application Support/LaunchCat/coh/settings/live/gfx.json",
+          "new_string": "        \"fsaa\": 2,\n        \"vsync\": 1",
+          "old_string": "        \"fsaa\": 1,\n        \"vsync\": 1",
+          "replace_all": false
+        },
+        "name": "Edit",
+        "type": "tool_use"
+      }
+    ],
+    "diagnostics": null,
+    "id": "msg_011CcyUpFCQTDTvQHBpWJU1D",
+    "model": "claude-opus-4-8",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "tool_use",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 323
+      },
+      "cache_creation_input_tokens": 323,
+      "cache_read_input_tokens": 126543,
+      "inference_geo": "global",
+      "input_tokens": 29,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 323
+          },
+          "cache_creation_input_tokens": 323,
+          "cache_read_input_tokens": 126543,
+          "input_tokens": 29,
+          "output_tokens": 283,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 283,
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  },
+  "parentUuid": "3c18f448-4c5d-4089-a3d5-0087cf05e6c7",
+  "requestId": "req_011CcyUpCTwnpofHbpDGeauj",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "slug": "playful-petting-ritchie",
+  "timestamp": "2026-07-13T05:10:09.564Z",
+  "type": "assistant",
+  "userType": "external",
+  "uuid": "0d996fb8-53ab-4545-b85d-5e0505469b2e",
+  "version": "2.1.179"
+}

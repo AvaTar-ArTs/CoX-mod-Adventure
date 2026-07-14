@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"git status --short --branch\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":6000}",
+    "call_id": "call_wdx2RaDXNvbt6w6zIEy39eRo",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:13:40.014Z",
+  "type": "response_item"
+}

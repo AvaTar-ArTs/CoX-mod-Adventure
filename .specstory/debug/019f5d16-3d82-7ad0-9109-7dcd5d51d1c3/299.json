@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "memory_citation": null,
+    "message": "The destination directory exists now. Next I’m copying the `using-superpowers` skill folder, including its references, into the active Codex skills location.",
+    "phase": "commentary",
+    "type": "agent_message"
+  },
+  "timestamp": "2026-07-13T20:19:36.452Z",
+  "type": "event_msg"
+}

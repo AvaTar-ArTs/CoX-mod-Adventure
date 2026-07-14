@@ -1,0 +1,15 @@
+{
+  "payload": {
+    "content": [
+      {
+        "text": "Using `skill-installer` for the install/copy workflow, and I’ll inspect `using-superpowers` directly because you named it as the target skill. First I’m checking which copies exist and exactly what frontmatter is broken.",
+        "type": "output_text"
+      }
+    ],
+    "phase": "commentary",
+    "role": "assistant",
+    "type": "message"
+  },
+  "timestamp": "2026-07-13T20:17:39.004Z",
+  "type": "response_item"
+}

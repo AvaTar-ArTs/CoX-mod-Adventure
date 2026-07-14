@@ -1,0 +1,20 @@
+{
+  "attachment": {
+    "commandMode": "prompt",
+    "prompt": "https://cityofheroes.dev/mods/\nhttps://forums.homecomingservers.com/forum/3-city-of-heroes/\nhttps://cityofheroes.dev/download/go.php?id=2\nview-source:https://cityofheroes.dev\n➜  ~ agy\n\n      ▄▀▀▄        Antigravity CLI 1.1.1\n     ▀▀▀▀▀▀       sjchaplinski@gmail.com (Antigravity Starter Quota)\n    ▀▀▀▀▀▀▀▀      Gemini 3.5 Flash (Medium)\n   ▄▀▀    ▀▀▄     ~\n  ▄▀▀      ▀▀▄\n\n────────────────────────────────────────────────────────────────────\n\u003e review my wine / cityofheroes install from\n  \"/Applications/LaunchCat.app\"\n────────────────────────────────────────────────────────────────────\n                                           Gemini 3.5 Flash (Medium)",
+    "type": "queued_command"
+  },
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "parentUuid": "805fa62b-9d68-446f-bcd9-c7e6958979a4",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "timestamp": "2026-07-13T18:55:22.728Z",
+  "type": "attachment",
+  "userType": "external",
+  "uuid": "ac5059c1-2f2c-4ca3-a600-c7d80e6300cb",
+  "version": "2.1.179"
+}

@@ -1,0 +1,18 @@
+{
+  "content": "Building a CoH mod browser in Upgraded/ with three visual variations. All three HTML files are generated and open in the browser. Next: review them visually and decide what to refine. (disable recaps in /config)",
+  "cwd": "/Users/steven/CoX-mod-Adventure/Upgraded",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isMeta": false,
+  "isSidechain": false,
+  "parentUuid": "50d5e5f5-1cb0-4fb7-9989-674a147372f8",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "subtype": "away_summary",
+  "timestamp": "2026-07-13T19:50:49.689Z",
+  "type": "system",
+  "userType": "external",
+  "uuid": "1d8ca044-aae6-4d50-8db7-c99ca334bdd2",
+  "version": "2.1.179"
+}

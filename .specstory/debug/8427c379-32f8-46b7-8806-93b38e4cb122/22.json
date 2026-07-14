@@ -1,0 +1,62 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "mcpMeta": {
+    "structuredContent": {
+      "results": [
+        {
+          "chunk_id": "chk_qJr04-1DYxzNwh0d8D2H1",
+          "chunk_summary": "agents cleanup, scanner fix. 1G ~/iterm2/Session-History (107 archives) to /Volumes/bakUp via rsync-verify-rm. Pending: disable Unlimited Scrollback + restart iTerm.",
+          "chunk_text": "[user]: Checkpoint this session: iTerm hangs, .agents cleanup, scanner fix.\n[assistant]: Session 2026-07-11 outcomes: (1) iTerm2 beachball hangs root-caused to UI thread blocking on synchronous ShellHistory.sqlite WAL writes (guarded_pwrite_np); moved 1.1G ~/iterm2/Session-History (107 archives) to /Volumes/bakUp via rsync-verify-rm. Pending: disable Unlimited Scrollback + restart iTerm. (2) Removed ~/.agents/plugins — a broken partial mirror of ~/.claude/plugins where CLAUDE.md\u003c-\u003eAGENTS.md alias symlinks were copied without targets, causing doc-source-enriched.py 'Skipping missing path' warnings. Swept all AI-config roots: 4 remaining symlinks, all healthy. (3) Hardened /Users/steven/pythons/scan-to-csv/doc-source-enriched.py: broken-symlink branch now prints target via os.path.islink+os.readlink, distinct from missing-path; verified via context7 CPython docs, live test, and CodeRabbit (0 findings). CodeRabbit CLI auth confirmed (AvaTar-ArTs). Memory files updated: reference-coderabbit-setup, mac-slowness-diagnosis, project-agents-cleanup-2026-07-11.",
+          "conversation_id": "conv_QT0acrm7rLXRuwqcJFbmA",
+          "conversation_title": "iTerm hang fix, .agents symlink cleanup, scanner hardening (2026-07-11)",
+          "end_sequence": 2,
+          "score": 0.7403519443791067,
+          "start_sequence": 1,
+          "tags": [
+            "mac-maintenance",
+            "bug"
+          ]
+        },
+        {
+          "chunk_id": "chk_YLsZ9QO9VBwFUkpblLYbb",
+          "chunk_summary": "app) - connected, tools load next session. env. 0 (ABI 147) has no prebuilt, so it crash-loops.",
+          "chunk_text": "[user]: assistant: Engram configured via REMOTE MCP server at user scope (~/.claude.json, mcp.getengram.app) - connected, tools load next session. Fixed dead env var ENGRAM_API -\u003e ENGRAM_API_KEY in ~/.env.d/engram.env. Local auto-capture daemon DISABLED: Homebrew engram 0.3.4 ships no better-sqlite3 native binding and node v26.5.0 (ABI 147) has no prebuilt, so it crash-loops. Wrote ~/.claude/rules/engram.md with conventions: one conversation per work-session/topic; tags [project, type] where type in decision|bug|architecture|preference|setup; no-secrets-verbatim guardrail. CodeRabbit: CLI (brew cask coderabbit 0.6.5) + Claude Code plugin (coderabbit@claude-plugins-official v1.1.1) installed; repo-scoped; pending user browser auth and GitHub App for AvaTar-ArTs.",
+          "conversation_id": "conv_OgxnpZVF3IrIo5z5y1Ttr",
+          "conversation_title": "Engram + CodeRabbit setup checkpoint",
+          "end_sequence": 2,
+          "score": 0.7211337843586766,
+          "start_sequence": 2,
+          "tags": [
+            "engram-coderabbit-setup",
+            "setup"
+          ]
+        }
+      ],
+      "total": 2
+    }
+  },
+  "message": {
+    "content": [
+      {
+        "content": "{\"results\":[{\"chunk_id\":\"chk_qJr04-1DYxzNwh0d8D2H1\",\"conversation_id\":\"conv_QT0acrm7rLXRuwqcJFbmA\",\"conversation_title\":\"iTerm hang fix, .agents symlink cleanup, scanner hardening (2026-07-11)\",\"tags\":[\"mac-maintenance\",\"bug\"],\"chunk_text\":\"[user]: Checkpoint this session: iTerm hangs, .agents cleanup, scanner fix.\\n[assistant]: Session 2026-07-11 outcomes: (1) iTerm2 beachball hangs root-caused to UI thread blocking on synchronous ShellHistory.sqlite WAL writes (guarded_pwrite_np); moved 1.1G ~/iterm2/Session-History (107 archives) to /Volumes/bakUp via rsync-verify-rm. Pending: disable Unlimited Scrollback + restart iTerm. (2) Removed ~/.agents/plugins — a broken partial mirror of ~/.claude/plugins where CLAUDE.md\u003c-\u003eAGENTS.md alias symlinks were copied without targets, causing doc-source-enriched.py 'Skipping missing path' warnings. Swept all AI-config roots: 4 remaining symlinks, all healthy. (3) Hardened /Users/steven/pythons/scan-to-csv/doc-source-enriched.py: broken-symlink branch now prints target via os.path.islink+os.readlink, distinct from missing-path; verified via context7 CPython docs, live test, and CodeRabbit (0 findings). CodeRabbit CLI auth confirmed (AvaTar-ArTs). Memory files updated: reference-coderabbit-setup, mac-slowness-diagnosis, project-agents-cleanup-2026-07-11.\",\"chunk_summary\":\"agents cleanup, scanner fix. 1G ~/iterm2/Session-History (107 archives) to /Volumes/bakUp via rsync-verify-rm. Pending: disable Unlimited Scrollback + restart iTerm.\",\"score\":0.7403519443791067,\"start_sequence\":1,\"end_sequence\":2},{\"chunk_id\":\"chk_YLsZ9QO9VBwFUkpblLYbb\",\"conversation_id\":\"conv_OgxnpZVF3IrIo5z5y1Ttr\",\"conversation_title\":\"Engram + CodeRabbit setup checkpoint\",\"tags\":[\"engram-coderabbit-setup\",\"setup\"],\"chunk_text\":\"[user]: assistant: Engram configured via REMOTE MCP server at user scope (~/.claude.json, mcp.getengram.app) - connected, tools load next session. Fixed dead env var ENGRAM_API -\u003e ENGRAM_API_KEY in ~/.env.d/engram.env. Local auto-capture daemon DISABLED: Homebrew engram 0.3.4 ships no better-sqlite3 native binding and node v26.5.0 (ABI 147) has no prebuilt, so it crash-loops. Wrote ~/.claude/rules/engram.md with conventions: one conversation per work-session/topic; tags [project, type] where type in decision|bug|architecture|preference|setup; no-secrets-verbatim guardrail. CodeRabbit: CLI (brew cask coderabbit 0.6.5) + Claude Code plugin (coderabbit@claude-plugins-official v1.1.1) installed; repo-scoped; pending user browser auth and GitHub App for AvaTar-ArTs.\",\"chunk_summary\":\"app) - connected, tools load next session. env. 0 (ABI 147) has no prebuilt, so it crash-loops.\",\"score\":0.7211337843586766,\"start_sequence\":2,\"end_sequence\":2}],\"total\":2}",
+        "tool_use_id": "toolu_01KqRtVkqv3viFuMFcvsZy41",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "d55f0951-9ffd-46b0-96ac-51af161b0fc3",
+  "promptId": "26763383-717d-46d5-937c-0a65e8366885",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "sourceToolAssistantUUID": "d55f0951-9ffd-46b0-96ac-51af161b0fc3",
+  "timestamp": "2026-07-13T18:46:08.722Z",
+  "toolUseResult": "{\"results\":[{\"chunk_id\":\"chk_qJr04-1DYxzNwh0d8D2H1\",\"conversation_id\":\"conv_QT0acrm7rLXRuwqcJFbmA\",\"conversation_title\":\"iTerm hang fix, .agents symlink cleanup, scanner hardening (2026-07-11)\",\"tags\":[\"mac-maintenance\",\"bug\"],\"chunk_text\":\"[user]: Checkpoint this session: iTerm hangs, .agents cleanup, scanner fix.\\n[assistant]: Session 2026-07-11 outcomes: (1) iTerm2 beachball hangs root-caused to UI thread blocking on synchronous ShellHistory.sqlite WAL writes (guarded_pwrite_np); moved 1.1G ~/iterm2/Session-History (107 archives) to /Volumes/bakUp via rsync-verify-rm. Pending: disable Unlimited Scrollback + restart iTerm. (2) Removed ~/.agents/plugins — a broken partial mirror of ~/.claude/plugins where CLAUDE.md\u003c-\u003eAGENTS.md alias symlinks were copied without targets, causing doc-source-enriched.py 'Skipping missing path' warnings. Swept all AI-config roots: 4 remaining symlinks, all healthy. (3) Hardened /Users/steven/pythons/scan-to-csv/doc-source-enriched.py: broken-symlink branch now prints target via os.path.islink+os.readlink, distinct from missing-path; verified via context7 CPython docs, live test, and CodeRabbit (0 findings). CodeRabbit CLI auth confirmed (AvaTar-ArTs). Memory files updated: reference-coderabbit-setup, mac-slowness-diagnosis, project-agents-cleanup-2026-07-11.\",\"chunk_summary\":\"agents cleanup, scanner fix. 1G ~/iterm2/Session-History (107 archives) to /Volumes/bakUp via rsync-verify-rm. Pending: disable Unlimited Scrollback + restart iTerm.\",\"score\":0.7403519443791067,\"start_sequence\":1,\"end_sequence\":2},{\"chunk_id\":\"chk_YLsZ9QO9VBwFUkpblLYbb\",\"conversation_id\":\"conv_OgxnpZVF3IrIo5z5y1Ttr\",\"conversation_title\":\"Engram + CodeRabbit setup checkpoint\",\"tags\":[\"engram-coderabbit-setup\",\"setup\"],\"chunk_text\":\"[user]: assistant: Engram configured via REMOTE MCP server at user scope (~/.claude.json, mcp.getengram.app) - connected, tools load next session. Fixed dead env var ENGRAM_API -\u003e ENGRAM_API_KEY in ~/.env.d/engram.env. Local auto-capture daemon DISABLED: Homebrew engram 0.3.4 ships no better-sqlite3 native binding and node v26.5.0 (ABI 147) has no prebuilt, so it crash-loops. Wrote ~/.claude/rules/engram.md with conventions: one conversation per work-session/topic; tags [project, type] where type in decision|bug|architecture|preference|setup; no-secrets-verbatim guardrail. CodeRabbit: CLI (brew cask coderabbit 0.6.5) + Claude Code plugin (coderabbit@claude-plugins-official v1.1.1) installed; repo-scoped; pending user browser auth and GitHub App for AvaTar-ArTs.\",\"chunk_summary\":\"app) - connected, tools load next session. env. 0 (ABI 147) has no prebuilt, so it crash-loops.\",\"score\":0.7211337843586766,\"start_sequence\":2,\"end_sequence\":2}],\"total\":2}",
+  "type": "user",
+  "userType": "external",
+  "uuid": "bccbcc9e-f008-44e2-9455-abce2c20421e",
+  "version": "2.1.179"
+}

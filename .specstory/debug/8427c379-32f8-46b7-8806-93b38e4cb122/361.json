@@ -1,0 +1,18 @@
+{
+  "content": "Building a CoH mod browser and installer for Homecoming on Mac. Scraped all 291 mods into mods.json with correct download URLs and categories, pushed to GitHub. Next: run python3 scrape-mods.py --install to drop the top mods into the live game. (disable recaps in /config)",
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isMeta": false,
+  "isSidechain": false,
+  "parentUuid": "71f6013e-df1a-4c2e-b79b-03e90725392b",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "subtype": "away_summary",
+  "timestamp": "2026-07-13T19:18:47.160Z",
+  "type": "system",
+  "userType": "external",
+  "uuid": "caba77b7-df64-4af9-9e12-9c51fcf16e92",
+  "version": "2.1.179"
+}

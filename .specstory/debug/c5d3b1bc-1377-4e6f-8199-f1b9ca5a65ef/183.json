@@ -1,0 +1,36 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "1\t{\n2\t    \"prompts\": { },\n3\t    \"version\": 7,\n4\t    \"screen\": {\n5\t        \"size\": {\n6\t            \"width\": 1280,\n7\t            \"height\": 747\n8\t        },\n9\t        \"pos\": {\n10\t            \"x\": -4,\n11\t            \"y\": 23\n12\t        },\n13\t        \"borderless\": {\n14\t            \"monitor\": 0\n15\t        },\n16\t        \"fsaa\": 1,\n17\t        \"vsync\": 1\n18\t    },\n19\t    \"fov\": { },\n20\t    \"texture\": {\n21\t        \"miplevel\": -1,\n22\t        \"charactermiplevel\": 1,\n23\t        \"lodbias\": 2,\n24\t        \"aniso\": 4\n25\t    },\n26\t    \"detail\": {\n27\t        \"world\": 1,\n28\t        \"entity\": 1\n29\t    },\n30\t    \"shadow\": {\n31\t        \"mode\": 1,\n32\t        \"shader\": 1,\n33\t        \"mapsize\": 1,\n34\t        \"distance\": 1\n35\t    },\n36\t    \"reflections\": { },\n37\t    \"physx\": {\n38\t        \"quality\": 2\n39\t    },\n40\t    \"advanced\": { },\n41\t    \"particles\": {\n42\t        \"max\": 50000,\n43\t        \"fill\": 10\n44\t    },\n45\t    \"render\": {\n46\t        \"vbo\": 1,\n47\t        \"shader\": {\n48\t            \"quality\": 3\n49\t        }\n50\t    },\n51\t    \"renderscale\": { },\n52\t    \"water\": {\n53\t        \"quality\": 2\n54\t    },\n55\t    \"postproc\": {\n56\t        \"bloom\": {\n57\t            \"enabled\": 1,\n58\t            \"magnitude\": 1\n59\t        },\n60\t        \"desaturate\": 1,\n61\t        \"dof\": {\n62\t            \"enabled\": 1,\n63\t            \"magnitude\": 1\n64\t        },\n65\t        \"ao\": {\n66\t            \"resolution\": 1,\n67\t            \"blur\": 3\n68\t        }\n69\t    },\n70\t    \"experimental\": { },\n71\t    \"celshader\": { }\n72\t}\n73\t",
+        "tool_use_id": "toolu_01827aimGUmpjaA61Lm4UANy",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "1c4af2ab-4dd1-4637-9a4f-f73a997434d4",
+  "promptId": "543dd3e3-341d-40e1-8c7a-667c20e9576e",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "slug": "playful-petting-ritchie",
+  "sourceToolAssistantUUID": "1c4af2ab-4dd1-4637-9a4f-f73a997434d4",
+  "timestamp": "2026-07-13T05:09:57.212Z",
+  "toolUseResult": {
+    "file": {
+      "content": "{\n    \"prompts\": { },\n    \"version\": 7,\n    \"screen\": {\n        \"size\": {\n            \"width\": 1280,\n            \"height\": 747\n        },\n        \"pos\": {\n            \"x\": -4,\n            \"y\": 23\n        },\n        \"borderless\": {\n            \"monitor\": 0\n        },\n        \"fsaa\": 1,\n        \"vsync\": 1\n    },\n    \"fov\": { },\n    \"texture\": {\n        \"miplevel\": -1,\n        \"charactermiplevel\": 1,\n        \"lodbias\": 2,\n        \"aniso\": 4\n    },\n    \"detail\": {\n        \"world\": 1,\n        \"entity\": 1\n    },\n    \"shadow\": {\n        \"mode\": 1,\n        \"shader\": 1,\n        \"mapsize\": 1,\n        \"distance\": 1\n    },\n    \"reflections\": { },\n    \"physx\": {\n        \"quality\": 2\n    },\n    \"advanced\": { },\n    \"particles\": {\n        \"max\": 50000,\n        \"fill\": 10\n    },\n    \"render\": {\n        \"vbo\": 1,\n        \"shader\": {\n            \"quality\": 3\n        }\n    },\n    \"renderscale\": { },\n    \"water\": {\n        \"quality\": 2\n    },\n    \"postproc\": {\n        \"bloom\": {\n            \"enabled\": 1,\n            \"magnitude\": 1\n        },\n        \"desaturate\": 1,\n        \"dof\": {\n            \"enabled\": 1,\n            \"magnitude\": 1\n        },\n        \"ao\": {\n            \"resolution\": 1,\n            \"blur\": 3\n        }\n    },\n    \"experimental\": { },\n    \"celshader\": { }\n}\n",
+      "filePath": "/Users/steven/Library/Application Support/LaunchCat/coh/settings/live/gfx.json",
+      "numLines": 73,
+      "startLine": 1,
+      "totalLines": 73
+    },
+    "type": "text"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "4546c6bc-5c03-401c-822f-2b53bf9c000d",
+  "version": "2.1.179"
+}

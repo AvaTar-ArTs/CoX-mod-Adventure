@@ -1,0 +1,30 @@
+{
+  "attachment": {
+    "content": {
+      "file": {
+        "content": "✓ Wrote /Users/steven/CoX-mod-Adventure/mods.json (291 mods, 0 failed)\n\nDone.\nNext: run with --install to copy pigg files to LaunchCat's assets/mods/\n  Install path: /Users/steven/Library/Application Support/LaunchCat/coh/assets/mods\n",
+        "filePath": "/Users/steven/.claude/tmp/claude-501/-Users-steven-CoX-mod-Adventure/8427c379-32f8-46b7-8806-93b38e4cb122/tasks/b5rb7rbbq.output",
+        "numLines": 6,
+        "startLine": 1,
+        "totalLines": 6
+      },
+      "type": "text"
+    },
+    "displayPath": "../.claude/tmp/claude-501/-Users-steven-CoX-mod-Adventure/8427c379-32f8-46b7-8806-93b38e4cb122/tasks/b5rb7rbbq.output",
+    "filename": "/Users/steven/.claude/tmp/claude-501/-Users-steven-CoX-mod-Adventure/8427c379-32f8-46b7-8806-93b38e4cb122/tasks/b5rb7rbbq.output",
+    "type": "file"
+  },
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "parentUuid": "556898bb-c6fc-455a-8739-b3f0def9bc0a",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "timestamp": "2026-07-13T19:21:45.177Z",
+  "type": "attachment",
+  "userType": "external",
+  "uuid": "2c996548-4a72-4d03-b5c7-01d1596a6e33",
+  "version": "2.1.179"
+}

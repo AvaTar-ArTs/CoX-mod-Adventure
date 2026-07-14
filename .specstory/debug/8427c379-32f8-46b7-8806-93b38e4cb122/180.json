@@ -1,0 +1,35 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "The server returned HTTP 404 Not Found.\n\nThe response body was not retrieved. If this URL requires authentication, use an authenticated tool (e.g. `gh` for GitHub, or an MCP-provided fetch tool) instead of WebFetch.",
+        "tool_use_id": "toolu_0197joXWiMp9EaBjQB1cVphH",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "5284c902-f6aa-4812-936b-3eb6ee9e41d4",
+  "promptId": "21ef8620-0dc3-4168-97cd-73ded0c11162",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolAssistantUUID": "5284c902-f6aa-4812-936b-3eb6ee9e41d4",
+  "timestamp": "2026-07-13T18:58:46.806Z",
+  "toolUseResult": {
+    "bytes": 0,
+    "code": 404,
+    "codeText": "Not Found",
+    "durationMs": 5116,
+    "result": "The server returned HTTP 404 Not Found.\n\nThe response body was not retrieved. If this URL requires authentication, use an authenticated tool (e.g. `gh` for GitHub, or an MCP-provided fetch tool) instead of WebFetch.",
+    "url": "https://cityofheroes.dev/mod/101"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "c817b175-0ee1-4fe1-bddb-55ea87efd9d9",
+  "version": "2.1.179"
+}

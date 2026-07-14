@@ -1,0 +1,19 @@
+{
+  "attachment": {
+    "commandMode": "prompt",
+    "prompt": "lets create a save checkpoint so i can reboot nd then try again",
+    "type": "queued_command"
+  },
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "parentUuid": "726fc88c-8b8b-46af-a6e1-b66ba565ce04",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "slug": "playful-petting-ritchie",
+  "timestamp": "2026-07-13T05:17:17.804Z",
+  "type": "attachment",
+  "userType": "external",
+  "uuid": "1cbaa707-5b0c-4e87-86b4-a7104b1744e4",
+  "version": "2.1.179"
+}

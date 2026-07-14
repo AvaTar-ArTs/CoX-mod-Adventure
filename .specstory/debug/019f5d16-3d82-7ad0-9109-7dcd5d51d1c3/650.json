@@ -1,0 +1,9 @@
+{
+  "payload": {
+    "call_id": "call_ow6tcPzZCXVqFrZodHNHthPP",
+    "output": "Chunk ID: fad4db\nWall time: 0.0000 seconds\nProcess exited with code 0\nOriginal token count: 35\nOutput:\n{\r\n  \"autoupdate\": true,\r\n  \"gamepath\": \"z:\\\\Applications\\\\coh\\\\\",\r\n  \"dontCheckforData\": true,\r\n  \"visualStyle\": 1,\r\n  \"uiScale\": 1.0\r\n}",
+    "type": "function_call_output"
+  },
+  "timestamp": "2026-07-13T20:34:24.519Z",
+  "type": "response_item"
+}

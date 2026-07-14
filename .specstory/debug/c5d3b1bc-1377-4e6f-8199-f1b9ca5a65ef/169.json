@@ -1,0 +1,19 @@
+{
+  "attachment": {
+    "planExists": false,
+    "planFilePath": "/Users/steven/.claude/plans/playful-petting-ritchie.md",
+    "type": "plan_mode_exit"
+  },
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "parentUuid": "0baef525-565f-422a-bcf0-cad8d58d2b8d",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "slug": "playful-petting-ritchie",
+  "timestamp": "2026-07-13T05:08:41.143Z",
+  "type": "attachment",
+  "userType": "external",
+  "uuid": "f02e58cf-6a0f-4333-a147-053121f40751",
+  "version": "2.1.179"
+}

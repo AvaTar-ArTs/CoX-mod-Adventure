@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"file /Applications/coh /Applications/CoHModdingTool.app 2\u003e/dev/null\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":4000}",
+    "call_id": "call_R7ussrh7DxbTz1hsfhmodq6J",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:13:40.015Z",
+  "type": "response_item"
+}

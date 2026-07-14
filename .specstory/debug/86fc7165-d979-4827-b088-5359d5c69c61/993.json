@@ -1,0 +1,18 @@
+{
+  "content": "\u003clocal-command-stderr\u003eAbortError: Compaction canceled.\u003c/local-command-stderr\u003e",
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "main",
+  "isMeta": false,
+  "isSidechain": false,
+  "level": "info",
+  "parentUuid": "f8901e37-3911-4c72-b68a-1d46133f6306",
+  "sessionId": "86fc7165-d979-4827-b088-5359d5c69c61",
+  "slug": "zesty-hopping-oasis",
+  "subtype": "local_command",
+  "timestamp": "2026-07-13T20:01:43.455Z",
+  "type": "system",
+  "userType": "external",
+  "uuid": "d38511fa-4a28-436a-b0f7-9f845660c49c",
+  "version": "2.1.179"
+}

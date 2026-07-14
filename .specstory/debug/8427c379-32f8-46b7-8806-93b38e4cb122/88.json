@@ -1,0 +1,35 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "assets\ncoh-modders\ndocs\nMods\npages\nPLAN\n2026-07-13-011734-local-command-caveatcaveat-the-messages-below.txt\ncoh-mods-list.txt\ncoh-setup.txt\ndownload-mods.py\ndownload-mods.sh\nindex.html\npages.zip\nREADME.md",
+        "is_error": false,
+        "tool_use_id": "toolu_01Jeg8Rz4yzbuQocW2NR7My6",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "e082e7c7-463d-4cfe-85f0-f55a8fddc249",
+  "promptId": "90d47cda-2a51-4871-af4a-c1b9c999445f",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolAssistantUUID": "e082e7c7-463d-4cfe-85f0-f55a8fddc249",
+  "timestamp": "2026-07-13T18:50:45.565Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "",
+    "stdout": "assets\ncoh-modders\ndocs\nMods\npages\nPLAN\n2026-07-13-011734-local-command-caveatcaveat-the-messages-below.txt\ncoh-mods-list.txt\ncoh-setup.txt\ndownload-mods.py\ndownload-mods.sh\nindex.html\npages.zip\nREADME.md"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "5096a791-666a-4130-ba6d-101e5b4ae29d",
+  "version": "2.1.179"
+}

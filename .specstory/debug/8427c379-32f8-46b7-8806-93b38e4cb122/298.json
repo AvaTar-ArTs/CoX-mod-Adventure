@@ -1,0 +1,20 @@
+{
+  "attachment": {
+    "commandMode": "prompt",
+    "prompt": "move the /tmp things into /Users/steven/CoX-mod-Adventure/",
+    "type": "queued_command"
+  },
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "parentUuid": "19791476-95fd-4360-9a17-f24b043ddf99",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "timestamp": "2026-07-13T19:11:35.130Z",
+  "type": "attachment",
+  "userType": "external",
+  "uuid": "1cb0fd41-0323-413a-a44a-a44c1375347f",
+  "version": "2.1.179"
+}

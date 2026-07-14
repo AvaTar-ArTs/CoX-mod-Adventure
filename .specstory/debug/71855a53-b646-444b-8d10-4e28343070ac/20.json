@@ -1,0 +1,28 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "The user doesn't want to proceed with this tool use. The tool use was rejected (eg. if it was a file edit, the new_string was NOT written to the file). STOP what you are doing and wait for the user to tell you how to proceed.\n\nNote: The user's next message may contain a correction or preference. Pay close attention — if they explain what went wrong or how they'd prefer you to work, consider saving that to memory for future sessions.",
+        "is_error": true,
+        "tool_use_id": "toolu_01HdZh4RsY3tvguaz3cobZui",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "d3b05b1e-0920-45e7-92d8-0da11f558f89",
+  "promptId": "3c821775-18f9-4f47-98ac-b77bfb50f0d4",
+  "sessionId": "71855a53-b646-444b-8d10-4e28343070ac",
+  "sessionKind": "bg",
+  "sourceToolAssistantUUID": "d3b05b1e-0920-45e7-92d8-0da11f558f89",
+  "timestamp": "2026-07-13T18:05:32.167Z",
+  "toolUseResult": "User rejected tool use",
+  "type": "user",
+  "userType": "external",
+  "uuid": "0e1d89b6-449b-4c33-84e9-9a7ff8945d12",
+  "version": "2.1.179"
+}

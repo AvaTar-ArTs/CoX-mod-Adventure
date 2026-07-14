@@ -1,0 +1,33 @@
+{
+  "cwd": "/Users/steven",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "=== raise launcher window to front ===\nraised: Homecoming: City of Heroes  frontmost proc set\n\n=== re-read window bounds (post-raise) ===\npos=115,112 size=1050x600\n\n=== re-capture ===\nsaved /tmp/coh_launcher_shot2.png",
+        "is_error": false,
+        "tool_use_id": "toolu_01CumTpHANpqVvJPBNNtL4of",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "d9c389e3-d190-4270-803a-b3b1e26969ee",
+  "promptId": "f6b9694d-4021-48bc-8669-cb2337c0adeb",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "sourceToolAssistantUUID": "d9c389e3-d190-4270-803a-b3b1e26969ee",
+  "timestamp": "2026-07-13T04:59:43.116Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "",
+    "stdout": "=== raise launcher window to front ===\nraised: Homecoming: City of Heroes  frontmost proc set\n\n=== re-read window bounds (post-raise) ===\npos=115,112 size=1050x600\n\n=== re-capture ===\nsaved /tmp/coh_launcher_shot2.png"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "a75cf9e6-a038-42eb-bb25-ae72adfcda2c",
+  "version": "2.1.179"
+}

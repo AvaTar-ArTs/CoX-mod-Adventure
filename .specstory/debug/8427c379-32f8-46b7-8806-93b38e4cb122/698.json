@@ -1,0 +1,24 @@
+{
+  "attachment": {
+    "addedBlocks": [],
+    "addedNames": [],
+    "removedNames": [
+      "engram",
+      "plugin:context7:context7"
+    ],
+    "type": "mcp_instructions_delta"
+  },
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "main",
+  "isSidechain": false,
+  "parentUuid": "54aee981-c647-4e0f-a0b4-f95381afa9fd",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "timestamp": "2026-07-13T20:17:54.077Z",
+  "type": "attachment",
+  "userType": "external",
+  "uuid": "69000adb-388d-498b-93ef-b1ee4d989377",
+  "version": "2.1.179"
+}

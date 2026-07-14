@@ -1,0 +1,22 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": "use the claude chrome ext https://forums.homecomingservers.com/forum/60-tools-utilities-amp-downloads/",
+    "role": "user"
+  },
+  "parentUuid": "ebab2708-2989-4d3a-8308-d02c6a40b303",
+  "permissionMode": "default",
+  "promptId": "de929662-c436-4d7f-82a5-08db591b3e3b",
+  "promptSource": "typed",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "timestamp": "2026-07-13T18:53:54.211Z",
+  "type": "user",
+  "userType": "external",
+  "uuid": "f1a41e7d-3418-4cde-8b32-044b3bd571db",
+  "version": "2.1.179"
+}

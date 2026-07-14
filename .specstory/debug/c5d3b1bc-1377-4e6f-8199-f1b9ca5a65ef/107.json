@@ -1,0 +1,33 @@
+{
+  "cwd": "/Users/steven",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "=== scratch files before ===\n.rw-r--r--   13k steven 13 Jul 00:50 /tmp/coh-client.out\n.rw-r--r--@ 3.6M steven 13 Jul 00:59 /tmp/coh_launcher_shot.png\n.rw-r--r--@ 1.9M steven 13 Jul 00:59 /tmp/coh_launcher_shot2.png\n.rw-r--r--     7 steven 13 Jul 00:58 /tmp/coh_log_offset.txt\n\n=== after ===\n✅ all scratch files removed\n\n=== any other coh/wine scratch I created in /tmp? ===\n(eval):11: no matches found: /tmp/coh*\n✅ /tmp clean of CoH/Wine scratch",
+        "is_error": false,
+        "tool_use_id": "toolu_016f5ViuGHmpTTPTeogepfbN",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "a62724b8-516f-4953-8975-f0c4fccd1c7c",
+  "promptId": "d27da3b8-e3ed-4ac3-b88c-e46a4e59c42e",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "sourceToolAssistantUUID": "a62724b8-516f-4953-8975-f0c4fccd1c7c",
+  "timestamp": "2026-07-13T05:03:33.884Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "",
+    "stdout": "=== scratch files before ===\n.rw-r--r--   13k steven 13 Jul 00:50 /tmp/coh-client.out\n.rw-r--r--@ 3.6M steven 13 Jul 00:59 /tmp/coh_launcher_shot.png\n.rw-r--r--@ 1.9M steven 13 Jul 00:59 /tmp/coh_launcher_shot2.png\n.rw-r--r--     7 steven 13 Jul 00:58 /tmp/coh_log_offset.txt\n\n=== after ===\n✅ all scratch files removed\n\n=== any other coh/wine scratch I created in /tmp? ===\n(eval):11: no matches found: /tmp/coh*\n✅ /tmp clean of CoH/Wine scratch"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "318a6a01-e9e0-47d7-88d6-53c125c308ac",
+  "version": "2.1.179"
+}

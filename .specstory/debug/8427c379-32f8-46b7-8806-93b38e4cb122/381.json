@@ -1,0 +1,30 @@
+{
+  "attachment": {
+    "content": {
+      "file": {
+        "content": "# .agent-skills\n\nLocal agent and skill workspace for reusable AI workflows.\n\nThis is the canonical local source for reusable agents and skills. The legacy\n`/Users/steven/.agents` path is kept as a compatibility symlink only; new\nconfiguration should point directly at `/Users/steven/.agent-skills`.\n\nThis repository is a living working set. Prefer additive changes, staged outputs,\nand changelogs over destructive cleanup. CSVs are treated as living tables: rows\nmay be added, removed, or corrected, but generation scripts should append a\nchangelog beside the CSV.\n\n## Layout\n\n- `agents/` - Markdown, TOML, YAML, CSV, and text agent/persona definitions.\n- `skills/` - Skill directories and nested skill libraries.\n- `deep-research/` - Research-oriented skill material.\n- `scripts/` - Local inspection and catalog tooling for this workspace.\n- `tmp-csv/` - Local staged CSV outputs, ignored by Git.\n- `tmp-md/` - Local staged Markdown reports, ignored by Git.\n- `tmp/` - Local scratch/history folder, ignored by Git.\n\n## Current Runtime Surface\n\nLast audited: 2026-07-13.\n\n- `agents/`: 108 non-hidden agent/config files.\n- `skills/`: 92 top-level directories plus 1 top-level symlink.\n- Direct/root-visible skills: 74 `SKILL.md` files within depth 2.\n- Local expanded skills: 154 `SKILL.md` files within depth 3.\n- Symlink-followed runtime-visible skills: 177 `SKILL.md` files.\n\nClaude and Codex should consume this tree directly:\n\n- `/Users/steven/.claude/agents -\u003e /Users/steven/.agent-skills/agents`\n- `/Users/steven/.claude/skills -\u003e /Users/steven/.agent-skills/skills`\n- `/Users/steven/.codex/agents -\u003e /Users/steven/.agent-skills/agents`\n- `/Users/steven/.codex/skills -\u003e /Users/steven/.agent-skills/skills`\n- `/Users/steven/.codex/superpowers -\u003e /Users/steven/.agent-skills/skills/using-superpowers`\n\n`INDEX.md` is the broader generated overview. This README is the short entry\npoint for the repository.\n\n## Inspection Scripts\n\nRun scripts from the repository root:\n\n```bash\npython scripts/export_catalog_csv.py\npython scripts/summarize_what_they_do.py\npython scripts/inspect_md_content.py\n```\n\nOutputs are staged locally:\n\n- `tmp-csv/agents-catalog.csv`\n- `tmp-csv/what-they-do.csv`\n- `tmp-csv/md-content-index.csv`\n- `tmp-md/what-they-do.md`\n- `tmp-md/md-content-report.md`\n\nEach CSV script also appends a sibling changelog:\n\n- `tmp-csv/agents-catalog-CHANGELOG.md`\n- `tmp-csv/what-they-do-CHANGELOG.md`\n- `tmp-csv/md-content-index-CHANGELOG.md`\n\n## Working Convention\n\n1. Inspect current contents before changing them.\n2. Add new material next to existing material when practical.\n3. Preserve older artifacts unless cleanup is explicitly requested.\n4. Stage generated outputs under purpose-specific local folders like `tmp-csv/`\n   or `tmp-md/`.\n5. Promote reviewed outputs into durable docs, inventory, or report locations\n   only after they are useful.\n\n## Git Notes\n\nThe repository intentionally ignores local archives, generated inventory dumps,\ntemporary staging outputs, `.DS_Store`, and the local virtual environment.\n\nRemote:\n\n```text\nhttps://github.com/AvaTar-ArTs/.agents.git\n```\n",
+        "filePath": "/Users/steven/.agent-skills/README.md",
+        "numLines": 89,
+        "startLine": 1,
+        "totalLines": 89
+      },
+      "type": "text"
+    },
+    "displayPath": "../.agent-skills/README.md",
+    "filename": "/Users/steven/.agent-skills/README.md",
+    "type": "file"
+  },
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "parentUuid": "5d08297e-aced-42f0-b58e-9a1b97e97a75",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "timestamp": "2026-07-13T19:21:45.177Z",
+  "type": "attachment",
+  "userType": "external",
+  "uuid": "801184ef-39df-4738-b82d-e438ec18253b",
+  "version": "2.1.179"
+}

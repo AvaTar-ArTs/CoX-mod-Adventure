@@ -1,0 +1,17 @@
+{
+  "attachment": {
+    "style": "Learning",
+    "type": "output_style"
+  },
+  "cwd": "/Users/steven",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "parentUuid": "362ac732-7017-4750-bc8c-f5fcf95d5e3e",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "timestamp": "2026-07-13T04:59:16.356Z",
+  "type": "attachment",
+  "userType": "external",
+  "uuid": "64210e6e-4d82-4f11-9822-e72ec38a5c38",
+  "version": "2.1.179"
+}

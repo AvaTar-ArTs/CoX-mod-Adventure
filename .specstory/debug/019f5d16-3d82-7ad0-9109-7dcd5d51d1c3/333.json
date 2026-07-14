@@ -1,0 +1,14 @@
+{
+  "payload": {
+    "content": [
+      {
+        "text": "ok lets continue what we were doing before the error",
+        "type": "input_text"
+      }
+    ],
+    "role": "user",
+    "type": "message"
+  },
+  "timestamp": "2026-07-13T20:21:09.224Z",
+  "type": "response_item"
+}

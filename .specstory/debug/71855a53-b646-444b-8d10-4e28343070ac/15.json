@@ -1,0 +1,23 @@
+{
+  "attachment": {
+    "content": "- schedule: Create, update, list, or run scheduled cloud agents (routines) that execute on a cron schedule. - When the user wants to schedule a recurring cloud agent, set up automated tasks, create a cron job for Claude Code, or manage their scheduled agents/routines…",
+    "isInitial": false,
+    "names": [
+      "schedule"
+    ],
+    "skillCount": 1,
+    "type": "skill_listing"
+  },
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "parentUuid": "e230d3b3-2b59-4c14-8edc-d499316fb9c0",
+  "sessionId": "71855a53-b646-444b-8d10-4e28343070ac",
+  "sessionKind": "bg",
+  "timestamp": "2026-07-13T18:05:12.671Z",
+  "type": "attachment",
+  "userType": "external",
+  "uuid": "63530025-d917-4f27-ba3c-61fb0fbaf837",
+  "version": "2.1.179"
+}

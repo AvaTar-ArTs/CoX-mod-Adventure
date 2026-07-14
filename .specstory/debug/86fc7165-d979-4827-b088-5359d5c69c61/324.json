@@ -1,0 +1,72 @@
+{
+  "agentId": "a247c64aa000beb6d",
+  "attributionAgent": "workflow-subagent",
+  "attributionSkill": "deep-research",
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "main",
+  "isSidechain": true,
+  "message": {
+    "content": [
+      {
+        "caller": {
+          "type": "direct"
+        },
+        "id": "toolu_01FD6kpXyruAY9fTSngYmozF",
+        "input": {
+          "prompt": "What does this page say about content switcher component? Summarize all guidelines, usage patterns, when to use, when not to use, and any specific UX recommendations. Quote the text directly.",
+          "url": "https://carbondesignsystem.com/components/content-switcher/usage/"
+        },
+        "name": "WebFetch",
+        "type": "tool_use"
+      }
+    ],
+    "diagnostics": null,
+    "id": "msg_011CczeYEWhdDQwXwJiRriwr",
+    "model": "claude-sonnet-4-6",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "tool_use",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 317
+      },
+      "cache_creation_input_tokens": 317,
+      "cache_read_input_tokens": 15597,
+      "inference_geo": "not_available",
+      "input_tokens": 1,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 317
+          },
+          "cache_creation_input_tokens": 317,
+          "cache_read_input_tokens": 15597,
+          "input_tokens": 1,
+          "output_tokens": 127,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 127,
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  },
+  "parentUuid": "8ffb2419-6883-41a6-b156-50b9275999e7",
+  "requestId": "req_011CczeYDo3QSoxfPuVuSRWH",
+  "sessionId": "86fc7165-d979-4827-b088-5359d5c69c61",
+  "slug": "zesty-hopping-oasis",
+  "timestamp": "2026-07-13T19:58:13.083Z",
+  "type": "assistant",
+  "userType": "external",
+  "uuid": "7911fe1b-e356-4a2c-bba6-eaa4d2dae7e3",
+  "version": "2.1.179"
+}

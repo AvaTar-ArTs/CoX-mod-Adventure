@@ -1,0 +1,20 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": "/Users/steven/.claude/projects/-Users-steven-CoX-mod-Adventure/71855a53-b646-444b-8d10-4e28343070ac.jsonl",
+    "role": "user"
+  },
+  "parentUuid": "d2d96497-b8bd-468c-8e8e-19887f8e84e8",
+  "promptId": "26763383-717d-46d5-937c-0a65e8366885",
+  "promptSource": "typed",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "timestamp": "2026-07-13T18:45:36.606Z",
+  "type": "user",
+  "userType": "external",
+  "uuid": "51822f0f-4336-4deb-b0cf-2ceb6760e479",
+  "version": "2.1.179"
+}

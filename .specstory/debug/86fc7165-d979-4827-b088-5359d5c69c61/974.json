@@ -1,0 +1,54 @@
+{
+  "agentId": "a5e5949fdc3138065",
+  "apiErrorStatus": 429,
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "error": "rate_limit",
+  "gitBranch": "main",
+  "isApiErrorMessage": true,
+  "isSidechain": true,
+  "message": {
+    "container": null,
+    "content": [
+      {
+        "text": "You've hit your session limit · resets 7pm (America/New_York)",
+        "type": "text"
+      }
+    ],
+    "context_management": null,
+    "id": "c29f7512-619a-4bbc-9a4e-8b0e0c2ac757",
+    "model": "\u003csynthetic\u003e",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "stop_sequence",
+    "stop_sequence": "",
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": null,
+      "input_tokens": 0,
+      "iterations": null,
+      "output_tokens": 0,
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": null,
+      "speed": null
+    }
+  },
+  "parentUuid": "c9db2c37-cf60-4c97-b5ae-4b3604b2c5ec",
+  "requestId": "req_011CczenPScTwi2Ev23tYhqS",
+  "sessionId": "86fc7165-d979-4827-b088-5359d5c69c61",
+  "slug": "zesty-hopping-oasis",
+  "timestamp": "2026-07-13T20:01:23.030Z",
+  "type": "assistant",
+  "userType": "external",
+  "uuid": "f39d827a-f785-4644-bf24-7f24fd0da28e",
+  "version": "2.1.179"
+}

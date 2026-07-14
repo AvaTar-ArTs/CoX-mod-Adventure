@@ -1,0 +1,15 @@
+{
+  "payload": {
+    "content": [
+      {
+        "text": "The generated cache folders are removed. I’m doing one last pass over the user-facing HTML and docs to distinguish current entry points from older prototypes.",
+        "type": "output_text"
+      }
+    ],
+    "phase": "commentary",
+    "role": "assistant",
+    "type": "message"
+  },
+  "timestamp": "2026-07-13T20:10:08.289Z",
+  "type": "response_item"
+}

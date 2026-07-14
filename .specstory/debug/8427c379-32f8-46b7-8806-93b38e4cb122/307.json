@@ -1,0 +1,35 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "cc-daemon-501\ncom.apple.launchd.uTwDI5x9fH\ncom.apple.launchd.zwiujFDxNg\npowerlog\ntmux-501\ninstaller_test\nmod9_test\nscrape-full.log\n'Sublime Text.4cff18d2bab96a93366319a9e0fa060d.6ed61d4b80bb0f81937b32418e98adca.sock'\n---\ninstaller_test\nmod9_test\nscrape-full.log",
+        "is_error": false,
+        "tool_use_id": "toolu_01QocFdGiQGiNZNFmoCzDRQY",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "0e49e577-64db-4893-9320-a7a2e5a487e0",
+  "promptId": "21ef8620-0dc3-4168-97cd-73ded0c11162",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolAssistantUUID": "0e49e577-64db-4893-9320-a7a2e5a487e0",
+  "timestamp": "2026-07-13T19:11:53.858Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "",
+    "stdout": "cc-daemon-501\ncom.apple.launchd.uTwDI5x9fH\ncom.apple.launchd.zwiujFDxNg\npowerlog\ntmux-501\ninstaller_test\nmod9_test\nscrape-full.log\n'Sublime Text.4cff18d2bab96a93366319a9e0fa060d.6ed61d4b80bb0f81937b32418e98adca.sock'\n---\ninstaller_test\nmod9_test\nscrape-full.log"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "9880fca2-5e47-4714-a568-14b811908060",
+  "version": "2.1.179"
+}

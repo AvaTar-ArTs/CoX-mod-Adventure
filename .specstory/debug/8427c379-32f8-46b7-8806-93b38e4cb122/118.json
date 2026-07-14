@@ -1,0 +1,63 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "signature": "EtYICosBCA8YAipA0qwo81vVghWfVX7Jeb3cf7G2HqwgTV66wd6SM5uX+pygJ8HsgjGxwhR7PU+tWZ2d+qhZX94IItRfeMF45z1H3zIRY2xhdWRlLXNvbm5ldC00LTY4AEIIdGhpbmtpbmdaJDE0MDRmOWJlLWVjZjgtNDc4MC05MDU0LWJhYTEyZjUwYTk2NBIMpFe2250i74GxX2A7Ggxc7XYxZTdNx9Jel78iMMu4or7wljJ7YPfOHaW77/lUa8w/rPERhqyQXaNOHFRIBxg5JlmW/Ns6/nJuV6YkOyr3BlgG+ayH1Q0XJZQvfhoe483AKyXvPxrfnzqMTb4O/C6ivW1SE6IuHZd5sTJDqfNHbodNngwRGPpMEbMZoyxSSjuP6BnEfRDkFACYYmZ9lCBJ5sOx4m3uFbQRpSq31oQnJyb+t/3cBC5bIdnL+LPS8slBdQy+2BSWnaTOLZwQXJZo2xS/T7vZvd3wL1kmIBRABSoChn/HV93+vM2Tbbav9RIkgwULl9SBa2ByTolHk5G9I3vShaj8Tfxjn6WhkZ/2g8N6egKa01UZp5+JszPSWvOmwt1gpmNcvQG+BXxEKsLdJvoeZeszGOWi+DCtap6FkmOfM4QqwcUGroVPwh5jF9guBGYoRkgZHgRrbZan4YpVT3hKkyPg8HIWdor2bhrZgy8cydpzDde+TqZeqzj7cPEKZXjUHjhGWf4xnHSdL+Cd1gOxPjG/9nLbNJXnuG2e/YiGKd9LaT1awakSrrdYZwYVdBWSv4UawqiqFz4ra5+ipSddP//DpYeRkTlR5KglIPnR9Nz/U4QOjmxwuBf5sxyoXt4EVKlIY/K8c/H81SQRTbuj5Y8uqXCuLCU9V4VoClPPT2tcD8F0yMJ4PXfj2BnN6Npix1VZ6rJFXvn+97WtMFq1jog4H+t8hZGhzsrOIn4hJ+NR1vWlf3g770tac5XDUWwLlMdRHCdEosdZt/5/Kz8+9q//TlGkoEjKTJAP+ZJUI0LfENyHxbpfjd3Wy64Nhhmy3P+wMo3GrxEMMNkAuNEn3xOgwkKFOduc78FDioQxfXp8dgby7iiyZvpSJvRIKBSt2gEU1Jr9wwU6/L/Rwy0jkmkcbpFYWaGYCnZ5zrXhxoGoCqfhjnUmLczAgE9WOqmQ3V9J12zJQjjyLxegEVZWQqHsUCUaC8e29aPaEp64XLOKtJWriL6A5esl6dTwZd90Q+JbyBNi50AY0q5I3yubxsG09nSqjUiJnnzEF24hwA1kdUAgqrRTUttQGJ5u/8UJL8BWDV/+Xvx8npQTRJQD6S/RVF4K41KxVzzZTluHXAPTFWspmGsMWODBdCohTrrB7kM2m15h5UGUyENA8F9emDuSSX5NQNjDE3xoV2onte+whRoPtzffr8aixJYX6J2vTWY6LX1/Ogq15Pkn05/n/rGAKmMX+wFenj/wzgQfMKOkoEiXgU/tIoPS+X3KEht0iz3AGAE=",
+        "thinking": "",
+        "type": "thinking"
+      }
+    ],
+    "diagnostics": null,
+    "id": "msg_011CczZejUKFGqrYKZFyFoEd",
+    "model": "claude-sonnet-4-6",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "tool_use",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 5685,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 5685,
+      "cache_read_input_tokens": 61626,
+      "inference_geo": "not_available",
+      "input_tokens": 3,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 5685,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 5685,
+          "cache_read_input_tokens": 61626,
+          "input_tokens": 3,
+          "output_tokens": 374,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 374,
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  },
+  "parentUuid": "d3f6324b-e4fa-48ff-874a-d51a28251ce6",
+  "requestId": "req_011CczZeiYWXsrb2jrjxh8TL",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "timestamp": "2026-07-13T18:54:16.403Z",
+  "type": "assistant",
+  "userType": "external",
+  "uuid": "d7321d11-0600-4dfd-a11c-840e9ecc19fc",
+  "version": "2.1.179"
+}

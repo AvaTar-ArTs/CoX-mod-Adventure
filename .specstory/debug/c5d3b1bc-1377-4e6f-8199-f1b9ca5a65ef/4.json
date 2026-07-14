@@ -1,0 +1,18 @@
+{
+  "cwd": "/Users/steven",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": "\u003clocal-command-stdout\u003eLogin interrupted\u003c/local-command-stdout\u003e",
+    "role": "user"
+  },
+  "parentUuid": "42156a09-f954-44cd-aa08-cd2f67fa8626",
+  "promptId": "02f9a8db-488f-4f06-89be-3163aad905bc",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "timestamp": "2026-07-13T04:52:51.344Z",
+  "type": "user",
+  "userType": "external",
+  "uuid": "8bb28c3a-e395-4bf2-b545-c2046a902403",
+  "version": "2.1.179"
+}

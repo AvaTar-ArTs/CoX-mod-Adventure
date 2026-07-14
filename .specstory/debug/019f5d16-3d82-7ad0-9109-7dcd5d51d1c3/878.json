@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"rg -n \\\"upgrade-candidate|Upgrade Candidate|Promote Complete|Scoring Rubric|Next Concrete\\\" docs/plans\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":3000}",
+    "call_id": "call_QXQm2z1QVQtBPM9tWM9w9NfQ",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:41:56.888Z",
+  "type": "response_item"
+}

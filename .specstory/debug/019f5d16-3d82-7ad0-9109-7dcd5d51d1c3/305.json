@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "memory_citation": null,
+    "message": "The skill folder is installed. I’m fixing only the YAML description line in the installed copy so Codex can parse it.",
+    "phase": "commentary",
+    "type": "agent_message"
+  },
+  "timestamp": "2026-07-13T20:19:54.359Z",
+  "type": "event_msg"
+}

@@ -1,0 +1,17 @@
+{
+  "content": "CoX-mod-Adventure is a personal City of Heroes mod management toolkit for macOS. No active task was in progress — waiting for the user to specify what to work on next. (disable recaps in /config)",
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isMeta": false,
+  "isSidechain": false,
+  "parentUuid": "50893940-4fe8-49ce-b8a3-3204a4ba6b04",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "subtype": "away_summary",
+  "timestamp": "2026-07-13T18:46:18.568Z",
+  "type": "system",
+  "userType": "external",
+  "uuid": "2a4269c4-813e-4a5a-8183-f49b2b60587f",
+  "version": "2.1.179"
+}

@@ -1,0 +1,15 @@
+{
+  "payload": {
+    "content": [
+      {
+        "text": "`~/.codex/skills` does not exist yet; only `vendor_imports/skills` and `memories/skills` exist under `~/.codex`. I’m going to create the active skills directory, copy `using-superpowers` into it, then normalize the YAML frontmatter in the installed copy.",
+        "type": "output_text"
+      }
+    ],
+    "phase": "commentary",
+    "role": "assistant",
+    "type": "message"
+  },
+  "timestamp": "2026-07-13T20:19:04.654Z",
+  "type": "response_item"
+}

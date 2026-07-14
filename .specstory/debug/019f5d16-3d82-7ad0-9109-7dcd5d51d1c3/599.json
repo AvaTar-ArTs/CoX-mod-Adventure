@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "memory_citation": null,
+    "message": "Got it. I’ll correct the model: `/Applications/coh` was the wrong thing to treat as the runtime; the real runtime surface is the LaunchCat tree under `~/Library/Application Support/LaunchCat/coh`. I’m verifying that live path and then I’ll update the direction doc.",
+    "phase": "commentary",
+    "type": "agent_message"
+  },
+  "timestamp": "2026-07-13T20:33:19.171Z",
+  "type": "event_msg"
+}

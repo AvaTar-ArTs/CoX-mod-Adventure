@@ -1,0 +1,35 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure/Upgraded",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "/Applications/coh/assets\n/Applications/coh/assets/launcher\n/Applications/coh/assets/.DS_Store\n/Applications/coh/assets/issue24\n/Applications/coh/assets/live\n/Applications/coh/assets/mods\n/Applications/coh/assets/launcher/launcher.pigg\n/Applications/coh/assets/launcher/images.pigg\n/Applications/coh/assets/issue24/texVWorld2.pigg\n/Applications/coh/assets/issue24/sound7.pigg\n/Applications/coh/assets/issue24/texWorldCZ.pigg\n/Applications/coh/assets/issue24/stage3c.pigg\n/Applications/coh/assets/issue24/texEnemies2.pigg\n/Applications/coh/assets/issue24/mapsCities2.pigg\n/Applications/coh/assets/issue24/stage1c.pigg\n/Applications/coh/assets/issue24/texVWorldBases2.pigg\n/Applications/coh/assets/issue24/soundMusic.pigg\n/Applications/coh/assets/issue24/stage1b.pigg\n/Applications/coh/assets/issue24/stage1.pigg\n/Applications/coh/assets/issue24/texWorld.pigg\n/Applications/coh/assets/issue24/soundMusic2.pigg\n/Applications/coh/assets/issue24/texGui1.pigg\n/Applications/coh/assets/issue24/texEnemies3.pigg\n/Applications/coh/assets/issue24/stage3b.pigg\n/Applications/coh/assets/issue24/sound6.pigg\n/Applications/coh/assets/issue24/texVWorld3.pigg\n/Applications/coh/assets/issue24/geom.pigg\n/Applications/coh/assets/issue24/fonts.pigg\n/Applications/coh/assets/issue24/stage1e.pigg\n/Applications/coh/assets/issue24/texWorldV1.pigg\n---\naccounts\nassets\nbin\ncache\ndata\nlogs\nscreenshots\nsettings\nwine\nHomecoming.lnk\nlaunch.sh\nLaunchCat-Diagnostics.txt\nstart-live.sh\nTHIRDPARTYSOFTWAREREADME.txt",
+        "is_error": false,
+        "tool_use_id": "toolu_019yMMcfRPsG19fUjeGqdTPB",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "891d0ffe-1172-447a-9a70-e53a40f23604",
+  "promptId": "70dfe62b-ddfe-4190-b643-e3b20fb41c5d",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolAssistantUUID": "891d0ffe-1172-447a-9a70-e53a40f23604",
+  "timestamp": "2026-07-13T19:43:37.786Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "",
+    "stdout": "/Applications/coh/assets\n/Applications/coh/assets/launcher\n/Applications/coh/assets/.DS_Store\n/Applications/coh/assets/issue24\n/Applications/coh/assets/live\n/Applications/coh/assets/mods\n/Applications/coh/assets/launcher/launcher.pigg\n/Applications/coh/assets/launcher/images.pigg\n/Applications/coh/assets/issue24/texVWorld2.pigg\n/Applications/coh/assets/issue24/sound7.pigg\n/Applications/coh/assets/issue24/texWorldCZ.pigg\n/Applications/coh/assets/issue24/stage3c.pigg\n/Applications/coh/assets/issue24/texEnemies2.pigg\n/Applications/coh/assets/issue24/mapsCities2.pigg\n/Applications/coh/assets/issue24/stage1c.pigg\n/Applications/coh/assets/issue24/texVWorldBases2.pigg\n/Applications/coh/assets/issue24/soundMusic.pigg\n/Applications/coh/assets/issue24/stage1b.pigg\n/Applications/coh/assets/issue24/stage1.pigg\n/Applications/coh/assets/issue24/texWorld.pigg\n/Applications/coh/assets/issue24/soundMusic2.pigg\n/Applications/coh/assets/issue24/texGui1.pigg\n/Applications/coh/assets/issue24/texEnemies3.pigg\n/Applications/coh/assets/issue24/stage3b.pigg\n/Applications/coh/assets/issue24/sound6.pigg\n/Applications/coh/assets/issue24/texVWorld3.pigg\n/Applications/coh/assets/issue24/geom.pigg\n/Applications/coh/assets/issue24/fonts.pigg\n/Applications/coh/assets/issue24/stage1e.pigg\n/Applications/coh/assets/issue24/texWorldV1.pigg\n---\naccounts\nassets\nbin\ncache\ndata\nlogs\nscreenshots\nsettings\nwine\nHomecoming.lnk\nlaunch.sh\nLaunchCat-Diagnostics.txt\nstart-live.sh\nTHIRDPARTYSOFTWAREREADME.txt"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "a4e5e29a-a67e-4e69-abea-5d80fc373058",
+  "version": "2.1.179"
+}

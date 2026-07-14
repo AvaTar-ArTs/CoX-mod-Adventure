@@ -1,0 +1,63 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "signature": "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",
+        "thinking": "",
+        "type": "thinking"
+      }
+    ],
+    "diagnostics": null,
+    "id": "msg_011CczcGgxFSqte9oGT6RWHZ",
+    "model": "claude-sonnet-4-6",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 38,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 38,
+      "cache_read_input_tokens": 74026,
+      "inference_geo": "not_available",
+      "input_tokens": 3,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 38,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 38,
+          "cache_read_input_tokens": 74026,
+          "input_tokens": 3,
+          "output_tokens": 1332,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 1332,
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  },
+  "parentUuid": "76ac1557-3c24-40c3-8e1f-2e3af6330bb7",
+  "requestId": "req_011CczcGcg29wNHbQf2kaPEM",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "timestamp": "2026-07-13T19:28:44.547Z",
+  "type": "assistant",
+  "userType": "external",
+  "uuid": "aca41072-7d28-47ac-bcae-2da8e5951105",
+  "version": "2.1.179"
+}

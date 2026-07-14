@@ -1,0 +1,35 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure/Upgraded",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "debugging-hermes-tui-commands\nhermes-agent-skill-authoring\nnode-inspect-debugger\nplan\npython-debugpy\nrequesting-code-review\nspike\nsubagent-driven-development\nsystematic-debugging\ntest-driven-development\nwriting-plans\n---\nSKILL.md\n---\n# ~/.agent-skills - Current Runtime Index\n\nLast audited: 2026-07-13.\n\nThis tree is the canonical local source for reusable agents and skills. The\nlegacy `/Users/steven/.agents` path is a compatibility symlink to this directory;\nnew runtime configuration should point directly at `/Users/steven/.agent-skills`.\n\n## At a Glance\n\n| Area | Current count | Notes |\n|------|---------------|-------|\n| `agents/` files | 108 | Non-hidden files: 99 md, 3 toml, 1 yaml, 4 csv, 1 txt |\n| `skills/` top-level directories | 92 | One additional top-level symlink is present |\n| Direct/root-visible skills | 74 | `SKILL.md` files within depth 2 |\n| Local expanded skills | 154 | `SKILL.md` files within depth 3 |\n| Symlink-followed runtime-visible skills | 177 | Includes linked/reference-visible skill material |\n\n## Runtime Links\n\nClaude and Codex should resolve through the canonical `.agent-skills` tree:\n\n```text\n/Users/steven/.claude/agents -\u003e /Users/steven/.agent-skills/agents\n/Users/steven/.claude/skills -\u003e /Users/steven/.agent-skills/skills\n/Users/steven/.codex/agents -\u003e /Users/steven/.agent-skills/agents\n/Users/steven/.codex/skills -\u003e /Users/steven/.agent-skills/skills\n/Users/steven/.codex/superpowers -\u003e /Users/steven/.agent-skills/skills/using-superpowers\n```\n\n## Operating Notes\n\n- Use `/Users/steven/.agent-skills` as the canonical path in new configuration.\n- Keep `/Users/steven/.agents` only as a compatibility alias for older tools.\n- Preserve local history and generated reports unless cleanup is explicitly\n  requested.\n- Put temporary generated outputs under `tmp/`, `tmp-csv/`, or `tmp-md/`.\n- Treat cache, session, credential, and runtime-state paths as non-importable.\n\n## Useful Entry Points\n\n- `skills/using-superpowers/SKILL.md` - process authority for SupremePower /\n  using-superpowers requests.\n- `skills/ecosystem-intelligence/SKILL.md` - ecosystem audit and topology work.\n- `skills/cross-tool-memory/SKILL.md` - shared memory bridge workflows.\n- `skills/agmsg/SKILL.md` - cross-agent messaging workflows.",
+        "is_error": false,
+        "tool_use_id": "toolu_017k745qzb97wc99S5VgMyKt",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "0dfc4c65-5792-42a8-a1a5-ba71a0401c6c",
+  "promptId": "d7b1cb39-5287-4666-8aba-cca8bb32bd47",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolAssistantUUID": "0dfc4c65-5792-42a8-a1a5-ba71a0401c6c",
+  "timestamp": "2026-07-13T19:44:40.425Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "",
+    "stdout": "debugging-hermes-tui-commands\nhermes-agent-skill-authoring\nnode-inspect-debugger\nplan\npython-debugpy\nrequesting-code-review\nspike\nsubagent-driven-development\nsystematic-debugging\ntest-driven-development\nwriting-plans\n---\nSKILL.md\n---\n# ~/.agent-skills - Current Runtime Index\n\nLast audited: 2026-07-13.\n\nThis tree is the canonical local source for reusable agents and skills. The\nlegacy `/Users/steven/.agents` path is a compatibility symlink to this directory;\nnew runtime configuration should point directly at `/Users/steven/.agent-skills`.\n\n## At a Glance\n\n| Area | Current count | Notes |\n|------|---------------|-------|\n| `agents/` files | 108 | Non-hidden files: 99 md, 3 toml, 1 yaml, 4 csv, 1 txt |\n| `skills/` top-level directories | 92 | One additional top-level symlink is present |\n| Direct/root-visible skills | 74 | `SKILL.md` files within depth 2 |\n| Local expanded skills | 154 | `SKILL.md` files within depth 3 |\n| Symlink-followed runtime-visible skills | 177 | Includes linked/reference-visible skill material |\n\n## Runtime Links\n\nClaude and Codex should resolve through the canonical `.agent-skills` tree:\n\n```text\n/Users/steven/.claude/agents -\u003e /Users/steven/.agent-skills/agents\n/Users/steven/.claude/skills -\u003e /Users/steven/.agent-skills/skills\n/Users/steven/.codex/agents -\u003e /Users/steven/.agent-skills/agents\n/Users/steven/.codex/skills -\u003e /Users/steven/.agent-skills/skills\n/Users/steven/.codex/superpowers -\u003e /Users/steven/.agent-skills/skills/using-superpowers\n```\n\n## Operating Notes\n\n- Use `/Users/steven/.agent-skills` as the canonical path in new configuration.\n- Keep `/Users/steven/.agents` only as a compatibility alias for older tools.\n- Preserve local history and generated reports unless cleanup is explicitly\n  requested.\n- Put temporary generated outputs under `tmp/`, `tmp-csv/`, or `tmp-md/`.\n- Treat cache, session, credential, and runtime-state paths as non-importable.\n\n## Useful Entry Points\n\n- `skills/using-superpowers/SKILL.md` - process authority for SupremePower /\n  using-superpowers requests.\n- `skills/ecosystem-intelligence/SKILL.md` - ecosystem audit and topology work.\n- `skills/cross-tool-memory/SKILL.md` - shared memory bridge workflows.\n- `skills/agmsg/SKILL.md` - cross-agent messaging workflows."
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "fa122a79-cb8f-4c4b-8b0b-dd6a73c869b0",
+  "version": "2.1.179"
+}

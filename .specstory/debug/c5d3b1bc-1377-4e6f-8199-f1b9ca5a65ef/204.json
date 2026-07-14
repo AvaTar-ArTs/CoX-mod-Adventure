@@ -1,0 +1,61 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "text": "Applied and verified — JSON is valid and the diff is exactly the four intended changes, nothing else touched.\n\n## Graphics bump applied\n\n| Setting | Was | Now |\n|---------|-----|-----|\n| Resolution | 1280×747 | **1920×1080** |\n| FSAA | 1 | **2** |\n| World detail | 1 | **3** |\n| Entity detail | 1 | **3** |\n| Shadows | mode 1 | **mode 2** |\n\nEverything else (shader quality 3, post-proc, vsync, textures, particles) left as-is — they were already good.\n\n**Backup:** original preserved at `gfx.json.v1-2026-07-13`. To revert: `cp gfx.json.v1-2026-07-13 gfx.json`.\n\n`★ Insight ─────────────────────────────────────`\n- **Why validate JSON after editing a game config:** CoH's parser is unforgiving — a single trailing comma or brace slip and it silently discards the file and regenerates stock defaults on next launch. Your carefully-tuned settings would vanish with no error message. The `json.load` check catches that *before* you launch, not after you're staring at a reset config.\n- **Editing while the launcher is down matters here:** LaunchCat/the client writes `gfx.json` back on exit. Had a session been live, it would have clobbered these edits the moment you quit. Because we killed everything and cleared the lock earlier, this write is safe and will be the one the client reads on next start.\n- **`fsaa: 2` + Retina downsampling stack nicely:** even at 1920×1080 on your 2880×1800 panel, the OS downscales, giving you extra \"free\" anti-aliasing on top of the in-engine FSAA — edges will look notably cleaner than the raw numbers suggest.\n`─────────────────────────────────────────────────`\n\n**Next launch will use these.** When you open LaunchCat → Play, watch the first zone load — if the MoltenVK path feels heavy (frame hitching in dense areas like Atlas Park), the cheapest walkback is `shadow.mode` → 1 or resolution → 1600×900; the most expensive settings under Wine are almost always shadows and resolution, not detail level.\n\nWant me to keep going through the stack — the `profiles/` and `packages/` dirs under `launcher/`, or the `accounts/` and `data/` dirs — or is this a good place to pause?",
+        "type": "text"
+      }
+    ],
+    "diagnostics": null,
+    "id": "msg_011CcyUqqM1KGjXTwjkuQS53",
+    "model": "claude-opus-4-8",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 769
+      },
+      "cache_creation_input_tokens": 769,
+      "cache_read_input_tokens": 127839,
+      "inference_geo": "global",
+      "input_tokens": 157,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 769
+          },
+          "cache_creation_input_tokens": 769,
+          "cache_read_input_tokens": 127839,
+          "input_tokens": 157,
+          "output_tokens": 799,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 799,
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  },
+  "parentUuid": "2161f08f-758c-4b55-941b-7b9a77404402",
+  "requestId": "req_011CcyUqooEsTecNVb3HUMHM",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "slug": "playful-petting-ritchie",
+  "timestamp": "2026-07-13T05:10:39.886Z",
+  "type": "assistant",
+  "userType": "external",
+  "uuid": "e5711302-dda1-4e8c-b50d-d5ac377ec1da",
+  "version": "2.1.179"
+}

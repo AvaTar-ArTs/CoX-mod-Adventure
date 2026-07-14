@@ -1,0 +1,26 @@
+{
+  "agentId": "ae618fd6c938ed588",
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "main",
+  "isSidechain": true,
+  "message": {
+    "content": [
+      {
+        "content": "Structured output provided successfully",
+        "tool_use_id": "toolu_01BgDuULHuGxHwE7oZCpXJNR",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "9e201c57-3d14-4150-ac39-21f4586c18d1",
+  "promptId": "36361822-87fa-4f36-ab6a-71a9c0ac20a8",
+  "sessionId": "86fc7165-d979-4827-b088-5359d5c69c61",
+  "sourceToolAssistantUUID": "9e201c57-3d14-4150-ac39-21f4586c18d1",
+  "timestamp": "2026-07-13T19:56:19.429Z",
+  "type": "user",
+  "userType": "external",
+  "uuid": "de4518d1-d5d4-4c5d-9733-d07bf58285c1",
+  "version": "2.1.179"
+}

@@ -1,0 +1,20 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": "\u003ccommand-message\u003ewriting-skills\u003c/command-message\u003e\n\u003ccommand-name\u003e/writing-skills\u003c/command-name\u003e\n\u003ccommand-args\u003e/brainstorming /using-superpowers\u003c/command-args\u003e",
+    "role": "user"
+  },
+  "parentUuid": "20f6fe3a-0a4c-4eb7-8d30-9783ba4ce46c",
+  "promptId": "32318058-11f9-4d53-af87-361c56f3ea7c",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "timestamp": "2026-07-13T19:21:46.222Z",
+  "type": "user",
+  "userType": "external",
+  "uuid": "2bec039e-525c-4330-9c83-be4ca1bd12e5",
+  "version": "2.1.179"
+}

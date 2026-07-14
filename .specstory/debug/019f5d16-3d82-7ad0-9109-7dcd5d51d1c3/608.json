@@ -1,0 +1,9 @@
+{
+  "payload": {
+    "call_id": "call_d7qYHjTw30KhjQVnIuOoWtF8",
+    "output": "Chunk ID: ea0430\nWall time: 0.0000 seconds\nProcess exited with code 0\nOriginal token count: 169\nOutput:\n/Users/steven/Library/Application Support/LaunchCat/coh/start-live.sh:             POSIX shell script text executable, ASCII text\n/Users/steven/Library/Application Support/LaunchCat/coh/launch.sh:                 POSIX shell script text executable, ASCII text\n/Users/steven/Library/Application Support/LaunchCat/coh/Homecoming.lnk:            MS Windows shortcut, Item id list present, Points to a file or directory, Has Description string, Has Working directory, ctime=Wed Dec 31 23:59:59 1969, mtime=Wed Dec 31 23:59:59 1969, atime=Wed Dec 31 23:59:59 1969, length=0, window=hide\n/Users/steven/Library/Application Support/LaunchCat/coh/LaunchCat-Diagnostics.txt: ASCII text\n",
+    "type": "function_call_output"
+  },
+  "timestamp": "2026-07-13T20:33:19.459Z",
+  "type": "response_item"
+}

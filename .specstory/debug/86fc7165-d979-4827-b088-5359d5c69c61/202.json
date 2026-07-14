@@ -1,0 +1,53 @@
+{
+  "agentId": "a647d6cbea3efae0f",
+  "attributionAgent": "workflow-subagent",
+  "attributionSkill": "deep-research",
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "main",
+  "isSidechain": true,
+  "message": {
+    "content": [
+      {
+        "caller": {
+          "type": "direct"
+        },
+        "id": "toolu_019yveeFNRwdMEqqxPBscxkm",
+        "input": {
+          "query": "select:WebFetch"
+        },
+        "name": "ToolSearch",
+        "type": "tool_use"
+      }
+    ],
+    "diagnostics": null,
+    "id": "msg_011CczeUBhAvLt5cDaLWsh5V",
+    "model": "claude-sonnet-4-6",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": null,
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 8038
+      },
+      "cache_creation_input_tokens": 8038,
+      "cache_read_input_tokens": 6413,
+      "inference_geo": "not_available",
+      "input_tokens": 3,
+      "output_tokens": 34,
+      "service_tier": "standard"
+    }
+  },
+  "parentUuid": "bb1f6e95-36ae-41e4-8b14-f75165535660",
+  "requestId": "req_011CczeUAKa6UreUaFjVzKmm",
+  "sessionId": "86fc7165-d979-4827-b088-5359d5c69c61",
+  "slug": "zesty-hopping-oasis",
+  "timestamp": "2026-07-13T19:57:16.835Z",
+  "type": "assistant",
+  "userType": "external",
+  "uuid": "65e51ac9-bb80-441b-b82f-c0c95d0af889",
+  "version": "2.1.179"
+}

@@ -1,0 +1,33 @@
+{
+  "cwd": "/Users/steven",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "=== stale wineserver socket dirs (before) ===\ndrwx------  - steven 13 Jul 00:14 server-1000009-c3c4a3f\ndrwx------@ - steven 13 Jul 01:01 server-1000009-c382a2f\n\nremoved /private/tmp/.wine-501\n\n=== FINAL VERIFICATION ===\n(eval):15: no matches found: /private/tmp/.wine-*\nwine sockets:  ✅ gone\nwine procs:    0 running\nload average: 2.89 3.17 3.84",
+        "is_error": false,
+        "tool_use_id": "toolu_01Vc26EdD9wiGzLiq2EnfoP5",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "a3a86774-f3f6-4c37-a2b1-aee16b845eac",
+  "promptId": "c5ca2d56-9f43-4f5f-a1e0-3b1e10fbf3fb",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "sourceToolAssistantUUID": "a3a86774-f3f6-4c37-a2b1-aee16b845eac",
+  "timestamp": "2026-07-13T05:02:16.753Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "",
+    "stdout": "=== stale wineserver socket dirs (before) ===\ndrwx------  - steven 13 Jul 00:14 server-1000009-c3c4a3f\ndrwx------@ - steven 13 Jul 01:01 server-1000009-c382a2f\n\nremoved /private/tmp/.wine-501\n\n=== FINAL VERIFICATION ===\n(eval):15: no matches found: /private/tmp/.wine-*\nwine sockets:  ✅ gone\nwine procs:    0 running\nload average: 2.89 3.17 3.84"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "71a40acc-8365-4951-8613-53c2c45115e9",
+  "version": "2.1.179"
+}

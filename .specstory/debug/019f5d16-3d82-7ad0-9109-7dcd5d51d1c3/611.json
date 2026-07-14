@@ -1,0 +1,15 @@
+{
+  "payload": {
+    "content": [
+      {
+        "text": "The LaunchCat tree is confirmed: 5.6G total, 4.8G assets, and three installed `.pigg` mods in `assets/mods`. I’m patching the doc to replace the earlier `/Applications/coh` interpretation with this corrected runtime model.",
+        "type": "output_text"
+      }
+    ],
+    "phase": "commentary",
+    "role": "assistant",
+    "type": "message"
+  },
+  "timestamp": "2026-07-13T20:33:24.259Z",
+  "type": "response_item"
+}

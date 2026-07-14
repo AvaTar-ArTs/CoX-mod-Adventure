@@ -1,0 +1,18 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "main",
+  "isSidechain": false,
+  "message": {
+    "content": "\u003clocal-command-stdout\u003eThat session is still running as a background agent. Open `claude agents` to attach to it, or stop it there first to resume here.\u003c/local-command-stdout\u003e",
+    "role": "user"
+  },
+  "parentUuid": "38f25bf6-34e6-40c6-a824-7fa02d3d7659",
+  "promptId": "c21998f7-bd90-4d10-af68-9676672ece8d",
+  "sessionId": "615e4a6f-d1f9-4fd8-971e-60fdf9242c83",
+  "timestamp": "2026-07-13T19:49:04.336Z",
+  "type": "user",
+  "userType": "external",
+  "uuid": "0c880921-7c4d-4991-b6c2-3b53670f5e21",
+  "version": "2.1.179"
+}

@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"rsync -a /Users/steven/.agents/skills/using-superpowers/ /Users/steven/.codex/skills/using-superpowers/\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":4000,\"sandbox_permissions\":\"require_escalated\",\"justification\":\"Allow copying the using-superpowers skill from ~/.agents into ~/.codex/skills?\"}",
+    "call_id": "call_81tdhyFpcCU8Y9R6q72dyW3j",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:19:36.457Z",
+  "type": "response_item"
+}

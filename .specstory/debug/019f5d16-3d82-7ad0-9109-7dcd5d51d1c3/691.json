@@ -1,0 +1,14 @@
+{
+  "payload": {
+    "content": [
+      {
+        "text": "with your best research review and 'lets find a skill or skills or workflows logic thoughs' to comprehend",
+        "type": "input_text"
+      }
+    ],
+    "role": "user",
+    "type": "message"
+  },
+  "timestamp": "2026-07-13T20:35:59.319Z",
+  "type": "response_item"
+}

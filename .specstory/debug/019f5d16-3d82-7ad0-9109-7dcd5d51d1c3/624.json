@@ -1,0 +1,15 @@
+{
+  "payload": {
+    "content": [
+      {
+        "text": "Corrected. `/Applications/coh` is not the real runtime; the real surface is:\n\n`/Users/steven/Library/Application Support/LaunchCat/coh`\n\nI verified it live and updated [2026-07-13-cox-mod-adventure-context-and-direction.md](/Users/steven/CoX-mod-Adventure/docs/plans/2026-07-13-cox-mod-adventure-context-and-direction.md) accordingly.\n\nCurrent verified model:\n\n- LaunchCat runtime: `~/Library/Application Support/LaunchCat/coh`\n- Runtime size: `5.6G`\n- Assets tree: `~/Library/Application Support/LaunchCat/coh/assets`, `4.8G`\n- Installed mod target: `~/Library/Application Support/LaunchCat/coh/assets/mods`, `32M`\n- Installed `.pigg` files:\n  - `PocketDAssemblage23.pigg`\n  - `BetterIcons.pigg`\n  - `accolade_lrt.pigg`\n- Runtime includes `issue24`, `live`, `launcher`, `wine`, `bin`, `cache`, `settings`, `logs`, `accounts`, `data`, `screenshots`, `Homecoming.lnk`, `start-live.sh`, and `launch.sh`.\n- `/Applications/coh` is just an empty `0B` directory marker/convenience path.\n\nThis changes the product direction in a useful way: the browser should eventually show “LaunchCat runtime detected” and “3 installed mods found,” and treat `assets/mods` as the real install target.",
+        "type": "output_text"
+      }
+    ],
+    "phase": "final_answer",
+    "role": "assistant",
+    "type": "message"
+  },
+  "timestamp": "2026-07-13T20:33:49.431Z",
+  "type": "response_item"
+}

@@ -1,0 +1,20 @@
+{
+  "payload": {
+    "call_id": "call_5pwMtTegEL666s6k4yvB0Y87",
+    "changes": {
+      "/Users/steven/CoX-mod-Adventure/docs/plans/2026-07-13-cox-research-review-and-workflow-logic.md": {
+        "move_path": null,
+        "type": "update",
+        "unified_diff": "@@ -171,2 +171,6 @@\n \n+Upgrade-candidate triage for deciding which complete, partial, and reference\n+files should be promoted or mined lives in\n+`docs/plans/2026-07-13-upgrade-candidate-research.md`.\n+\n Translated into repo work:\n"
+      }
+    },
+    "status": "completed",
+    "stderr": "",
+    "stdout": "Success. Updated the following files:\nM docs/plans/2026-07-13-cox-research-review-and-workflow-logic.md\n",
+    "success": true,
+    "turn_id": "019f5d35-67ec-7da1-9a7c-7c787efeaa1a",
+    "type": "patch_apply_end"
+  },
+  "timestamp": "2026-07-13T20:41:51.682Z",
+  "type": "event_msg"
+}

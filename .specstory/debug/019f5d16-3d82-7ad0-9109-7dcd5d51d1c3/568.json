@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"plutil -p /Applications/CoHModdingTool.app/Contents/Info.plist 2\u003e/dev/null | sed -n '1,120p'\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":8000}",
+    "call_id": "call_eEFjesqEDBynpfEYvKkYGuKq",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:32:14.089Z",
+  "type": "response_item"
+}

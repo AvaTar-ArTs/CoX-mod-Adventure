@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"find '/Users/steven/Library/Application Support/CityModInstaller' -maxdepth 3 -type f -print 2\u003e/dev/null | sort\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":12000}",
+    "call_id": "call_h1SBpM7rw7YA6havYzfpQ8OA",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:34:14.932Z",
+  "type": "response_item"
+}

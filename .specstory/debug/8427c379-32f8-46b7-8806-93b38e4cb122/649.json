@@ -1,0 +1,37 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure/Upgraded",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "1\t{\n2\t    \"prompts\": { },\n3\t    \"version\": 7,\n4\t    \"screen\": {\n5\t        \"size\": {\n6\t            \"width\": 1280,\n7\t            \"height\": 720\n8\t        },\n9\t        \"pos\": {\n10\t            \"x\": 150,\n11\t            \"y\": 28\n12\t        },\n13\t        \"borderless\": {\n14\t            \"monitor\": 0\n15\t        },\n16\t        \"vsync\": 1,\n17\t        \"fsaa\": 1\n18\t    },\n19\t    \"fov\": { },\n20\t    \"texture\": {\n21\t        \"miplevel\": -1,\n22\t        \"charactermiplevel\": 1,\n23\t        \"lodbias\": 2,\n24\t        \"aniso\": 4\n25\t    },\n26\t    \"detail\": {\n27\t        \"world\": 1,\n28\t        \"entity\": 1\n29\t    },\n30\t    \"shadow\": {\n31\t        \"mode\": 1,\n32\t        \"shader\": 0,\n33\t        \"mapsize\": 0,\n34\t        \"distance\": -2\n35\t    },\n36\t    \"reflections\": { },\n37\t    \"physx\": {\n38\t        \"quality\": 2\n39\t    },\n40\t    \"advanced\": { },\n41\t    \"particles\": {\n42\t        \"max\": 50000,\n43\t        \"fill\": 10\n44\t    },\n45\t    \"render\": {\n46\t        \"vbo\": 1,\n47\t        \"shader\": {\n48\t            \"quality\": 2\n49\t        }\n50\t    },\n51\t    \"renderscale\": { },\n52\t    \"water\": {\n53\t        \"quality\": 2\n54\t    },\n55\t    \"postproc\": {\n56\t        \"bloom\": {\n57\t            \"enabled\": 1,\n58\t            \"magnitude\": 1\n59\t        },\n60\t        \"desaturate\": 1,\n61\t        \"dof\": {\n62\t            \"enabled\": 1,\n63\t            \"magnitude\": 1\n64\t        },\n65\t        \"ao\": {\n66\t            \"resolution\": 1,\n67\t            \"blur\": 3\n68\t        }\n69\t    },\n70\t    \"experimental\": { },\n71\t    \"celshader\": { }\n72\t}\n73\t",
+        "tool_use_id": "toolu_01H1tmTCSD6uPKovA7ojDpCt",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "19637691-5123-413e-9a7d-90182a4c8aa2",
+  "promptId": "70dfe62b-ddfe-4190-b643-e3b20fb41c5d",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolAssistantUUID": "19637691-5123-413e-9a7d-90182a4c8aa2",
+  "timestamp": "2026-07-13T19:43:58.383Z",
+  "toolUseResult": {
+    "file": {
+      "content": "{\n    \"prompts\": { },\n    \"version\": 7,\n    \"screen\": {\n        \"size\": {\n            \"width\": 1280,\n            \"height\": 720\n        },\n        \"pos\": {\n            \"x\": 150,\n            \"y\": 28\n        },\n        \"borderless\": {\n            \"monitor\": 0\n        },\n        \"vsync\": 1,\n        \"fsaa\": 1\n    },\n    \"fov\": { },\n    \"texture\": {\n        \"miplevel\": -1,\n        \"charactermiplevel\": 1,\n        \"lodbias\": 2,\n        \"aniso\": 4\n    },\n    \"detail\": {\n        \"world\": 1,\n        \"entity\": 1\n    },\n    \"shadow\": {\n        \"mode\": 1,\n        \"shader\": 0,\n        \"mapsize\": 0,\n        \"distance\": -2\n    },\n    \"reflections\": { },\n    \"physx\": {\n        \"quality\": 2\n    },\n    \"advanced\": { },\n    \"particles\": {\n        \"max\": 50000,\n        \"fill\": 10\n    },\n    \"render\": {\n        \"vbo\": 1,\n        \"shader\": {\n            \"quality\": 2\n        }\n    },\n    \"renderscale\": { },\n    \"water\": {\n        \"quality\": 2\n    },\n    \"postproc\": {\n        \"bloom\": {\n            \"enabled\": 1,\n            \"magnitude\": 1\n        },\n        \"desaturate\": 1,\n        \"dof\": {\n            \"enabled\": 1,\n            \"magnitude\": 1\n        },\n        \"ao\": {\n            \"resolution\": 1,\n            \"blur\": 3\n        }\n    },\n    \"experimental\": { },\n    \"celshader\": { }\n}\n",
+      "filePath": "/Applications/coh/settings/live/gfx.json",
+      "numLines": 73,
+      "startLine": 1,
+      "totalLines": 73
+    },
+    "type": "text"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "72844ecd-af6f-4052-adc2-101a985056f8",
+  "version": "2.1.179"
+}

@@ -1,0 +1,24 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "text": "[Request interrupted by user for tool use]",
+        "type": "text"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "0e1d89b6-449b-4c33-84e9-9a7ff8945d12",
+  "promptId": "3c821775-18f9-4f47-98ac-b77bfb50f0d4",
+  "sessionId": "71855a53-b646-444b-8d10-4e28343070ac",
+  "sessionKind": "bg",
+  "timestamp": "2026-07-13T18:05:32.169Z",
+  "type": "user",
+  "userType": "external",
+  "uuid": "0f8a1c87-62d0-4d50-bbe6-cea46ae703e3",
+  "version": "2.1.179"
+}

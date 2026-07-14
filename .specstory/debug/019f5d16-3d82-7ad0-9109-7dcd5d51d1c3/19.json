@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "memory_citation": null,
+    "message": "The file is a Claude session export with a concrete continuation point: it had already built three browser variants, started layout research, then began pulling local design guidance from `~/.agent-skills`. I’ll read the rest so I can recover the latest state instead of repeating old steps.",
+    "phase": "commentary",
+    "type": "agent_message"
+  },
+  "timestamp": "2026-07-13T20:06:26.615Z",
+  "type": "event_msg"
+}

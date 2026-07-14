@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"sed -n '1,220p' /Users/steven/.agent-skills/skills/eza-nav/SKILL.md\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":4000}",
+    "call_id": "call_WCEzFD9NGK5c587oSZWTDJ5R",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:08:41.794Z",
+  "type": "response_item"
+}

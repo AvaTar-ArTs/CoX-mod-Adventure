@@ -1,0 +1,13 @@
+{
+  "payload": {
+    "action": {
+      "type": "open_page",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig"
+    },
+    "call_id": "ws_02c550788b3cb108016a554d48c28081968f08d31a3c32c1c5",
+    "query": "https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig",
+    "type": "web_search_end"
+  },
+  "timestamp": "2026-07-13T20:40:45.753Z",
+  "type": "event_msg"
+}

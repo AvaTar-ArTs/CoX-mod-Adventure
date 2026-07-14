@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"find /Users/steven/.agent-skills/skills/using-superpowers -maxdepth 2 -type f -print\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":8000}",
+    "call_id": "call_4qC4lfCEJWIt0Xy0RmHGtfo7",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:17:54.098Z",
+  "type": "response_item"
+}

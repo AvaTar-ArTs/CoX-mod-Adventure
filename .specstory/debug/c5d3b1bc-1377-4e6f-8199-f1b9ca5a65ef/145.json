@@ -1,0 +1,18 @@
+{
+  "attachment": {
+    "commandMode": "prompt",
+    "prompt": "\"/Users/steven/Library/Application Support/LaunchCat/coh/wine\" \"/Users/steven/Library/Application Support/LaunchCat/coh/THIRDPARTYSOFTWAREREADME.txt\" \"/Users/steven/Library/Application Support/LaunchCat/coh/start-live.sh\" \"/Users/steven/Library/Application Support/LaunchCat/coh/settings\" \"/Users/steven/Library/Application Support/LaunchCat/coh/screenshots\" \"/Users/steven/Library/Application Support/LaunchCat/coh/logs\" \"/Users/steven/Library/Application Support/LaunchCat/coh/LaunchCat-Diagnostics.txt\" \"/Users/steven/Library/Application Support/LaunchCat/coh/launch.sh\" \"/Users/steven/Library/Application Support/LaunchCat/coh/Homecoming.lnk\" \"/Users/steven/Library/Application Support/LaunchCat/coh/data\" \"/Users/steven/Library/Application Support/LaunchCat/coh/cache\" \"/Users/steven/Library/Application Support/LaunchCat/coh/bin\" \"/Users/steven/Library/Application Support/LaunchCat/coh/assets\" \"/Users/steven/Library/Application Support/LaunchCat/coh/accounts\"",
+    "type": "queued_command"
+  },
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "parentUuid": "d227278c-3782-4549-8008-7b42cc2a1063",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "timestamp": "2026-07-13T05:06:35.843Z",
+  "type": "attachment",
+  "userType": "external",
+  "uuid": "ac729d57-cd8c-46cd-964e-39fd3d757a45",
+  "version": "2.1.179"
+}

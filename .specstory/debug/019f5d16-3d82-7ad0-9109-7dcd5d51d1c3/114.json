@@ -1,0 +1,9 @@
+{
+  "payload": {
+    "call_id": "call_5qK35BOqNOdUpD1igD9CyxNn",
+    "output": "Chunk ID: 058bed\nWall time: 0.0000 seconds\nProcess exited with code 0\nOriginal token count: 363\nOutput:\n#!/usr/bin/env python3\n\"\"\"Patch categories in mods.json by scraping listing pages via subprocess curl.\"\"\"\nimport json, re, subprocess, time\nfrom pathlib import Path\n\nJSON_OUT = Path(__file__).parent / \"mods.json\"\n\ndef curl_get(url):\n    r = subprocess.run(\n        [\"curl\", \"-sL\", \"--connect-timeout\", \"15\", url,\n         \"-H\", \"User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)\"],\n        capture_output=True, text=True\n    )\n    return r.stdout\n\nid_to_cat = {}\nfor page in range(1, 18):\n    url = f\"https://cityofheroes.dev/mods/index.php?search=\u0026category=\u0026author=\u0026currentpage={page}\"\n    html = curl_get(url)\n    cards = re.findall(\n        r'\u003ca href=\"mod/(\\d+)\"[^\u003e]*\u003e.*?\u003cspan class=\\'badge[^\\']*\\'[^\u003e]*\u003e([^\u003c]+)\u003c/span\u003e',\n        html, re.DOTALL\n    )\n    for mid, cat in cards:\n        id_to_cat[int(mid)] = cat.strip()\n    print(f\"  page {page}: {len(cards)} categories\")\n    time.sleep(0.4)\n\nprint(f\"Total mappings: {len(id_to_cat)}\")\n\nmods = json.loads(JSON_OUT.read_text())\nupdated = 0\nfor m in mods:\n    cat = id_to_cat.get(m[\"id\"])\n    if cat:\n        m[\"category\"] = cat\n        updated += 1\n\nmods.sort(key=lambda m: m[\"downloads\"], reverse=True)\nJSON_OUT.write_text(json.dumps(mods, indent=2, ensure_ascii=False))\n\ncats = {}\nfor m in mods:\n    cats[m[\"category\"]] = cats.get(m[\"category\"], 0) + 1\nprint(f\"Updated {updated}/{len(mods)} categories\")\nfor k, v in sorted(cats.items(), key=lambda x: -x[1]):\n    print(f\"  {k}: {v}\")\n",
+    "type": "function_call_output"
+  },
+  "timestamp": "2026-07-13T20:09:10.259Z",
+  "type": "response_item"
+}

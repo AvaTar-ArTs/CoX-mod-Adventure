@@ -1,0 +1,18 @@
+{
+  "cwd": "/Users/steven",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": "\u003ccommand-name\u003e/cd\u003c/command-name\u003e\n            \u003ccommand-message\u003ecd\u003c/command-message\u003e\n            \u003ccommand-args\u003e\u003c/command-args\u003e",
+    "role": "user"
+  },
+  "parentUuid": "c69c901a-26c3-480a-b8af-846a11b8eed6",
+  "promptId": "01260746-9b66-4fbe-b3e3-b4ffd1a3ad15",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "timestamp": "2026-07-13T04:57:23.972Z",
+  "type": "user",
+  "userType": "external",
+  "uuid": "6e8e142e-0dd5-47c7-a66e-44c16095c93f",
+  "version": "2.1.179"
+}

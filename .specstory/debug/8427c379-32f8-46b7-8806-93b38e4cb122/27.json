@@ -1,0 +1,22 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": "first begin with investigating and a full review and audit of the help found in ~/.agent-skills to then review",
+    "role": "user"
+  },
+  "parentUuid": "2a4269c4-813e-4a5a-8183-f49b2b60587f",
+  "permissionMode": "default",
+  "promptId": "71540808-008c-4ea4-bfad-d085aa64378a",
+  "promptSource": "typed",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "timestamp": "2026-07-13T18:47:58.486Z",
+  "type": "user",
+  "userType": "external",
+  "uuid": "4ccda3ac-6fdc-40ce-a68c-5ab2b1a611fa",
+  "version": "2.1.179"
+}

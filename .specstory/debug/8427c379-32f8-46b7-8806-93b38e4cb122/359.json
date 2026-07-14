@@ -1,0 +1,20 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": "\u003clocal-command-stdout\u003e(no content)\u003c/local-command-stdout\u003e",
+    "role": "user"
+  },
+  "parentUuid": "d1447880-9238-4aa2-ae8e-79d75bd75c29",
+  "promptId": "3f6415b5-aa0b-467e-b0ac-eb413fbfbece",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "timestamp": "2026-07-13T19:18:25.257Z",
+  "type": "user",
+  "userType": "external",
+  "uuid": "71f6013e-df1a-4c2e-b79b-03e90725392b",
+  "version": "2.1.179"
+}

@@ -1,0 +1,11 @@
+{
+  "payload": {
+    "images": [],
+    "local_images": [],
+    "message": "\"/Users/steven/Library/Application Support/LaunchCat\" \"/Users/steven/Library/Application Support/CityModInstaller\"",
+    "text_elements": [],
+    "type": "user_message"
+  },
+  "timestamp": "2026-07-13T20:34:02.682Z",
+  "type": "event_msg"
+}

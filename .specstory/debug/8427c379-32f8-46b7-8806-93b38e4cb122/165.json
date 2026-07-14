@@ -1,0 +1,20 @@
+{
+  "attachment": {
+    "filename": "/Users/steven/.agent-skills/README.md",
+    "snippet": "1\t# .agent-skills\n2\t\n3\tLocal agent, skill, and plugin workspace for reusable AI workflows.\n4\t\n5\tThis is the canonical local source for reusable agents and skills. The legacy\n6\t`/Users/steven/.agents` path is kept as a compatibility symlink only; new\n7\tconfiguration should point directly at `/Users/steven/.agent-skills`.\n8\t\n9\tThis repository is a living working set. Prefer additive changes, staged outputs,\n10\tand changelogs over destructive cleanup. CSVs are treated as living tables: rows\n11\tmay be added, removed, or corrected, but generation scripts should append a\n12\tchangelog beside the CSV.\n13\t\n14\t## Layout\n15\t\n16\t- `agents/` - Markdown, TOML, YAML, CSV, and text agent/persona definitions.\n17\t- `skills/` - Skill directories and nested skill libraries.\n18\t- `deep-research/` - Research-oriented skill material.\n19\t- `scripts/` - Local inspection and catalog tooling for this workspace.\n20\t- `tmp-csv/` - Local staged CSV outputs, ignored by Git.\n21\t- `tmp-md/` - Local staged Markdown reports, ignored by Git.\n22\t- `tmp/` - Local scratch/history folder, ignored by Git.\n23\t\n24\t## Current Runtime Surface\n25\t\n26\tLast audited: 2026-07-13.\n27\t\n28\t- `agents/`: 108 non-hidden agent/config files.\n29\t- `skills/`: 92 top-level directories plus 1 top-level symlink.\n30\t- Direct/root-visible skills: 74 `SKILL.md` files within depth 2.\n31\t- Local expanded skills: 154 `SKILL.md` files within depth 3.\n32\t- Symlink-followed runtime-visible skills: 177 `SKILL.md` files.\n33\t\n34\tClaude and Codex should consume this tree directly:\n35\t\n36\t- `/Users/steven/.claude/agents -\u003e /Users/steven/.agent-skills/agents`\n37\t- `/Users/steven/.claude/skills -\u003e /Users/steven/.agent-skills/skills`\n38\t- `/Users/steven/.codex/agents -\u003e /Users/steven/.agent-skills/agents`\n39\t- `/Users/steven/.codex/skills -\u003e /Users/steven/.agent-skills/skills`\n40\t- `/Users/steven/.codex/superpowers -\u003e /Users/steven/.agent-skills/skills/using-superpowers`\n41\t\n42\t`INDEX.md` is the broader generated overview. This README is the short entry\n43\tpoint for the repository.\n44\t\n45\t## Inspection Scripts\n46\t\n47\tRun scripts from the repository root:\n48\t\n49\t```bash",
+    "type": "edited_text_file"
+  },
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "parentUuid": "4c1122dd-5306-4bb6-9374-247c48bf63ae",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "timestamp": "2026-07-13T18:57:52.733Z",
+  "type": "attachment",
+  "userType": "external",
+  "uuid": "2e6dbc28-6aaf-4f0f-a851-209bb05d61e6",
+  "version": "2.1.179"
+}

@@ -1,0 +1,17 @@
+{
+  "payload": {
+    "action": {
+      "queries": [
+        "progressive enhancement web app modernization static HTML upgrade strategy legacy frontend",
+        "software modernization strangler fig pattern incremental modernization legacy application upgrade",
+        "design systems audit content inventory website redesign upgrade existing pages"
+      ],
+      "query": "progressive enhancement web app modernization static HTML upgrade strategy legacy frontend",
+      "type": "search"
+    },
+    "status": "completed",
+    "type": "web_search_call"
+  },
+  "timestamp": "2026-07-13T20:40:35.379Z",
+  "type": "response_item"
+}

@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "memory_citation": null,
+    "message": "The runtime model is corrected in the doc. I’ll verify the patched section and then summarize the corrected implications for the browser/control surface.",
+    "phase": "commentary",
+    "type": "agent_message"
+  },
+  "timestamp": "2026-07-13T20:33:41.191Z",
+  "type": "event_msg"
+}

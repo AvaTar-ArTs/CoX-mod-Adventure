@@ -1,0 +1,9 @@
+{
+  "payload": {
+    "call_id": "call_R7ussrh7DxbTz1hsfhmodq6J",
+    "output": "Chunk ID: 988e5f\nWall time: 0.0000 seconds\nProcess exited with code 0\nOriginal token count: 22\nOutput:\n/Applications/coh:                directory\n/Applications/CoHModdingTool.app: directory\n",
+    "type": "function_call_output"
+  },
+  "timestamp": "2026-07-13T20:13:42.155Z",
+  "type": "response_item"
+}

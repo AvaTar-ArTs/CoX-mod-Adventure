@@ -1,0 +1,38 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": [
+          {
+            "tool_name": "mcp__engram__search",
+            "type": "tool_reference"
+          }
+        ],
+        "tool_use_id": "toolu_01QVrCw11XmyhAfURf5HW7P3",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "3fd504ee-d3f7-4088-9f28-db2a6254b6c6",
+  "promptId": "26763383-717d-46d5-937c-0a65e8366885",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "sourceToolAssistantUUID": "3fd504ee-d3f7-4088-9f28-db2a6254b6c6",
+  "timestamp": "2026-07-13T18:45:51.602Z",
+  "toolUseResult": {
+    "matches": [
+      "mcp__engram__search"
+    ],
+    "query": "select:mcp__engram__search",
+    "total_deferred_tools": 55
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "cd7da7ec-29d6-4cbd-8426-8ad567061f3e",
+  "version": "2.1.179"
+}

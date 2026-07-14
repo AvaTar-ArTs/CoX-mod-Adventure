@@ -1,0 +1,18 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "durationMs": 59053,
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isMeta": false,
+  "isSidechain": false,
+  "messageCount": 204,
+  "parentUuid": "e5711302-dda1-4e8c-b50d-d5ac377ec1da",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "slug": "playful-petting-ritchie",
+  "subtype": "turn_duration",
+  "timestamp": "2026-07-13T05:10:39.910Z",
+  "type": "system",
+  "userType": "external",
+  "uuid": "bebf2e6d-4b97-47b6-b335-6ba39c9e0b5f",
+  "version": "2.1.179"
+}

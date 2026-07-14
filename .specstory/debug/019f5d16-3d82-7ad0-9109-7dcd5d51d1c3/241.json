@@ -1,0 +1,11 @@
+{
+  "payload": {
+    "images": [],
+    "local_images": [],
+    "message": "fix Skipped loading 4 skill(s) due to invalid SKILL.md files.\n\n⚠ /Users/steven/.agent-skills/skills/innate-workflow/SKILL.md: invalid YAML:\n  mapping values are not allowed in this context at line 2 column 32\n\n⚠ /Users/steven/.agent-skills/skills/using-superpowers/SKILL.md: invalid\n  YAML: mapping values are not allowed in this context at line 2 column 120\n\n⚠ /Users/steven/.agent-skills/skills/innate-workflow/SKILL.md: invalid YAML:\n  mapping values are not allowed in this context at line 2 column 32\n\n⚠ /Users/steven/.agent-skills/skills/using-superpowers/SKILL.md: invalid\n  YAML: mapping values are not allowed in this context at line 2 column 120",
+    "text_elements": [],
+    "type": "user_message"
+  },
+  "timestamp": "2026-07-13T20:14:37.941Z",
+  "type": "event_msg"
+}

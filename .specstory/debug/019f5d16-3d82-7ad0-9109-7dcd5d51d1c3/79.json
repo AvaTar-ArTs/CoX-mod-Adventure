@@ -1,0 +1,9 @@
+{
+  "payload": {
+    "call_id": "call_WCEzFD9NGK5c587oSZWTDJ5R",
+    "output": "Chunk ID: 01fe97\nWall time: 0.0000 seconds\nProcess exited with code 0\nOriginal token count: 179\nOutput:\n---\nname: eza-nav\ndescription: Enhanced file system navigation and directory listing using eza. Use for detailed views, tree structures, and git-aware navigation of your workspace.\ncreator: AvaTarArTs.org / github.com/AvaTar-ArTs / Steven\n---\n\n# eza-nav\n\nUse this skill for all directory and file listing needs. `eza` is installed at `/usr/local/bin/eza` and provides advanced features over `ls`.\n\n## Usage\n\n### Default (Long Listing)\n```bash\n./scripts/list_all_files.sh /path/to/directory\n```\n\n### Tree View\n```bash\n./scripts/list_all_files.sh /path/to/directory -t -d 2\n```\n\n## Advanced Reference\n\nFor detailed command options and advanced filtering, refer to the [EZA_USAGE_GUIDE](references/EZA_USAGE_GUIDE.md).\n",
+    "type": "function_call_output"
+  },
+  "timestamp": "2026-07-13T20:08:41.947Z",
+  "type": "response_item"
+}

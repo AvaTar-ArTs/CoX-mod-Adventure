@@ -1,0 +1,14 @@
+{
+  "payload": {
+    "content": [
+      {
+        "text": "\u003cskill\u003e\n\u003cname\u003eeza-nav\u003c/name\u003e\n\u003cpath\u003e/Users/steven/.agent-skills/skills/eza-nav/SKILL.md\u003c/path\u003e\n---\nname: eza-nav\ndescription: Enhanced file system navigation and directory listing using eza. Use for detailed views, tree structures, and git-aware navigation of your workspace.\ncreator: AvaTarArTs.org / github.com/AvaTar-ArTs / Steven\n---\n\n# eza-nav\n\nUse this skill for all directory and file listing needs. `eza` is installed at `/usr/local/bin/eza` and provides advanced features over `ls`.\n\n## Usage\n\n### Default (Long Listing)\n```bash\n./scripts/list_all_files.sh /path/to/directory\n```\n\n### Tree View\n```bash\n./scripts/list_all_files.sh /path/to/directory -t -d 2\n```\n\n## Advanced Reference\n\nFor detailed command options and advanced filtering, refer to the [EZA_USAGE_GUIDE](references/EZA_USAGE_GUIDE.md).\n\n\u003c/skill\u003e",
+        "type": "input_text"
+      }
+    ],
+    "role": "user",
+    "type": "message"
+  },
+  "timestamp": "2026-07-13T20:07:44.385Z",
+  "type": "response_item"
+}

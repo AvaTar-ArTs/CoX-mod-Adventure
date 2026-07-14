@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"sed -n '1,220p' PLAN/ROADMAP.md\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":10000}",
+    "call_id": "call_WKur9rSqo07YuzY3NnZ0OxfC",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:06:26.639Z",
+  "type": "response_item"
+}

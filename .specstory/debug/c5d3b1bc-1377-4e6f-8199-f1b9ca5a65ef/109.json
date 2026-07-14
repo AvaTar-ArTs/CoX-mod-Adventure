@@ -1,0 +1,60 @@
+{
+  "cwd": "/Users/steven",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "text": "All scratch files cleared — reclaimed ~5.5 MB (the two screenshots were the bulk of it).\n\nRemoved:\n- `coh-client.out` (13k) — the direct-launch stderr capture\n- `coh_launcher_shot.png` (3.6M) + `coh_launcher_shot2.png` (1.9M) — the window captures\n- `coh_log_offset.txt` (7 bytes) — the log-tail bookmark\n\n`/tmp` is now clean of any CoH/Wine artifacts I created.\n\n**One thing worth noting for the future:** per your global preference (`\u003crepo\u003e/.tmp/` over system `/tmp` for scratch), I *should* have parked these under a LaunchCat-local scratch dir instead of `/tmp` from the start. There wasn't a natural repo here — it's an app install, not a git project — but `~/Library/Application Support/LaunchCat/coh/.tmp/` would've been the tidier home. I'll default there if we do more LaunchCat work.\n\n## Final state\n- **Wine/CoH runtime:** fully shut down, no lingering processes or sockets\n- **Install:** intact with all fixes applied (`nohwaccel: false`, clean drive maps, fixed `launch.sh`)\n- **`/tmp`:** clean\n- **To play again:** just open `/Applications/LaunchCat.app` → Play\n\nYou're all set. Nothing left running or littering.",
+        "type": "text"
+      }
+    ],
+    "diagnostics": null,
+    "id": "msg_011CcyUKarXyRFH8KimaKTpb",
+    "model": "claude-opus-4-8",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 723
+      },
+      "cache_creation_input_tokens": 723,
+      "cache_read_input_tokens": 96673,
+      "inference_geo": "global",
+      "input_tokens": 29,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 723
+          },
+          "cache_creation_input_tokens": 723,
+          "cache_read_input_tokens": 96673,
+          "input_tokens": 29,
+          "output_tokens": 472,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 472,
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  },
+  "parentUuid": "c835cc2c-a687-4ce7-b70f-772e6992cb3e",
+  "requestId": "req_011CcyUKYTv4DE93h7V7SZ6d",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "timestamp": "2026-07-13T05:03:42.232Z",
+  "type": "assistant",
+  "userType": "external",
+  "uuid": "bb7d7b02-e71a-44ea-9884-537501c5cdfa",
+  "version": "2.1.179"
+}

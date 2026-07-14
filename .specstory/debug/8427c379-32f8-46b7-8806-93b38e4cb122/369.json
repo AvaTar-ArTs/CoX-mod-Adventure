@@ -1,0 +1,31 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "Launching skill: using-superpowers",
+        "tool_use_id": "toolu_016onnUjHgwH8dXZnxEoC5hq",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "15f17353-6bbf-4a04-9f86-e139a6e90ed3",
+  "promptId": "b8ce783a-583a-4329-99cd-8d1f6cd586f4",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolAssistantUUID": "15f17353-6bbf-4a04-9f86-e139a6e90ed3",
+  "timestamp": "2026-07-13T19:19:09.156Z",
+  "toolUseResult": {
+    "commandName": "using-superpowers",
+    "success": true
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "a60856cd-4530-4f52-b902-f4f86021b71c",
+  "version": "2.1.179"
+}

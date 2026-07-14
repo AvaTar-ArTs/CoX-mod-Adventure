@@ -1,0 +1,34 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "=== prefix contents ===\n/Users/steven/.lcwine/system.reg Julb\n/Users/steven/.lcwine/user.reg Julb\n/Users/steven/.lcwine/userdef.reg Julb\n\n=== [Mac Driver] registry settings (winemac.drv) ===\n--- (system.reg Mac Driver) ---\n\n=== [Explorer\\Desktop] — virtual desktop enabled? ===\nsystem.reg:[Software\\\\Classes\\\\gameux.GameExplorer] 1783866083\nsystem.reg:[Software\\\\Classes\\\\Shell.Explorer] 1783866202\nsystem.reg:[Software\\\\Microsoft\\\\Internet Explorer] 1783866186\nsystem.reg:[Software\\\\Wow6432Node\\\\Microsoft\\\\Internet Explorer] 1783866207\n\n=== any stored window positions / 'Mac Driver' RetinaMode / capture display ===\n\"InfoWindow\"=\"255 255 255\"\n\"Window\"=\"255 255 255\"\n\"WindowFrame\"=\"158 158 158\"\n\"WindowText\"=\"0 0 0\"\n\"DragFullWindows\"=\"0\"\n[Control Panel\\\\Desktop\\\\WindowMetrics] 1783866200\n\"ActiveWindowTracking\"=dword:00000000\n[Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Explorer\\\\Advanced] 1783916316\n[Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Explorer\\\\Shell Folders] 1783866088\n\"Administrative Tools\"=\"C:\\\\users\\\\steven\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Administrative Tools\"\nShell cwd was reset to /Users/steven/CoX-mod-Adventure",
+        "is_error": false,
+        "tool_use_id": "toolu_019jiWTVimcZWAcDFzJJ6AvK",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "659e17d8-c0a6-4348-8b49-9eb70e1ae400",
+  "promptId": "56bcb370-0101-4b9a-ab88-a0eb270a0dac",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "slug": "playful-petting-ritchie",
+  "sourceToolAssistantUUID": "659e17d8-c0a6-4348-8b49-9eb70e1ae400",
+  "timestamp": "2026-07-13T05:15:26.176Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "\nShell cwd was reset to /Users/steven/CoX-mod-Adventure",
+    "stdout": "=== prefix contents ===\n/Users/steven/.lcwine/system.reg Julb\n/Users/steven/.lcwine/user.reg Julb\n/Users/steven/.lcwine/userdef.reg Julb\n\n=== [Mac Driver] registry settings (winemac.drv) ===\n--- (system.reg Mac Driver) ---\n\n=== [Explorer\\Desktop] — virtual desktop enabled? ===\nsystem.reg:[Software\\\\Classes\\\\gameux.GameExplorer] 1783866083\nsystem.reg:[Software\\\\Classes\\\\Shell.Explorer] 1783866202\nsystem.reg:[Software\\\\Microsoft\\\\Internet Explorer] 1783866186\nsystem.reg:[Software\\\\Wow6432Node\\\\Microsoft\\\\Internet Explorer] 1783866207\n\n=== any stored window positions / 'Mac Driver' RetinaMode / capture display ===\n\"InfoWindow\"=\"255 255 255\"\n\"Window\"=\"255 255 255\"\n\"WindowFrame\"=\"158 158 158\"\n\"WindowText\"=\"0 0 0\"\n\"DragFullWindows\"=\"0\"\n[Control Panel\\\\Desktop\\\\WindowMetrics] 1783866200\n\"ActiveWindowTracking\"=dword:00000000\n[Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Explorer\\\\Advanced] 1783916316\n[Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Explorer\\\\Shell Folders] 1783866088\n\"Administrative Tools\"=\"C:\\\\users\\\\steven\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Administrative Tools\""
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "fe0f335c-9862-4de6-b750-5961af21a031",
+  "version": "2.1.179"
+}

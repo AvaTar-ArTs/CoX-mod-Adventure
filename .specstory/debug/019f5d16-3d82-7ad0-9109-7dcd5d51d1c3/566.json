@@ -1,0 +1,15 @@
+{
+  "payload": {
+    "content": [
+      {
+        "text": "The live tree tells us `/Applications/coh` is an empty directory marker, while `CoHModdingTool.app` is a real 1.1G wrapped Wine app with `CoHModdingTool.exe`, `modder.db`, and a wineprefix. I’m checking the catalog and app bundle metadata next so the summary can name the real integration points.",
+        "type": "output_text"
+      }
+    ],
+    "phase": "commentary",
+    "role": "assistant",
+    "type": "message"
+  },
+  "timestamp": "2026-07-13T20:32:14.089Z",
+  "type": "response_item"
+}

@@ -1,0 +1,17 @@
+{
+  "content": "\u003clocal-command-stdout\u003eNothing to recap yet — send a message first.\u003c/local-command-stdout\u003e",
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "main",
+  "isMeta": false,
+  "isSidechain": false,
+  "level": "info",
+  "parentUuid": "e574a267-3e48-44e6-823d-c41f451a1ae0",
+  "sessionId": "615e4a6f-d1f9-4fd8-971e-60fdf9242c83",
+  "subtype": "local_command",
+  "timestamp": "2026-07-13T19:50:10.055Z",
+  "type": "system",
+  "userType": "external",
+  "uuid": "6f976521-5e2d-4fba-9fa2-1002fb86e95e",
+  "version": "2.1.179"
+}

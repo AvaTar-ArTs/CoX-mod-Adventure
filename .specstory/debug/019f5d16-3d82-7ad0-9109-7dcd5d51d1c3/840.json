@@ -1,0 +1,14 @@
+{
+  "payload": {
+    "action": {
+      "pattern": "Content inventories",
+      "type": "find_in_page",
+      "url": "https://www.nngroup.com/articles/content-audits/"
+    },
+    "call_id": "ws_02c550788b3cb108016a554d4c96088196b551904cba41cdbf",
+    "query": "'Content inventories' in https://www.nngroup.com/articles/content-audits/",
+    "type": "web_search_end"
+  },
+  "timestamp": "2026-07-13T20:40:51.332Z",
+  "type": "event_msg"
+}

@@ -1,0 +1,61 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "text": "The prefix tells the story: **there's no `[Software\\Wine\\Mac Driver]` key and no virtual-desktop key** — Wine is running on pure defaults, creating native Cocoa windows. With defaults, macOS decides which Space each new Wine window lands on, and yours is landing on a Space you're not viewing. I can't drag a window across Spaces from the shell (that needs a tool like yabai), but I *can* fix the root cause in `~/.lcwine`.\n\n**The fix:** enable a fixed **1920×1080 Wine virtual desktop**. That forces every Wine window — launcher *and* game — to render inside **one normal macOS window** that's created on your active Space and stays put. It's the standard CoH-on-Mac remedy for exactly this \"invisible window\" problem, and it matches the 1920×1080 I set in `gfx.json`.\n\n`★ Insight ─────────────────────────────────────`\n- **Native windows vs. virtual desktop is the core tradeoff here.** Default winemac.drv = one Cocoa window per Wine window (feels native, but macOS Space assignment is out of your control → windows wander). Virtual desktop = Wine paints its whole \"screen\" into a single container window you can always find, move, and click. For a game that also wants fullscreen, the container is the predictable choice.\n- The earlier 99%-CPU `explorer.exe /desktop` spin was an *orphan* (game exited, container kept polling) — not inherent to virtual-desktop mode while a window is actually live. We know how to clear it (`wineserver -k`) if it recurs.\n`─────────────────────────────────────────────────`\n\nExecuting: kill the stuck (invisible) session → write the virtual-desktop keys → relaunch.",
+        "type": "text"
+      }
+    ],
+    "diagnostics": null,
+    "id": "msg_011CcyVE5PxfPd9WS8aXHGgb",
+    "model": "claude-opus-4-8",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "tool_use",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 3380
+      },
+      "cache_creation_input_tokens": 3380,
+      "cache_read_input_tokens": 141954,
+      "inference_geo": "global",
+      "input_tokens": 29,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 3380
+          },
+          "cache_creation_input_tokens": 3380,
+          "cache_read_input_tokens": 141954,
+          "input_tokens": 29,
+          "output_tokens": 5084,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 5084,
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  },
+  "parentUuid": "f55b0541-9469-44a1-8755-66c691fcfb73",
+  "requestId": "req_011CcyVE3qTCD37AsTGShfbE",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "slug": "playful-petting-ritchie",
+  "timestamp": "2026-07-13T05:16:34.282Z",
+  "type": "assistant",
+  "userType": "external",
+  "uuid": "432c5986-1d6c-4f93-99e7-6ee4975d4d12",
+  "version": "2.1.179"
+}

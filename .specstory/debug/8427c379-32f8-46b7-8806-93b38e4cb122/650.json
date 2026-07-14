@@ -1,0 +1,37 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure/Upgraded",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "1\t{\n2\t    \"version\": 1,\n3\t    \"login\": {\n4\t        \"account\": \"choake\"\n5\t    },\n6\t    \"sound\": {\n7\t        \"volume\": { }\n8\t    },\n9\t    \"fx\": {\n10\t        \"suppress\": { }\n11\t    },\n12\t    \"input\": {\n13\t        \"controller\": { }\n14\t    },\n15\t    \"ui\": {\n16\t        \"scale\": {\n17\t            \"master\": 0.9375\n18\t        }\n19\t    },\n20\t    \"migratedgfx\": true,\n21\t    \"hwlights\": 0\n22\t}\n23\t",
+        "tool_use_id": "toolu_01WVq8PXy91jjWSTy6LgTTZm",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "28de6fb0-dae1-4afe-af38-c8ca50d32f4b",
+  "promptId": "70dfe62b-ddfe-4190-b643-e3b20fb41c5d",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolAssistantUUID": "28de6fb0-dae1-4afe-af38-c8ca50d32f4b",
+  "timestamp": "2026-07-13T19:43:59.517Z",
+  "toolUseResult": {
+    "file": {
+      "content": "{\n    \"version\": 1,\n    \"login\": {\n        \"account\": \"choake\"\n    },\n    \"sound\": {\n        \"volume\": { }\n    },\n    \"fx\": {\n        \"suppress\": { }\n    },\n    \"input\": {\n        \"controller\": { }\n    },\n    \"ui\": {\n        \"scale\": {\n            \"master\": 0.9375\n        }\n    },\n    \"migratedgfx\": true,\n    \"hwlights\": 0\n}\n",
+      "filePath": "/Applications/coh/settings/live/client.json",
+      "numLines": 23,
+      "startLine": 1,
+      "totalLines": 23
+    },
+    "type": "text"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "f4d9ee63-584c-4e5c-9d40-833847197dde",
+  "version": "2.1.179"
+}

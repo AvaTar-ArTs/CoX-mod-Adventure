@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"rg -n \\\"Innate Workflow Bridge|innate-workflow\\\" /Users/steven/.agent-skills/skills/using-superpowers/SKILL.md /Users/steven/.codex/skills/using-superpowers/SKILL.md /Users/steven/.agent-skills/skills/innate-workflow/SKILL.md\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":5000}",
+    "call_id": "call_kJ4neDVa0YGKqNtSN0ROLQnT",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:22:54.838Z",
+  "type": "response_item"
+}

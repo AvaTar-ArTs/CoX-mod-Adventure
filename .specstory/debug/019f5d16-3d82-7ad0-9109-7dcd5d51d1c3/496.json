@@ -1,0 +1,11 @@
+{
+  "payload": {
+    "images": [],
+    "local_images": [],
+    "message": "$using-superpowers \"/Users/steven/.agent-skills/agents/5-misc-\n  personal/tree-explorer.md\" \"/Users/steven/.agent-skills/agents/3-\n  contains-studio\"",
+    "text_elements": [],
+    "type": "user_message"
+  },
+  "timestamp": "2026-07-13T20:29:02.164Z",
+  "type": "event_msg"
+}

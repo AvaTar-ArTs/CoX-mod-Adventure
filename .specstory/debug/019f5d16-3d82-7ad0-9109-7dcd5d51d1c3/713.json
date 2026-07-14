@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"sed -n '1,220p' /Users/steven/.agent-skills/skills/using-superpowers/SKILL.md\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":6000}",
+    "call_id": "call_onesSRX1mSNJAGMplZNGgWlL",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:37:27.688Z",
+  "type": "response_item"
+}

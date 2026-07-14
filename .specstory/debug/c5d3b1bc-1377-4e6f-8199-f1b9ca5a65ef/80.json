@@ -1,0 +1,20 @@
+{
+  "cwd": "/Users/steven",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": "kill it and then all the lingerings things related to wine",
+    "role": "user"
+  },
+  "parentUuid": "16208ea0-4d99-44ec-8187-fc22463488db",
+  "permissionMode": "default",
+  "promptId": "c5ca2d56-9f43-4f5f-a1e0-3b1e10fbf3fb",
+  "promptSource": "typed",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "timestamp": "2026-07-13T05:01:10.891Z",
+  "type": "user",
+  "userType": "external",
+  "uuid": "acf7b827-c650-44be-a053-7fd63532fec9",
+  "version": "2.1.179"
+}

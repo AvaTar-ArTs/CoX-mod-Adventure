@@ -1,0 +1,33 @@
+{
+  "cwd": "/Users/steven",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "=== A. ANY wine process system-wide (not just LaunchCat) ===\n  ✅ none anywhere\n\n=== B. wineserver socket/temp dirs (left behind after kill) ===\n(eval):6: no matches found: /var/folders/*/*/*/.wine-*\n  (none found in common temp locations)\n  socket dir: /private/tmp/.wine-501\ndrwx------  - steven 13 Jul 00:14 server-1000009-c3c4a3f\ndrwx------@ - steven 13 Jul 01:01 server-1000009-c382a2f\n\n=== C. confirm the 99% CPU is gone (load avg) ===\nload averages: 2.59 3.13 3.84\ntop CPU consumers now:\n 27.0 33298 claude\n 22.7 30960 /Applications/iTerm.app/Contents/MacOS/iTerm2\n 14.0   175 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer\n  3.7 33752 /bin/zsh\n\n=== D. lingering CoH/wine drive mounts? (from earlier dosdevices auto-map) ===\n  ✅ no CoH-related volumes mounted",
+        "is_error": false,
+        "tool_use_id": "toolu_0127WTCtVxK3Z3L7t1AFi78c",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "d1b0ae32-9ab3-4e05-a6db-72b32260303b",
+  "promptId": "c5ca2d56-9f43-4f5f-a1e0-3b1e10fbf3fb",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "sourceToolAssistantUUID": "d1b0ae32-9ab3-4e05-a6db-72b32260303b",
+  "timestamp": "2026-07-13T05:02:00.484Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "",
+    "stdout": "=== A. ANY wine process system-wide (not just LaunchCat) ===\n  ✅ none anywhere\n\n=== B. wineserver socket/temp dirs (left behind after kill) ===\n(eval):6: no matches found: /var/folders/*/*/*/.wine-*\n  (none found in common temp locations)\n  socket dir: /private/tmp/.wine-501\ndrwx------  - steven 13 Jul 00:14 server-1000009-c3c4a3f\ndrwx------@ - steven 13 Jul 01:01 server-1000009-c382a2f\n\n=== C. confirm the 99% CPU is gone (load avg) ===\nload averages: 2.59 3.13 3.84\ntop CPU consumers now:\n 27.0 33298 claude\n 22.7 30960 /Applications/iTerm.app/Contents/MacOS/iTerm2\n 14.0   175 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer\n  3.7 33752 /bin/zsh\n\n=== D. lingering CoH/wine drive mounts? (from earlier dosdevices auto-map) ===\n  ✅ no CoH-related volumes mounted"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "4d890103-2e0f-406c-a6db-5859c6e82f19",
+  "version": "2.1.179"
+}

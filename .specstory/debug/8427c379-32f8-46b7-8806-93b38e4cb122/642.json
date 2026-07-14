@@ -1,0 +1,35 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure/Upgraded",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "---\nlauncher\nlive\n---\nlive\ncrashhandler.exe\ncrtcheck.exe\ncrthelper.dll\nlauncher.exe\nlaunchercli.exe",
+        "is_error": false,
+        "tool_use_id": "toolu_01H3un1ccEYqf1zLaeAnbCiB",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "d6ca4338-54fa-4a5a-90ed-362283b3732d",
+  "promptId": "70dfe62b-ddfe-4190-b643-e3b20fb41c5d",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolAssistantUUID": "d6ca4338-54fa-4a5a-90ed-362283b3732d",
+  "timestamp": "2026-07-13T19:43:46.414Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "",
+    "stdout": "---\nlauncher\nlive\n---\nlive\ncrashhandler.exe\ncrtcheck.exe\ncrthelper.dll\nlauncher.exe\nlaunchercli.exe"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "e1de83f7-5f49-412e-ada6-aa04ef395053",
+  "version": "2.1.179"
+}

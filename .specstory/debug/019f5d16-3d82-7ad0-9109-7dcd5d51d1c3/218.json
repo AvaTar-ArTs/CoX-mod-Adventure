@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"find Mods -maxdepth 1 -type f | wc -l\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":2000}",
+    "call_id": "call_S3mZSEFUEGXIdZZFnnmvwqOA",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:13:40.015Z",
+  "type": "response_item"
+}

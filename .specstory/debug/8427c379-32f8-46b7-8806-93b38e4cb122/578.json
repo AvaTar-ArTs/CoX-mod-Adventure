@@ -1,0 +1,20 @@
+{
+  "attachment": {
+    "commandMode": "prompt",
+    "prompt": "anything like this /Users/steven/.claude/jobs/8427c379/tmp/mods_compact.js should be in /Users/steven/CoX-mod-Adventure/* somewhere",
+    "type": "queued_command"
+  },
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "parentUuid": "91c6b9d8-ea89-4ffa-aa53-9430d04dec0e",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "timestamp": "2026-07-13T19:38:38.467Z",
+  "type": "attachment",
+  "userType": "external",
+  "uuid": "f0b004b2-12fe-4bd6-af75-3f4f5ef9b350",
+  "version": "2.1.179"
+}

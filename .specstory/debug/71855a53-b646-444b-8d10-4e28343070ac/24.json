@@ -1,0 +1,19 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": "\u003ccommand-name\u003e/exit\u003c/command-name\u003e\n            \u003ccommand-message\u003eexit\u003c/command-message\u003e\n            \u003ccommand-args\u003e\u003c/command-args\u003e",
+    "role": "user"
+  },
+  "parentUuid": "e37dd3c4-14ad-489b-9b33-c0d176fb31ba",
+  "promptId": "e3883b78-170f-44c3-8d4b-78f3ddffab5f",
+  "sessionId": "71855a53-b646-444b-8d10-4e28343070ac",
+  "sessionKind": "bg",
+  "timestamp": "2026-07-13T18:05:40.813Z",
+  "type": "user",
+  "userType": "external",
+  "uuid": "3841639f-16ae-4e59-8577-e3539fbdde7c",
+  "version": "2.1.179"
+}

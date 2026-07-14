@@ -1,0 +1,45 @@
+{
+  "payload": {
+    "approval_policy": "never",
+    "collaboration_mode": {
+      "mode": "default",
+      "settings": {
+        "developer_instructions": null,
+        "model": "codex-auto-review",
+        "reasoning_effort": "low"
+      }
+    },
+    "current_date": "2026-07-13",
+    "cwd": "/Users/steven/CoX-mod-Adventure",
+    "effort": "low",
+    "model": "codex-auto-review",
+    "permission_profile": {
+      "file_system": {
+        "entries": [
+          {
+            "access": "read",
+            "path": {
+              "type": "special",
+              "value": {
+                "kind": "root"
+              }
+            }
+          }
+        ],
+        "type": "restricted"
+      },
+      "network": "restricted",
+      "type": "managed"
+    },
+    "personality": "pragmatic",
+    "realtime_active": false,
+    "sandbox_policy": {
+      "type": "read-only"
+    },
+    "summary": "auto",
+    "timezone": "America/New_York",
+    "turn_id": "019f5d22-1f1f-7963-9519-44c0131aabd0"
+  },
+  "timestamp": "2026-07-13T20:19:05.133Z",
+  "type": "turn_context"
+}

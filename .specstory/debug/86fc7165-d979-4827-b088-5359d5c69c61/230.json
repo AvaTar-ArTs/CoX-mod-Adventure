@@ -1,0 +1,27 @@
+{
+  "agentId": "ae3f18cb5c4c18b34",
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "main",
+  "isSidechain": true,
+  "message": {
+    "content": [
+      {
+        "content": "# Concrete Claims from \"CSS Layout Patterns in 2026\"\n\n**Published:** March 11, 2026 (Updated May 19, 2026)\n\n## Grid vs Flexbox Claims\n\n**Author's audit finding:**\n\"when I audited one client's codebase, they had 340 uses of `display: flex` and 12 uses of `display: grid`. After refactoring, those numbers flipped to roughly 180 flex and 90 grid, and the total CSS shrank by 23%.\"\n\n**Use case guidance:**\n- Grid: \"page-level structure, card grids, dashboards, bento grids\"\n- Flexbox: \"component-level alignment, navigation\"\n\n## Bento Grid Density Claims\n\n**Card limit recommendation:**\n\"bento layouts with more than 12-15 visible cards lose their organizational advantage. We tested 8-card vs 16-card layouts and the 8-card version had 31% lower time-to-target-action.\"\n\n**Mobile failure pattern:**\n\"They fail on mobile... The hierarchy collapses into a stack of identical-width blocks.\"\n\n## Subgrid Browser Support\n\n**Current availability:** \"Chrome 117+, Safari 16+, Firefox 71+, and Edge 117+ all have full implementations\"\n\n**Global adoption:** \"counting older installs still sits below 90% on caniuse\"\n\n## Accessibility Issue\n\n**Grid reordering problem:** An audited bento layout had \"featured card was placed first visually... but was the seventh element in the DOM. Tab order jumped from top-left to bottom-right and back.\"\n\n**Solution available:** The `reading-flow` property ships in \"Chrome 131+\" to align visual and navigation order.",
+        "tool_use_id": "toolu_01TiwCcMNFoB6dwimTmstZJ5",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "5d15d856-58ff-47f1-a56f-06a2cdc4eca2",
+  "promptId": "330c8723-e3a9-44ee-8c28-0b16950393c2",
+  "sessionId": "86fc7165-d979-4827-b088-5359d5c69c61",
+  "slug": "zesty-hopping-oasis",
+  "sourceToolAssistantUUID": "5d15d856-58ff-47f1-a56f-06a2cdc4eca2",
+  "timestamp": "2026-07-13T19:57:30.605Z",
+  "type": "user",
+  "userType": "external",
+  "uuid": "12a686c8-ce2e-4bac-b2a4-582dba9f2a37",
+  "version": "2.1.179"
+}

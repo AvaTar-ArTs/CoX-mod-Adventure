@@ -1,0 +1,9 @@
+{
+  "payload": {
+    "call_id": "call_p4DD4gbDOWAP2ULeACQ2Ec4E",
+    "output": "Chunk ID: 1dcb7b\nWall time: 0.0000 seconds\nProcess exited with code 0\nOriginal token count: 131\nOutput:\n---\nname: innate-workflow\ndescription: \"Use when starting or ending a session that should follow the local audit, skill-selection, task-work, and memory-update rhythm.\"\n---\n\n# Innate Workflow\n\nAuto-trigger sequence at start/end of every session:\n\n1. **workspace-ecosystem-audit** - Understand environment\n2. **using-superpowers** - Find relevant skills (queries memory)\n3. **Task Work** - Execute with full context\n4. **self-evolving-memory** - Record outcomes, learn\n\nAll state in `~/.agent-skills/memory/shared.sqlite`.\n",
+    "type": "function_call_output"
+  },
+  "timestamp": "2026-07-13T20:22:55.139Z",
+  "type": "response_item"
+}

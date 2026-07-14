@@ -1,0 +1,22 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure/Upgraded",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": "\"/Users/steven/CoX-mod-Adventure/Upgraded/scrape-mods.py\" \"/Applications/coh\"",
+    "role": "user"
+  },
+  "parentUuid": "cdbef911-3b0c-438a-8aea-d20f265648eb",
+  "permissionMode": "auto",
+  "promptId": "5f7ae747-adb8-44d2-98e8-ac8335dd004c",
+  "promptSource": "typed",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "timestamp": "2026-07-13T19:42:08.901Z",
+  "type": "user",
+  "userType": "external",
+  "uuid": "8aa050e1-3d61-4cf8-9e27-535f111c3aef",
+  "version": "2.1.179"
+}

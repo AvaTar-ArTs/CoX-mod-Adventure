@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "memory_citation": null,
+    "message": "The agent layer adds a useful production model: tree-explorer maps the local surfaces, while the studio agents divide the browser work into producer, UX, UI, story, delight, and shipping lanes. I’m going to encode that into the project direction doc so the next implementation pass has explicit agent routing.",
+    "phase": "commentary",
+    "type": "agent_message"
+  },
+  "timestamp": "2026-07-13T20:29:40.347Z",
+  "type": "event_msg"
+}

@@ -1,0 +1,35 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "---\n---\nhref=\"/download/go.php?id=1\"\nhref=\"/download/go.php?id=2\"\n---\nmod/1\nmod/11\nmod/12\nmod/15\nmod/16\nmod/17\nmod/18\nmod/19\nmod/20\nmod/21\nmod/22\nmod/23\nmod/25\nmod/26\nmod/27\nmod/28\nmod/29\nmod/9",
+        "is_error": false,
+        "tool_use_id": "toolu_01AYerRUKU3QctGohm96vxca",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "747f9cf2-7bb7-4ec8-b549-a2b42a16d4e0",
+  "promptId": "21ef8620-0dc3-4168-97cd-73ded0c11162",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolAssistantUUID": "747f9cf2-7bb7-4ec8-b549-a2b42a16d4e0",
+  "timestamp": "2026-07-13T19:00:24.115Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "",
+    "stdout": "---\n---\nhref=\"/download/go.php?id=1\"\nhref=\"/download/go.php?id=2\"\n---\nmod/1\nmod/11\nmod/12\nmod/15\nmod/16\nmod/17\nmod/18\nmod/19\nmod/20\nmod/21\nmod/22\nmod/23\nmod/25\nmod/26\nmod/27\nmod/28\nmod/29\nmod/9"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "4bbf2e14-a3f0-4c1e-b013-41f486a00703",
+  "version": "2.1.179"
+}

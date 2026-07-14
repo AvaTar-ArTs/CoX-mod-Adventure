@@ -1,0 +1,35 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "     291\n---\nCoHModdingTool-Windows.zip\nmod-9.zip\nmod-11.zip\nmod-12.zip\nmod-15.zip\nmod-16.zip\nmod-17.zip\nmod-18.zip\nmod-19.zip\nmod-20.zip\n...\nmod-315.zip\nmod-316.zip\nmod-317.zip\nmod-318.zip\nmod-319.zip\n---\n5.6M\t/Users/steven/CoX-mod-Adventure/Mods/",
+        "is_error": false,
+        "tool_use_id": "toolu_01RzuPur2gN78HY4WT1hb3LH",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "a0b25cf6-5146-4547-9fa8-31397a376d11",
+  "promptId": "21ef8620-0dc3-4168-97cd-73ded0c11162",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolAssistantUUID": "a0b25cf6-5146-4547-9fa8-31397a376d11",
+  "timestamp": "2026-07-13T18:57:31.950Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "",
+    "stdout": "     291\n---\nCoHModdingTool-Windows.zip\nmod-9.zip\nmod-11.zip\nmod-12.zip\nmod-15.zip\nmod-16.zip\nmod-17.zip\nmod-18.zip\nmod-19.zip\nmod-20.zip\n...\nmod-315.zip\nmod-316.zip\nmod-317.zip\nmod-318.zip\nmod-319.zip\n---\n5.6M\t/Users/steven/CoX-mod-Adventure/Mods/"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "564a56a4-0cd7-4e88-b789-0bef2f0818aa",
+  "version": "2.1.179"
+}

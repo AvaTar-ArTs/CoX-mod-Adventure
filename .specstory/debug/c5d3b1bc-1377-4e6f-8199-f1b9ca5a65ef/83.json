@@ -1,0 +1,68 @@
+{
+  "cwd": "/Users/steven",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "caller": {
+          "type": "direct"
+        },
+        "id": "toolu_01Vo114Bke6ufRezg5w2J3ig",
+        "input": {
+          "command": "export WINEPREFIX=/Users/steven/.lcwine\nCOH=\"/Users/steven/Library/Application Support/LaunchCat/coh\"\n\necho \"=== BEFORE: everything Wine/CoH/LaunchCat related ===\"\nps aux | grep -iE 'wine|cityofheroes|launchcat|\\.lcwine|coh/wine' | grep -v grep | awk '{printf \"  pid=%-7s cpu=%-5s %s\\n\",$2,$3,$11\" \"$12\" \"$13}' || echo \"  (none)\"",
+          "description": "Snapshot all Wine-related processes before killing"
+        },
+        "name": "Bash",
+        "type": "tool_use"
+      }
+    ],
+    "diagnostics": null,
+    "id": "msg_011CcyU92hV9WWKMrVBusivs",
+    "model": "claude-opus-4-8",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "tool_use",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 18
+      },
+      "cache_creation_input_tokens": 18,
+      "cache_read_input_tokens": 90482,
+      "inference_geo": "global",
+      "input_tokens": 29,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 18
+          },
+          "cache_creation_input_tokens": 18,
+          "cache_read_input_tokens": 90482,
+          "input_tokens": 29,
+          "output_tokens": 322,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 322,
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  },
+  "parentUuid": "d906587e-14b0-421e-82bb-e1f957dcbff2",
+  "requestId": "req_011CcyU8zXmNhGwvACPLwAor",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "timestamp": "2026-07-13T05:01:16.844Z",
+  "type": "assistant",
+  "userType": "external",
+  "uuid": "035152d9-da83-4569-b8af-71db2f9d8a99",
+  "version": "2.1.179"
+}

@@ -1,0 +1,68 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "signature": "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",
+        "thinking": "",
+        "type": "thinking"
+      }
+    ],
+    "diagnostics": {
+      "cache_miss_reason": {
+        "cache_missed_input_tokens": 43309,
+        "type": "messages_changed"
+      }
+    },
+    "id": "msg_011Cczc8nfpCguzJZgfMXd6S",
+    "model": "claude-sonnet-4-6",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7123,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 7123,
+      "cache_read_input_tokens": 64215,
+      "inference_geo": "not_available",
+      "input_tokens": 3,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 7123,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 7123,
+          "cache_read_input_tokens": 64215,
+          "input_tokens": 3,
+          "output_tokens": 760,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 760,
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  },
+  "parentUuid": "d0b9605f-9164-4838-a9b9-3cafc046ca12",
+  "requestId": "req_011Cczc8krfwxvppi3Nhejfx",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "timestamp": "2026-07-13T19:26:52.740Z",
+  "type": "assistant",
+  "userType": "external",
+  "uuid": "3c45571f-3b20-440e-abf0-9048b9b18176",
+  "version": "2.1.179"
+}

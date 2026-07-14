@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"find /Applications/CoHModdingTool.app/Contents/Resources/wineprefix -maxdepth 3 -type d -print 2\u003e/dev/null | head -120\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":8000}",
+    "call_id": "call_7LhPnoiS8tbyRff1lxQycICe",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:32:14.128Z",
+  "type": "response_item"
+}

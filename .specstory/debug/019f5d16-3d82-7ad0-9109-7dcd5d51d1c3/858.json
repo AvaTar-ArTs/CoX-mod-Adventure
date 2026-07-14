@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"sed -n '1,140p' download-mods.py\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":3000}",
+    "call_id": "call_qDKarALPOcMe5TC2GAwSIySV",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:41:05.154Z",
+  "type": "response_item"
+}

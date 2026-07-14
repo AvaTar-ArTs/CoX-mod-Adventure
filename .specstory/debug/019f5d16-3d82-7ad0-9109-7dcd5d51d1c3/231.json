@@ -1,0 +1,13 @@
+{
+  "payload": {
+    "action": {
+      "type": "open_page",
+      "url": "https://github.com/CaitlynMainer/CityVault/"
+    },
+    "call_id": "ws_057d405a1d862814016a5546ffca7c8195a3618a69cec5ef8e",
+    "query": "https://github.com/CaitlynMainer/CityVault/",
+    "type": "web_search_end"
+  },
+  "timestamp": "2026-07-13T20:13:54.339Z",
+  "type": "event_msg"
+}

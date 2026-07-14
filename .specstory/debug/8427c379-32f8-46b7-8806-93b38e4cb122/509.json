@@ -1,0 +1,29 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "\u003ctool_use_error\u003eUnknown skill: writing-plans\u003c/tool_use_error\u003e",
+        "is_error": true,
+        "tool_use_id": "toolu_01DL5Qa4zhthHeGNAZVFnRes",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "01a1eb5d-b6b4-45e1-9db9-843bdce76a5a",
+  "promptId": "e9fc3b46-cf51-4224-b9c9-938ee1647730",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolAssistantUUID": "01a1eb5d-b6b4-45e1-9db9-843bdce76a5a",
+  "timestamp": "2026-07-13T19:32:33.626Z",
+  "toolUseResult": "Error: Unknown skill: writing-plans",
+  "type": "user",
+  "userType": "external",
+  "uuid": "5b73ca7d-98cc-4bb3-81ac-b1101b36b064",
+  "version": "2.1.179"
+}

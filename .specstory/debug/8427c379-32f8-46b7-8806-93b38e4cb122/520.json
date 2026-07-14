@@ -1,0 +1,20 @@
+{
+  "attachment": {
+    "planExists": false,
+    "planFilePath": "/Users/steven/.claude/plans/jolly-marinating-fog.md",
+    "type": "plan_mode_exit"
+  },
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "parentUuid": "ae90b71f-ef73-4aed-9c17-52c4e17e7102",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "timestamp": "2026-07-13T19:33:10.721Z",
+  "type": "attachment",
+  "userType": "external",
+  "uuid": "c8aca42d-b2a2-4d57-a570-9c6aa4315344",
+  "version": "2.1.179"
+}

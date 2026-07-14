@@ -1,0 +1,57 @@
+{
+  "attachment": {
+    "content": [
+      {
+        "activeForm": "Setting up Upgraded/ folder",
+        "blockedBy": [],
+        "blocks": [],
+        "description": "Create Upgraded/ with mods.json copy, scrape-mods.py copy, and README.md",
+        "id": "1",
+        "status": "completed",
+        "subject": "Set up Upgraded/ folder structure"
+      },
+      {
+        "activeForm": "Building Terminal variation",
+        "blockedBy": [],
+        "blocks": [],
+        "description": "mod-browser.html — dark terminal, amber gold, KingsRow bg, BIRTH_OF_A_HERO title font, FiraCode metadata",
+        "id": "2",
+        "status": "in_progress",
+        "subject": "Build Variation 1: Mission Briefing Terminal"
+      },
+      {
+        "activeForm": "Building Comic Book variation",
+        "blockedBy": [],
+        "blocks": [],
+        "description": "mod-browser-comic.html — cream/ink, halftone dots, Sonic Comic font, thick borders, offset shadows",
+        "id": "3",
+        "status": "pending",
+        "subject": "Build Variation 2: Comic Book"
+      },
+      {
+        "activeForm": "Building Power HUD variation",
+        "blockedBy": [],
+        "blocks": [],
+        "description": "mod-browser-hud.html — electric cyan, void purple, clip-path corners, pulsing download counts, Space Mono",
+        "id": "4",
+        "status": "pending",
+        "subject": "Build Variation 3: Power HUD"
+      }
+    ],
+    "itemCount": 4,
+    "type": "task_reminder"
+  },
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "parentUuid": "f0b004b2-12fe-4bd6-af75-3f4f5ef9b350",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "timestamp": "2026-07-13T19:38:38.469Z",
+  "type": "attachment",
+  "userType": "external",
+  "uuid": "49bc53a9-21fb-41c3-b6c5-e145ec8087b4",
+  "version": "2.1.179"
+}

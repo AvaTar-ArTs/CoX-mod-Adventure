@@ -1,0 +1,20 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": "\"/Users/steven/Library/Application Support/LaunchCat/coh/settings\" \"/Users/steven/Library/Application Support/LaunchCat/coh/settings/live\" \"/Users/steven/Library/Application Support/LaunchCat/coh/settings/live/gfx.json\" \"/Users/steven/Library/Application Support/LaunchCat/coh/settings/live/client.json\" \"/Users/steven/Library/Application Support/LaunchCat/coh/settings/launcher\" \"/Users/steven/Library/Application Support/LaunchCat/coh/settings/launcher/settings.json\" \"/Users/steven/Library/Application Support/LaunchCat/coh/settings/launcher/profiles\" \"/Users/steven/Library/Application Support/LaunchCat/coh/settings/launcher/process.json\" \"/Users/steven/Library/Application Support/LaunchCat/coh/settings/launcher/packages\" \"/Users/steven/Library/Application Support/LaunchCat/coh/settings/launcher/launcher.running\" \"/Users/steven/Library/Application Support/LaunchCat/coh/settings/launcher/eula.json\" \"/Users/steven/Library/Application Support/LaunchCat/coh/settings/launcher/bootstrap.json\" ",
+    "role": "user"
+  },
+  "parentUuid": "bb4998de-f4a6-4ffe-ae67-7872320a9249",
+  "permissionMode": "acceptEdits",
+  "promptId": "a0b3fd50-5789-4119-a237-f8d7b3b19b32",
+  "promptSource": "typed",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "timestamp": "2026-07-13T05:07:58.666Z",
+  "type": "user",
+  "userType": "external",
+  "uuid": "b7b14b34-a82d-4bf7-8cb0-cee2bee44037",
+  "version": "2.1.179"
+}

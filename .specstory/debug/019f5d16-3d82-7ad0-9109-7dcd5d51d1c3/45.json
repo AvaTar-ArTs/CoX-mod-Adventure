@@ -1,0 +1,11 @@
+{
+  "payload": {
+    "collaboration_mode_kind": "default",
+    "model_context_window": 258400,
+    "started_at": 1783973264,
+    "turn_id": "019f5d17-7e86-7c32-a588-b7ba124f9407",
+    "type": "task_started"
+  },
+  "timestamp": "2026-07-13T20:07:44.352Z",
+  "type": "event_msg"
+}

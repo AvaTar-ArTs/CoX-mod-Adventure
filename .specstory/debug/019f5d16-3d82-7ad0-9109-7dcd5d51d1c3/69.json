@@ -1,0 +1,14 @@
+{
+  "payload": {
+    "content": [
+      {
+        "text": "explore and audit",
+        "type": "input_text"
+      }
+    ],
+    "role": "user",
+    "type": "message"
+  },
+  "timestamp": "2026-07-13T20:08:23.824Z",
+  "type": "response_item"
+}

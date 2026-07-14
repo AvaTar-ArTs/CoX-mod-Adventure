@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"perl -0pi -e 's/^description: (Use when starting any conversation where implementation, debugging, or building work is expected\\\\. Symptoms: you.*)$/description: \\\"$1\\\"/m' /Users/steven/.codex/skills/using-superpowers/SKILL.md\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":4000,\"sandbox_permissions\":\"require_escalated\",\"justification\":\"Allow editing the installed ~/.codex/skills/using-superpowers/SKILL.md frontmatter to quote the YAML description?\"}",
+    "call_id": "call_0KR3cOrtsWO2EFjfFPI3qcOD",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:19:54.591Z",
+  "type": "response_item"
+}

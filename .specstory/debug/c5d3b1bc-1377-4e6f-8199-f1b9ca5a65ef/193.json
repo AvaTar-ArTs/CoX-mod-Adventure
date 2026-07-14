@@ -1,0 +1,71 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "caller": {
+          "type": "direct"
+        },
+        "id": "toolu_01UazG1bGT3NZgrUyQixQ2vB",
+        "input": {
+          "file_path": "/Users/steven/Library/Application Support/LaunchCat/coh/settings/live/gfx.json",
+          "new_string": "    \"detail\": {\n        \"world\": 3,\n        \"entity\": 3\n    },",
+          "old_string": "    \"detail\": {\n        \"world\": 1,\n        \"entity\": 1\n    },",
+          "replace_all": false
+        },
+        "name": "Edit",
+        "type": "tool_use"
+      }
+    ],
+    "diagnostics": null,
+    "id": "msg_011CcyUpjAuGrwZEqifbSuy3",
+    "model": "claude-opus-4-8",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "tool_use",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 401
+      },
+      "cache_creation_input_tokens": 401,
+      "cache_read_input_tokens": 126866,
+      "inference_geo": "global",
+      "input_tokens": 29,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 401
+          },
+          "cache_creation_input_tokens": 401,
+          "cache_read_input_tokens": 126866,
+          "input_tokens": 29,
+          "output_tokens": 201,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 201,
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  },
+  "parentUuid": "1ea09080-a56d-4661-b1d8-6fc7f49b199b",
+  "requestId": "req_011CcyUphJnZtm2sLJeqzEbx",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "slug": "playful-petting-ritchie",
+  "timestamp": "2026-07-13T05:10:12.995Z",
+  "type": "assistant",
+  "userType": "external",
+  "uuid": "694f2b3f-f707-4978-b018-61c61e633c48",
+  "version": "2.1.179"
+}

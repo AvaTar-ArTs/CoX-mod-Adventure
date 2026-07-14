@@ -1,0 +1,35 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "issue24\nlauncher\nlive\nmods\n---\nwin32\nwin64\n---\n#!/bin/sh\nexport PATH=\"/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin\"\nexport WINEARCH=win64\nexport WINEPREFIX=\"/Users/steven/.lcwine\"\nUSE=\"-cups\"\ncd \"/Users/steven/Library/Application Support/LaunchCat/coh/\"\n\"/Users/steven/Library/Application Support/LaunchCat/coh/wine/bin/wine64\" \"/Users/steven/Library/Application Support/LaunchCat/coh//bin/win64/launcher.exe\" \n#!/bin/sh\n# Direct start Homecoming live client under LaunchCat Wine\nexport WINEARCH=win64\nexport WINEPREFIX=\"/Users/steven/.lcwine\"\ncd \"/Users/steven/Library/Application Support/LaunchCat/coh\"\nexec \"/Users/steven/Library/Application Support/LaunchCat/coh/wine/bin/wine64\" \"/Users/steven/Library/Application Support/LaunchCat/coh/bin/win64/live/cityofheroes.exe\" \\\n  -profile live \\\n  -auth 51.161.76.201 \\\n  -assetpath \"assets/issue24;assets/live\" \\\n  -assetpath \"assets/mods\"",
+        "is_error": false,
+        "tool_use_id": "toolu_01CT9npqrddXWHcYukLQN4Df",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "720e7b35-7fd6-443d-b479-456a18570c8c",
+  "promptId": "21ef8620-0dc3-4168-97cd-73ded0c11162",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolAssistantUUID": "720e7b35-7fd6-443d-b479-456a18570c8c",
+  "timestamp": "2026-07-13T18:57:47.704Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "",
+    "stdout": "issue24\nlauncher\nlive\nmods\n---\nwin32\nwin64\n---\n#!/bin/sh\nexport PATH=\"/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin\"\nexport WINEARCH=win64\nexport WINEPREFIX=\"/Users/steven/.lcwine\"\nUSE=\"-cups\"\ncd \"/Users/steven/Library/Application Support/LaunchCat/coh/\"\n\"/Users/steven/Library/Application Support/LaunchCat/coh/wine/bin/wine64\" \"/Users/steven/Library/Application Support/LaunchCat/coh//bin/win64/launcher.exe\" \n#!/bin/sh\n# Direct start Homecoming live client under LaunchCat Wine\nexport WINEARCH=win64\nexport WINEPREFIX=\"/Users/steven/.lcwine\"\ncd \"/Users/steven/Library/Application Support/LaunchCat/coh\"\nexec \"/Users/steven/Library/Application Support/LaunchCat/coh/wine/bin/wine64\" \"/Users/steven/Library/Application Support/LaunchCat/coh/bin/win64/live/cityofheroes.exe\" \\\n  -profile live \\\n  -auth 51.161.76.201 \\\n  -assetpath \"assets/issue24;assets/live\" \\\n  -assetpath \"assets/mods\""
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "8bd0f032-07e1-4e1a-b92e-084fb54601bd",
+  "version": "2.1.179"
+}

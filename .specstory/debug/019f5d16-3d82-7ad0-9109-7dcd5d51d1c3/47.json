@@ -1,0 +1,14 @@
+{
+  "payload": {
+    "content": [
+      {
+        "text": "$eza-nav /Users/steven/CoX-mod-Adventure",
+        "type": "input_text"
+      }
+    ],
+    "role": "user",
+    "type": "message"
+  },
+  "timestamp": "2026-07-13T20:07:44.379Z",
+  "type": "response_item"
+}

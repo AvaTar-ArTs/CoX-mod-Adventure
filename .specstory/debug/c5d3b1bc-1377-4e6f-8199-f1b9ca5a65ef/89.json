@@ -1,0 +1,33 @@
+{
+  "cwd": "/Users/steven",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "=== 1. graceful: wineserver -k ===\n  wineserver -k sent\n\n=== 2. force-kill any stragglers by exact path match ===\n\n=== 3. quit LaunchCat.app GUI host if running ===\n  (LaunchCat GUI not running)\n\n=== 4. VERIFY: anything Wine/CoH/LaunchCat left? ===\n  ✅ CLEAN — no Wine/CoH/LaunchCat processes remain",
+        "is_error": false,
+        "tool_use_id": "toolu_019vQqV5RsTFQoj6oCNiPdJM",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "2fcb2860-0dda-4288-a41f-e41ee318c0ee",
+  "promptId": "c5ca2d56-9f43-4f5f-a1e0-3b1e10fbf3fb",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "sourceToolAssistantUUID": "2fcb2860-0dda-4288-a41f-e41ee318c0ee",
+  "timestamp": "2026-07-13T05:01:42.725Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "",
+    "stdout": "=== 1. graceful: wineserver -k ===\n  wineserver -k sent\n\n=== 2. force-kill any stragglers by exact path match ===\n\n=== 3. quit LaunchCat.app GUI host if running ===\n  (LaunchCat GUI not running)\n\n=== 4. VERIFY: anything Wine/CoH/LaunchCat left? ===\n  ✅ CLEAN — no Wine/CoH/LaunchCat processes remain"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "298132ca-6fdf-48bf-9afe-b775e20fc5e8",
+  "version": "2.1.179"
+}

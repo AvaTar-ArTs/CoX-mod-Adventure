@@ -1,0 +1,35 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "# .agents\n\nLocal agent, skill, and plugin workspace for reusable AI workflows.\n\nThis repository is a living working set. Prefer additive changes, staged outputs,\nand changelogs over destructive cleanup. CSVs are treated as living tables: rows\nmay be added, removed, or corrected, but generation scripts should append a\nchangelog beside the CSV.\n\n## Layout\n\n- `agents/` - Markdown and TOML agent/persona definitions.\n- `skills/` - Skill directories and nested skill libraries.\n- `plugins/` - Plugin source/reference material and marketplace metadata.\n- `deep-research/` - Research-oriented skill material.\n- `scripts/` - Local inspection and catalog tooling for this workspace.\n- `tmp-csv/` - Local staged CSV outputs, ignored by Git.\n- `tmp-md/` - Local staged Markdown reports, ignored by Git.\n- `tmp/` - Local scratch/history folder, ignored by Git.\n\n`INDEX.md` is the broader generated overview. This README is the short entry\npoint for the repository.\n\n## Inspection Scripts\n\nRun scripts from the repository root:\n\n```bash\npython scripts/export_catalog_csv.py\npython scripts/summarize_what_they_do.py\npython scripts/inspect_md_content.py\n```\n\nOutputs are staged locally:\n\n- `tmp-csv/agents-catalog.csv`\n- `tmp-csv/what-they-do.csv`\n- `tmp-csv/md-content-index.csv`\n- `tmp-md/what-they-do.md`\n- `tmp-md/md-content-report.md`\n\nEach CSV script also appends a sibling changelog:\n\n- `tmp-csv/agents-catalog-CHANGELOG.md`\n- `tmp-csv/what-they-do-CHANGELOG.md`\n- `tmp-csv/md-content-index-CHANGELOG.md`\n\n## Working Convention\n\n1. Inspect current contents before changing them.\n2. Add new material next to existing material when practical.\n3. Preserve older artifacts unless cleanup is explicitly requested.\n4. Stage generated outputs under purpose-specific local folders like `tmp-csv/`\n   or `tmp-md/`.\n5. Promote reviewed outputs into durable docs, inventory, or report locations\n   only after they are useful.\n\n## Git Notes\n\nThe repository intentionally ignores local archives, generated inventory dumps,\ntemporary staging outputs, `.DS_Store`, and the local virtual environment.\n\nRemote:\n\n```text\nhttps://github.com/AvaTar-ArTs/.agents.git\n```",
+        "is_error": false,
+        "tool_use_id": "toolu_01CjJPm19Dem3BgizZwFKD4t",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "bf7e45b6-cec3-4477-80a5-ce8ccf2837cf",
+  "promptId": "71540808-008c-4ea4-bfad-d085aa64378a",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolAssistantUUID": "bf7e45b6-cec3-4477-80a5-ce8ccf2837cf",
+  "timestamp": "2026-07-13T18:48:24.917Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "",
+    "stdout": "# .agents\n\nLocal agent, skill, and plugin workspace for reusable AI workflows.\n\nThis repository is a living working set. Prefer additive changes, staged outputs,\nand changelogs over destructive cleanup. CSVs are treated as living tables: rows\nmay be added, removed, or corrected, but generation scripts should append a\nchangelog beside the CSV.\n\n## Layout\n\n- `agents/` - Markdown and TOML agent/persona definitions.\n- `skills/` - Skill directories and nested skill libraries.\n- `plugins/` - Plugin source/reference material and marketplace metadata.\n- `deep-research/` - Research-oriented skill material.\n- `scripts/` - Local inspection and catalog tooling for this workspace.\n- `tmp-csv/` - Local staged CSV outputs, ignored by Git.\n- `tmp-md/` - Local staged Markdown reports, ignored by Git.\n- `tmp/` - Local scratch/history folder, ignored by Git.\n\n`INDEX.md` is the broader generated overview. This README is the short entry\npoint for the repository.\n\n## Inspection Scripts\n\nRun scripts from the repository root:\n\n```bash\npython scripts/export_catalog_csv.py\npython scripts/summarize_what_they_do.py\npython scripts/inspect_md_content.py\n```\n\nOutputs are staged locally:\n\n- `tmp-csv/agents-catalog.csv`\n- `tmp-csv/what-they-do.csv`\n- `tmp-csv/md-content-index.csv`\n- `tmp-md/what-they-do.md`\n- `tmp-md/md-content-report.md`\n\nEach CSV script also appends a sibling changelog:\n\n- `tmp-csv/agents-catalog-CHANGELOG.md`\n- `tmp-csv/what-they-do-CHANGELOG.md`\n- `tmp-csv/md-content-index-CHANGELOG.md`\n\n## Working Convention\n\n1. Inspect current contents before changing them.\n2. Add new material next to existing material when practical.\n3. Preserve older artifacts unless cleanup is explicitly requested.\n4. Stage generated outputs under purpose-specific local folders like `tmp-csv/`\n   or `tmp-md/`.\n5. Promote reviewed outputs into durable docs, inventory, or report locations\n   only after they are useful.\n\n## Git Notes\n\nThe repository intentionally ignores local archives, generated inventory dumps,\ntemporary staging outputs, `.DS_Store`, and the local virtual environment.\n\nRemote:\n\n```text\nhttps://github.com/AvaTar-ArTs/.agents.git\n```"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "b81f5b60-ef10-4622-b753-623a290ecca5",
+  "version": "2.1.179"
+}

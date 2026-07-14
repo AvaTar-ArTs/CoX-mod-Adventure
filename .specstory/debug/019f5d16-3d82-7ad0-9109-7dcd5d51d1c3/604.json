@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"file '/Users/steven/Library/Application Support/LaunchCat/coh/start-live.sh' '/Users/steven/Library/Application Support/LaunchCat/coh/launch.sh' '/Users/steven/Library/Application Support/LaunchCat/coh/Homecoming.lnk' '/Users/steven/Library/Application Support/LaunchCat/coh/LaunchCat-Diagnostics.txt' 2\u003e/dev/null\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":5000}",
+    "call_id": "call_d7qYHjTw30KhjQVnIuOoWtF8",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:33:19.176Z",
+  "type": "response_item"
+}

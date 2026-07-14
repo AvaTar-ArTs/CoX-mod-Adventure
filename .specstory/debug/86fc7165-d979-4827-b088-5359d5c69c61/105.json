@@ -1,0 +1,21 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "main",
+  "isSidechain": false,
+  "message": {
+    "content": "also within ~/agent-skills/ theres epic help on this topic",
+    "role": "user"
+  },
+  "parentUuid": "cd191790-04e1-4350-ae9d-9e548d5e34d3",
+  "permissionMode": "default",
+  "promptId": "330c8723-e3a9-44ee-8c28-0b16950393c2",
+  "promptSource": "typed",
+  "sessionId": "86fc7165-d979-4827-b088-5359d5c69c61",
+  "slug": "zesty-hopping-oasis",
+  "timestamp": "2026-07-13T19:56:43.230Z",
+  "type": "user",
+  "userType": "external",
+  "uuid": "17de20c9-57f9-415f-8f2f-43ca4cac8721",
+  "version": "2.1.179"
+}

@@ -1,0 +1,35 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "CoHModdingTool.exe\nx64/\nx64/SQLite.Interop.dll\nx86/\nx86/SQLite.Interop.dll",
+        "is_error": false,
+        "tool_use_id": "toolu_018KJvm5W9FBzUqtJAa6Ybb5",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "68283078-fd33-4d7c-8979-dc3bae4abf6f",
+  "promptId": "21ef8620-0dc3-4168-97cd-73ded0c11162",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolAssistantUUID": "68283078-fd33-4d7c-8979-dc3bae4abf6f",
+  "timestamp": "2026-07-13T18:58:47.088Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "",
+    "stdout": "CoHModdingTool.exe\nx64/\nx64/SQLite.Interop.dll\nx86/\nx86/SQLite.Interop.dll"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "30f85f1d-fca0-4a38-a93e-7bd17d37d060",
+  "version": "2.1.179"
+}

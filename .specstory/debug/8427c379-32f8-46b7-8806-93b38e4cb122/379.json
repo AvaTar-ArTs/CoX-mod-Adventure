@@ -1,0 +1,30 @@
+{
+  "attachment": {
+    "content": {
+      "file": {
+        "content": "# macOS\n.DS_Store\n.AppleDouble\n.LSOverride\n._*\n\n# Downloaded mod files (large binaries, re-downloadable via scrape-mods.py)\nMods/*.pigg\nMods/*.zip\nMods/CoHModdingTool-Windows.zip\n\n# Generated data (rebuilt by scrape-mods.py)\n# mods.json is intentionally tracked\n\n# Poolside / AI session files\n.poolside/\n\n# Log / temp files\n*.log\n2026-*-local-command-*.txt\n\n# Archives\npages.zip\n\n# Large binaries in coh-modders (installers)\ncoh-modders/\n\n# Exported session logs\ndocs/full-conversation-export.md\ndocs/undated_*.md\ndocs/.exported_sessions.json\ndocs/tmp-artifacts/*.zip\ndocs/tmp-artifacts/*.pigg\n",
+        "filePath": "/Users/steven/CoX-mod-Adventure/.gitignore",
+        "numLines": 34,
+        "startLine": 1,
+        "totalLines": 34
+      },
+      "type": "text"
+    },
+    "displayPath": ".gitignore",
+    "filename": "/Users/steven/CoX-mod-Adventure/.gitignore",
+    "type": "file"
+  },
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "parentUuid": "894a5b92-b321-4a8e-a121-74233ab03f50",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "timestamp": "2026-07-13T19:21:45.177Z",
+  "type": "attachment",
+  "userType": "external",
+  "uuid": "556898bb-c6fc-455a-8739-b3f0def9bc0a",
+  "version": "2.1.179"
+}

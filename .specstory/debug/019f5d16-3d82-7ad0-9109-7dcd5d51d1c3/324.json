@@ -1,0 +1,14 @@
+{
+  "payload": {
+    "content": [
+      {
+        "text": "ctually,,.. in /Users/steven/.agent-skills/skills/innate-workflow/SKILL.md for example. if we made a codex.md version would it help",
+        "type": "input_text"
+      }
+    ],
+    "role": "user",
+    "type": "message"
+  },
+  "timestamp": "2026-07-13T20:20:42.787Z",
+  "type": "response_item"
+}

@@ -1,0 +1,17 @@
+{
+  "content": "\u003clocal-command-stdout\u003eConfig dialog dismissed\u003c/local-command-stdout\u003e",
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "main",
+  "isMeta": false,
+  "isSidechain": false,
+  "level": "info",
+  "parentUuid": "5753954e-3d59-4ede-a7d0-c17e31273988",
+  "sessionId": "615e4a6f-d1f9-4fd8-971e-60fdf9242c83",
+  "subtype": "local_command",
+  "timestamp": "2026-07-13T19:48:11.612Z",
+  "type": "system",
+  "userType": "external",
+  "uuid": "660c1ef8-7b2d-44ed-b2f1-a9ec0af6e473",
+  "version": "2.1.179"
+}

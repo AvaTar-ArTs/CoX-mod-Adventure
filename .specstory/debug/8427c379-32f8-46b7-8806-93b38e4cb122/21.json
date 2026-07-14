@@ -1,0 +1,69 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "caller": {
+          "type": "direct"
+        },
+        "id": "toolu_01KqRtVkqv3viFuMFcvsZy41",
+        "input": {
+          "limit": 5,
+          "query": "CoX mod Adventure City of Heroes Homecoming mods"
+        },
+        "name": "mcp__engram__search",
+        "type": "tool_use"
+      }
+    ],
+    "diagnostics": null,
+    "id": "msg_011CczZ2Tpj4msDgf754uWQv",
+    "model": "claude-sonnet-4-6",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "tool_use",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 1667,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 1667,
+      "cache_read_input_tokens": 38623,
+      "inference_geo": "not_available",
+      "input_tokens": 3,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 1667,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 1667,
+          "cache_read_input_tokens": 38623,
+          "input_tokens": 3,
+          "output_tokens": 155,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 155,
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  },
+  "parentUuid": "7b3d96c4-3e47-487f-a4c0-3e4b028578f2",
+  "requestId": "req_011CczZ2RQNkrQ3Z7A9kM6Db",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "timestamp": "2026-07-13T18:45:56.618Z",
+  "type": "assistant",
+  "userType": "external",
+  "uuid": "d55f0951-9ffd-46b0-96ac-51af161b0fc3",
+  "version": "2.1.179"
+}

@@ -1,0 +1,13 @@
+{
+  "payload": {
+    "action": {
+      "pattern": "Content inventories",
+      "type": "find_in_page",
+      "url": "https://www.nngroup.com/articles/content-audits/"
+    },
+    "status": "completed",
+    "type": "web_search_call"
+  },
+  "timestamp": "2026-07-13T20:40:51.336Z",
+  "type": "response_item"
+}

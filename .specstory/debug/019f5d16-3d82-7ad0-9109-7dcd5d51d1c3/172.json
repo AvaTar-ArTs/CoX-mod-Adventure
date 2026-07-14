@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "memory_citation": null,
+    "message": "The representative live check confirms those `/mods//mods/download.php` links return HTTP 404, so that is the top functional finding. I’m collecting precise line references for the downloader and UI surfaces before summarizing.",
+    "phase": "commentary",
+    "type": "agent_message"
+  },
+  "timestamp": "2026-07-13T20:10:33.454Z",
+  "type": "event_msg"
+}

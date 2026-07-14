@@ -1,0 +1,327 @@
+{
+  "payload": {
+    "approval_policy": "on-request",
+    "collaboration_mode": {
+      "mode": "default",
+      "settings": {
+        "developer_instructions": "# Collaboration Mode: Default\n\nYou are now in Default mode. Any previous instructions for other modes (e.g. Plan mode) are no longer active.\n\nYour active mode changes only when new developer instructions with a different `\u003ccollaboration_mode\u003e...\u003c/collaboration_mode\u003e` change it; user requests or tool descriptions do not change mode by themselves. Known mode names are Default and Plan.\n\n## request_user_input availability\n\nUse the `request_user_input` tool only when it is listed in the available tools for this turn.\n\nIn Default mode, strongly prefer making reasonable assumptions and executing the user's request rather than stopping to ask questions. If you absolutely must ask a question because the answer cannot be discovered from local context and a reasonable assumption would be risky, ask the user directly with a concise plain-text question. Never write a multiple choice question as a textual assistant message.\n",
+        "model": "gpt-5.5",
+        "reasoning_effort": "medium"
+      }
+    },
+    "current_date": "2026-07-13",
+    "cwd": "/Users/steven/CoX-mod-Adventure",
+    "effort": "medium",
+    "file_system_sandbox_policy": {
+      "entries": [
+        {
+          "access": "read",
+          "path": {
+            "type": "special",
+            "value": {
+              "kind": "root"
+            }
+          }
+        },
+        {
+          "access": "write",
+          "path": {
+            "path": "/Users/steven/CoX-mod-Adventure",
+            "type": "path"
+          }
+        },
+        {
+          "access": "write",
+          "path": {
+            "path": "/Users/steven/.agent-skills/skills/agmsg/db",
+            "type": "path"
+          }
+        },
+        {
+          "access": "write",
+          "path": {
+            "path": "/Users/steven/.agent-skills/skills/agmsg/teams",
+            "type": "path"
+          }
+        },
+        {
+          "access": "write",
+          "path": {
+            "type": "special",
+            "value": {
+              "kind": "slash_tmp"
+            }
+          }
+        },
+        {
+          "access": "write",
+          "path": {
+            "type": "special",
+            "value": {
+              "kind": "tmpdir"
+            }
+          }
+        },
+        {
+          "access": "write",
+          "path": {
+            "path": "/Users/steven/.agent-skills/skills/agmsg/db",
+            "type": "path"
+          }
+        },
+        {
+          "access": "write",
+          "path": {
+            "path": "/Users/steven/.agent-skills/skills/agmsg/teams",
+            "type": "path"
+          }
+        },
+        {
+          "access": "read",
+          "path": {
+            "path": "/Users/steven/CoX-mod-Adventure/.git",
+            "type": "path"
+          }
+        },
+        {
+          "access": "read",
+          "path": {
+            "path": "/Users/steven/.agent-skills/skills/agmsg/db/.git",
+            "type": "path"
+          }
+        },
+        {
+          "access": "read",
+          "path": {
+            "path": "/Users/steven/.agent-skills/skills/agmsg/teams/.git",
+            "type": "path"
+          }
+        },
+        {
+          "access": "read",
+          "path": {
+            "path": "/Users/steven/CoX-mod-Adventure/.agents",
+            "type": "path"
+          }
+        },
+        {
+          "access": "read",
+          "path": {
+            "path": "/Users/steven/.agent-skills/skills/agmsg/db/.agents",
+            "type": "path"
+          }
+        },
+        {
+          "access": "read",
+          "path": {
+            "path": "/Users/steven/.agent-skills/skills/agmsg/teams/.agents",
+            "type": "path"
+          }
+        },
+        {
+          "access": "read",
+          "path": {
+            "path": "/Users/steven/CoX-mod-Adventure/.codex",
+            "type": "path"
+          }
+        },
+        {
+          "access": "read",
+          "path": {
+            "path": "/Users/steven/.agent-skills/skills/agmsg/db/.codex",
+            "type": "path"
+          }
+        },
+        {
+          "access": "read",
+          "path": {
+            "path": "/Users/steven/.agent-skills/skills/agmsg/teams/.codex",
+            "type": "path"
+          }
+        },
+        {
+          "access": "write",
+          "path": {
+            "path": "/Users/steven/.codex/memories",
+            "type": "path"
+          }
+        },
+        {
+          "access": "read",
+          "path": {
+            "path": "/Users/steven/.codex/memories/.git",
+            "type": "path"
+          }
+        }
+      ],
+      "kind": "restricted"
+    },
+    "model": "gpt-5.5",
+    "permission_profile": {
+      "file_system": {
+        "entries": [
+          {
+            "access": "read",
+            "path": {
+              "type": "special",
+              "value": {
+                "kind": "root"
+              }
+            }
+          },
+          {
+            "access": "write",
+            "path": {
+              "path": "/Users/steven/CoX-mod-Adventure",
+              "type": "path"
+            }
+          },
+          {
+            "access": "write",
+            "path": {
+              "path": "/Users/steven/.agent-skills/skills/agmsg/db",
+              "type": "path"
+            }
+          },
+          {
+            "access": "write",
+            "path": {
+              "path": "/Users/steven/.agent-skills/skills/agmsg/teams",
+              "type": "path"
+            }
+          },
+          {
+            "access": "write",
+            "path": {
+              "type": "special",
+              "value": {
+                "kind": "slash_tmp"
+              }
+            }
+          },
+          {
+            "access": "write",
+            "path": {
+              "type": "special",
+              "value": {
+                "kind": "tmpdir"
+              }
+            }
+          },
+          {
+            "access": "write",
+            "path": {
+              "path": "/Users/steven/.agent-skills/skills/agmsg/db",
+              "type": "path"
+            }
+          },
+          {
+            "access": "write",
+            "path": {
+              "path": "/Users/steven/.agent-skills/skills/agmsg/teams",
+              "type": "path"
+            }
+          },
+          {
+            "access": "read",
+            "path": {
+              "path": "/Users/steven/CoX-mod-Adventure/.git",
+              "type": "path"
+            }
+          },
+          {
+            "access": "read",
+            "path": {
+              "path": "/Users/steven/.agent-skills/skills/agmsg/db/.git",
+              "type": "path"
+            }
+          },
+          {
+            "access": "read",
+            "path": {
+              "path": "/Users/steven/.agent-skills/skills/agmsg/teams/.git",
+              "type": "path"
+            }
+          },
+          {
+            "access": "read",
+            "path": {
+              "path": "/Users/steven/CoX-mod-Adventure/.agents",
+              "type": "path"
+            }
+          },
+          {
+            "access": "read",
+            "path": {
+              "path": "/Users/steven/.agent-skills/skills/agmsg/db/.agents",
+              "type": "path"
+            }
+          },
+          {
+            "access": "read",
+            "path": {
+              "path": "/Users/steven/.agent-skills/skills/agmsg/teams/.agents",
+              "type": "path"
+            }
+          },
+          {
+            "access": "read",
+            "path": {
+              "path": "/Users/steven/CoX-mod-Adventure/.codex",
+              "type": "path"
+            }
+          },
+          {
+            "access": "read",
+            "path": {
+              "path": "/Users/steven/.agent-skills/skills/agmsg/db/.codex",
+              "type": "path"
+            }
+          },
+          {
+            "access": "read",
+            "path": {
+              "path": "/Users/steven/.agent-skills/skills/agmsg/teams/.codex",
+              "type": "path"
+            }
+          },
+          {
+            "access": "write",
+            "path": {
+              "path": "/Users/steven/.codex/memories",
+              "type": "path"
+            }
+          },
+          {
+            "access": "read",
+            "path": {
+              "path": "/Users/steven/.codex/memories/.git",
+              "type": "path"
+            }
+          }
+        ],
+        "type": "restricted"
+      },
+      "network": "enabled",
+      "type": "managed"
+    },
+    "personality": "pragmatic",
+    "realtime_active": false,
+    "sandbox_policy": {
+      "exclude_slash_tmp": false,
+      "exclude_tmpdir_env_var": false,
+      "network_access": true,
+      "type": "workspace-write",
+      "writable_roots": [
+        "/Users/steven/.agent-skills/skills/agmsg/db",
+        "/Users/steven/.agent-skills/skills/agmsg/teams",
+        "/Users/steven/.codex/memories"
+      ]
+    },
+    "summary": "auto",
+    "timezone": "America/New_York",
+    "turn_id": "019f5d24-01f7-77e2-aa31-07ed2026853e"
+  },
+  "timestamp": "2026-07-13T20:21:09.218Z",
+  "type": "turn_context"
+}

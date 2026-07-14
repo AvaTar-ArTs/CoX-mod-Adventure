@@ -1,0 +1,57 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "Your questions have been answered: \"What would you like to configure?\"=\"Environment / model / behavior\". You can now continue with these answers in mind.",
+        "tool_use_id": "toolu_01Lod6TStgDDLRnwxS125FfC",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "954163a0-f22d-4a92-964a-ccb357d421a7",
+  "promptId": "3c821775-18f9-4f47-98ac-b77bfb50f0d4",
+  "sessionId": "71855a53-b646-444b-8d10-4e28343070ac",
+  "sessionKind": "bg",
+  "sourceToolAssistantUUID": "954163a0-f22d-4a92-964a-ccb357d421a7",
+  "timestamp": "2026-07-13T18:05:12.667Z",
+  "toolUseResult": {
+    "annotations": {},
+    "answers": {
+      "What would you like to configure?": "Environment / model / behavior"
+    },
+    "questions": [
+      {
+        "header": "Config type",
+        "multiSelect": false,
+        "options": [
+          {
+            "description": "Run a command automatically on an event — e.g. format after edits, run tests on save, log bash commands, prompt before compaction.",
+            "label": "A hook (automation)"
+          },
+          {
+            "description": "Allow/deny/ask rules so certain tools (e.g. git, npm) run without prompting, or are blocked.",
+            "label": "Permissions"
+          },
+          {
+            "description": "Env vars, default model, attribution text, MCP server toggles, or other simple settings.",
+            "label": "Environment / model / behavior"
+          },
+          {
+            "description": "A different setting — describe what behavior you want and I'll find the right key.",
+            "label": "Something else"
+          }
+        ],
+        "question": "What would you like to configure?"
+      }
+    ]
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "e230d3b3-2b59-4c14-8edc-d499316fb9c0",
+  "version": "2.1.179"
+}

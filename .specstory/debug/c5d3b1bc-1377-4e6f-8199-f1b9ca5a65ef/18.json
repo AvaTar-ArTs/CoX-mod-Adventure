@@ -1,0 +1,33 @@
+{
+  "cwd": "/Users/steven",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "=== client process ===\n=== wineserver ===\n=== windows ===\n\n=== last client stderr ===\n  initActorSporeGrid...done.                                          (0.00)\r\n  loading textures..loading 627 textures\r\n (53.073 Mbytes 0.000 TexWord MPixels)            (0.43)\r\nWarning: Message from server, 57 (SERVER_CONTACT_STATUS), was sent before we are receiving entity updates!\r\n                                                                      (151.52)\r\nstarting game\r\nTime to load game and get into a map: 162s\r\nFlushing log files to disk",
+        "is_error": false,
+        "tool_use_id": "toolu_017Dm8ex4d7UovBS3aUSFF3N",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "2c58b37e-ba90-4439-8fbf-ab2a70e49030",
+  "promptId": "97aae6a7-f375-4cbb-9622-0cea2d5e5f5c",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "sourceToolAssistantUUID": "2c58b37e-ba90-4439-8fbf-ab2a70e49030",
+  "timestamp": "2026-07-13T04:54:59.794Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "",
+    "stdout": "=== client process ===\n=== wineserver ===\n=== windows ===\n\n=== last client stderr ===\n  initActorSporeGrid...done.                                          (0.00)\r\n  loading textures..loading 627 textures\r\n (53.073 Mbytes 0.000 TexWord MPixels)            (0.43)\r\nWarning: Message from server, 57 (SERVER_CONTACT_STATUS), was sent before we are receiving entity updates!\r\n                                                                      (151.52)\r\nstarting game\r\nTime to load game and get into a map: 162s\r\nFlushing log files to disk"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "3cda9779-a806-4640-b012-069a43d3909b",
+  "version": "2.1.179"
+}

@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"sqlite3 -header -column '/Users/steven/Library/Application Support/CityModInstaller/modder.db' 'select * from trackedFiles limit 80;'\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":10000}",
+    "call_id": "call_oIeVprNX5cXfRMxb5GZrhhUa",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:34:32.537Z",
+  "type": "response_item"
+}

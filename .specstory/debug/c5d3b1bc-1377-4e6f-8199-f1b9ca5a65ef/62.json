@@ -1,0 +1,33 @@
+{
+  "cwd": "/Users/steven",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "=== auth / login state (new log lines) ===\n2026-07-13 00:58:49    launcher: Using basedir z:/Users/steven/Library/Application Support/LaunchCat/coh\r\n2026-07-13 00:58:49    pstate: package launcher:2.7904 transitioned from unknown to installed\r\n2026-07-13 00:58:49    installer: Created shortcut Z:\\Users\\steven\\Library\\Application Support\\LaunchCat\\coh\\Homecoming.lnk\r\n2026-07-13 00:58:49    jsonobjdl: Trying url https://manifest.cohhc.gg/launcher/v2/eula.json\r\n2026-07-13 00:58:49    bootstrap: Loading lua script launcher.lua\r\n2026-07-13 00:58:49    jsonobjdl: Trying url https://manifest.cohhc.gg/launcher/v2/release/bootstrap.json\r\n2026-07-13 00:58:49    jsonobjdl: Checking updates for package launcher:2.7904\r\n2026-07-13 00:58:49    jsonobjdl: Trying url https://manifest.cohhc.gg/launcher/v2/release/package/launcher.json\r\n2026-07-13 00:58:50    jsonobjdl: package launcher:2.7904 was up to date\r\n2026-07-13 00:58:50    auth: Connecting to token API\r\n2026-07-13 00:58:51    auth: Requesting access token\r\n2026-07-13 00:58:52    auth: Received access token\r\n\n=== capture launcher window region to inspect Play button ===\nsaved /tmp/coh_launcher_shot.png (3578389 bytes)",
+        "is_error": false,
+        "tool_use_id": "toolu_01FgpARC8V4jQw2ivSfASpxu",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "4c15875d-f2e3-46fc-a312-ee4566d026f3",
+  "promptId": "f6b9694d-4021-48bc-8669-cb2337c0adeb",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "sourceToolAssistantUUID": "4c15875d-f2e3-46fc-a312-ee4566d026f3",
+  "timestamp": "2026-07-13T04:59:12.232Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "",
+    "stdout": "=== auth / login state (new log lines) ===\n2026-07-13 00:58:49    launcher: Using basedir z:/Users/steven/Library/Application Support/LaunchCat/coh\r\n2026-07-13 00:58:49    pstate: package launcher:2.7904 transitioned from unknown to installed\r\n2026-07-13 00:58:49    installer: Created shortcut Z:\\Users\\steven\\Library\\Application Support\\LaunchCat\\coh\\Homecoming.lnk\r\n2026-07-13 00:58:49    jsonobjdl: Trying url https://manifest.cohhc.gg/launcher/v2/eula.json\r\n2026-07-13 00:58:49    bootstrap: Loading lua script launcher.lua\r\n2026-07-13 00:58:49    jsonobjdl: Trying url https://manifest.cohhc.gg/launcher/v2/release/bootstrap.json\r\n2026-07-13 00:58:49    jsonobjdl: Checking updates for package launcher:2.7904\r\n2026-07-13 00:58:49    jsonobjdl: Trying url https://manifest.cohhc.gg/launcher/v2/release/package/launcher.json\r\n2026-07-13 00:58:50    jsonobjdl: package launcher:2.7904 was up to date\r\n2026-07-13 00:58:50    auth: Connecting to token API\r\n2026-07-13 00:58:51    auth: Requesting access token\r\n2026-07-13 00:58:52    auth: Received access token\r\n\n=== capture launcher window region to inspect Play button ===\nsaved /tmp/coh_launcher_shot.png (3578389 bytes)"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "a51dce77-95ba-4fa0-a7a1-e620dcea7d1a",
+  "version": "2.1.179"
+}

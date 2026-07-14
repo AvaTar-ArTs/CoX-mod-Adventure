@@ -1,0 +1,22 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": "https://forums.homecomingservers.com/forum/60-tools-utilities-amp-downloads/",
+    "role": "user"
+  },
+  "parentUuid": "65bbc209-1696-4961-828e-93c7953cfcd8",
+  "permissionMode": "default",
+  "promptId": "eddf8e22-0c9d-4cd3-9a14-63efc4928f68",
+  "promptSource": "typed",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "timestamp": "2026-07-13T18:52:18.218Z",
+  "type": "user",
+  "userType": "external",
+  "uuid": "a303bfa8-ba6c-42b5-b317-0796ac3e3864",
+  "version": "2.1.179"
+}

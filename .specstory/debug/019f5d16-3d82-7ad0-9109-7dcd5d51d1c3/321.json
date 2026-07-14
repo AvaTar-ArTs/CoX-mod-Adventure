@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "memory_citation": null,
+    "message": "Installed a clean `using-superpowers` skill into:\n\n`/Users/steven/.codex/skills/using-superpowers/SKILL.md`\n\nI copied the full skill folder from `/Users/steven/.agents/skills/using-superpowers`, including its `references/`, then fixed the installed frontmatter by quoting the long `description:` value. Verified with Ruby YAML parsing: `frontmatter ok`.\n\nI did not install `skill-installer` itself because it is a `.system` skill and its own instructions say system skills are preinstalled. I used it as the workflow for installing `using-superpowers`.\n\nImportant caveat: the original invalid files under `/Users/steven/.agent-skills/skills/...` are unchanged. If your loader still scans `.agent-skills`, those warnings may continue until we also quote the `description:` lines in:\n\n- `/Users/steven/.agent-skills/skills/using-superpowers/SKILL.md`\n- `/Users/steven/.agent-skills/skills/innate-workflow/SKILL.md`\n\nRestart Codex to pick up the new `~/.codex/skills/using-superpowers` copy.",
+    "phase": "final_answer",
+    "type": "agent_message"
+  },
+  "timestamp": "2026-07-13T20:20:31.035Z",
+  "type": "event_msg"
+}

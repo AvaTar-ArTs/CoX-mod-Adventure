@@ -1,0 +1,35 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "Moved:\nPermissions Size User   Date Modified Name\n.rw-r--r--  4.7M steven 13 Jul 15:12  installer-windows.zip\n.rw-r--r--    10 steven 13 Jul 15:12  mod9-vidiotmaps-test.pigg\n.rw-r--r--   14k steven 13 Jul 15:12  scrape-full.log",
+        "is_error": false,
+        "tool_use_id": "toolu_01FSqMR8dxbg4nCfHH2pV1ru",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "55ea07a7-ca0a-4e6a-bc73-3e61005e5771",
+  "promptId": "21ef8620-0dc3-4168-97cd-73ded0c11162",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolAssistantUUID": "55ea07a7-ca0a-4e6a-bc73-3e61005e5771",
+  "timestamp": "2026-07-13T19:12:29.266Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "",
+    "stdout": "Moved:\nPermissions Size User   Date Modified Name\n.rw-r--r--  4.7M steven 13 Jul 15:12  installer-windows.zip\n.rw-r--r--    10 steven 13 Jul 15:12  mod9-vidiotmaps-test.pigg\n.rw-r--r--   14k steven 13 Jul 15:12  scrape-full.log"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "9b5ff30e-819c-4167-863d-1bba839a3680",
+  "version": "2.1.179"
+}

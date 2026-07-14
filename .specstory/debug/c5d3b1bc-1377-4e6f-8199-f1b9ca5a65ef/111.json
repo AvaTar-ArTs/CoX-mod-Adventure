@@ -1,0 +1,17 @@
+{
+  "content": "\u003ccommand-name\u003e/cd\u003c/command-name\u003e\n            \u003ccommand-message\u003ecd\u003c/command-message\u003e\n            \u003ccommand-args\u003e/Users/steven/CoX-mod-Adventure\u003c/command-args\u003e",
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isMeta": false,
+  "isSidechain": false,
+  "level": "info",
+  "parentUuid": "4785ebf0-2747-4daa-91a6-207f1fc17676",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "subtype": "local_command",
+  "timestamp": "2026-07-13T05:04:38.062Z",
+  "type": "system",
+  "userType": "external",
+  "uuid": "6a92631b-20c3-400e-8358-a6ef644e25a6",
+  "version": "2.1.179"
+}

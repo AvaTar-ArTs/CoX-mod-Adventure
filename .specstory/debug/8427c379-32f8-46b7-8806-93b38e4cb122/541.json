@@ -1,0 +1,70 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "caller": {
+          "type": "direct"
+        },
+        "id": "toolu_01Ajj3yK2jLU4vdQLo4ErfyK",
+        "input": {
+          "status": "in_progress",
+          "taskId": "2"
+        },
+        "name": "TaskUpdate",
+        "type": "tool_use"
+      }
+    ],
+    "diagnostics": null,
+    "id": "msg_011CczcfZj4NwxTvWdsXDVFv",
+    "model": "claude-sonnet-4-6",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "tool_use",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 504,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 504,
+      "cache_read_input_tokens": 96150,
+      "inference_geo": "not_available",
+      "input_tokens": 1,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 504,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 504,
+          "cache_read_input_tokens": 96150,
+          "input_tokens": 1,
+          "output_tokens": 125,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 125,
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  },
+  "parentUuid": "c297945d-3951-479b-9cb8-138d25e052d4",
+  "requestId": "req_011CczcfYLiSxzBZTg3hAr6X",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "timestamp": "2026-07-13T19:33:37.841Z",
+  "type": "assistant",
+  "userType": "external",
+  "uuid": "f9daf94c-2308-4270-9707-ce27a2c8bcf7",
+  "version": "2.1.179"
+}

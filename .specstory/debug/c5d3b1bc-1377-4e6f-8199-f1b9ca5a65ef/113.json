@@ -1,0 +1,19 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isMeta": true,
+  "isSidechain": false,
+  "message": {
+    "content": "\u003csystem-reminder\u003e\nThe session's working directory has changed to /Users/steven/CoX-mod-Adventure (via /cd). The environment block at the start of this conversation still names the previous directory — that information is stale. All tool calls and relative paths now resolve from /Users/steven/CoX-mod-Adventure.\n\u003c/system-reminder\u003e",
+    "role": "user"
+  },
+  "parentUuid": "ee9fa469-04b2-4094-9d71-305ebe883608",
+  "promptId": "bc76e65c-63ea-4f86-a49c-4baa9f569bb4",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "timestamp": "2026-07-13T05:04:38.062Z",
+  "type": "user",
+  "userType": "external",
+  "uuid": "77b28dee-ab4c-4ad4-b871-b3252f98ae2f",
+  "version": "2.1.179"
+}

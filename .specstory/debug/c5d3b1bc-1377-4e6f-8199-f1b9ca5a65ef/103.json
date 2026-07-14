@@ -1,0 +1,17 @@
+{
+  "cwd": "/Users/steven",
+  "durationMs": 77321,
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isMeta": false,
+  "isSidechain": false,
+  "messageCount": 102,
+  "parentUuid": "4333914d-9cc0-4678-95ec-f06cdde29183",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "subtype": "turn_duration",
+  "timestamp": "2026-07-13T05:02:33.542Z",
+  "type": "system",
+  "userType": "external",
+  "uuid": "dc245c00-191f-4c1b-8be4-14a72a771c45",
+  "version": "2.1.179"
+}

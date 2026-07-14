@@ -1,0 +1,61 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "text": "Launcher is **up, authenticated, and healthy:**\n- All packages + `live` profile → **installed**, profile confirmed up to date (no re-download)\n- **Fresh access token received `01:11:46`** — the durable one\n- `launcher.exe` pid 34087 at **0.0% CPU** — properly idle, *not* spinning (the good signature)\n- No Wine-related CPU spinners (top consumers are just Opera/Claude/iTerm)\n\nOne oddity worth a quick look: `launcher.running` came back containing PID **30060** — the *old dead* one — even though the live launcher is 34087. Preflight confirmed the lock was absent at launch, so LaunchCat recreated it. Let me verify that's harmless.",
+        "type": "text"
+      }
+    ],
+    "diagnostics": null,
+    "id": "msg_011CcyUy3Yg7cjZkQH559W8S",
+    "model": "claude-opus-4-8",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "tool_use",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 1555
+      },
+      "cache_creation_input_tokens": 1555,
+      "cache_read_input_tokens": 130554,
+      "inference_geo": "global",
+      "input_tokens": 29,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 1555
+          },
+          "cache_creation_input_tokens": 1555,
+          "cache_read_input_tokens": 130554,
+          "input_tokens": 29,
+          "output_tokens": 1935,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 1935,
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  },
+  "parentUuid": "79dee440-33b2-4c36-be70-4db6d9ffccc1",
+  "requestId": "req_011CcyUy1xfuhSvHv59jSAdW",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "slug": "playful-petting-ritchie",
+  "timestamp": "2026-07-13T05:12:27.597Z",
+  "type": "assistant",
+  "userType": "external",
+  "uuid": "ea309b3e-1296-45dc-b005-38b00348cbb3",
+  "version": "2.1.179"
+}

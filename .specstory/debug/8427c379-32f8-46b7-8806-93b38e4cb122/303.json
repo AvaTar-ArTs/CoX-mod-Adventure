@@ -1,0 +1,36 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "(eval):1: no matches found: /tmp/coh*",
+        "is_error": false,
+        "tool_use_id": "toolu_016HUWPq8MW2MqheXkZF3uYA",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "c52331a4-7510-4709-9840-75b922bd46bf",
+  "promptId": "21ef8620-0dc3-4168-97cd-73ded0c11162",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolAssistantUUID": "c52331a4-7510-4709-9840-75b922bd46bf",
+  "timestamp": "2026-07-13T19:11:44.728Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "returnCodeInterpretation": "No matches found",
+    "stderr": "",
+    "stdout": "(eval):1: no matches found: /tmp/coh*"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "bbd935ca-07da-45a4-9d5c-d2c9d6d4e38b",
+  "version": "2.1.179"
+}

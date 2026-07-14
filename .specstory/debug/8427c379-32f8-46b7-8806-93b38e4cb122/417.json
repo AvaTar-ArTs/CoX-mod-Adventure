@@ -1,0 +1,24 @@
+{
+  "attachment": {
+    "content": "- brainstorming: Use when about to create, modify, or add any feature — before writing code, scaffolding, or invoking any implementation skill. Symptoms: you're about to start coding without a written design, or the scope feels obvious and 'too simple to need a design'.",
+    "isInitial": false,
+    "names": [
+      "brainstorming"
+    ],
+    "skillCount": 1,
+    "type": "skill_listing"
+  },
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "parentUuid": "0221c6ec-1aae-4334-9187-44d6284867a4",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "timestamp": "2026-07-13T19:23:58.236Z",
+  "type": "attachment",
+  "userType": "external",
+  "uuid": "818cbfd8-695b-41cf-b589-662b0d883127",
+  "version": "2.1.179"
+}

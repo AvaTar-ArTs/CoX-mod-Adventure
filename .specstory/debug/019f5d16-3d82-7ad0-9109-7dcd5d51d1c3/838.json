@@ -1,0 +1,12 @@
+{
+  "payload": {
+    "action": {
+      "type": "open_page",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig"
+    },
+    "status": "completed",
+    "type": "web_search_call"
+  },
+  "timestamp": "2026-07-13T20:40:45.754Z",
+  "type": "response_item"
+}

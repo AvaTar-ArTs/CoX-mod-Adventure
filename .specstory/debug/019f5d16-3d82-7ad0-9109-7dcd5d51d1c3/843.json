@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "memory_citation": null,
+    "message": "For CoX specifically, the upgrade candidates are already visible: `Upgraded/*.html`, `mods.json`, `scrape-mods.py`, docs/plans, and the existing `pages/v1-v5` variations. The research says to inventory them, score them, then upgrade through an adapter/transition path instead of rewriting everything or only polishing the “finished” pages.",
+    "phase": "commentary",
+    "type": "agent_message"
+  },
+  "timestamp": "2026-07-13T20:40:58.545Z",
+  "type": "event_msg"
+}

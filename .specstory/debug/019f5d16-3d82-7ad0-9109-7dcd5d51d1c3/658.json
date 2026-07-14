@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"sqlite3 -header -column '/Users/steven/Library/Application Support/CityModInstaller/modder.db' 'select * from config;'\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":8000}",
+    "call_id": "call_2WxGOC6EFjKWgTpY5nsAs95T",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:34:32.530Z",
+  "type": "response_item"
+}

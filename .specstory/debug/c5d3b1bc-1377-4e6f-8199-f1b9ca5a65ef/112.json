@@ -1,0 +1,17 @@
+{
+  "content": "\u003clocal-command-stdout\u003eMoved to \u001b[1m/Users/steven/CoX-mod-Adventure\u001b[22m\u003c/local-command-stdout\u003e",
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isMeta": false,
+  "isSidechain": false,
+  "level": "info",
+  "parentUuid": "6a92631b-20c3-400e-8358-a6ef644e25a6",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "subtype": "local_command",
+  "timestamp": "2026-07-13T05:04:38.062Z",
+  "type": "system",
+  "userType": "external",
+  "uuid": "ee9fa469-04b2-4094-9d71-305ebe883608",
+  "version": "2.1.179"
+}

@@ -1,0 +1,33 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "########## 1. /Applications/coh ##########\ndrwxr-xr-x@    - steven 13 Jul 00:48 accounts\ndrwxr-xr-x@    - steven 13 Jul 00:35 assets\ndrwxr-xr-x@    - steven 13 Jul 00:35 bin\ndrwxr-xr-x@    - steven 13 Jul 00:46 cache\ndrwxr-xr-x@    - steven 12 Jul 10:23 data\ndrwxr-xr-x@    - steven 13 Jul 00:46 logs\ndrwxr-xr-x@    - steven 12 Jul 10:23 screenshots\ndrwxr-xr-x@    - steven 13 Jul 00:46 settings\ndrwxr-xr-x@    - steven 12 Jul 11:20 wine\n.rw-r--r--@ 8.2k steven 13 Jul 00:38 .DS_Store\n.rw-r--r--@  990 steven 13 Jul 00:58 Homecoming.lnk\n.rwxr-xr-x@ 1.2k steven 13 Jul 00:58 launch.sh\n.rw-r--r--@  958 steven 13 Jul 00:43 LaunchCat-Diagnostics.txt\n.rwxr-xr-x   466 steven 13 Jul 00:47 start-live.sh\n.rw-r--r--@ 6.5k steven 24 Jun 11:01 THIRDPARTYSOFTWAREREADME.txt\n/Applications/coh: directory\n\n########## 2. /Applications/LaunchCat.app ##########\ndrwxr-xr-x@ - steven 11 Jul 15:29 Contents\n\n########## 3. /Applications/CoHModdingTool.app ##########\ndrwxr-xr-x - steven  5 Apr  2024 Contents\n--- bundle structure ---\ndrwxr-xr-x    - steven 13 Oct  2020 _CodeSignature\ndrwxr-xr-x    - steven 28 Feb 14:25 MacOS\ndrwxr-xr-x    - steven 28 Feb 13:54 Resources\n.rw-r--r-- 2.8k steven 28 Feb 13:56 Info.plist\n.rw-r--r--    8 steven  5 Apr  2024 PkgInfo\n--- Info.plist key bits ---\n  \"CFBundleExecutable\" =\u003e \"applet\"\n  \"CFBundleIdentifier\" =\u003e \"com.powermad.coh-launcher\"\n  \"CFBundleName\" =\u003e \"CoH Launcher\"\n  \"CFBundleShortVersionString\" =\u003e \"1.1\"\n  \"LSMinimumSystemVersionByArchitecture\" =\u003e {",
+        "is_error": false,
+        "tool_use_id": "toolu_01CVpRdjM6B9WRF23BeFa4xH",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "d0c19e3c-b4e5-4d49-8381-2442cf79d8d9",
+  "promptId": "84c9a043-7270-4e8b-bb28-d9d02b504b47",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "sourceToolAssistantUUID": "d0c19e3c-b4e5-4d49-8381-2442cf79d8d9",
+  "timestamp": "2026-07-13T05:05:51.620Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "",
+    "stdout": "########## 1. /Applications/coh ##########\ndrwxr-xr-x@    - steven 13 Jul 00:48 accounts\ndrwxr-xr-x@    - steven 13 Jul 00:35 assets\ndrwxr-xr-x@    - steven 13 Jul 00:35 bin\ndrwxr-xr-x@    - steven 13 Jul 00:46 cache\ndrwxr-xr-x@    - steven 12 Jul 10:23 data\ndrwxr-xr-x@    - steven 13 Jul 00:46 logs\ndrwxr-xr-x@    - steven 12 Jul 10:23 screenshots\ndrwxr-xr-x@    - steven 13 Jul 00:46 settings\ndrwxr-xr-x@    - steven 12 Jul 11:20 wine\n.rw-r--r--@ 8.2k steven 13 Jul 00:38 .DS_Store\n.rw-r--r--@  990 steven 13 Jul 00:58 Homecoming.lnk\n.rwxr-xr-x@ 1.2k steven 13 Jul 00:58 launch.sh\n.rw-r--r--@  958 steven 13 Jul 00:43 LaunchCat-Diagnostics.txt\n.rwxr-xr-x   466 steven 13 Jul 00:47 start-live.sh\n.rw-r--r--@ 6.5k steven 24 Jun 11:01 THIRDPARTYSOFTWAREREADME.txt\n/Applications/coh: directory\n\n########## 2. /Applications/LaunchCat.app ##########\ndrwxr-xr-x@ - steven 11 Jul 15:29 Contents\n\n########## 3. /Applications/CoHModdingTool.app ##########\ndrwxr-xr-x - steven  5 Apr  2024 Contents\n--- bundle structure ---\ndrwxr-xr-x    - steven 13 Oct  2020 _CodeSignature\ndrwxr-xr-x    - steven 28 Feb 14:25 MacOS\ndrwxr-xr-x    - steven 28 Feb 13:54 Resources\n.rw-r--r-- 2.8k steven 28 Feb 13:56 Info.plist\n.rw-r--r--    8 steven  5 Apr  2024 PkgInfo\n--- Info.plist key bits ---\n  \"CFBundleExecutable\" =\u003e \"applet\"\n  \"CFBundleIdentifier\" =\u003e \"com.powermad.coh-launcher\"\n  \"CFBundleName\" =\u003e \"CoH Launcher\"\n  \"CFBundleShortVersionString\" =\u003e \"1.1\"\n  \"LSMinimumSystemVersionByArchitecture\" =\u003e {"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "ed73da3b-1d0c-4ac7-8cd5-673c5ba6a3bf",
+  "version": "2.1.179"
+}

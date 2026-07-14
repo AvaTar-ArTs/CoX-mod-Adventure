@@ -1,0 +1,14 @@
+{
+  "payload": {
+    "content": [
+      {
+        "text": "/Users/steven/CoX-mod-Adventure/2026-07-13-160\n     201-local-command-caveatcaveat-the-messages-below.txt",
+        "type": "input_text"
+      }
+    ],
+    "role": "user",
+    "type": "message"
+  },
+  "timestamp": "2026-07-13T20:06:13.239Z",
+  "type": "response_item"
+}

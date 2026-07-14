@@ -1,0 +1,19 @@
+{
+  "attachment": {
+    "commandMode": "prompt",
+    "prompt": "\"/Users/steven/.lcwine\"",
+    "type": "queued_command"
+  },
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "parentUuid": "36ed69a9-62c2-42c6-9aeb-5569152f1b27",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "slug": "playful-petting-ritchie",
+  "timestamp": "2026-07-13T05:14:39.871Z",
+  "type": "attachment",
+  "userType": "external",
+  "uuid": "a04bf6dd-67e7-4734-ad2b-7304352ec73b",
+  "version": "2.1.179"
+}

@@ -1,0 +1,9 @@
+{
+  "payload": {
+    "call_id": "call_e3cxy8XOnkNc8Y3V6FzGvrvZ",
+    "output": "Chunk ID: 4d43c0\nWall time: 0.0000 seconds\nProcess exited with code 0\nOriginal token count: 322\nOutput:\n---\nname: using-superpowers\ndescription: \"Use when starting any conversation where implementation, debugging, or building work is expected. Symptoms: you're about to respond without checking if a skill applies, or you reached for a clarifying question before checking the skill list.\"\n---\n\n\u003e **Core library copy:** Same behavioral content as `skills/using-superpowers/SKILL.md` for consumers that load from `core/skills/`; includes `references/` beside this file.\n\n\u003cSUBAGENT-STOP\u003e\nIf you were dispatched as a subagent to execute a specific task, skip this skill.\n\u003c/SUBAGENT-STOP\u003e\n\n## Innate Workflow Bridge\n\nWhen `innate-workflow` is available, treat it as the session-level rhythm around this skill: audit the workspace, use `using-superpowers` to select relevant skills, do the task work, then update memory when appropriate. This skill remains the authority for skill selection; `innate-workflow` is the surrounding loop.\n\n\n\u003cEXTREMELY-IMPORTANT\u003e\nIf you think there is even a 1% chance a skill might apply to what you are doing, you ABSOLUTELY MUST invoke the skill.\n\nIF A SKILL APPLIES TO YOUR TASK, YOU DO NOT HAVE A CHOICE. YOU MUST USE IT.\n\nThis is not negotiable. This is not optional. You cannot rationalize your way out of this.\n\u003c/EXTREMELY-IMPORTANT\u003e\n\n## Instruction Priority\n\n",
+    "type": "function_call_output"
+  },
+  "timestamp": "2026-07-13T20:22:55.139Z",
+  "type": "response_item"
+}

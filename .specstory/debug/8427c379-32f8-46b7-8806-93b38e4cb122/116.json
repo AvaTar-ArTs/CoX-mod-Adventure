@@ -1,0 +1,59 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": [
+          {
+            "tool_name": "WebFetch",
+            "type": "tool_reference"
+          },
+          {
+            "tool_name": "WebSearch",
+            "type": "tool_reference"
+          },
+          {
+            "tool_name": "mcp__claude_ai_Notion__notion-fetch",
+            "type": "tool_reference"
+          },
+          {
+            "tool_name": "mcp__claude_ai_Notion__notion-create-attachment",
+            "type": "tool_reference"
+          },
+          {
+            "tool_name": "mcp__claude_ai_Notion__notion-create-comment",
+            "type": "tool_reference"
+          }
+        ],
+        "tool_use_id": "toolu_013k1UfSsLzB18HfQ1iP7NH1",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "224cd6c6-4bef-4e90-be61-aa55faeb1019",
+  "promptId": "de929662-c436-4d7f-82a5-08db591b3e3b",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolAssistantUUID": "224cd6c6-4bef-4e90-be61-aa55faeb1019",
+  "timestamp": "2026-07-13T18:54:03.378Z",
+  "toolUseResult": {
+    "matches": [
+      "WebFetch",
+      "WebSearch",
+      "mcp__claude_ai_Notion__notion-fetch",
+      "mcp__claude_ai_Notion__notion-create-attachment",
+      "mcp__claude_ai_Notion__notion-create-comment"
+    ],
+    "query": "browser screenshot web automation fetch authenticated",
+    "total_deferred_tools": 55
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "d957ff30-076c-4fe7-a1a1-9a93cb8dea98",
+  "version": "2.1.179"
+}

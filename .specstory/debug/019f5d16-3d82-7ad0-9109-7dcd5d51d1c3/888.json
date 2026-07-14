@@ -1,0 +1,12 @@
+{
+  "payload": {
+    "completed_at": 1783975328,
+    "duration_ms": 119223,
+    "last_agent_message": "I created the research/triage note here:\n\n[2026-07-13-upgrade-candidate-research.md](/Users/steven/CoX-mod-Adventure/docs/plans/2026-07-13-upgrade-candidate-research.md)\n\nAnd linked it from:\n\n[2026-07-13-cox-research-review-and-workflow-logic.md](/Users/steven/CoX-mod-Adventure/docs/plans/2026-07-13-cox-research-review-and-workflow-logic.md:174)\n\nThe key shift is: don’t filter only by “complete.” Filter by **completion + upgrade value**. A polished generic page can be less valuable than an incomplete artifact that contains the correct runtime model, player-flow insight, or data contract.\n\nBest next upgrade set:\n\n1. Promote `Upgraded/mod-browser.html` as the structural base.\n2. Mine `Upgraded/mod-browser-hud.html` for local/runtime state panels.\n3. Mine `Upgraded/mod-browser-comic.html` for restrained category impact.\n4. Upgrade `Upgraded/generate.py` so the new primary browser is regenerable.\n5. Promote `scrape-mods.py` over the older `download-mods.py`.\n6. Keep `mods.json` as the canonical data contract.\n\nI grounded the research in content inventory/audit, progressive enhancement, and incremental modernization patterns from NN/G, MDN, Microsoft’s Strangler Fig pattern writeup, and Martin Fowler’s Strangler Fig note:\n\n- https://www.nngroup.com/articles/content-audits/\n- https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement\n- https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig\n- https://martinfowler.com/bliki/StranglerFigApplication.html",
+    "time_to_first_token_ms": 5747,
+    "turn_id": "019f5d35-67ec-7da1-9a7c-7c787efeaa1a",
+    "type": "task_complete"
+  },
+  "timestamp": "2026-07-13T20:42:08.186Z",
+  "type": "event_msg"
+}

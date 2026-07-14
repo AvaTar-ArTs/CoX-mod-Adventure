@@ -1,0 +1,35 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "����\n����\n__PAGEZERO\n__TEXT\n__text\n__TEXT\n__stubs\n__TEXT\n__stub_helper\n__TEXT\n__unwind_info\n__TEXT\n__eh_frame\n__TEXT\n__DATA\n__program_vars\n__DATA\n__nl_symbol_ptr\n__DATA\n__got\n__DATA\n__la_symbol_ptr\n__DATA\n__common\n__DATA\n__LINKEDIT\n/usr/lib/dyld\n��pD\n/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices\n/usr/lib/libSystem.B.dylib\n�tlpa�tpcs�G\n1�]�\nH�E�\nAS�%)\n�����h\n�����h9\n�����\n��������$\n��������#\n@dyld_stub_binder\n@_CallComponentDispatch\n@_OpenDefaultComponent\n@_exit\n__mh_execute_header\n__mh_execute_header\n_CallComponentDispatch\n_OpenDefaultComponent\n_exit\ndyld_stub_binder\nradr://5614542\ncom.powermad.coh-launcher\n\u0026����w�\n�z�9\n�:u��\n�~��r\n�s2rE��\n`ŸN\n�Kv#��\n*�9�\n1\u003e�[E[",
+        "is_error": false,
+        "tool_use_id": "toolu_014DLBSceNbQvgQPHQZnSPE1",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "c2bc4ad4-14d1-4c01-a865-92c6c15db45c",
+  "promptId": "21ef8620-0dc3-4168-97cd-73ded0c11162",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolAssistantUUID": "c2bc4ad4-14d1-4c01-a865-92c6c15db45c",
+  "timestamp": "2026-07-13T18:57:46.479Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "",
+    "stdout": "����\n����\n__PAGEZERO\n__TEXT\n__text\n__TEXT\n__stubs\n__TEXT\n__stub_helper\n__TEXT\n__unwind_info\n__TEXT\n__eh_frame\n__TEXT\n__DATA\n__program_vars\n__DATA\n__nl_symbol_ptr\n__DATA\n__got\n__DATA\n__la_symbol_ptr\n__DATA\n__common\n__DATA\n__LINKEDIT\n/usr/lib/dyld\n��pD\n/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices\n/usr/lib/libSystem.B.dylib\n�tlpa�tpcs�G\n1�]�\nH�E�\nAS�%)\n�����h\n�����h9\n�����\n��������$\n��������#\n@dyld_stub_binder\n@_CallComponentDispatch\n@_OpenDefaultComponent\n@_exit\n__mh_execute_header\n__mh_execute_header\n_CallComponentDispatch\n_OpenDefaultComponent\n_exit\ndyld_stub_binder\nradr://5614542\ncom.powermad.coh-launcher\n\u0026����w�\n�z�9\n�:u��\n�~��r\n�s2rE��\n`ŸN\n�Kv#��\n*�9�\n1\u003e�[E["
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "46f00a92-82c4-4894-884e-178a053c4161",
+  "version": "2.1.179"
+}

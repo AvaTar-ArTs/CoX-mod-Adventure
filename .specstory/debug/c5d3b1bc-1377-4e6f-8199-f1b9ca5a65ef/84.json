@@ -1,0 +1,33 @@
+{
+  "cwd": "/Users/steven",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "=== BEFORE: everything Wine/CoH/LaunchCat related ===\n  pid=33609   cpu=4.1   /Users/steven/Library/Application Support/LaunchCat/coh/wine/lib/wine/../../bin/wine64-preloader C:\\windows\\system32\\winedevice.exe\n  pid=33595   cpu=0.1   /Users/steven/Library/Application Support/LaunchCat/coh/wine/lib/wine/../../bin/wineserver \n  pid=33633   cpu=0.0   /Users/steven/Library/Application Support/LaunchCat/coh/wine/lib/wine/../../bin/wine64-preloader C:\\windows\\system32\\explorer.exe\n  pid=33622   cpu=0.0   /Users/steven/Library/Application Support/LaunchCat/coh/wine/lib/wine/../../bin/wine64-preloader C:\\windows\\system32\\rpcss.exe\n  pid=33620   cpu=0.0   /Users/steven/Library/Application Support/LaunchCat/coh/wine/lib/wine/../../bin/wine64-preloader C:\\windows\\system32\\svchost.exe\n  pid=33613   cpu=0.0   /Users/steven/Library/Application Support/LaunchCat/coh/wine/lib/wine/../../bin/wine64-preloader C:\\windows\\system32\\plugplay.exe\n  pid=33607   cpu=0.0   /Users/steven/Library/Application Support/LaunchCat/coh/wine/lib/wine/../../bin/wine64-preloader C:\\windows\\system32\\winedevice.exe\n  pid=33602   cpu=0.0   /Users/steven/Library/Application Support/LaunchCat/coh/wine/lib/wine/../../bin/wine64-preloader C:\\windows\\system32\\services.exe\n  pid=33593   cpu=0.0   /Users/steven/Library/Application Support/LaunchCat/coh/wine/lib/wine/../../bin/wine64-preloader /Users/steven/Library/Application\n  pid=33592   cpu=0.0   /bin/sh /Users/steven/Library/Application Support/LaunchCat/coh/launch.sh",
+        "is_error": false,
+        "tool_use_id": "toolu_01Vo114Bke6ufRezg5w2J3ig",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "035152d9-da83-4569-b8af-71db2f9d8a99",
+  "promptId": "c5ca2d56-9f43-4f5f-a1e0-3b1e10fbf3fb",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "sourceToolAssistantUUID": "035152d9-da83-4569-b8af-71db2f9d8a99",
+  "timestamp": "2026-07-13T05:01:18.137Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "",
+    "stdout": "=== BEFORE: everything Wine/CoH/LaunchCat related ===\n  pid=33609   cpu=4.1   /Users/steven/Library/Application Support/LaunchCat/coh/wine/lib/wine/../../bin/wine64-preloader C:\\windows\\system32\\winedevice.exe\n  pid=33595   cpu=0.1   /Users/steven/Library/Application Support/LaunchCat/coh/wine/lib/wine/../../bin/wineserver \n  pid=33633   cpu=0.0   /Users/steven/Library/Application Support/LaunchCat/coh/wine/lib/wine/../../bin/wine64-preloader C:\\windows\\system32\\explorer.exe\n  pid=33622   cpu=0.0   /Users/steven/Library/Application Support/LaunchCat/coh/wine/lib/wine/../../bin/wine64-preloader C:\\windows\\system32\\rpcss.exe\n  pid=33620   cpu=0.0   /Users/steven/Library/Application Support/LaunchCat/coh/wine/lib/wine/../../bin/wine64-preloader C:\\windows\\system32\\svchost.exe\n  pid=33613   cpu=0.0   /Users/steven/Library/Application Support/LaunchCat/coh/wine/lib/wine/../../bin/wine64-preloader C:\\windows\\system32\\plugplay.exe\n  pid=33607   cpu=0.0   /Users/steven/Library/Application Support/LaunchCat/coh/wine/lib/wine/../../bin/wine64-preloader C:\\windows\\system32\\winedevice.exe\n  pid=33602   cpu=0.0   /Users/steven/Library/Application Support/LaunchCat/coh/wine/lib/wine/../../bin/wine64-preloader C:\\windows\\system32\\services.exe\n  pid=33593   cpu=0.0   /Users/steven/Library/Application Support/LaunchCat/coh/wine/lib/wine/../../bin/wine64-preloader /Users/steven/Library/Application\n  pid=33592   cpu=0.0   /bin/sh /Users/steven/Library/Application Support/LaunchCat/coh/launch.sh"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "355a8d25-8aba-41c0-86ad-260c1b2ee847",
+  "version": "2.1.179"
+}

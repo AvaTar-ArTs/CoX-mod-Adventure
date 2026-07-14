@@ -1,0 +1,21 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": "aldo the wine64-preloader is invisible",
+    "role": "user"
+  },
+  "parentUuid": "c9c79955-fa67-43ff-8397-058ec92caf4c",
+  "permissionMode": "acceptEdits",
+  "promptId": "56bcb370-0101-4b9a-ab88-a0eb270a0dac",
+  "promptSource": "queued",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "slug": "playful-petting-ritchie",
+  "timestamp": "2026-07-13T05:13:10.697Z",
+  "type": "user",
+  "userType": "external",
+  "uuid": "e918e60e-a727-4ab2-bbe1-339f929e237c",
+  "version": "2.1.179"
+}

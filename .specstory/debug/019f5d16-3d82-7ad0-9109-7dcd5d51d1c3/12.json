@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"ls -l 2026-07-13-160201-local-command-caveatcaveat-the-messages-below.txt\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":2000}",
+    "call_id": "call_xXeuQAu6Csx5q7UEyYWupnD3",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:06:20.090Z",
+  "type": "response_item"
+}

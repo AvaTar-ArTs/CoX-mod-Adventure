@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"find /Users/steven/.agent-skills -maxdepth 4 -type f \\\\( -name 'SKILL.md' -o -name '*.md' -o -name '*.js' -o -name '*.json' \\\\) | rg -i 'workflow|research|launcher|launchcat|coh|mod|installer|tree|studio|superpowers|ecosystem|browser|frontend|dogfood|ux|ui'\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":14000}",
+    "call_id": "call_1PBDh1hqGCaia7AuuvuJ58W5",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:36:14.592Z",
+  "type": "response_item"
+}

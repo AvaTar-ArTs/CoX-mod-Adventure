@@ -1,0 +1,11 @@
+{
+  "payload": {
+    "call_id": "call_BWDhu47v1rP00oYmvm80b0oL",
+    "input": "*** Begin Patch\n*** Update File: docs/plans/2026-07-13-cox-mod-adventure-context-and-direction.md\n@@\n ## Skill-Driven Direction\n \n Use the local skill ecosystem deliberately, not as a bag of random effects.\n@@\n | `dogfood` | Verify the browser interactively after design changes. |\n \n ---\n \n+## Agent Routing\n+\n+The local agent library adds a studio workflow around the skills. Use these agents as lenses, not as separate product goals.\n+\n+| Agent | Use in this project |\n+|---|---|\n+| `tree-explorer` | Map project, runtime, asset, and agent trees before making assumptions. Good for \"what is actually in here?\" passes. |\n+| `studio-producer` | Keep the work coordinated: prototype lanes, handoffs, dependencies, and what should ship next. |\n+| `ux-researcher` | Define player journeys: discover a mod, compare categories, decide trust, download, install, and return later. |\n+| `ui-designer` | Convert the CoH-native direction into buildable panels, cards, controls, states, and responsive layouts. |\n+| `visual-storyteller` | Make the browser tell the archive story: city map, mission briefing, mod intelligence, local install status. |\n+| `whimsy-injector` | Add restrained delight after core flows work: hover charge, scanline pulse, \"acquire module\" feedback, empty states. |\n+| `project-shipper` | Define the launchable artifact: which HTML is primary, what docs explain it, and what verification is required. |\n+\n+Recommended routing for the next phase:\n+\n+```text\n+tree-explorer\n+-\u003e studio-producer\n+-\u003e ux-researcher\n+-\u003e ui-designer + visual-storyteller\n+-\u003e frontend-design + p5js + pixel-art + popular-web-designs\n+-\u003e whimsy-injector\n+-\u003e dogfood\n+-\u003e project-shipper\n+```\n+\n+This keeps the work from collapsing into either pure code cleanup or pure visual play. The output should remain a usable mod browser that feels like a CoH surface.\n+\n+---\n+\n ## Next Design Move\n \n The next version of the mod browser should become a \"Paragon Mod Terminal\":\n*** End Patch\n",
+    "name": "apply_patch",
+    "status": "completed",
+    "type": "custom_tool_call"
+  },
+  "timestamp": "2026-07-13T20:29:53.224Z",
+  "type": "response_item"
+}

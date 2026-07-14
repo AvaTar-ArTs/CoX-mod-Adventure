@@ -1,0 +1,15 @@
+{
+  "payload": {
+    "content": [
+      {
+        "text": "LaunchCat is the large active runtime; CityModInstaller is a separate 334M Wine/tool state with its own `CoHModdingTool.exe`, `config.json`, `launcher.log`, and `modder.db`. I’m reading the lightweight config/log/database shape next, without dumping large registry files.",
+        "type": "output_text"
+      }
+    ],
+    "phase": "commentary",
+    "role": "assistant",
+    "type": "message"
+  },
+  "timestamp": "2026-07-13T20:34:24.391Z",
+  "type": "response_item"
+}

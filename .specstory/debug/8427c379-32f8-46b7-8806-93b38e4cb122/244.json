@@ -1,0 +1,20 @@
+{
+  "attachment": {
+    "commandMode": "prompt",
+    "prompt": "echo \"# CoX-mod-Adventure\" \u003e\u003e README.md\ngit init\ngit add README.md\ngit commit -m \"first commit\"\ngit branch -M main\ngit remote add origin https://github.com/AvaTar-ArTs/CoX-mod-Adventure.git\ngit push -u origin main\n…or push an existing repository from the command line\ngit remote add origin https://github.com/AvaTar-ArTs/CoX-mod-Adventure.git\ngit branch -M main\ngit push -u origin main",
+    "type": "queued_command"
+  },
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "parentUuid": "f932bef7-95ad-49b6-8e09-5a5e188a43a2",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "timestamp": "2026-07-13T19:04:59.420Z",
+  "type": "attachment",
+  "userType": "external",
+  "uuid": "22104e79-3e84-4b9b-97a4-00d38fd1d38d",
+  "version": "2.1.179"
+}

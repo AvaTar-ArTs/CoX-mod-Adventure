@@ -1,0 +1,18 @@
+{
+  "attachment": {
+    "content": [],
+    "itemCount": 0,
+    "type": "task_reminder"
+  },
+  "cwd": "/Users/steven",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "parentUuid": "a75cf9e6-a038-42eb-bb25-ae72adfcda2c",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "timestamp": "2026-07-13T04:59:43.119Z",
+  "type": "attachment",
+  "userType": "external",
+  "uuid": "19aaf96e-1400-47eb-b4f2-78c971ba08be",
+  "version": "2.1.179"
+}

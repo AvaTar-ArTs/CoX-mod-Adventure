@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "memory_citation": null,
+    "message": "The committed repo is small, but the working tree has a substantial untracked `Upgraded/` branch of work plus session exports. I’m checking the tracked scripts, generated data, and duplicated roots now so the audit separates production surface from scratch/history artifacts.",
+    "phase": "commentary",
+    "type": "agent_message"
+  },
+  "timestamp": "2026-07-13T20:09:00.620Z",
+  "type": "event_msg"
+}

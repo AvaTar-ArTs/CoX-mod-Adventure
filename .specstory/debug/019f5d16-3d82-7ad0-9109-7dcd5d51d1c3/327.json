@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "memory_citation": null,
+    "message": "A `CODEX.md` version could help as a companion instruction file, but it would not fix the warning by itself.\n\nThe warning is coming from the skill loader trying to parse:\n\n`/Users/steven/.agent-skills/skills/innate-workflow/SKILL.md`\n\nThat loader expects valid YAML frontmatter at the top of `SKILL.md`. If `SKILL.md` stays invalid, Codex will still skip it, even if a nice `CODEX.md` exists beside it.\n\nFor this specific file, the real fix is tiny:\n\n```yaml\n---\nname: innate-workflow\ndescription: \"Automatic sequence: audit -\u003e find skills -\u003e work -\u003e evolve\"\n---\n```\n\nThe colon in `audit → find skills` is what breaks YAML when unquoted. Quoting the description fixes it.\n\nA good pattern would be:\n\n- `SKILL.md`: valid, minimal loader-facing metadata plus short activation instructions.\n- `CODEX.md`: richer Codex-specific operating notes, examples, caveats, sequencing, and local paths.\n\nSo yes, a `CODEX.md` would help make the workflow clearer for Codex, but it should be added after or alongside fixing `SKILL.md`, not instead of it.",
+    "phase": "final_answer",
+    "type": "agent_message"
+  },
+  "timestamp": "2026-07-13T20:20:52.004Z",
+  "type": "event_msg"
+}

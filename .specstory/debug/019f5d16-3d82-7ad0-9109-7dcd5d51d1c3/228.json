@@ -1,0 +1,16 @@
+{
+  "payload": {
+    "action": {
+      "queries": [
+        "github CaitlynMainer CityVault City of Heroes mod manager"
+      ],
+      "query": "github CaitlynMainer CityVault City of Heroes mod manager",
+      "type": "search"
+    },
+    "call_id": "ws_057d405a1d862814016a5546f96f208195936a8afc1a9f0990",
+    "query": "github CaitlynMainer CityVault City of Heroes mod manager",
+    "type": "web_search_end"
+  },
+  "timestamp": "2026-07-13T20:13:52.322Z",
+  "type": "event_msg"
+}

@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "memory_citation": null,
+    "message": "The installer database says three installed IDs: 189, 210, and 200, which lines up with the three `.pigg` files in LaunchCat mods. I’m patching the direction doc again so CityModInstaller is represented as a real state surface, including its database and configured path.",
+    "phase": "commentary",
+    "type": "agent_message"
+  },
+  "timestamp": "2026-07-13T20:34:39.151Z",
+  "type": "event_msg"
+}

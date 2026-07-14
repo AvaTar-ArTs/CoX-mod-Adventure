@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"rg -n \\\"Research Review|workflow-orchestrator|Immediate Next Build Question|Detailed workflow\\\" docs/plans\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":3000}",
+    "call_id": "call_afvPTbvK5nJJ1ylta8HYkJne",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:39:08.176Z",
+  "type": "response_item"
+}

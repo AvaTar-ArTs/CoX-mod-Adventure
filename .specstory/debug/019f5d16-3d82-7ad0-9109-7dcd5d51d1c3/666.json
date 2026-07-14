@@ -1,0 +1,37 @@
+{
+  "payload": {
+    "info": {
+      "last_token_usage": {
+        "cached_input_tokens": 214400,
+        "input_tokens": 219197,
+        "output_tokens": 391,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 219588
+      },
+      "model_context_window": 258400,
+      "total_token_usage": {
+        "cached_input_tokens": 8441088,
+        "input_tokens": 8827223,
+        "output_tokens": 38425,
+        "reasoning_output_tokens": 8592,
+        "total_tokens": 8865648
+      }
+    },
+    "rate_limits": {
+      "credits": null,
+      "limit_id": "codex",
+      "limit_name": null,
+      "plan_type": "plus",
+      "primary": {
+        "resets_at": 1784487738,
+        "used_percent": 95,
+        "window_minutes": 10080
+      },
+      "rate_limit_reached_type": null,
+      "secondary": null
+    },
+    "type": "token_count"
+  },
+  "timestamp": "2026-07-13T20:34:32.954Z",
+  "type": "event_msg"
+}

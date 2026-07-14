@@ -1,0 +1,17 @@
+{
+  "attachment": {
+    "style": "Learning",
+    "type": "output_style"
+  },
+  "cwd": "/Users/steven/CoX-mod-Adventure",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "parentUuid": "143bcb12-6b9f-4073-a68a-1d75a5a96d1d",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "timestamp": "2026-07-13T05:06:16.361Z",
+  "type": "attachment",
+  "userType": "external",
+  "uuid": "53b8df01-d219-48eb-b829-030b6fcf7330",
+  "version": "2.1.179"
+}

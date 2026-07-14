@@ -1,0 +1,15 @@
+{
+  "payload": {
+    "content": [
+      {
+        "text": "The insert landed twice in both copies, so I’m cleaning that up now. The YAML is valid, but the body should not have duplicated guidance.",
+        "type": "output_text"
+      }
+    ],
+    "phase": "commentary",
+    "role": "assistant",
+    "type": "message"
+  },
+  "timestamp": "2026-07-13T20:22:22.339Z",
+  "type": "response_item"
+}

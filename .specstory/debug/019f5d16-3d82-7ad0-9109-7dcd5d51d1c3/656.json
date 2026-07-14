@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "memory_citation": null,
+    "message": "CityModInstaller’s config points at `z:\\Applications\\coh\\`, so it is probably using the empty `/Applications/coh` convenience path as its configured game path even though LaunchCat’s real data is under Application Support. I’m checking the installer database rows to see what it believes is installed.",
+    "phase": "commentary",
+    "type": "agent_message"
+  },
+  "timestamp": "2026-07-13T20:34:32.515Z",
+  "type": "event_msg"
+}

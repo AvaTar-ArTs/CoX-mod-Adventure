@@ -1,0 +1,35 @@
+{
+  "cwd": "/Users/steven/CoX-mod-Adventure/Upgraded",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": [
+      {
+        "content": "accolade_lrt.pigg\nBetterIcons.pigg\nPocketDAssemblage23.pigg\n---mods count---\n       3\n---install path---\n/Users/steven/Library/Application Support/LaunchCat/coh",
+        "is_error": false,
+        "tool_use_id": "toolu_01WvCSUoQj4p2drdkj4eSiTP",
+        "type": "tool_result"
+      }
+    ],
+    "role": "user"
+  },
+  "parentUuid": "0e986554-8285-4a91-9959-82a8a9132ba0",
+  "promptId": "5f7ae747-adb8-44d2-98e8-ac8335dd004c",
+  "sessionId": "8427c379-32f8-46b7-8806-93b38e4cb122",
+  "sessionKind": "bg",
+  "slug": "jolly-marinating-fog",
+  "sourceToolAssistantUUID": "0e986554-8285-4a91-9959-82a8a9132ba0",
+  "timestamp": "2026-07-13T19:42:27.911Z",
+  "toolUseResult": {
+    "interrupted": false,
+    "isImage": false,
+    "noOutputExpected": false,
+    "stderr": "",
+    "stdout": "accolade_lrt.pigg\nBetterIcons.pigg\nPocketDAssemblage23.pigg\n---mods count---\n       3\n---install path---\n/Users/steven/Library/Application Support/LaunchCat/coh"
+  },
+  "type": "user",
+  "userType": "external",
+  "uuid": "dd71d241-c354-4f58-95eb-50cd6d7ccc9c",
+  "version": "2.1.179"
+}

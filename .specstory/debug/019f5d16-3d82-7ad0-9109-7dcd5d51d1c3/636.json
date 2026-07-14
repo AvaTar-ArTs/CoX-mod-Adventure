@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "arguments": "{\"cmd\":\"du -sh '/Users/steven/Library/Application Support/LaunchCat' '/Users/steven/Library/Application Support/LaunchCat/coh' '/Users/steven/Library/Application Support/CityModInstaller' 2\u003e/dev/null\",\"workdir\":\"/Users/steven/CoX-mod-Adventure\",\"yield_time_ms\":1000,\"max_output_tokens\":4000}",
+    "call_id": "call_k7YpDUOsUxrtqDi06TUJu1iH",
+    "name": "exec_command",
+    "type": "function_call"
+  },
+  "timestamp": "2026-07-13T20:34:14.932Z",
+  "type": "response_item"
+}

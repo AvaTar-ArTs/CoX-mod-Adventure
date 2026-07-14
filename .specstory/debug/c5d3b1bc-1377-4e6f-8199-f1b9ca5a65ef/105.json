@@ -1,0 +1,20 @@
+{
+  "cwd": "/Users/steven",
+  "entrypoint": "cli",
+  "gitBranch": "HEAD",
+  "isSidechain": false,
+  "message": {
+    "content": "yes",
+    "role": "user"
+  },
+  "parentUuid": "dc245c00-191f-4c1b-8be4-14a72a771c45",
+  "permissionMode": "default",
+  "promptId": "d27da3b8-e3ed-4ac3-b88c-e46a4e59c42e",
+  "promptSource": "typed",
+  "sessionId": "c5d3b1bc-1377-4e6f-8199-f1b9ca5a65ef",
+  "timestamp": "2026-07-13T05:02:42.307Z",
+  "type": "user",
+  "userType": "external",
+  "uuid": "ee8c2456-585b-4d61-a929-3740b676834e",
+  "version": "2.1.179"
+}
