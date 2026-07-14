@@ -1,0 +1,22 @@
+---
+const { mod } = Astro.props
+const BADGE = {
+  'Audio':'badge-audio','Graphics':'badge-graphics','GUI / Icons':'badge-gui',
+  'Popmenus':'badge-popmenu','Maps':'badge-maps','Cursors':'badge-cursors',
+}
+const dl = mod.downloads >= 1000 ? (mod.downloads/1000).toFixed(1)+'k' : String(mod.downloads)
+---
+
+<div class="card" data-mod={JSON.stringify(mod)}>
+  <span class={`badge ${BADGE[mod.category] ?? 'badge-other'}`}>{mod.category}</span>
+  <div class="card-name">{mod.name}</div>
+  <div class="card-meta">
+    <span>{mod.author || 'Unknown'}</span>
+    <span class="card-dl">↓ {dl}</span>
+  </div>
+  {mod.description && <p class="card-desc">{mod.description}</p>}
+  <div class="card-actions">
+    <a class="btn btn-primary" href={mod.download_url} target="_blank">Download</a>
+    <a class="btn" href={mod.page_url} target="_blank">Info</a>
+  </div>
+</div>

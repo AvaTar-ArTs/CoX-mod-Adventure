@@ -1,0 +1,203 @@
+{
+  "gathered": "2026-07-14",
+  "source": "manual browser exploration via Remote Control",
+  "forum": {
+    "url": "https://forums.homecomingservers.com",
+    "software": "Invision Power Suite (IPS)",
+    "api_note": "IPS REST API exists at /api/ but requires admin API key",
+    "stats": {
+      "members": 385000,
+      "topics": 55800,
+      "posts": 772900,
+      "online_approx": 1400
+    },
+    "servers": [
+      { "name": "Excelsior",   "note": "most populated shard" },
+      { "name": "Torchbearer", "note": "" },
+      { "name": "Everlasting", "note": "unofficial RP server" },
+      { "name": "Indomitable", "note": "" },
+      { "name": "Victory",     "note": "" },
+      { "name": "Reunion",     "note": "official European server" }
+    ],
+    "sections": [
+      { "id": "announcements", "name": "Announcements & Information", "posts": 18500 },
+      { "id": "help",          "name": "Help & Support",              "posts": 17900 },
+      { "id": "dev-corner",    "name": "Developer's Corner",          "posts": 4100  },
+      { "id": "bug-reports",   "name": "Bug Reports",                 "posts": 25500 },
+      { "id": "suggestions",   "name": "Suggestions & Feedback",      "posts": 147600 },
+      { "id": "general",       "name": "General Discussion",          "posts": 203500 },
+      { "id": "tools",         "name": "Tools, Utilities & Downloads", "url": "https://forums.homecomingservers.com/forum/7-tools-utilities-downloads/", "topics": 434, "posts": 7500 },
+      { "id": "archetypes",    "name": "Archetypes",                  "url": "https://forums.homecomingservers.com/forum/43-archetypes/", "topics": 626, "posts": 185200 },
+      { "id": "guides",        "name": "Guides",                      "url": "https://forums.homecomingservers.com/forum/44-guides/",    "topics": 486, "posts": 7700  },
+      { "id": "bases",         "name": "Base Construction",           "posts": 5800  },
+      { "id": "badges",        "name": "Badges",                      "posts": 5600  },
+      { "id": "roleplaying",   "name": "Roleplaying",                 "posts": 6000  },
+      { "id": "mission-arch",  "name": "Mission Architect",           "posts": 6400  },
+      { "id": "market",        "name": "The Market",                  "posts": 7300  },
+      { "id": "pvp",           "name": "The Arena (PvP)",             "posts": 2200  },
+      { "id": "art",           "name": "Art & Multimedia",            "topics": 366,  "posts": 19100 }
+    ]
+  },
+  "tools": [
+    {
+      "name": "City Mod Installer",
+      "type": "mod installer",
+      "replies": 609,
+      "note": "most popular tool thread",
+      "forum_section": "tools"
+    },
+    {
+      "name": "City of Data v2.0",
+      "type": "power/enhancement database",
+      "replies": 467,
+      "forum_section": "tools"
+    },
+    {
+      "name": "Mids' Reborn Hero Designer",
+      "type": "build planner",
+      "forum_section": "tools"
+    },
+    {
+      "name": "Hero Companion",
+      "type": "offline build optimizer & leveling planner",
+      "note": "active discussion this month",
+      "forum_section": "tools"
+    },
+    {
+      "name": "Vidiotmaps for Homecoming",
+      "type": "custom zone maps",
+      "cityvault_id": 9,
+      "forum_section": "tools"
+    },
+    {
+      "name": "BindControl",
+      "type": "keybind/macro/popmenu editor",
+      "forum_section": "tools"
+    },
+    {
+      "name": "City of Heroes Client Translation Project",
+      "type": "localization",
+      "forum_section": "tools"
+    },
+    {
+      "name": "Sythlin's DPS Tool",
+      "type": "dps tracker",
+      "forum_section": "tools"
+    },
+    {
+      "name": "Carni's Online Combat Parser",
+      "type": "combat log parser",
+      "forum_section": "tools"
+    }
+  ],
+  "notable_threads": {
+    "archetypes": [
+      { "name": "Pylon Damage Thread", "replies": 2100, "type": "damage benchmarking megathread" },
+      { "name": "JJDrakken's Build Post", "replies": 2200, "type": "build theorycrafting reference" }
+    ],
+    "guides": [
+      { "name": "The Guide to Issues", "type": "patch history tracker" },
+      { "name": "Quality-of-Life tweaks consolidated list", "type": "qol reference" },
+      { "name": "Incarnate Lore Pet List", "type": "game mechanics" },
+      { "name": "How and Where to Hunt", "type": "badge/defeat guide" },
+      { "name": "Kheldian lore and backstory guide 2.0: HC edition", "type": "lore" },
+      { "name": "Enhancements guide", "type": "game mechanics" },
+      { "name": "How I Run Master of... (Dilemma Diabolique, Magisterium, TPN Campus, Lambda)", "type": "trial guides" },
+      { "name": "Popmenus UI guide", "type": "ui customization", "relates_to_mod_category": "Popmenus" },
+      { "name": "Farming microguide for Issue 28", "type": "farming" }
+    ],
+    "art": [
+      { "name": "Post your best costume designs here!", "replies": 8400, "views": 2100000, "type": "flagship costume thread" },
+      { "name": "AI Generative Art thread", "replies": 2300, "type": "generative art" },
+      { "name": "Homecoming Screenshots thread", "type": "screenshots" },
+      { "name": "Battlerock Comics", "type": "fan comic" },
+      { "name": "Major Deej Universe", "type": "fan comic/fiction" }
+    ]
+  },
+  "latest_patch": {
+    "title": "Patch Notes for June 23rd, 2026 – Issue 28, Page 3, Panel 3",
+    "date": "2026-06-23",
+    "highlights": [
+      "Archetype balance: Brutes, Sentinels, Stalkers, Masterminds adjusted",
+      "Enemy group reworks: Council, Arachnos, Nemesis, Talons of Vengeance",
+      "New content: Labyrinth of Fog zone",
+      "New badges and costumes added",
+      "Public Supergroup base access implemented",
+      "Power tray saving commands added"
+    ]
+  },
+  "forum_additional": {
+    "base_construction": {
+      "url": "https://forums.homecomingservers.com/forum/32-base-construction/",
+      "topics": 550,
+      "notable_threads": [
+        { "name": "Show Off Your Base!!", "replies": 847, "type": "flagship showcase thread" },
+        { "name": "2026 Base Building Contest", "type": "active contest" }
+      ]
+    },
+    "market": {
+      "url": "https://forums.homecomingservers.com/forum/51-the-market/",
+      "topics": 338,
+      "note": "Inf economy, AH flipping, IO set pricing; JS-rendered topic list"
+    },
+    "pvp": {
+      "url": "https://forums.homecomingservers.com/forum/28-the-arena-pvp/",
+      "topics": 162,
+      "subforums": [
+        { "name": "PvP Build Discussion", "posts": 388 },
+        { "name": "PvP Supergroup Recruitment", "posts": 11 }
+      ]
+    }
+  },
+  "wiki": {
+    "homecoming": "https://homecoming.wiki/wiki/",
+    "paragon_archive": "https://archive.paragonwiki.com/wiki/Main_Page",
+    "access_note": "Both accessible via curl with browser User-Agent (HTTP 200); WebFetch returns 403. hcwiki.cityofheroes.dev serves a redirect page — homecoming.wiki is the live canonical host.",
+    "zone_lore_file": "zone-lore.json",
+    "zone_count": 22
+  },
+  "lore": {
+    "cosmology_summary": "CoH's mythological timeline begins with the goddess Merulina arriving from space; early human gods split into factions — the benevolent ones defeated the Banished Pantheon (who fed on suffering rather than worship). A Second War of Gods saw Tielekku teach magic, spawning the Oranbegan civilization (now Circle of Thorns enemy group). The nation of Mu practiced eugenics for magical power. Historical threads run from Egyptian/Roman antiquity through the founding of Arachnos, Circle of Thorns, and modern signature characters.",
+    "story_bible": {
+      "note": "Internal Paragon Studios reference document (~534 pages). Never officially released. A tabletop RPG writer with partial access published excerpts after the 2012 shutdown; hosted on the wiki as the best public window into official lore.",
+      "url": "https://homecoming.wiki/wiki/Story_Bible"
+    },
+    "signature_heroes": {
+      "groups": ["Freedom Phalanx", "Vindicators", "W.I.S.D.O.M."],
+      "role": "Trainers, task force contacts, and occasional allies throughout Paragon City"
+    },
+    "major_factions": [
+      { "name": "Banished Pantheon", "origin": "First War of Gods; gods who fed on suffering" },
+      { "name": "Circle of Thorns", "origin": "Oranbegan civilization; exiles who fled underground" },
+      { "name": "Arachnos",         "origin": "Modern shadow organization; Lord Recluse's faction" },
+      { "name": "Mu Mystics",       "origin": "Exiled nation who practiced eugenic breeding for magic" }
+    ]
+  },
+  "character_customization": {
+    "summary": "CoH's customization is cosmetic-first: mechanics are fixed per archetype/power, but appearance is deeply layered across four independent systems.",
+    "systems": [
+      {
+        "name": "Costumes",
+        "details": "Core visual system. Created at character creation; revised at tailor NPCs (Icon/Facemaker/Rita Mayfair). Minor color changes free; body sliders cost more. Costume Change Tokens earned every 10 levels. Up to 10 costume slots (base 1, unlocked at levels 20/30/40, +1 via Halloween event). Switch instantly with /cc #."
+      },
+      {
+        "name": "Power Customization",
+        "details": "Recolor particle effects of powers — fire can be blue/purple, energy can be yellow. Per-power-set palettes (bright, dark, ice-themed, earth-themed). Applied per-archetype since same power set can look different by class."
+      },
+      {
+        "name": "Weapon Customization",
+        "details": "Added Issue 11. Choose weapon model (including NPC faction variants) for weapon-based sets: broadsword, katana, claws, dual pistols, assault rifle, and more. No mechanical change, purely aesthetic."
+      },
+      {
+        "name": "Animation Customization",
+        "details": "Change visual animation style of certain attacks independently of effects. Layers onto power and weapon customization for full aesthetic control."
+      }
+    ],
+    "tailor_npcs": [
+      { "name": "Icon",        "location": "Paragon City (hero zones)" },
+      { "name": "Facemaker",   "location": "Rogue Isles (villain zones)" },
+      { "name": "Rita Mayfair","location": "Praetoria" }
+    ],
+    "mod_relevance": "This customization depth explains why CoH mod categories skew heavily toward visual/texture mods — the game's architecture was designed from the start for deep cosmetic self-expression. Costume mods, texture replacements, and UI skin mods map directly onto these four layers."
+  }
+}

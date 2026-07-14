@@ -1,0 +1,26 @@
+{
+  "productName": "CoX Mod Archive",
+  "version": "0.1.0",
+  "identifier": "dev.cox.mod-archive",
+  "build": {
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:7783",
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build"
+  },
+  "app": {
+    "windows": [{
+      "title": "CoX Mod Archive",
+      "width": 1400,
+      "height": 900
+    }],
+    "security": {
+      "csp": "default-src 'self'; script-src 'self'; img-src 'self' file:; font-src 'self' file:; style-src 'self' 'unsafe-inline'"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": []
+  }
+}

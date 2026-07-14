@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PARAGON CITY MOD DISPATCH</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Special+Elite&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+
+<style>
+/* ── RESET & ROOT ── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+
+:root{
+  --ink:    #09090f;
+  --panel:  #111118;
+  --raised:  #181820;
+  --border:  #1e2035;
+  --amber:  #FFD000;
+  --amber-dim: rgba(255,208,0,.12);
+  --red:    #E63946;
+  --cyan:   #38BDF8;
+  --lime:   #84CC16;
+  --violet: #A78BFA;
+  --orange: #FB923C;
+  --text:   #F0EAD6;
+  --muted:  #6B7280;
+  --cream:  #D4CDB8;
+}
+
+/* Google Fonts loaded via CDN above */
+.ff-bebas   { font-family:'Bebas Neue',sans-serif; }
+.ff-elite   { font-family:'Special Elite',cursive; }
+.ff-courier { font-family:'Courier Prime',monospace; }
+
+body{
+  background:var(--ink);
+  color:var(--text);
+  font-family:'Special Elite',cursive;
+  min-height:100vh;
+  overflow-x:hidden;
+  cursor:crosshair;
+}
+
+/* ── HALFTONE TEXTURE OVERLAY ── */
+body::before{
+  content:'';
+  position:fixed;inset:0;pointer-events:none;z-index:1;
+  background-image:
+    radial-gradient(circle,rgba(255,208,0,.06) 1px,transparent 1px);
+  background-size:12px 12px;
+}
+
+/* ── SCANLINE ── */
+body::after{
+  content:'';
+  position:fixed;inset:0;pointer-events:none;z-index:9999;
+  background:repeating-linear-gradient(
+    0deg,transparent,transparent 3px,
+    rgba(0,0,0,.04) 3px,rgba(0,0,0,.04) 4px
+  );
+}
+
+/* ── P5 CANVAS ── */
+#p5-canvas{
+  position:fixed;inset:0;z-index:0;pointer-events:none;
+  opacity:.22;
+}
+
+main{ position:relative;z-index:2; }
+
+/* ── DISPATCH HEADER ── */
+.dispatch-header{
+  position:relative;
+  min-height:320px;
+  display:flex;align-items:flex-end;
+  padding:2.5rem 2.5rem 2rem;
+  overflow:hidden;
+}
+.header-bg{
+  position:absolute;inset:0;
+  background:url('file:///Users/steven/Pictures/CoH-ComicArt/KingsRow.jpeg') center/cover no-repeat;
+  filter:saturate(.4) brightness(.5);
+}
+/* Diagonal comic-style gradient over image */
+.header-overlay{
+  position:absolute;inset:0;
+  background:
+    linear-gradient(135deg,rgba(9,9,15,.97) 0%,rgba(9,9,15,.7) 50%,rgba(9,9,15,.92) 100%);
+}
+/* Action lines radiating from top-right */
+.header-lines{
+  position:absolute;inset:0;pointer-events:none;
+  background:
+    repeating-conic-gradient(
+      from 135deg at 80% -10%,
+      transparent 0deg,transparent 8deg,
+      rgba(255,208,0,.03) 8deg,rgba(255,208,0,.03) 9deg
+    );
+}
+
+.header-content{ position:relative;z-index:1;max-width:900px; }
+
+.issue-badge{
+  display:inline-flex;align-items:center;gap:.6rem;
+  background:var(--amber);color:var(--ink);
+  font-family:'Bebas Neue',sans-serif;
+  font-size:.7rem;letter-spacing:.25em;
+  padding:.25rem .7rem;margin-bottom:1rem;
+  clip-path:polygon(0 0,calc(100% - 8px) 0,100% 100%,0 100%);
+}
+
+.dispatch-title{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:clamp(3rem,8vw,6.5rem);
+  line-height:.9;color:#fff;
+  text-shadow:
+    4px 4px 0 rgba(255,208,0,.3),
+    8px 8px 0 rgba(0,0,0,.5);
+  letter-spacing:.02em;
+}
+.dispatch-title span{ color:var(--amber); }
+
+.dispatch-sub{
+  font-family:'Courier Prime',monospace;
+  font-size:.8rem;color:var(--muted);
+  letter-spacing:.2em;margin-top:.75rem;
+  text-transform:uppercase;
+}
+.dispatch-sub strong{ color:var(--amber); }
+
+.header-stats{
+  position:absolute;bottom:2rem;right:2.5rem;
+  text-align:right;
+  font-family:'Bebas Neue',sans-serif;
+}
+.stat-num{
+  font-size:4rem;color:var(--amber);line-height:1;
+  text-shadow:2px 2px 0 rgba(0,0,0,.5);
+}
+.stat-label{
+  font-family:'Courier Prime',monospace;
+  font-size:.65rem;letter-spacing:.2em;color:var(--muted);
+  text-transform:uppercase;
+}
+
+/* ── TERMINAL BAR ── */
+.terminal-bar{
+  background:var(--panel);
+  border-top:2px solid var(--amber);
+  border-bottom:1px solid var(--border);
+  padding:.85rem 2.5rem;
+  display:flex;gap:.75rem;align-items:center;flex-wrap:wrap;
+}
+
+.terminal-label{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:.85rem;letter-spacing:.2em;color:var(--amber);
+  white-space:nowrap;
+}
+.terminal-label::after{
+  content:'▌';animation:blink 1s step-end infinite;
+  color:var(--amber);
+}
+@keyframes blink{ 50%{opacity:0} }
+
+#search{
+  flex:1;min-width:220px;
+  background:var(--ink);
+  border:1px solid var(--border);
+  border-bottom:1px solid var(--amber);
+  color:var(--text);
+  font-family:'Courier Prime',monospace;font-size:.85rem;
+  padding:.45rem .75rem;outline:none;
+  transition:border-color .15s;
+}
+#search:focus{ border-color:var(--amber);box-shadow:0 2px 0 var(--amber); }
+#search::placeholder{ color:var(--muted);font-style:italic; }
+
+.ctrl-select{
+  background:var(--ink);border:1px solid var(--border);
+  color:var(--text);font-family:'Courier Prime',monospace;font-size:.75rem;
+  padding:.45rem .65rem;cursor:pointer;outline:none;
+  transition:border-color .15s;
+}
+.ctrl-select:focus{ border-color:var(--amber); }
+
+.dispatch-count{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:1.1rem;color:var(--amber);
+  letter-spacing:.1em;margin-left:auto;white-space:nowrap;
+}
+
+/* ── CHAPTER TABS ── */
+.chapter-tabs{
+  background:var(--panel);border-bottom:1px solid var(--border);
+  padding:0 2.5rem;display:flex;overflow-x:auto;scrollbar-width:none;
+}
+.chapter-tab{
+  background:none;border:none;
+  font-family:'Bebas Neue',sans-serif;font-size:.85rem;letter-spacing:.15em;
+  color:var(--muted);padding:.7rem 1.1rem;
+  border-bottom:3px solid transparent;
+  cursor:pointer;white-space:nowrap;
+  transition:color .1s,border-color .1s;
+  position:relative;
+}
+.chapter-tab::before{
+  content:'·';position:absolute;left:0;top:50%;transform:translateY(-50%);
+  color:var(--border);font-size:1rem;
+}
+.chapter-tab:first-child::before{ display:none; }
+.chapter-tab:hover{ color:var(--cream); }
+.chapter-tab.active{
+  color:var(--amber);
+  border-bottom-color:var(--amber);
+}
+
+/* ── DISPATCH GRID ── */
+.dispatch-wrap{ padding:1.5rem 2.5rem 4rem; }
+
+.dispatch-grid{
+  columns:4 260px;column-gap:1rem;
+}
+
+/* ── MOD PANEL (card) ── */
+.mod-panel{
+  break-inside:avoid;margin-bottom:1rem;
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-left:3px solid var(--border);
+  display:flex;flex-direction:column;
+  cursor:pointer;
+  transition:border-color .12s,box-shadow .12s,transform .12s;
+  position:relative;
+  animation:panelIn .4s ease both;
+}
+@keyframes panelIn{
+  from{opacity:0;transform:translateY(10px);}
+  to{opacity:1;transform:translateY(0);}
+}
+
+.mod-panel:hover{
+  border-left-color:var(--amber);
+  box-shadow:
+    -4px 0 0 var(--amber),
+    0 8px 32px rgba(0,0,0,.4);
+  transform:translateX(2px);
+}
+
+/* Category accent colors on left border */
+.mod-panel.cat-audio  { border-left-color:var(--violet); }
+.mod-panel.cat-audio:hover  { border-left-color:var(--violet);box-shadow:-4px 0 0 var(--violet),0 8px 32px rgba(0,0,0,.4); }
+.mod-panel.cat-graphics{ border-left-color:var(--red); }
+.mod-panel.cat-graphics:hover{ border-left-color:var(--red);box-shadow:-4px 0 0 var(--red),0 8px 32px rgba(0,0,0,.4); }
+.mod-panel.cat-gui    { border-left-color:var(--lime); }
+.mod-panel.cat-gui:hover    { border-left-color:var(--lime);box-shadow:-4px 0 0 var(--lime),0 8px 32px rgba(0,0,0,.4); }
+.mod-panel.cat-maps   { border-left-color:var(--cyan); }
+.mod-panel.cat-maps:hover   { border-left-color:var(--cyan);box-shadow:-4px 0 0 var(--cyan),0 8px 32px rgba(0,0,0,.4); }
+.mod-panel.cat-popmenu{ border-left-color:var(--orange); }
+.mod-panel.cat-popmenu:hover{ border-left-color:var(--orange);box-shadow:-4px 0 0 var(--orange),0 8px 32px rgba(0,0,0,.4); }
+.mod-panel.cat-cursors{ border-left-color:var(--amber); }
+.mod-panel.cat-cursors:hover{ border-left-color:var(--amber);box-shadow:-4px 0 0 var(--amber),0 8px 32px rgba(0,0,0,.4); }
+
+/* Panel number in corner */
+.panel-header{
+  display:flex;justify-content:space-between;align-items:flex-start;
+  padding:.7rem .9rem .3rem;
+}
+.panel-num{
+  font-family:'Courier Prime',monospace;font-size:.6rem;
+  color:var(--border);letter-spacing:.1em;
+}
+.panel-badge{
+  font-family:'Bebas Neue',sans-serif;font-size:.65rem;
+  letter-spacing:.2em;padding:.1rem .5rem;
+}
+.badge-audio  { color:var(--violet); }
+.badge-graphics{ color:var(--red); }
+.badge-gui    { color:var(--lime); }
+.badge-popmenu{ color:var(--orange); }
+.badge-maps   { color:var(--cyan); }
+.badge-cursors{ color:var(--amber); }
+.badge-other  { color:var(--muted); }
+.badge-languages{ color:var(--cream); }
+
+.panel-title{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:1.1rem;color:#fff;line-height:1.15;
+  padding:0 .9rem .5rem;letter-spacing:.02em;
+}
+
+.panel-meta{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:0 .9rem .5rem;
+  font-family:'Courier Prime',monospace;font-size:.65rem;color:var(--muted);
+}
+.panel-dl{ color:var(--amber);font-weight:700; }
+
+.panel-desc{
+  font-size:.72rem;color:var(--muted);line-height:1.55;
+  padding:0 .9rem .6rem;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;
+  font-family:'Special Elite',cursive;
+}
+
+/* Divider between desc and actions */
+.panel-divider{
+  height:1px;background:var(--border);margin:0 .9rem;
+}
+
+.panel-actions{
+  display:flex;gap:0;padding:.6rem .9rem;
+}
+.dispatch-btn{
+  font-family:'Bebas Neue',sans-serif;font-size:.7rem;letter-spacing:.2em;
+  padding:.3rem .7rem;border:1px solid var(--border);
+  background:none;color:var(--muted);cursor:pointer;
+  text-decoration:none;display:inline-block;
+  transition:color .1s,border-color .1s,background .1s;
+}
+.dispatch-btn + .dispatch-btn{ border-left:none; }
+.dispatch-btn:hover,.dispatch-btn.primary{
+  border-color:var(--amber);color:var(--amber);
+  background:var(--amber-dim);
+}
+.dispatch-btn.primary{ background:rgba(255,208,0,.08); }
+
+/* ── EMPTY STATE ── */
+.empty{
+  grid-column:1/-1;padding:4rem;text-align:center;
+  font-family:'Bebas Neue',sans-serif;font-size:2rem;
+  color:var(--border);letter-spacing:.2em;
+}
+
+/* ── DOSSIER DRAWER ── */
+.dossier-overlay{
+  position:fixed;inset:0;z-index:100;
+  background:rgba(0,0,0,.7);backdrop-filter:blur(2px);
+  opacity:0;pointer-events:none;transition:opacity .25s;
+}
+.dossier-overlay.open{ opacity:1;pointer-events:all; }
+
+.dossier{
+  position:fixed;top:0;right:0;bottom:0;
+  width:min(460px,100vw);
+  background:var(--panel);
+  border-left:3px solid var(--amber);
+  padding:0;overflow-y:auto;z-index:101;
+  transform:translateX(100%);transition:transform .28s cubic-bezier(.4,0,.2,1);
+  display:flex;flex-direction:column;
+}
+.dossier.open{ transform:translateX(0); }
+
+.dossier-top{
+  background:var(--raised);
+  border-bottom:1px solid var(--border);
+  padding:1rem 1.25rem .75rem;
+  display:flex;justify-content:space-between;align-items:center;
+}
+.dossier-stamp{
+  font-family:'Bebas Neue',sans-serif;font-size:.7rem;
+  letter-spacing:.3em;color:var(--amber);
+}
+.dossier-close{
+  background:none;border:1px solid var(--border);
+  color:var(--muted);font-family:'Bebas Neue',sans-serif;
+  font-size:.7rem;letter-spacing:.2em;
+  padding:.3rem .7rem;cursor:pointer;
+  transition:border-color .1s,color .1s;
+}
+.dossier-close:hover{ border-color:var(--amber);color:var(--amber); }
+
+.dossier-art{
+  width:100%;height:160px;
+  background-size:cover;background-position:center;
+  filter:saturate(.5) brightness(.7);
+  position:relative;flex-shrink:0;
+}
+.dossier-art::after{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(0deg,var(--panel) 0%,transparent 60%);
+}
+
+.dossier-body{ padding:1.25rem;flex:1;display:flex;flex-direction:column;gap:.9rem; }
+
+.dossier-cat{
+  font-family:'Bebas Neue',sans-serif;font-size:.7rem;
+  letter-spacing:.3em;
+}
+.dossier-name{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:2.1rem;color:#fff;line-height:1;
+  letter-spacing:.02em;
+}
+.dossier-author{
+  font-family:'Courier Prime',monospace;font-size:.75rem;color:var(--muted);
+}
+.dossier-dl{
+  font-family:'Courier Prime',monospace;font-size:.8rem;color:var(--amber);
+}
+.dossier-desc{
+  font-size:.8rem;color:var(--cream);line-height:1.65;
+  font-family:'Special Elite',cursive;
+}
+.dossier-actions{
+  display:flex;gap:0;margin-top:auto;padding-top:1rem;
+  border-top:1px solid var(--border);
+}
+
+/* Stagger animation for cards */
+.mod-panel:nth-child(1) {animation-delay:.02s}
+.mod-panel:nth-child(2) {animation-delay:.04s}
+.mod-panel:nth-child(3) {animation-delay:.06s}
+.mod-panel:nth-child(4) {animation-delay:.08s}
+.mod-panel:nth-child(5) {animation-delay:.10s}
+.mod-panel:nth-child(6) {animation-delay:.12s}
+.mod-panel:nth-child(7) {animation-delay:.14s}
+.mod-panel:nth-child(8) {animation-delay:.16s}
+.mod-panel:nth-child(9) {animation-delay:.18s}
+.mod-panel:nth-child(10){animation-delay:.20s}
+.mod-panel:nth-child(n+11){animation-delay:.22s}
+</style>
+</head>
+
+<body>
+<canvas id="p5-canvas"></canvas>
+<main>
+
+  <!-- DISPATCH HEADER -->
+  <header class="dispatch-header">
+    <div class="header-bg"></div>
+    <div class="header-overlay"></div>
+    <div class="header-lines"></div>
+    <div class="header-content">
+      <div class="issue-badge">PARAGON CITY · HOMECOMING · ISSUE #291</div>
+      <h1 class="dispatch-title">MOD<br><span>DISPATCH</span></h1>
+      <p class="dispatch-sub ff-courier">
+        <strong>CLASSIFIED</strong> · CITYVAULT ARCHIVE · HERO APPROVED
+      </p>
+    </div>
+    <div class="header-stats">
+      <div class="stat-num" id="statNum">291</div>
+      <div class="stat-label ff-courier">MODS ARCHIVED</div>
+    </div>
+  </header>
+
+  <!-- TERMINAL BAR -->
+  <div class="terminal-bar">
+    <span class="terminal-label ff-bebas">DISPATCH QUERY</span>
+    <input id="search" type="search" placeholder="search codename, operative, category…" autocomplete="off">
+    <select id="sort" class="ctrl-select">
+      <option value="downloads">SORT: DOWNLOADS</option>
+      <option value="name">SORT: CODENAME A→Z</option>
+      <option value="author">SORT: OPERATIVE</option>
+    </select>
+    <span class="dispatch-count ff-bebas" id="count">291 ACTIVE</span>
+  </div>
+
+  <!-- CHAPTER TABS -->
+  <div class="chapter-tabs" id="tabs"></div>
+
+  <!-- MOD GRID -->
+  <div class="dispatch-wrap">
+    <div class="dispatch-grid" id="grid"></div>
+  </div>
+
+</main>
+
+<!-- DOSSIER DRAWER -->
+<div class="dossier-overlay" id="overlay"></div>
+<aside class="dossier" id="dossier">
+  <div class="dossier-top">
+    <span class="dossier-stamp ff-bebas">● CLASSIFIED DOSSIER</span>
+    <button class="dossier-close ff-bebas" id="dossierClose">✕ CLOSE</button>
+  </div>
+  <div class="dossier-art" id="dArt"></div>
+  <div class="dossier-body">
+    <span class="dossier-cat" id="dCat"></span>
+    <div class="dossier-name" id="dName"></div>
+    <div class="dossier-author ff-courier" id="dAuthor"></div>
+    <div class="dossier-dl ff-courier" id="dDl"></div>
+    <p class="dossier-desc" id="dDesc"></p>
+    <div class="dossier-actions" id="dActions"></div>
+  </div>
+</aside>
+
+<script src="../core/mods.js"></script>
+<script src="../core/render.js"></script>
+<script>
+// ── DATA
+const CATS = ['ALL', ...new Set(MODS.map(m => m.category.toUpperCase()))]
+let activeCat = 'ALL', query = '', sortBy = 'downloads'
+
+const CAT_CLASS = {
+  'AUDIO':      'cat-audio',
+  'GRAPHICS':   'cat-graphics',
+  'GUI / ICONS':'cat-gui',
+  'POPMENUS':   'cat-popmenu',
+  'MAPS':       'cat-maps',
+  'CURSORS':    'cat-cursors',
+}
+const CAT_BADGE = {
+  'AUDIO':      'badge-audio',
+  'GRAPHICS':   'badge-graphics',
+  'GUI / ICONS':'badge-gui',
+  'POPMENUS':   'badge-popmenu',
+  'MAPS':       'badge-maps',
+  'CURSORS':    'badge-cursors',
+  'LANGUAGES':  'badge-languages',
+}
+
+function fmt(n){ return n>=1000?(n/1000).toFixed(1)+'k':String(n||0) }
+
+// ── RENDER TABS
+function renderTabs() {
+  const el = document.getElementById('tabs')
+  el.innerHTML = ''
+  CATS.forEach(c => {
+    const btn = document.createElement('button')
+    btn.className = `chapter-tab${c===activeCat?' active':''}`
+    btn.textContent = c
+    btn.onclick = () => { activeCat = c; renderTabs(); renderGrid() }
+    el.appendChild(btn)
+  })
+}
+
+// ── RENDER GRID
+function renderGrid() {
+  const el = document.getElementById('grid')
+  const q  = query.toLowerCase()
+  let list = MODS.filter(m => {
+    const cu = m.category.toUpperCase()
+    if (activeCat !== 'ALL' && cu !== activeCat) return false
+    if (!q) return true
+    return m.name.toLowerCase().includes(q)
+      || (m.author||'').toLowerCase().includes(q)
+      || (m.description||'').toLowerCase().includes(q)
+  }).sort((a,b)=>{
+    if (sortBy==='downloads') return (b.downloads||0)-(a.downloads||0)
+    if (sortBy==='name')      return a.name.localeCompare(b.name)
+    return (a.author||'').localeCompare(b.author||'')
+  })
+
+  document.getElementById('count').textContent = list.length+' ACTIVE'
+  document.getElementById('statNum').textContent = list.length
+  el.innerHTML = ''
+
+  if (!list.length) {
+    el.innerHTML = '<div class="empty">NO MODS FOUND IN DISPATCH</div>'
+    return
+  }
+
+  list.forEach((m, i) => {
+    const cu   = m.category.toUpperCase()
+    const panel = document.createElement('div')
+    panel.className = `mod-panel ${CAT_CLASS[cu]||''}`
+
+    panel.innerHTML = `
+      <div class="panel-header">
+        <span class="panel-num ff-courier">#${String(m.id).padStart(3,'0')}</span>
+        <span class="panel-badge ${CAT_BADGE[cu]||'badge-other'} ff-bebas">${m.category}</span>
+      </div>
+      <div class="panel-title ff-bebas">${m.name}</div>
+      <div class="panel-meta">
+        <span>${m.author||'Unknown Operative'}</span>
+        <span class="panel-dl">↓ ${fmt(m.downloads)}</span>
+      </div>
+      ${m.description?`<p class="panel-desc">${m.description}</p>`:''}
+      <div class="panel-divider"></div>
+      <div class="panel-actions">
+        <a class="dispatch-btn primary ff-bebas" href="${m.download_url}" target="_blank" onclick="event.stopPropagation()">ACQUIRE</a>
+        <a class="dispatch-btn ff-bebas" href="${m.page_url}" target="_blank" onclick="event.stopPropagation()">INTEL</a>
+      </div>
+    `
+    panel.addEventListener('click', e => {
+      if (!e.target.closest('a')) openDossier(m)
+    })
+    el.appendChild(panel)
+  })
+}
+
+// ── DOSSIER
+function openDossier(m) {
+  const cu = m.category.toUpperCase()
+  document.getElementById('dArt').style.backgroundImage = `url('${ART_BASE}${m.art}')`
+  const dCat = document.getElementById('dCat')
+  dCat.textContent = m.category.toUpperCase()
+  dCat.className = `dossier-cat ff-bebas ${CAT_BADGE[cu]||'badge-other'}`
+  document.getElementById('dName').textContent = m.name
+  document.getElementById('dAuthor').textContent = 'OPERATIVE: '+(m.author||'UNKNOWN')
+  document.getElementById('dDl').textContent = '↓ '+fmt(m.downloads)+' FIELD DEPLOYMENTS'
+  document.getElementById('dDesc').textContent = m.description||'NO FIELD REPORT ON FILE.'
+  document.getElementById('dActions').innerHTML = `
+    <a class="dispatch-btn primary ff-bebas" href="${m.download_url}" target="_blank">ACQUIRE MOD</a>
+    <a class="dispatch-btn ff-bebas" href="${m.page_url}" target="_blank">FULL INTEL</a>
+  `
+  document.getElementById('dossier').classList.add('open')
+  document.getElementById('overlay').classList.add('open')
+}
+function closeDossier() {
+  document.getElementById('dossier').classList.remove('open')
+  document.getElementById('overlay').classList.remove('open')
+}
+document.getElementById('dossierClose').addEventListener('click', closeDossier)
+document.getElementById('overlay').addEventListener('click', closeDossier)
+document.addEventListener('keydown', e => { if (e.key==='Escape') closeDossier() })
+
+// ── CONTROLS
+document.getElementById('search').addEventListener('input', e => { query=e.target.value; renderGrid() })
+document.getElementById('sort').addEventListener('change', e => { sortBy=e.target.value; renderGrid() })
+
+// ── P5: CITY PARTICLE FIELD
+// Layered: slow-drifting dot field + action lines that radiate on card click + amber pulse ring
+new p5(function(p) {
+  const dots   = []
+  const bursts = []  // radial action-line bursts
+  const pulses = []
+  let t = 0
+
+  p.setup = function() {
+    const c = p.createCanvas(window.innerWidth, window.innerHeight)
+    c.parent('p5-canvas')
+    c.style('width','100%'); c.style('height','100%')
+    p.background(9,9,15)
+    p.frameRate(30)
+    // Populate dot field
+    for (let i=0;i<120;i++) {
+      dots.push({
+        x: p.random(p.width), y: p.random(p.height),
+        vx: p.random(-.12,.12), vy: p.random(-.08,-.02),
+        r: p.random(.8,2.2), alpha: p.random(20,60)
+      })
+    }
+  }
+
+  p.draw = function() {
+    p.noStroke(); p.fill(9,9,15,20); p.rect(0,0,p.width,p.height)
+    t += 0.005
+
+    // Drift dots (amber tint)
+    dots.forEach(d => {
+      d.x += d.vx; d.y += d.vy
+      if (d.y < -5) d.y = p.height+5
+      if (d.x < -5) d.x = p.width+5
+      if (d.x > p.width+5) d.x = -5
+      p.noStroke()
+      p.fill(255,208,0, d.alpha + Math.sin(t+d.x*.01)*15)
+      p.ellipse(d.x, d.y, d.r*2)
+    })
+
+    // Action burst lines (fire on card click, stored in bursts[])
+    for (let i=bursts.length-1;i>=0;i--) {
+      const b = bursts[i]
+      b.age += 1; b.alpha -= 2.2
+      if (b.alpha <= 0){ bursts.splice(i,1); continue }
+      b.lines.forEach(l => {
+        const ex = b.x + Math.cos(l.angle) * (b.age * l.speed)
+        const ey = b.y + Math.sin(l.angle) * (b.age * l.speed)
+        p.stroke(255,208,0, b.alpha * l.w)
+        p.strokeWeight(l.w)
+        p.line(b.x, b.y, ex, ey)
+      })
+    }
+
+    // Amber pulse rings
+    if (p.frameCount % 90 === 0) pulses.push({ x:p.random(p.width), y:p.random(p.height), r:0, alpha:40 })
+    for (let i=pulses.length-1;i>=0;i--) {
+      const pu = pulses[i]; pu.r+=2.5; pu.alpha-=.8
+      if (pu.alpha<=0){ pulses.splice(i,1); continue }
+      p.noFill(); p.stroke(255,208,0,pu.alpha); p.strokeWeight(.5)
+      p.ellipse(pu.x,pu.y,pu.r*2,pu.r*2)
+    }
+    p.noStroke()
+  }
+
+  p.windowResized = function(){ p.resizeCanvas(window.innerWidth,window.innerHeight) }
+
+  // Click on a mod panel → burst of action lines from that position
+  window.addEventListener('modclick', e => {
+    const rect = e.detail.rect
+    const cx = rect.left + rect.width/2
+    const cy = rect.top + rect.height/2
+    const lines = []
+    for (let i=0;i<24;i++) {
+      lines.push({
+        angle: (i/24)*Math.PI*2 + p.random(-.15,.15),
+        speed: p.random(3,9),
+        w:     p.random(.3,1.2)
+      })
+    }
+    bursts.push({ x:cx, y:cy, lines, age:0, alpha:80 })
+  })
+})
+
+// Fire burst on card click
+document.addEventListener('click', e => {
+  const panel = e.target.closest('.mod-panel')
+  if (panel && !e.target.closest('a')) {
+    window.dispatchEvent(new CustomEvent('modclick', { detail:{ rect:panel.getBoundingClientRect() } }))
+  }
+})
+
+// ── INIT
+renderTabs()
+renderGrid()
+</script>
+</body>
+</html>
