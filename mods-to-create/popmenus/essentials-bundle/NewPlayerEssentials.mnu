@@ -1,0 +1,146 @@
+// New Player Essentials — Popmenu
+// Place in: data/menus/NewPlayerEssentials.mnu
+// Bind: /bind F10 "popmenu NewPlayerEssentials"
+//
+// Curated commands for players new to CoH Homecoming.
+// Replaces the need to memorize dozens of slash commands.
+
+Menu "NewPlayerEssentials"
+{
+    Title "New Player Essentials"
+
+    SubMenu "Graphics — Quick Settings"
+    {
+        Title "Graphics"
+        Option "Max quality (high-end PC)"     "/graphicssettings max"
+        Option "Medium quality (balanced)"     "/graphicssettings med"
+        Option "Low quality (older PC)"        "/graphicssettings low"
+        Option "Toggle full-screen"            "/window_toggle fullscreen"
+        Option "Toggle UI scale up"            "/uiscale 1.2"
+        Option "Toggle UI scale normal"        "/uiscale 1.0"
+        Option "Screenshot (no UI)"            "/screenshotui 0$$screenshot$$screenshotui 1"
+        Option "Screenshot (with UI)"          "/screenshot"
+    }
+
+    SubMenu "Sound — Audio Controls"
+    {
+        Title "Audio"
+        Option "Mute all sound"                "/sound_music_volume 0$$sound_ambient_volume 0$$sound_effects_volume 0"
+        Option "Restore all sound"             "/sound_music_volume 0.8$$sound_ambient_volume 0.8$$sound_effects_volume 0.8"
+        Option "Mute music only"               "/sound_music_volume 0"
+        Option "Music at 50%"                  "/sound_music_volume 0.5"
+        Option "Effects at 50%"                "/sound_effects_volume 0.5"
+    }
+
+    SubMenu "Camera — Navigation"
+    {
+        Title "Camera"
+        Option "Zoom out (max)"                "/camdist 80"
+        Option "Zoom out (far)"                "/camdist 50"
+        Option "Zoom normal"                   "/camdist 20"
+        Option "First-person"                  "/camdist 0"
+        Option "Toggle mouse look"             "/mouselook"
+        Option "Reset camera behind character" "/camreset"
+        Option "Free camera (float)"           "/camtoggle"
+    }
+
+    SubMenu "Combat — Useful Toggles"
+    {
+        Title "Combat"
+        Option "Auto-run toggle"               "/auto_run"
+        Option "Speed boost: walk"             "/setspeed walk"
+        Option "Speed boost: normal"           "/setspeed normal"
+        Option "Speed boost: sprint"           "/setspeed sprint"
+        Option "Target nearest enemy"          "/target_enemy_near"
+        Option "Target nearest ally"           "/target_friend_near"
+        Option "Assist target"                 "/assist"
+        Option "Follow target"                 "/follow"
+        Option "Stay (stop following)"         "/stay"
+    }
+
+    SubMenu "Chat — Channel Commands"
+    {
+        Title "Chat Channels"
+        Option "Say (local area)"              "/say "
+        Option "Team chat"                     "/team "
+        Option "League chat"                   "/league "
+        Option "SG chat"                       "/sg "
+        Option "General channel"               "/chan_send General "
+        Option "Help channel"                  "/chan_send Help "
+        Option "Looking for Group"             "/chan_send LookingForGroup "
+        Option "Trade channel"                 "/chan_send Trade "
+    }
+
+    SubMenu "Powers — Display Options"
+    {
+        Title "Power Display"
+        Option "Minimal FX (reduce clutter)"   "/optionset ShowDetailVisibility 0"
+        Option "Normal FX"                     "/optionset ShowDetailVisibility 1"
+        Option "Full FX (all effects)"         "/optionset ShowDetailVisibility 2"
+        Option "Toggle self-nameplate"         "/optionset ShowSelfNameplate 1"
+        Option "Hide self-nameplate"           "/optionset ShowSelfNameplate 0"
+        Option "Show health bars on all"       "/optionset ShowEnemyBars 1"
+        Option "Hide health bars"              "/optionset ShowEnemyBars 0"
+    }
+
+    SubMenu "Team — Group Tools"
+    {
+        Title "Team Tools"
+        Option "Open LFG panel"                "/lfg"
+        Option "Invite target to team"         "/invite"
+        Option "Kick target from team"         "/kick"
+        Option "Leave team"                    "/leaveteam"
+        Option "Team info"                     "/teaminfo"
+        Option "Set mission"                   "/setmission"
+        Option "Sidekick target"               "/sidekick"
+        Option "Un-sidekick"                   "/unsidekick"
+    }
+
+    SubMenu "Badges — Reference"
+    {
+        Title "Badges"
+        Option "Open badge window"             "/badge"
+        Option "Count my badges"              "/badgecount"
+        Option "Announce badge count"          "/say I have earned $$badgecount$$ badges."
+        Option "Vidiotmaps: show badge guide"  "/say (( Install Vidiotmaps from City Mod Installer for badge maps! ))"
+    }
+
+    SubMenu "Costume — Quick Access"
+    {
+        Title "Costume"
+        Option "Open costume creator"          "/cc"
+        Option "Costume slot 1"                "/cc 0"
+        Option "Costume slot 2"                "/cc 1"
+        Option "Costume slot 3"                "/cc 2"
+        Option "Costume slot 4"                "/cc 3"
+        Option "Emote: Costume change"         "/em cc"
+    }
+
+    SubMenu "Window — UI Layout"
+    {
+        Title "UI Windows"
+        Option "Toggle chat window"            "/window_toggle chat"
+        Option "Toggle map"                    "/window_toggle map"
+        Option "Toggle powers tray"            "/window_toggle tray"
+        Option "Toggle nav panel"              "/window_toggle nav"
+        Option "Toggle clue window"            "/window_toggle clue"
+        Option "Toggle mission window"         "/window_toggle objective"
+        Option "Reset all windows"             "/windowscale 1$$window_reset all"
+        Option "Hide all UI (screenshot)"      "/window_hide all"
+        Option "Show all UI"                   "/window_show all"
+    }
+
+    SubMenu "Essential Info — New Player Tips"
+    {
+        Title "Tips"
+        Option "Where to get mods"             "/say (( Get mods at cityofheroes.dev — install City Mod Installer first! ))"
+        Option "Vidiotmaps tip"                "/say (( Vidiotmaps shows badge/mission locations on your map — install from City Mod Installer! ))"
+        Option "Mids Reborn tip"               "/say (( Mids Reborn is the offline build planner — search for it on the Homecoming forums! ))"
+        Option "Global chat tip"               "/say (( Use @GlobalName to /tell friends across servers! ))"
+        Option "Slash commands list"           "/say (( Type /cmdlist in chat to see all available slash commands! ))"
+        Option "Homecoming Discord"            "/say (( Join the Homecoming Discord for help and community — link on cityofheroes.com! ))"
+    }
+
+    Option "Divider" "--"
+    Option "Reload all menus"              "/reloadmenus"
+}

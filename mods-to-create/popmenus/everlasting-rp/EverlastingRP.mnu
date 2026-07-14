@@ -1,0 +1,162 @@
+// Everlasting RP Toolkit — Popmenu
+// Place in: data/menus/EverlastingRP.mnu
+// Bind to key: /bind KEY "popmenu EverlastingRP"
+// Suggested bind: /bind LSHIFT+R "popmenu EverlastingRP"
+//
+// Covers: emotes, IC/OOC toggle, scene-setting, location tools, RP status flags
+
+Menu "EverlastingRP"
+{
+    Title "Everlasting RP Toolkit"
+
+    SubMenu "Emotes — Body Language"
+    {
+        Title "Body Language"
+
+        SubMenu "Greetings"
+        {
+            Title "Greetings"
+            Option "Nod"                "em nod"
+            Option "Wave"               "em wave"
+            Option "Salute"             "em salute"
+            Option "Bow"                "em bow"
+            Option "Point at target"    "em point"
+            Option "Thumbs up"          "em thumbsup"
+            Option "Thumbs down"        "em thumbsdown"
+        }
+
+        SubMenu "Casual"
+        {
+            Title "Casual"
+            Option "Shrug"              "em shrug"
+            Option "Lean (wall)"        "em leanleft"
+            Option "Cross arms"         "em crossarms"
+            Option "Think"              "em think"
+            Option "Facepalm"           "em facepalm"
+            Option "Laugh"              "em laugh"
+            Option "Clap"               "em clap"
+            Option "Stretch"            "em stretch"
+        }
+
+        SubMenu "Dramatic"
+        {
+            Title "Dramatic"
+            Option "Kneel"              "em kneel"
+            Option "Collapse"           "em collapse"
+            Option "Cry"                "em cry"
+            Option "Angry"              "em angry"
+            Option "Taunt"              "em taunt"
+            Option "Cheer"              "em cheer"
+            Option "Victory pose"       "em victory"
+            Option "Despair"            "em despair"
+        }
+
+        SubMenu "Seated"
+        {
+            Title "Seated"
+            Option "Sit (ground)"       "em sit"
+            Option "Lounge"             "em lounge"
+            Option "Meditate"           "em meditate"
+        }
+
+        SubMenu "Dance"
+        {
+            Title "Dance"
+            Option "Dance 1"            "em dance"
+            Option "Dance 2"            "em dance2"
+            Option "Dance 3"            "em dance3"
+            Option "Dance 4"            "em dance4"
+            Option "Dance 5"            "em dance5"
+            Option "Dance 6"            "em dance6"
+            Option "Dance 7"            "em dance7"
+            Option "Dance 8"            "em dance8"
+        }
+    }
+
+    SubMenu "IC / OOC Status"
+    {
+        Title "IC / OOC Status"
+        Option "Set title: (( OOC ))"      "/title (( OOC ))"
+        Option "Set title: [ RP ]"         "/title [ RP ]"
+        Option "Set title: [ LFG-RP ]"     "/title [ LFG-RP ]"
+        Option "Set title: [ BUSY ]"       "/title [ BUSY ]"
+        Option "Set title: [ AFK ]"        "/title [ AFK ])"
+        Option "Set title: [ SCENE ]"      "/title [ SCENE ]"
+        Option "Clear title"               "/title"
+    }
+
+    SubMenu "Say — Scene Setters"
+    {
+        Title "Scene Setters"
+        Option "-- Begin Scene --"         "/say -- Begin Scene --"
+        Option "-- End Scene --"           "/say -- End Scene --"
+        Option "-- Time Skip --"           "/say -- Time Skip --"
+        Option "-- Fade to Black --"       "/say -- Fade to Black --"
+        Option "-- Flash Forward --"       "/say -- Flash Forward --"
+        Option "-- Flashback --"           "/say -- Flashback --"
+        Option "-- Meanwhile... --"        "/say -- Meanwhile... --"
+        Option "-- OOC: Pausing --"        "/say (( OOC: One moment, pausing scene briefly. ))"
+        Option "-- OOC: Back --"           "/say (( OOC: Back, ready to continue. ))"
+    }
+
+    SubMenu "Local Say — Roleplay Wrappers"
+    {
+        Title "RP Wrappers"
+        Option ":: Action (open)"          "/say ::"
+        Option "(( OOC comment ))"         "/say (("
+        Option "Whispers to target..."     "/say *leans in and whispers*"
+        Option "Looks around..."           "/say *glances around the room carefully*"
+        Option "Checks communicator"       "/say *glances at wrist communicator*"
+        Option "Activates comm badge"      "/say *taps the comm badge on chest*"
+        Option "Takes notes"               "/say *pulls out a small notebook and jots something down*"
+        Option "Lights cigarette"          "/say *produces a cigarette and lights it with practiced ease*"
+    }
+
+    SubMenu "Location — Paragon City Zones"
+    {
+        Title "Zone Locations"
+        Option "Atlas Park — City Hall Steps"   "/say (( OOC: Roleplaying at Atlas Park, City Hall steps. ))"
+        Option "Pocket D — Dance Floor"         "/say (( OOC: Roleplaying at Pocket D, main dance floor. ))"
+        Option "Pocket D — VIP Lounge"          "/say (( OOC: Roleplaying at Pocket D VIP Lounge. ))"
+        Option "Steel Canyon — University"      "/say (( OOC: Roleplaying at Steel Canyon University. ))"
+        Option "Talos Island — Waterfront"      "/say (( OOC: Roleplaying at Talos Island waterfront. ))"
+        Option "Dark Astoria — Streets"         "/say (( OOC: Roleplaying in Dark Astoria. ))"
+        Option "Croatoa — Red Cap territory"    "/say (( OOC: Roleplaying in Croatoa. ))"
+        Option "Rogue Isles — Cap au Diable"    "/say (( OOC: Roleplaying in Cap au Diable. ))"
+    }
+
+    SubMenu "SG Base — Atmosphere"
+    {
+        Title "Base Atmosphere"
+        Option "Enters base..."            "/say *steps through the teleporter into the base*"
+        Option "Exits to field..."         "/say *heads for the teleporter pad*"
+        Option "At the briefing table"     "/say *takes a seat at the briefing table*"
+        Option "Reviews mission files"     "/say *pulls up the holographic mission display*"
+        Option "Training room"             "/say *makes for the training area*"
+        Option "Debrief finished"          "/say *drops onto the couch and exhales slowly*"
+    }
+
+    SubMenu "Contact Info — Quick Post"
+    {
+        Title "Contact Info"
+        Option "Post global handle"        "/say (( OOC: Global: @YourHandle — feel free to DM for RP! ))"
+        Option "LFG RP announcement"       "/local (( Looking for RP — DM me or /tell @YourHandle ))"
+        Option "Scene invite (local)"      "/local (( Open RP scene here — all welcome! ))"
+        Option "RP SG recruiting"          "/local (( Our SG is recruiting RP-focused players — DM for details! ))"
+    }
+
+    SubMenu "Combat RP — Narrative Flavor"
+    {
+        Title "Combat Narration"
+        Option "Assessing threat..."       "/say *sizes up the opposition with a measured look*"
+        Option "This ends now."            "/say This ends now."
+        Option "Calls for backup"          "/say *activates comm* All units, I need backup at my position."
+        Option "Taking cover"              "/say *drops behind cover and checks the situation*"
+        Option "Injured but standing"      "/say *wipes blood from a split lip* Still standing."
+        Option "Victory line"              "/say *stands over the defeated opponent* Next time, think twice."
+        Option "Protecting civilians"      "/say *shields a bystander* Get to safety — NOW!"
+    }
+
+    Option "Divider" "--"
+    Option "Help: How to use this menu"    "/say (( OOC: This is the Everlasting RP Toolkit. Bind it: /bind KEY popmenu EverlastingRP ))"
+}

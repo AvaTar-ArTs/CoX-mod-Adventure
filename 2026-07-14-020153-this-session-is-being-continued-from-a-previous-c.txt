@@ -1,0 +1,2258 @@
+╭─── Claude Code v2.1.179 ─────────────────────────────────────────────────────╮
+│                                          │ Tips for getting started          │
+│         Welcome back AvatarArts!         │ Run /init to create a CLAUDE.md … │
+│                                          │ ───────────────────────────────── │
+│                  ▐▛███▜▌                 │ What's new                        │
+│                 ▝▜█████▛▘                │ Fixed mid-stream connection drop… │
+│                   ▘▘ ▝▝                  │ Fixed mouse-wheel scrolling in W… │
+│                                          │ Fixed a sandbox `denyRead`/`allo… │
+│   Sonnet 4.6 · Claude Pro · AvatarArts   │ /release-notes for more           │
+│           ~/CoX-mod-Adventure            │                                   │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+ ▎ Meet Fable 5, our newest model for complex, long-running work. Switch anytime with /model.
+ ▎ Included in your plan limits until Jul 20, then switch to usage credits to continue.
+
+✻ Conversation compacted (ctrl+o for history)
+
+
+⏺ Write(mods-to-create/reshade/CoX_ComicVivid.ini)
+  ⎿  Wrote 71 lines to mods-to-create/reshade/CoX_ComicVivid.ini
+       2 # High saturation, punchy contrast, subtle bloom — makes CoH loo
+         k like a living comic book.
+       3 # Install: drop into your CoH game directory alongside ReShade.i
+         ni, select in-game with Home key.
+       4 
+       6 PresetFiles=.\reshade-presets\CoX_ComicVivid.ini
+       7 [SMAA.fx]
+       8 EdgeDetectionType=1
+       9 EdgeDetectionThreshold=0.08
+      10 MaxSearchSteps=32
+     … +65 lines (ctrl+o to expand)
+
+⏺ Write(mods-to-create/reshade/CoX_DarkGritty.ini)
+  ⎿  Wrote 75 lines to mods-to-create/reshade/CoX_DarkGritty.ini
+       2 # Desaturated shadows, crushed blacks, film grain, vignette — Pa
+         ragon City feels dangerous.
+       3 # Inspired by dark superhero aesthetics: noir-tinged, high-contr
+         ast, cinematic.
+       4 
+       6 PresetFiles=.\reshade-presets\CoX_DarkGritty.ini
+       7 [SMAA.fx]
+       8 EdgeDetectionType=1
+       9 EdgeDetectionThreshold=0.10
+      10 MaxSearchSteps=32
+     … +69 lines (ctrl+o to expand)
+
+⏺ Write(mods-to-create/reshade/CoX_CleanHD.ini)
+  ⎿  Wrote 57 lines to mods-to-create/reshade/CoX_CleanHD.ini
+       2 # Subtle sharpening, neutral color, strong anti-aliasing — makes
+          CoH look modern on high-res displays.
+       3 # Designed for 1440p and 4K where the original engine output loo
+         ks soft. Minimal visual alteration.
+       4 
+       6 PresetFiles=.\reshade-presets\CoX_CleanHD.ini
+       7 [SMAA.fx]
+       8 EdgeDetectionType=1
+       9 EdgeDetectionThreshold=0.06
+      10 MaxSearchSteps=98
+     … +50 lines (ctrl+o to expand)
+  ⎿  Interrupted · What should Claude do instead?
+
+❯ skip the compact and continue                                                 
+  ⎿  Interrupted · What should Claude do instead?
+
+❯ /config 
+  ⎿  Config dialog dismissed
+
+❯ /config                                                                       
+  ⎿  Disabled auto-compact
+
+❯ /compact                                                                      
+  ⎿  Compacted 
+  ⎿  Read mods-to-create/reshade/CoX_CleanHD.ini (58 lines)
+  ⎿  Read mods-to-create/reshade/CoX_DarkGritty.ini (76 lines)
+  ⎿  Read mods-to-create/reshade/CoX_ComicVivid.ini (72 lines)
+  ⎿  Read data/community-research.md (133 lines)
+  ⎿  Referenced file pages/mod-browser-v3.html
+  ⎿  Skills restored (verification-before-completion, using-superpowers, frontend-design, executing-plans, brainstorming)
+
+⏺ Agent "Continue CoH research - deeper pass on Reddit, Discord, GitHub, texture
+pipeline" came to rest · 5m 24s
+
+⏺ The deep research report just landed. Let me save it and finish the ReShade
+  pack with an install guide.
+
+⏺ Write(data/community-research-deep.md)
+  ⎿  Wrote 150 lines to data/community-research-deep.md
+       2 > Generated 2026-07-14 by second-pass trend-researcher agent (5 
+         angles)
+       3 
+       5 ---
+       6 ## Angle 1 — Reddit r/Cityofheroes: What's Actually Trending
+       7 
+       9 **Confirmed viral/high-engagement signals:**
+      10 - Massively OP "How to mod CoH Homecoming" (January 25, 2024) is
+          the #1 new-modder discovery article — still the most-shared mod
+         ding primer, widely cross-posted to r/Cityofheroes.
+     … +234 lines (ctrl+o to expand)
+
+⏺ Write(mods-to-create/reshade/INSTALL.md)
+  ⎿  Wrote 105 lines to mods-to-create/reshade/INSTALL.md
+       2 # CoX ReShade Preset Pack — Install Guide
+       3 Three post-processing presets for City of Heroes. First ReShade 
+         presets made specifically for CoH.
+       4 CoH runs DirectX 9 — ReShade supports it fully.
+       5 
+       6 ---
+       7 
+       8 ## What's Included
+       9 
+      10 | File | Look | Best For |
+     … +116 lines (ctrl+o to expand)
+
+❯ for the reshacde stuff.. remember we're playing a comicbook game, so think black lines, abd ogther other themewas 
+
+⏺ Right — this is a superhero comic book game. Let me rebuild the Comic preset
+  with actual ink-line effects and add two more thematic presets.
+
+  ★ Insight ─────────────────────────────────────
+  ReShade's Cartoon.fx does Sobel edge-detection on the rendered frame and
+  darkens edges to simulate ink outlines — it runs after geometry is rasterized
+  so it works on any DX9 game without access to the 3D mesh. Comic.fx adds
+  halftone dot patterns (Ben-Day dots) on top of that for a genuine print
+  aesthetic.
+  ─────────────────────────────────────────────────
+
+⏺ Write(mods-to-create/reshade/CoX_ComicVivid.ini)
+  ⎿  Added 31 lines, removed 33 lines
+      1  # CoX ReShade Preset — Comic Vivid
+      2 -# High saturation, punchy contrast, subtle bloom — makes CoH loo
+        -k like a living comic book.                                     
+      3 -# Install: drop into your CoH game directory alongside ReShade.i
+        -ni, select in-game with Home key.                               
+      2 +# Ink outlines, punchy primary colors, bloom on powers — makes C
+        +oH look like a living Marvel/DC page.                           
+      3 +# Core effect: Cartoon.fx draws black ink edges via Sobel detect
+        +ion; Vibrance + Posterize flatten colors.                       
+      4  
+      5  PresetFiles=.\reshade-presets\CoX_ComicVivid.ini
+      6  
+     ...
+      12  CornerRounding=25
+      13  DebugOutput=0
+      14  
+      15 +[Cartoon.fx]                                                   
+      16 +Power=1.80                                                     
+      17 +EdgeSlope=1.50                                                 
+      18 +                                                               
+      19  [Vibrance.fx]
+      16 -Vibrance=0.35                                                  
+      17 -VibranceRGBBalance=1.10,1.00,0.95                              
+      20 +Vibrance=0.45                                                  
+      21 +VibranceRGBBalance=1.15,1.00,0.90                              
+      22  
+      23  [Levels.fx]
+      20 -BlackPoint=8                                                   
+      21 -WhitePoint=245                                                 
+      24 +BlackPoint=10                                                  
+      25 +WhitePoint=242                                                 
+      26  HighlightClipping=0
+      27  
+      28  [Curves.fx]
+      29  Mode=0
+      30  Formula=0
+      27 -Contrast=0.22                                                  
+      31 +Contrast=0.38                                                  
+      32  
+      33  [Bloom.fx]
+      30 -BloomThreshold=0.80                                            
+      31 -BloomAmount=0.18                                               
+      32 -BloomSaturation=1.20                                           
+      33 -BloomColor=1.00,0.96,0.88                                      
+      34 +BloomThreshold=0.78                                            
+      35 +BloomAmount=0.22                                               
+      36 +BloomSaturation=1.40                                           
+      37 +BloomColor=1.00,0.95,0.80                                      
+      38  
+      39 +[Tonemap.fx]                                                   
+      40 +Defog=0.00                                                     
+      41 +Bleach=0.00                                                    
+      42 +Gamma=1.04                                                     
+      43 +Exposure=0.06                                                  
+      44 +Saturation=0.18                                                
+      45 +                                                               
+      46  [Clarity.fx]
+      47  ClarityRadius=3
+      48  ClarityBlendMode=0
+      49  ClarityOffset=2.0
+      39 -ClarityDarkIntensity=0.36                                      
+      40 -ClarityBlendIfDark=50                                          
+      50 +ClarityDarkIntensity=0.40                                      
+      51 +ClarityBlendIfDark=45                                          
+      52  ClarityBlendIfLight=205
+      42 -ClarityStrength=0.28                                           
+      53 +ClarityStrength=0.30                                           
+      54  ClarityLumaMap=0.85
+      44 -ClarityBrightIntensity=0.14                                    
+      55 +ClarityBrightIntensity=0.12                                    
+      56  ClarityViewBlendIfMask=0
+      57  ClarityViewMask=0
+      58  
+     ...
+      60  Type=0
+      61  Center=0.50,0.50
+      62  Ratio=1.00
+      52 -Radius=2.00                                                    
+      53 -Amount=-0.28                                                   
+      63 +Radius=2.10                                                    
+      64 +Amount=-0.24                                                   
+      65  Slope=2
+      66  
+      56 -[Tonemap.fx]                                                   
+      57 -Defog=0.00                                                     
+      58 -Bleach=0.04                                                    
+      59 -Gamma=1.02                                                     
+      60 -Exposure=0.05                                                  
+      61 -Saturation=0.10                                                
+      62 -Bleach=0.00                                                    
+      63 -                                                               
+      64 -[FXAA.fx]                                                      
+      65 -Subpixel=0.75                                                  
+      66 -EdgeThreshold=0.125                                            
+      67 -EdgeThresholdMin=0.0625                                        
+      68 -                                                               
+      69 -# Effects load order                                           
+      70 -Techniques=SMAA,Levels,Curves,Vibrance,Tonemap,Clarity,Bloom,Vi
+         -gnette                                                         
+      71 -TechniqueSorting=SMAA,Levels,Curves,Vibrance,Tonemap,Clarity,Bl
+         -oom,Vignette                                                   
+      67 +# Cartoon runs early so ink lines are baked before color gradin
+         +g                                                              
+      68 +Techniques=SMAA,Cartoon,Levels,Curves,Vibrance,Tonemap,Clarity,
+         +Bloom,Vignette                                                 
+      69 +TechniqueSorting=SMAA,Cartoon,Levels,Curves,Vibrance,Tonemap,Cl
+         +arity,Bloom,Vignette                                           
+
+⏺ Write(mods-to-create/reshade/CoX_InkLines.ini)
+  ⎿  Wrote 81 lines to mods-to-create/reshade/CoX_InkLines.ini
+       2 # Heavy black outlines, high contrast, desaturated base with viv
+         id power colors punching through.
+       3 # Think Frank Miller + Jack Kirby: hard blacks, blown highlights
+         , spot color on abilities.
+       4 
+       6 PresetFiles=.\reshade-presets\CoX_InkLines.ini
+       7 [SMAA.fx]
+       8 EdgeDetectionType=1
+       9 EdgeDetectionThreshold=0.06
+      10 MaxSearchSteps=64
+     … +76 lines (ctrl+o to expand)
+
+⏺ Write(mods-to-create/reshade/CoX_SilverAge.ini)
+  ⎿  Wrote 75 lines to mods-to-create/reshade/CoX_SilverAge.ini
+       2 # Warm golden-amber tones, flat poster colors, soft ink lines — 
+         1960s Marvel/DC print aesthetic.
+       3 # Think Kirby-era Fantastic Four: warm paper tones, flat primari
+         es, slightly faded highlights.
+       4 
+       6 PresetFiles=.\reshade-presets\CoX_SilverAge.ini
+       7 [SMAA.fx]
+       8 EdgeDetectionType=1
+       9 EdgeDetectionThreshold=0.09
+      10 MaxSearchSteps=32
+     … +70 lines (ctrl+o to expand)
+
+⏺ Now updating the install guide to cover the new presets and the additional
+  shaders needed:
+⏺ Write(mods-to-create/reshade/INSTALL.md)
+  ⎿  Added 62 lines, removed 50 lines
+       1  # CoX ReShade Preset Pack — Install Guide
+       2  
+       3 -Three post-processing presets for City of Heroes. First ReShade
+         - presets made specifically for CoH.                            
+       4 -CoH runs DirectX 9 — ReShade supports it fully.                
+       3 +Five post-processing presets for City of Heroes — the first ReS
+         +hade pack ever made for CoH.                                   
+       4 +CoH runs DirectX 9; ReShade supports it fully.                 
+       5  
+       6  ---
+       7  
+       8  ## What's Included
+       9  
+      10 -| File | Look | Best For |                                     
+      10 +| File | Look | Vibe |                                         
+      11  |---|---|---|
+      12 -| `CoX_ComicVivid.ini` | High saturation, punchy contrast, subt
+         -le bloom | Screenshots, streaming, making powers pop |         
+      13 -| `CoX_DarkGritty.ini` | Desaturated, crushed blacks, film grai
+         -n, vignette | Villain content, dark zones, cinematic feel |    
+      14 -| `CoX_CleanHD.ini` | Sharp AA, neutral color, subtle clarity |
+         - 1440p/4K play, "modern engine" look |                         
+      12 +| `CoX_ComicVivid.ini` | Ink outlines + punchy primary colors +
+         + power bloom | Living Marvel/DC page |                         
+      13 +| `CoX_InkLines.ini` | Heavy outlines, desaturated, glowing spo
+         +t-color on powers | Frank Miller meets Kirby |                 
+      14 +| `CoX_SilverAge.ini` | Warm amber tones, soft outlines, flat p
+         +oster colors | 1960s Fantastic Four print |                    
+      15 +| `CoX_DarkGritty.ini` | Desaturated, crushed blacks, film grai
+         +n, vignette | Villain content / cinematic |                    
+      16 +| `CoX_CleanHD.ini` | Sharp AA, neutral color, subtle clarity |
+         + 1440p/4K "modern engine" look |                               
+      17  
+      18  ---
+      19  
+     ...
+       23  Go to **reshade.me** and download the latest ReShade installer
+           .
+       24  
+       25  ### 2. Run the Installer
+       24 -- Launch the ReShade installer executable                     
+       25 -- Click **Browse** and navigate to your CoH install directory 
+       26 -  - Homecoming default: `C:\Games\Homecoming\` or wherever you
+          - installed it                                                 
+       27 -  - Find `cityofheroes.exe` (or `cityofheroes64.exe`)         
+       28 -- When asked for rendering API: select **DirectX 9**          
+       29 -- When asked which shaders to install, select at minimum:     
+       30 -  - `SMAA.fx` — anti-aliasing                                 
+       31 -  - `FXAA.fx` — additional AA                                 
+       32 -  - `Bloom.fx` — bloom (for Comic preset)                     
+       26 +- Click **Browse** → navigate to your CoH install directory   
+       27 +  - Homecoming default: `C:\Games\Homecoming\` (wherever you i
+          +nstalled it)                                                  
+       28 +  - Select `cityofheroes.exe`                                 
+       29 +- Rendering API: select **DirectX 9**                         
+       30 +- When prompted for shaders, install **at minimum** these (sel
+          +ect Full if unsure):                                          
+       31 +  - `Cartoon.fx` — ink edge detection (the core comic book eff
+          +ect)                                                          
+       32 +  - `SMAA.fx`, `FXAA.fx` — anti-aliasing                      
+       33 +  - `Bloom.fx` — glow on power effects                        
+       34    - `Clarity.fx` — mid-tone sharpening
+       34 -  - `ColorMatrix.fx` — color grading (for Gritty preset)      
+       35 +  - `ColorMatrix.fx` — color grading                          
+       36    - `Curves.fx` — contrast
+       36 -  - `FilmGrain.fx` — grain effect (for Gritty preset)         
+       37 +  - `FilmGrain.fx` — grain (Gritty/InkLines presets)          
+       38    - `Levels.fx` — black/white point
+       38 -  - `LumaSharpen.fx` — sharpening (for Clean preset)          
+       39 +  - `LumaSharpen.fx` — sharpening (Clean preset)              
+       40 +  - `SplitToning.fx` — dual-tone color wash (Silver Age preset
+          +)                                                             
+       41    - `Tonemap.fx` — tone mapping
+       42    - `Vibrance.fx` — saturation
+       41 -  - `Vignette.fx` — vignette (for Comic and Gritty presets)   
+       42 -- Complete the installation                                   
+       43 +  - `Vignette.fx` — edge darkening                            
+       44  
+       45  ### 3. Copy the Preset Files
+       45 -Copy all three `.ini` files from this folder into your **CoH g
+          -ame directory** (same folder as `cityofheroes.exe`).          
+       46 +Drop all five `.ini` files into your **CoH game directory** (s
+          +ame folder as `cityofheroes.exe`):                            
+       47  
+       48  ```
+       49  C:\Games\Homecoming\CoX_ComicVivid.ini
+       50 +C:\Games\Homecoming\CoX_InkLines.ini                          
+       51 +C:\Games\Homecoming\CoX_SilverAge.ini                         
+       52  C:\Games\Homecoming\CoX_DarkGritty.ini
+       53  C:\Games\Homecoming\CoX_CleanHD.ini
+       54  ```
+       55  
+       53 -### 4. Launch the Game                                        
+       54 -Start CoH normally. ReShade will inject automatically.        
+       56 +### 4. Launch and Select                                      
+       57 +- Start CoH normally                                          
+       58 +- Press **Home** to open the ReShade overlay                  
+       59 +- Use the preset dropdown at the top to select any preset — sw
+          +itches instantly                                              
+       60 +- Press **Insert** to toggle all effects on/off without leavin
+          +g the game                                                    
+       61  
+       56 -### 5. Open the ReShade Overlay                               
+       57 -Press **Home** (the key above the arrow cluster) to open the R
+          -eShade UI overlay.                                            
+       62 +---                                                           
+       63  
+       59 -### 6. Select a Preset                                        
+       60 -- At the top of the ReShade overlay, click the preset dropdown
+       61 -- Your presets will appear as `CoX_ComicVivid.ini`, `CoX_DarkG
+          -ritty.ini`, `CoX_CleanHD.ini`                                 
+       62 -- Click one to activate it immediately                        
+       64 +## How the Comic Effects Work                                 
+       65  
+       64 -### 7. Toggle On/Off                                          
+       65 -Press **Insert** to toggle the entire ReShade effect stack on/
+          -off without closing the game.                                 
+       66 +**`Cartoon.fx`** runs Sobel edge detection on the rendered fra
+          +me — it finds contrast boundaries between geometry, costumes, 
+          +and environment, then darkens them. The result simulates ink o
+          +utlines without touching the 3D mesh. Higher `Power` = heavier
+          + lines.                                                       
+       67  
+       68 +**`CoX_ComicVivid`** uses moderate outlines (Power 1.8) + high
+          + vibrance for a bright superhero-book look. Bloom on top makes
+          + energy powers and beams glow like they're printed with metall
+          +ic ink.                                                       
+       69 +                                                              
+       70 +**`CoX_InkLines`** cranks outlines to Power 3.2 and desaturate
+          +s the base image, then lets `Bloom` re-saturate only the brigh
+          +test regions — your fire powers stay vivid while the world goe
+          +s near-monochrome, like spot color on a noir comic page.      
+       71 +                                                              
+       72 +**`CoX_SilverAge`** uses soft outlines (Power 1.2) with `Split
+          +Toning` to push shadows toward amber and highlights toward war
+          +m cream — the exact paper-and-ink color cast of 1960s offset p
+          +rinting.                                                      
+       73 +                                                              
+       74  ---
+       75  
+       69 -## Adjusting Values                                           
+       76 +## Tuning Tips                                                
+       77  
+       71 -Once a preset is loaded, all shader parameters appear in the R
+          -eShade overlay as sliders.                                    
+       72 -Tweak anything — changes save automatically to the `.ini` file
+          -.                                                             
+       78 +All parameters are live sliders in the ReShade overlay. Change
+          +s auto-save to the `.ini`.                                    
+       79  
+       74 -Good starting tweaks:                                         
+       75 -- **Comic Vivid**: reduce `Vibrance` if colors look oversatura
+          -ted on your monitor                                           
+       76 -- **Dark Gritty**: reduce `Vignette Amount` if the edges are t
+          -oo dark                                                       
+       77 -- **Clean HD**: increase `sharp_strength` in LumaSharpen for m
+          -ore sharpening at 4K                                          
+       80 +| Preset | Common Tweak |                                     
+       81 +|---|---|                                                     
+       82 +| Comic Vivid | Lower `Vibrance` if monitor looks oversaturate
+          +d |                                                           
+       83 +| Ink Lines | Lower `Cartoon Power` from 3.2 if outlines are t
+          +oo heavy |                                                    
+       84 +| Silver Age | Reduce `SplitToning HighlightBalance` if highli
+          +ghts look too yellow |                                        
+       85 +| Dark Gritty | Reduce `Vignette Amount` if screen edges are t
+          +oo dark |                                                     
+       86 +| Clean HD | Increase `LumaSharpen sharp_strength` for more ed
+          +ge clarity at 4K |                                            
+       87  
+       88  ---
+       89  
+       81 -## Performance Impact                                         
+       90 +## Performance                                                
+       91  
+       83 -ReShade adds a small GPU overhead. On modern hardware the impa
+          -ct is minimal:                                                
+       84 -- Comic Vivid: ~0.5–1ms additional frame time (bloom is the he
+          -aviest effect)                                                
+       85 -- Dark Gritty: ~0.3–0.8ms (film grain is lightweight)         
+       86 -- Clean HD: ~0.2–0.5ms (primarily AA passes)                  
+       92 +ReShade adds GPU overhead (CPU-bound game — GPU headroom is us
+          +ually available):                                             
+       93  
+       88 -CoH's engine is CPU-bound on most modern systems, so GPU headr
+          -oom is usually available.                                     
+       94 +| Preset | Estimated overhead |                               
+       95 +|---|---|                                                     
+       96 +| Ink Lines | ~1.0–1.5ms (heavy Cartoon pass) |               
+       97 +| Comic Vivid | ~0.8–1.2ms |                                  
+       98 +| Silver Age | ~0.6–1.0ms |                                   
+       99 +| Dark Gritty | ~0.5–0.9ms |                                  
+      100 +| Clean HD | ~0.2–0.5ms |                                     
+      101  
+      102  ---
+      103  
+      104  ## Uninstall
+      105  
+       94 -Run the ReShade installer again, point it to your CoH director
+          -y, and select **Uninstall**.                                  
+       95 -Delete the three `.ini` files from your CoH directory.        
+      106 +Run the ReShade installer again → point to CoH directory → sel
+          +ect **Uninstall**.                                            
+      107 +Delete the `.ini` files from your CoH directory.              
+      108  
+      109  ---
+      110  
+      111  ## Compatibility
+      112  
+      101 -Tested concept: City of Heroes i27+ (Homecoming, Rebirth, Thun
+          -derspy, Reunion).                                             
+      102 -All rogue servers run the same client binary — these presets a
+          -re server-agnostic.                                           
+      113 +Works on all i27+ based rogue servers: Homecoming, Rebirth, Th
+          +underspy, Reunion.                                            
+      114 +These presets are server-agnostic — the game client binary is 
+          +the same everywhere.                                          
+      115  
+      104 -CoH must be run in **windowed** or **borderless windowed** mod
+          -e for ReShade to function on some systems.                    
+      105 -If ReShade doesn't inject, check that your antivirus isn't blo
+          -cking `dxgi.dll` or `d3d9.dll` in the game directory.         
+      116 +If ReShade doesn't inject: check that antivirus isn't blocking
+          + `d3d9.dll` in the game directory,                            
+      117 +and ensure CoH is in **windowed** or **borderless windowed** m
+          +ode.                                                          
+
+⏺ ★ Insight ─────────────────────────────────────
+  Cartoon.fx uses a Sobel kernel — a 3×3 convolution that computes the gradient
+  magnitude at each pixel. Where adjacent pixels have high contrast (costume
+  edges, power effects hitting environment geometry), the output darkens toward
+  black. It's post-process inking without touching art assets — the same
+  principle behind the "toon shader" look in games like Borderlands, but applied
+  as a screen-space fullscreen pass after the frame is done rendering.
+  ─────────────────────────────────────────────────
+
+  The pack is done. Here's what's in mods-to-create/reshade/:
+
+  ┌────────────────────┬─────────────────────────────────────────────────────┐
+  │        File        │                       Purpose                       │
+  ├────────────────────┼─────────────────────────────────────────────────────┤
+  │ CoX_ComicVivid.ini │ Ink outlines + vivid primary colors + power bloom   │
+  ├────────────────────┼─────────────────────────────────────────────────────┤
+  │ CoX_InkLines.ini   │ Heavy outlines + desaturated world + spot-color     │
+  │                    │ powers                                              │
+  ├────────────────────┼─────────────────────────────────────────────────────┤
+  │ CoX_SilverAge.ini  │ Soft outlines + warm amber paper tones (1960s       │
+  │                    │ print)                                              │
+  ├────────────────────┼─────────────────────────────────────────────────────┤
+  │ CoX_DarkGritty.ini │ Noir/villain aesthetic — desaturated + grain +      │
+  │                    │ vignette                                            │
+  ├────────────────────┼─────────────────────────────────────────────────────┤
+  │ CoX_CleanHD.ini    │ Neutral sharpening — modern engine look at 1440p/4K │
+  ├────────────────────┼─────────────────────────────────────────────────────┤
+  │ INSTALL.md         │ Full install walkthrough + tuning guide per preset  │
+  └────────────────────┴─────────────────────────────────────────────────────┘
+
+  The second research report is saved at data/community-research-deep.md — 5
+  angles, solid sourcing. The biggest new finding: Cartoon.fx is already the 
+  right call because no CoH-specific preset pack exists anywhere and GShade
+  already lists CoH as a supported game, meaning some players are already
+  running it unguided.
+
+✻ Cooked for 3m 14s
+
+❯ instead of having done this remove 'CoH must be run in **windowed** or        
+  **borderless windowed**                                                       
+            -mode for ReShade to function on some systems.                      
+        105 -If ReShade doesn't inject, check that your antivirus isn't         
+            -blocking `dxgi.dll` or `d3d9.dll` in the game directory. ' keep it 
+  there as another option                                                       
+
+⏺ Update(mods-to-create/reshade/INSTALL.md)
+  ⎿  Added 2 lines, removed 2 lines
+      113  Works on all i27+ based rogue servers: Homecoming, Rebirth, Th
+           underspy, Reunion.
+      114  These presets are server-agnostic — the game client binary is 
+           the same everywhere.
+      115  
+      116 -If ReShade doesn't inject: check that antivirus isn't blocking
+          - `d3d9.dll` in the game directory,                            
+      117 -and ensure CoH is in **windowed** or **borderless windowed** m
+          -ode.                                                          
+      116 +If ReShade doesn't inject, check that your antivirus isn't blo
+          +cking `dxgi.dll` or `d3d9.dll` in the game directory.         
+      117 +CoH must be run in **windowed** or **borderless windowed** mod
+          +e for ReShade to function on some systems.                    
+
+⏺ Both lines restored — antivirus DLL check (dxgi.dll and d3d9.dll) plus the
+  windowed mode note, each as its own troubleshooting option.
+
+✻ Brewed for 20s
+
+❯ not just that i meant the others as well                                      
+
+  Read 1 file (ctrl+o to expand)
+
+❯ like this | `CoX_ComicVivid.ini` | High saturation, punchy contrast, s                                     
+           -ubtle bloom | Screenshots, streaming, making powers pop |                                        
+        13 -| `CoX_DarkGritty.ini` | Desaturated, crushed blacks, film g                                     
+           -rain, vignette | Villain content, dark zones, cinematic feel                                     
+           - |                                                                                               
+        14 -| `CoX_CleanHD.ini` | Sharp AA, neutral color, subtle clarit                                     
+           -y | 1440p/4K play, "modern engine" look |            that is 100% ok the more themes the bettger 
+
+⏺ Got it — restore the original descriptions for the first 3 presets and keep
+  all 5. The original wording was fine, more is better.
+
+⏺ Update(mods-to-create/reshade/INSTALL.md)
+  ⎿  User rejected update to mods-to-create/reshade/INSTALL.md
+
+❯ /using-superpowers                                                            
+  ⎿  Interrupted · What should Claude do instead?
+
+❯ see how half have been removed then replaces then he replaced removed.. -|    
+  File | Look | Best For |                                                      
+        10 +| File | Look | Vibe |                                              
+        11  |---|---|---|                                                       
+        12 -| `CoX_ComicVivid.ini` | High saturation, punchy contrast, s        
+           -ubtle bloom | Screenshots, streaming, making powers pop |           
+        13 -| `CoX_DarkGritty.ini` | Desaturated, crushed blacks, film g        
+           -rain, vignette | Villain content, dark zones, cinematic feel        
+           - |                                                                  
+        14 -| `CoX_CleanHD.ini` | Sharp AA, neutral color, subtle clarit        
+           -y | 1440p/4K play, "modern engine" look |                           
+        12 +| `CoX_ComicVivid.ini` | Ink outlines + punchy primary color        
+           +s + power bloom | Living Marvel/DC page |                           
+        13 +| `CoX_InkLines.ini` | Heavy outlines, desaturated, glowing         
+           +spot-color on powers | Frank Miller meets Kirby |                   
+        14 +| `CoX_SilverAge.ini` | Warm amber tones, soft outlines, fla        
+           +t poster colors | 1960s Fantastic Four print |                      
+        15 +| `CoX_DarkGritty.ini` | Desaturated, crushed blacks, film g        
+           +rain, vignette | Villain content / cinematic |                      
+        16 +| `CoX_CleanHD.ini` | Sharp AA, neutral color, subtle clarit        
+           +y | 1440p/4K "modern engine" look |                                 
+        17                                                                      
+        18  ---                                                                 
+        19                                                                      
+       ...                                                                      
+         23  Go to **reshade.me** and download the latest ReShade instal        
+             ler.                                                               
+         24                                                                     
+         25  ### 2. Run the Installer                                           
+         24 -- Launch the ReShade installer executable                          
+         25 -- Click **Browse** and navigate to your CoH install directo        
+            -ry                                                                 
+         26 -  - Homecoming default: `C:\Games\Homecoming\` or wherever         
+            -you installed it                                                   
+         27 -  - Find `cityofheroes.exe` (or `cityofheroes64.exe`)              
+         28 -- When asked for rendering API: select **DirectX 9**               
+         29 -- When asked which shaders to install, select at minimum:          
+         30 -  - `SMAA.fx` — anti-aliasing                                      
+         31 -  - `FXAA.fx` — additional AA                                      
+         32 -  - `Bloom.fx` — bloom (for Comic preset)                          
+         26 +- Click **Browse** → navigate to your CoH install directory        
+         27 +  - Homecoming default: `C:\Games\Homecoming\` (wherever yo        
+            +u installed it)                                                    
+         28 +  - Select `cityofheroes.exe`                                      
+         29 +- Rendering API: select **DirectX 9**                              
+         30 +- When prompted for shaders, install **at minimum** these (        
+            +select Full if unsure):                                            
+         31 +  - `Cartoon.fx` — ink edge detection (the core comic book         
+            +effect)                                                            
+         32 +  - `SMAA.fx`, `FXAA.fx` — anti-aliasing                           
+         33 +  - `Bloom.fx` — glow on power effects                             
+         34    - `Clarity.fx` — mid-tone sharpening                             
+         34 -  - `ColorMatrix.fx` — color grading (for Gritty preset)           
+         35 +  - `ColorMatrix.fx` — color grading                               
+         36    - `Curves.fx` — contrast                                         
+         36 -  - `FilmGrain.fx` — grain effect (for Gritty preset)              
+         37 +  - `FilmGrain.fx` — grain (Gritty/InkLines presets)               
+         38    - `Levels.fx` — black/white point                                
+         38 -  - `LumaSharpen.fx` — sharpening (for Clean preset)               
+         39 +  - `LumaSharpen.fx` — sharpening (Clean preset)                   
+         40 +  - `SplitToning.fx` — dual-tone color wash (Silver Age pre        
+            +set)                                                               
+         41    - `Tonemap.fx` — tone mapping                                    
+         42    - `Vibrance.fx` — saturation                                     
+         41 -  - `Vignette.fx` — vignette (for Comic and Gritty presets)        
+         42 -- Complete the installation                                        
+         43 +  - `Vignette.fx` — edge darkening        | keep all of them, just 
+  as their own options.. so theres 3 variations of vinette -- awesome make 6    
+  more                                                                          
+
+⏺ Got it — keep every original line as-is, add new ones alongside, and make 6
+  more presets. Writing all at once.
+
+⏺ Write(mods-to-create/reshade/CoX_GoldenAge.ini)
+  ⎿  Wrote 74 lines to mods-to-create/reshade/CoX_GoldenAge.ini
+       2 # 1940s golden age comics: warm newsprint amber, heavy ink lines
+         , yellowed highlights.
+       3 # Think wartime Captain America / early Batman — aged paper, fla
+         t ink, dramatic shadows.
+       4 
+       6 PresetFiles=.\reshade-presets\CoX_GoldenAge.ini
+       7 [SMAA.fx]
+       8 EdgeDetectionType=1
+       9 EdgeDetectionThreshold=0.09
+      10 MaxSearchSteps=32
+     … +68 lines (ctrl+o to expand)
+
+⏺ Write(mods-to-create/reshade/CoX_NeonCity.ini)
+  ⎿  Wrote 71 lines to mods-to-create/reshade/CoX_NeonCity.ini
+       2 # Electric night Paragon City: dark base, power effects burn neo
+         n bright, deep blue/purple shadows.
+       3 # Think Paragon City at 2am — the city is dark, your powers are 
+         the only light source.
+       4 
+       6 PresetFiles=.\reshade-presets\CoX_NeonCity.ini
+       7 [SMAA.fx]
+       8 EdgeDetectionType=1
+       9 EdgeDetectionThreshold=0.08
+      10 MaxSearchSteps=32
+     … +66 lines (ctrl+o to expand)
+
+⏺ Write(mods-to-create/reshade/CoX_Halftone.ini)
+  ⎿  Wrote 63 lines to mods-to-create/reshade/CoX_Halftone.ini
+       2 # Hard Ben-Day dot simulation: posterized flat colors, heavy ink
+          outlines, pure primary palette.
+       3 # Think Lichtenstein or early Roy Thomas comics — no gradients, 
+         everything is flat blocked color.
+       4 
+       6 PresetFiles=.\reshade-presets\CoX_Halftone.ini
+       7 [SMAA.fx]
+       8 EdgeDetectionType=1
+       9 EdgeDetectionThreshold=0.07
+      10 MaxSearchSteps=32
+     … +58 lines (ctrl+o to expand)
+
+⏺ Write(mods-to-create/reshade/CoX_RetroTV.ini)
+  ⎿  Wrote 81 lines to mods-to-create/reshade/CoX_RetroTV.ini
+       2 # Old CRT superhero cartoon broadcast: warm phosphor glow, soft 
+         edges, slightly faded colors.
+       3 # Think Saturday morning Super Friends / old Spider-Man cartoon 
+         on a 1970s television set.
+       4 
+       6 PresetFiles=.\reshade-presets\CoX_RetroTV.ini
+       7 [SMAA.fx]
+       8 EdgeDetectionType=1
+       9 EdgeDetectionThreshold=0.12
+      10 MaxSearchSteps=16
+     … +76 lines (ctrl+o to expand)
+
+⏺ Write(mods-to-create/reshade/CoX_CinematicHero.ini)
+  ⎿  Wrote 78 lines to mods-to-create/reshade/CoX_CinematicHero.ini
+       2 # Hollywood blockbuster color grade: teal shadows, orange highli
+         ghts, sharp and dramatic.
+       3 # Think MCU theatrical grade — the look of an actual superhero m
+         ovie, not a comic.
+       4 
+       6 PresetFiles=.\reshade-presets\CoX_CinematicHero.ini
+       7 [SMAA.fx]
+       8 EdgeDetectionType=1
+       9 EdgeDetectionThreshold=0.06
+      10 MaxSearchSteps=64
+     … +73 lines (ctrl+o to expand)
+
+⏺ Write(mods-to-create/reshade/CoX_SplashPage.ini)
+  ⎿  Wrote 75 lines to mods-to-create/reshade/CoX_SplashPage.ini
+       2 # Near black-and-white world with vivid spot color on power effe
+         cts — like a comic splash panel.
+       3 # The city desaturates to monochrome ink; your abilities burn th
+         rough in full color.
+       4 
+       6 PresetFiles=.\reshade-presets\CoX_SplashPage.ini
+       7 [SMAA.fx]
+       8 EdgeDetectionType=1
+       9 EdgeDetectionThreshold=0.07
+      10 MaxSearchSteps=64
+     … +70 lines (ctrl+o to expand)
+
+⏺ Now fix the INSTALL.md — restore every original line, add all 11 presets, keep
+  both shader descriptions as separate bullets:
+
+⏺ Write(mods-to-create/reshade/INSTALL.md)
+  ⎿  Added 87 lines, removed 38 lines
+       1  # CoX ReShade Preset Pack — Install Guide
+       2  
+       3 -Five post-processing presets for City of Heroes — the first ReS
+         -hade pack ever made for CoH.                                   
+       3 +Eleven post-processing presets for City of Heroes — the first R
+         +eShade pack ever made for CoH.                                 
+       4  CoH runs DirectX 9; ReShade supports it fully.
+       5  
+       6  ---
+       7  
+       8  ## What's Included
+       9  
+      10 -| File | Look | Vibe |                                         
+      10 +| File | Look | Best For |                                     
+      11  |---|---|---|
+      12 -| `CoX_ComicVivid.ini` | Ink outlines + punchy primary colors +
+         - power bloom | Living Marvel/DC page |                         
+      13 -| `CoX_InkLines.ini` | Heavy outlines, desaturated, glowing spo
+         -t-color on powers | Frank Miller meets Kirby |                 
+      14 -| `CoX_SilverAge.ini` | Warm amber tones, soft outlines, flat p
+         -oster colors | 1960s Fantastic Four print |                    
+      15 -| `CoX_DarkGritty.ini` | Desaturated, crushed blacks, film grai
+         -n, vignette | Villain content / cinematic |                    
+      16 -| `CoX_CleanHD.ini` | Sharp AA, neutral color, subtle clarity |
+         - 1440p/4K "modern engine" look |                               
+      12 +| `CoX_ComicVivid.ini` | High saturation, punchy contrast, subt
+         +le bloom | Screenshots, streaming, making powers pop |         
+      13 +| `CoX_InkLines.ini` | Heavy ink outlines, desaturated world, g
+         +lowing spot-color on powers | Frank Miller meets Kirby — noir s
+         +uperhero |                                                     
+      14 +| `CoX_SilverAge.ini` | Warm amber tones, soft outlines, flat p
+         +oster colors | 1960s Fantastic Four / Kirby print aesthetic |  
+      15 +| `CoX_GoldenAge.ini` | Warm newsprint amber, heavy outlines, y
+         +ellowed highlights | 1940s wartime comics — Captain America era
+         + |                                                             
+      16 +| `CoX_Halftone.ini` | Hard posterized flat color, heavy outlin
+         +es, pure primary palette | Lichtenstein / Roy Thomas Ben-Day do
+         +t print |                                                      
+      17 +| `CoX_SplashPage.ini` | Near black-and-white world, vivid spot
+         + color on powers | Noir splash panel — your abilities are the o
+         +nly color |                                                    
+      18 +| `CoX_NeonCity.ini` | Dark base, power effects burn electric, 
+         +deep blue-purple shadows | Paragon City at 2am — powers as neon
+         + signs |                                                       
+      19 +| `CoX_RetroTV.ini` | Warm phosphor glow, soft edges, slightly 
+         +faded cartoon colors | Saturday morning Super Friends on a 1970
+         +s TV |                                                         
+      20 +| `CoX_CinematicHero.ini` | Teal shadows, orange highlights, sh
+         +arp and dramatic | MCU theatrical grade — actual superhero movi
+         +e look |                                                       
+      21 +| `CoX_DarkGritty.ini` | Desaturated, crushed blacks, film grai
+         +n, vignette | Villain content, dark zones, cinematic feel |    
+      22 +| `CoX_CleanHD.ini` | Sharp AA, neutral color, subtle clarity |
+         + 1440p/4K play, "modern engine" look |                         
+      23  
+      24  ---
+      25  
+     ...
+       29  Go to **reshade.me** and download the latest ReShade installer
+           .
+       30  
+       31  ### 2. Run the Installer
+       26 -- Click **Browse** → navigate to your CoH install directory   
+       27 -  - Homecoming default: `C:\Games\Homecoming\` (wherever you i
+          -nstalled it)                                                  
+       28 -  - Select `cityofheroes.exe`                                 
+       29 -- Rendering API: select **DirectX 9**                         
+       30 -- When prompted for shaders, install **at minimum** these (sel
+          -ect Full if unsure):                                          
+       32 +- Launch the ReShade installer executable                     
+       33 +- Click **Browse** and navigate to your CoH install directory 
+       34 +  - Homecoming default: `C:\Games\Homecoming\` or wherever you
+          + installed it                                                 
+       35 +  - Find `cityofheroes.exe` (or `cityofheroes64.exe`)         
+       36 +- When asked for rendering API: select **DirectX 9**          
+       37 +- When asked which shaders to install, select at minimum:     
+       38    - `Cartoon.fx` — ink edge detection (the core comic book eff
+           ect)
+       32 -  - `SMAA.fx`, `FXAA.fx` — anti-aliasing                      
+       33 -  - `Bloom.fx` — glow on power effects                        
+       39 +  - `SMAA.fx` — anti-aliasing                                 
+       40 +  - `FXAA.fx` — additional AA                                 
+       41 +  - `Bloom.fx` — bloom (for Comic, NeonCity, SplashPage, Retro
+          +TV presets)                                                   
+       42    - `Clarity.fx` — mid-tone sharpening
+       35 -  - `ColorMatrix.fx` — color grading                          
+       43 +  - `ColorMatrix.fx` — color grading (for Gritty, SplashPage p
+          +resets)                                                       
+       44    - `Curves.fx` — contrast
+       37 -  - `FilmGrain.fx` — grain (Gritty/InkLines presets)          
+       45 +  - `FilmGrain.fx` — grain effect (for Gritty, GoldenAge, Retr
+          +oTV presets)                                                  
+       46    - `Levels.fx` — black/white point
+       39 -  - `LumaSharpen.fx` — sharpening (Clean preset)              
+       40 -  - `SplitToning.fx` — dual-tone color wash (Silver Age preset
+          -)                                                             
+       47 +  - `LumaSharpen.fx` — sharpening (for Clean, CinematicHero pr
+          +esets)                                                        
+       48 +  - `SplitToning.fx` — dual-tone color wash (Silver Age, Golde
+          +n Age, NeonCity, RetroTV, CinematicHero presets)              
+       49    - `Tonemap.fx` — tone mapping
+       50    - `Vibrance.fx` — saturation
+       43 -  - `Vignette.fx` — edge darkening                            
+       51 +  - `Vignette.fx` — vignette (for Comic and Gritty presets)   
+       52 +  - `Vignette.fx` — edge darkening (for InkLines, SplashPage, 
+          +NeonCity presets)                                             
+       53 +- Complete the installation                                   
+       54  
+       55  ### 3. Copy the Preset Files
+       46 -Drop all five `.ini` files into your **CoH game directory** (s
+          -ame folder as `cityofheroes.exe`):                            
+       56 +Drop all eleven `.ini` files into your **CoH game directory** 
+          +(same folder as `cityofheroes.exe`):                          
+       57  
+       58  ```
+       59  C:\Games\Homecoming\CoX_ComicVivid.ini
+       60  C:\Games\Homecoming\CoX_InkLines.ini
+       61  C:\Games\Homecoming\CoX_SilverAge.ini
+       62 +C:\Games\Homecoming\CoX_GoldenAge.ini                         
+       63 +C:\Games\Homecoming\CoX_Halftone.ini                          
+       64 +C:\Games\Homecoming\CoX_SplashPage.ini                        
+       65 +C:\Games\Homecoming\CoX_NeonCity.ini                          
+       66 +C:\Games\Homecoming\CoX_RetroTV.ini                           
+       67 +C:\Games\Homecoming\CoX_CinematicHero.ini                     
+       68  C:\Games\Homecoming\CoX_DarkGritty.ini
+       69  C:\Games\Homecoming\CoX_CleanHD.ini
+       70  ```
+       71  
+       56 -### 4. Launch and Select                                      
+       57 -- Start CoH normally                                          
+       58 -- Press **Home** to open the ReShade overlay                  
+       59 -- Use the preset dropdown at the top to select any preset — sw
+          -itches instantly                                              
+       60 -- Press **Insert** to toggle all effects on/off without leavin
+          -g the game                                                    
+       72 +### 4. Launch the Game                                        
+       73 +Start CoH normally. ReShade will inject automatically.        
+       74  
+       75 +### 5. Open the ReShade Overlay                               
+       76 +Press **Home** (the key above the arrow cluster) to open the R
+          +eShade UI overlay.                                            
+       77 +                                                              
+       78 +### 6. Select a Preset                                        
+       79 +- At the top of the ReShade overlay, click the preset dropdown
+       80 +- Your presets will appear by filename                        
+       81 +- Click one to activate it immediately — switching is instant,
+          + no restart needed                                            
+       82 +                                                              
+       83 +### 7. Toggle On/Off                                          
+       84 +Press **Insert** to toggle the entire ReShade effect stack on/
+          +off without closing the game.                                 
+       85 +                                                              
+       86  ---
+       87  
+       88  ## How the Comic Effects Work
+       89  
+       90  **`Cartoon.fx`** runs Sobel edge detection on the rendered fra
+           me — it finds contrast boundaries between geometry, costumes, 
+           and environment, then darkens them. The result simulates ink o
+           utlines without touching the 3D mesh. Higher `Power` = heavier
+            lines.
+       91  
+       68 -**`CoX_ComicVivid`** uses moderate outlines (Power 1.8) + high
+          - vibrance for a bright superhero-book look. Bloom on top makes
+          - energy powers and beams glow like they're printed with metall
+          -ic ink.                                                       
+       92 +**`CoX_ComicVivid`** — moderate outlines (Power 1.8) + high vi
+          +brance for a bright superhero-book look. Bloom makes energy po
+          +wers glow like metallic ink.                                  
+       93  
+       70 -**`CoX_InkLines`** cranks outlines to Power 3.2 and desaturate
+          -s the base image, then lets `Bloom` re-saturate only the brigh
+          -test regions — your fire powers stay vivid while the world goe
+          -s near-monochrome, like spot color on a noir comic page.      
+       94 +**`CoX_InkLines`** — cranks outlines to Power 3.2 and desatura
+          +tes the base image, then lets `Bloom` re-saturate only the bri
+          +ghtest regions — fire powers stay vivid while the world goes n
+          +ear-monochrome. Spot color on noir.                           
+       95  
+       72 -**`CoX_SilverAge`** uses soft outlines (Power 1.2) with `Split
+          -Toning` to push shadows toward amber and highlights toward war
+          -m cream — the exact paper-and-ink color cast of 1960s offset p
+          -rinting.                                                      
+       96 +**`CoX_SilverAge`** — soft outlines (Power 1.2) with `SplitTon
+          +ing` pushing shadows to amber and highlights to warm cream — t
+          +he paper-and-ink color cast of 1960s offset printing.         
+       97  
+       98 +**`CoX_GoldenAge`** — warm newsprint amber via `SplitToning` +
+          + medium outlines + film grain. Like wartime comics on aged yel
+          +lowed paper.                                                  
+       99 +                                                              
+      100 +**`CoX_Halftone`** — extreme `Curves` contrast (Formula 4) pos
+          +terizes the color space into flat bands. Heavy outlines draw t
+          +he fill boundaries. Primary palette forced via high `Vibrance`
+          +.                                                             
+      101 +                                                              
+      102 +**`CoX_SplashPage`** — `ColorMatrix` + `Vibrance` desaturate t
+          +he world toward monochrome; extreme `Bloom` (Saturation 3.5) r
+          +e-saturates only the brightest pixels (your power effects). Ci
+          +ty is ink; powers are full color.                             
+      103 +                                                              
+      104 +**`CoX_NeonCity`** — `SplitToning` pushes shadows deep blue-pu
+          +rple; low `Exposure` darkens the world; oversaturated `Bloom` 
+          +makes any bright region (powers, streetlights) bleed electric 
+          +color.                                                        
+      105 +                                                              
+      106 +**`CoX_RetroTV`** — soft outlines (Power 0.8), warm phosphor `
+          +SplitToning`, gentle `Bloom` simulating CRT phosphor glow. Fil
+          +m grain adds analog texture.                                  
+      107 +                                                              
+      108 +**`CoX_CinematicHero`** — teal shadows / orange highlights via
+          + `SplitToning` (the Hollywood complementary grade). High `Luma
+          +Sharpen` for cinematic clarity.                               
+      109 +                                                              
+      110  ---
+      111  
+       76 -## Tuning Tips                                                
+      112 +## Adjusting Values                                           
+      113  
+       78 -All parameters are live sliders in the ReShade overlay. Change
+          -s auto-save to the `.ini`.                                    
+      114 +Once a preset is loaded, all shader parameters appear in the R
+          +eShade overlay as sliders.                                    
+      115 +Tweak anything — changes save automatically to the `.ini` file
+          +.                                                             
+      116  
+      117 +Good starting tweaks:                                         
+      118 +                                                              
+      119  | Preset | Common Tweak |
+      120  |---|---|
+       82 -| Comic Vivid | Lower `Vibrance` if monitor looks oversaturate
+          -d |                                                           
+      121 +| Comic Vivid | Reduce `Vibrance` if colors look oversaturated
+          + on your monitor |                                            
+      122  | Ink Lines | Lower `Cartoon Power` from 3.2 if outlines are t
+           oo heavy |
+      123  | Silver Age | Reduce `SplitToning HighlightBalance` if highli
+           ghts look too yellow |
+       85 -| Dark Gritty | Reduce `Vignette Amount` if screen edges are t
+          -oo dark |                                                     
+      124 +| Golden Age | Reduce `SplitToning ShadowBalance` if shadows a
+          +re too amber |                                                
+      125 +| Halftone | Lower `Curves Contrast` if the posterization is t
+          +oo harsh |                                                    
+      126 +| Splash Page | Lower `Bloom Amount` if power effects bleed to
+          +o much color |                                                
+      127 +| Neon City | Raise `Exposure` if the base scene is too dark |
+      128 +| Retro TV | Reduce `FilmGrain Intensity` if grain is too visi
+          +ble |                                                         
+      129 +| Cinematic Hero | Adjust `SplitToning ShadowBalance` for more
+          + or less teal |                                               
+      130 +| Dark Gritty | Reduce `Vignette Amount` if the screen edges a
+          +re too dark |                                                 
+      131  | Clean HD | Increase `LumaSharpen sharp_strength` for more ed
+           ge clarity at 4K |
+      132  
+      133  ---
+      134  
+      135  ## Performance
+      136  
+       92 -ReShade adds GPU overhead (CPU-bound game — GPU headroom is us
+          -ually available):                                             
+      137 +ReShade adds GPU overhead (CoH is CPU-bound — GPU headroom is 
+          +usually available):                                           
+      138  
+      139  | Preset | Estimated overhead |
+      140  |---|---|
+      141  | Ink Lines | ~1.0–1.5ms (heavy Cartoon pass) |
+      142 +| Halftone | ~1.0–1.4ms |                                     
+      143 +| Splash Page | ~0.9–1.3ms |                                  
+      144  | Comic Vivid | ~0.8–1.2ms |
+       98 -| Silver Age | ~0.6–1.0ms |                                   
+      145 +| Silver Age / Golden Age | ~0.7–1.1ms |                      
+      146 +| Neon City | ~0.7–1.1ms (heavy Bloom) |                      
+      147 +| Retro TV / CinematicHero | ~0.6–1.0ms |                     
+      148  | Dark Gritty | ~0.5–0.9ms |
+      149  | Clean HD | ~0.2–0.5ms |
+      150  
+     ...
+      152  
+      153  ## Uninstall
+      154  
+      106 -Run the ReShade installer again → point to CoH directory → sel
+          -ect **Uninstall**.                                            
+      107 -Delete the `.ini` files from your CoH directory.              
+      155 +Run the ReShade installer again, point it to your CoH director
+          +y, and select **Uninstall**.                                  
+      156 +Delete the eleven `.ini` files from your CoH directory.       
+      157  
+      158  ---
+      159  
+      160  ## Compatibility
+      161  
+      113 -Works on all i27+ based rogue servers: Homecoming, Rebirth, Th
+          -underspy, Reunion.                                            
+      114 -These presets are server-agnostic — the game client binary is 
+          -the same everywhere.                                          
+      162 +Tested concept: City of Heroes i27+ (Homecoming, Rebirth, Thun
+          +derspy, Reunion).                                             
+      163 +All rogue servers run the same client binary — these presets a
+          +re server-agnostic.                                           
+      164  
+      165  If ReShade doesn't inject, check that your antivirus isn't blo
+           cking `dxgi.dll` or `d3d9.dll` in the game directory.
+      166  CoH must be run in **windowed** or **borderless windowed** mod
+           e for ReShade to function on some systems.
+
+⏺ ★ Insight ─────────────────────────────────────
+  The SplashPage preset uses a technique borrowed from HDR tonemapping: push the
+  base signal below neutral (desaturate + dark exposure) so that even modest
+  bloom inputs appear to "pop" with extreme saturation. The Bloom shader clips
+  to a threshold then multiplies — by making everything dark and grey, only the
+  power-effect pixels (which emit their own light signal) cross that threshold
+  and get the 3.5× saturation multiplier. The world stays ink; powers become
+  neon.
+  ─────────────────────────────────────────────────
+
+  Pack is now 11 presets. Full list:
+
+  ┌───────────────┬───────────────────────────────┐
+  │    Preset     │             Theme             │
+  ├───────────────┼───────────────────────────────┤
+  │ ComicVivid    │ Classic Marvel/DC color       │
+  ├───────────────┼───────────────────────────────┤
+  │ InkLines      │ Frank Miller noir             │
+  ├───────────────┼───────────────────────────────┤
+  │ SilverAge     │ 1960s Kirby print             │
+  ├───────────────┼───────────────────────────────┤
+  │ GoldenAge     │ 1940s newsprint amber         │
+  ├───────────────┼───────────────────────────────┤
+  │ Halftone      │ Lichtenstein flat color       │
+  ├───────────────┼───────────────────────────────┤
+  │ SplashPage    │ B&W world + spot-color powers │
+  ├───────────────┼───────────────────────────────┤
+  │ NeonCity      │ Electric dark city            │
+  ├───────────────┼───────────────────────────────┤
+  │ RetroTV       │ Saturday morning cartoon CRT  │
+  ├───────────────┼───────────────────────────────┤
+  │ CinematicHero │ MCU teal/orange grade         │
+  ├───────────────┼───────────────────────────────┤
+  │ DarkGritty    │ Villain noir                  │
+  ├───────────────┼───────────────────────────────┤
+  │ CleanHD       │ Modern engine neutral         │
+  └───────────────┴───────────────────────────────┘
+
+✻ Crunched for 2m 28s
+❯ /using-superpowers can you detail explain reshde and ini -- i know  bit of    
+the sats and details but whats the different                                    
+
+⏺ ReShade vs .ini — what each one actually is
+
+  ---
+  ReShade itself
+
+  ReShade is a DLL injector. When you run the installer, it drops a file called
+  d3d9.dll (for DX9 games like CoH) into the game folder. When CoH launches and
+  tries to load DirectX 9, Windows finds ReShade's DLL first — ReShade
+  intercepts every frame the game renders, runs its shader passes over it, and
+  hands the modified frame to the display.
+
+  The game has no idea this is happening. ReShade sits between the game's output
+  and your monitor.
+
+  ReShade ships with a library of effect shaders written in HLSL (High-Level
+  Shader Language) — files like Cartoon.fx, Bloom.fx, Vignette.fx. These are the
+  actual programs that process pixels. Each one takes the rendered frame as
+  input and outputs a modified version.
+
+  ---
+  The .ini file
+
+  The .ini is just a saved configuration — it doesn't contain any shader code.
+  It's a plain text key-value file that tells ReShade:
+
+  1. Which shaders to activate — the Techniques= line
+  2. In what order to run them — the TechniqueSorting= line
+  3. What parameter values to use — every [ShaderName.fx] block with its slider
+  values
+
+  So Cartoon.fx is the program. Power=2.80 in your .ini is the dial setting for
+  that program.
+
+  [Cartoon.fx]       ← which shader
+  Power=2.80         ← parameter passed into it
+  EdgeSlope=2.20     ← another parameter
+
+  When you move a slider in the ReShade overlay in-game, it's writing new
+  numbers into the .ini in real time.
+
+  ---
+  The difference in a single sentence
+
+  ▎ ReShade is the engine. The .ini is the settings file. The .fx files are the 
+  ▎ effects. You only distribute the .ini — players already have the engine and 
+  ▎ effects after running the installer.
+
+  ---
+  Why the same shader produces wildly different results
+
+  Cartoon.fx with Power=0.80 (RetroTV) vs Power=3.20 (InkLines) runs the exact
+  same Sobel convolution code — the Power parameter just controls how
+  aggressively the detected edges are darkened. Same shader, radically different
+  look.
+
+  This is why 11 presets can exist as 11 tiny text files sharing the same 13
+  installed shaders — the shader library is fixed, the parameter space is
+  enormous.
+
+  ---
+  The execution order matters
+
+  TechniqueSorting= is significant. In CoX_SplashPage.ini:
+
+  Cartoon → ColorMatrix → Levels → Curves → Vibrance → Tonemap → Clarity → Bloom
+  → Vignette
+
+  Cartoon runs first — it draws ink edges on the fully-colored frame. Then
+  ColorMatrix desaturates. If you swapped those, Cartoon would draw edges on the
+  grey frame and the ink lines would be grey too instead of black. Order
+  changes the result even with identical parameters.
+
+✻ Cooked for 19s
+
+❯ create as a md  ReShade vs .ini — what each one actually is                   
+                                                                                
+    ---                                                                         
+    ReShade itself                                                              
+                                                                                
+    ReShade is a DLL injector. When you run the installer, it drops a file      
+    called d3d9.dll (for DX9 games like CoH) into the game folder. When CoH     
+    launches and tries to load DirectX 9, Windows finds ReShade's DLL first —   
+    ReShade intercepts every frame the game renders, runs its shader passes     
+    over it, and hands the modified frame to the display.                       
+                                                                                
+    The game has no idea this is happening. ReShade sits between the game's     
+    output and your monitor.                                                    
+                                                                                
+    ReShade ships with a library of effect shaders written in HLSL (High-Level  
+    Shader Language) — files like Cartoon.fx, Bloom.fx, Vignette.fx. These are  
+    the actual programs that process pixels. Each one takes the rendered frame  
+    as input and outputs a modified version.                                    
+                                                                                
+    ---                                                                         
+    The .ini file                                                               
+                                                                                
+    The .ini is just a saved configuration — it doesn't contain any shader      
+    code. It's a plain text key-value file that tells ReShade:                  
+                                                                                
+    1. Which shaders to activate — the Techniques= line                         
+    2. In what order to run them — the TechniqueSorting= line                   
+    3. What parameter values to use — every [ShaderName.fx] block with its      
+    slider values                                                               
+                                                                                
+    So Cartoon.fx is the program. Power=2.80 in your .ini is the dial setting   
+    for that program.                                                           
+                                                                                
+    [Cartoon.fx]       ← which shader                                           
+    Power=2.80         ← parameter passed into it                               
+    EdgeSlope=2.20     ← another parameter                                      
+                                                                                
+    When you move a slider in the ReShade overlay in-game, it's writing new     
+    numbers into the .ini in real time.                                         
+                                                                                
+    ---                                                                         
+    The difference in a single sentence                                         
+                                                                                
+    ▎ ReShade is the engine. The .ini is the settings file. The .fx files are   
+    ▎ the effects. You only distribute the .ini — players already have the      
+    ▎ engine and effects after running the installer.                           
+                                                                                
+    ---                                                                         
+    Why the same shader produces wildly different results                       
+                                                                                
+    Cartoon.fx with Power=0.80 (RetroTV) vs Power=3.20 (InkLines) runs the      
+    exact same Sobel convolution code — the Power parameter just controls how   
+    aggressively the detected edges are darkened. Same shader, radically        
+    different look.                                                             
+                                                                                
+    This is why 11 presets can exist as 11 tiny text files sharing the same 13  
+    installed shaders — the shader library is fixed, the parameter space is     
+    enormous.                                                                   
+                                                                                
+    ---                                                                         
+    The execution order matters                                                 
+                                                                                
+    TechniqueSorting= is significant. In CoX_SplashPage.ini:                    
+                                                                                
+    Cartoon → ColorMatrix → Levels → Curves → Vibrance → Tonemap → Clarity →    
+    Bloom → Vignette                                                            
+                                                                                
+    Cartoon runs first — it draws ink edges on the fully-colored frame. Then    
+    ColorMatrix desaturates. If you swapped those, Cartoon would draw edges on  
+    the grey frame and the ink lines would be grey too instead of black. Order  
+    changes the result even with identical parameters.                          
+
+⏺ Write(mods-to-create/reshade/RESHADE-EXPLAINED.md)
+  ⎿  Wrote 57 lines to mods-to-create/reshade/RESHADE-EXPLAINED.md
+      2 # ReShade vs `.ini` — What Each One Actually Is
+      3 ---
+      5 ## ReShade Itself
+      6 
+        ps a file called `d3d9.dll` (for DX9 games like CoH) into the gam
+        e folder. When CoH launches and tries to load DirectX 9, Windows 
+        me renders, runs its shader passes over it, and hands the modifie
+        d frame to the display.
+      9 The game has no idea this is happening. ReShade sits between the 
+        game's output and your monitor.
+     … +73 lines (ctrl+o to expand)
+
+⏺ Saved to mods-to-create/reshade/RESHADE-EXPLAINED.md alongside the presets and
+  install guide.
+
+✻ Brewed for 10s
+
+❯ /using-superpowers and explore and audit ~/.agent-skills/                     
+/Users/steven/CoX-mod-Adventure/data/community-research-deep.md                 
+
+⏺ Exploring ~/.agent-skills/ and cross-referencing against the research report.
+
+  Read 3 files, listed 6 directories (ctrl+o to expand)
+
+⏺ Now I have a clear picture. Here's the full audit mapped against the research
+  report:
+
+  ---
+  ~/.agent-skills/ × Community Research — What Applies
+
+  Directly usable NOW for CoH mod project
+
+  Skill / Agent: trend-researcher
+  Path: agents/trend-researcher.md
+  Research opportunity it addresses: Already used (2 passes done). Reddit signal
+
+    analysis, viral mechanics, market gap identification
+  ────────────────────────────────────────
+  Skill / Agent: feedback-synthesizer
+  Path: agents/feedback-synthesizer.md
+  Research opportunity it addresses: Unused. Perfect for: aggregating forum
+    thread pain points (topics 9304, 9586, 53769) into ranked feature list.
+    Research identified 5 mod creator pain points with no synthesis step
+  ────────────────────────────────────────
+  Skill / Agent: deep-research
+  Path: deep-research/SKILL.md
+  Research opportunity it addresses: Multi-agent research pipeline via
+  deeptutor.
+    Could run a depth=deep pass on "City of Heroes texture modding pipeline" or
+    "ReShade preset communities" — more thorough than the manual web sweep
+  ────────────────────────────────────────
+  Skill / Agent: minecraft-modpack-server
+  Path: skills/gaming/minecraft-modpack-server/
+  Research opportunity it addresses: Structural analog. Same problem space: mod
+    manager, server-compatible file drops, version pinning, CurseForge/Modrinth
+  =
+     the exact infrastructure CoH is missing. The workflow here is a template
+  for
+     what CityModInstaller needs to become
+  ────────────────────────────────────────
+  Skill / Agent: frontend-design
+  Path: skills/frontend-design/SKILL.md
+  Research opportunity it addresses: Already used (v2/v3 builds). Applicable to:
+
+    Mod Request Board UI, author dashboard, new-player essentials bundle page
+  ────────────────────────────────────────
+  Skill / Agent: analytics-reporter
+  Path: agents/analytics-reporter.md
+  Research opportunity it addresses: Author dashboard — "mod authors have zero
+    metrics." This agent can structure what download analytics should surface
+  ────────────────────────────────────────
+  Skill / Agent: content-creator
+  Path: agents/content-creator.md
+  Research opportunity it addresses: The research identified "no before/after
+  CoH
+    visual quality video content exists." This agent handles cross-platform
+    content — ReShade preset reveal post, Reddit showcase write-up
+
+  ---
+  The minecraft-modpack-server analogy is the most valuable find
+
+  The skill documents the exact infrastructure gap CoH has — CurseForge/Modrinth
+  are what CityModInstaller wants to be. The Minecraft skill covers:
+  - Pack manifest format (mod list + versions)
+  - Server-side vs client-side mod tagging
+  - Conflict detection at install time
+  - Update notification flow
+
+  Every one of those is on the research report's "build next" list for CoH. The
+  Minecraft skill is a working reference implementation of the target
+  architecture.
+
+  ---
+  Skills available but not yet applied
+
+  ┌──────────────────────────┬──────────────────────────────────────────────┐
+  │          Skill           │          Potential CoH application           │
+  ├──────────────────────────┼──────────────────────────────────────────────┤
+  │ brainstorming            │ Mod Request Board feature design — hasn't    │
+  │                          │ been brainstormed yet                        │
+  ├──────────────────────────┼──────────────────────────────────────────────┤
+  │                          │ Writing the "Beginner Modding Guide"         │
+  │ narrative-blueprints     │ integrated into the browser (research        │
+  │                          │ opportunity #5)                              │
+  ├──────────────────────────┼──────────────────────────────────────────────┤
+  │ writing-rules /          │ The OuroDev wiki replacement guide —         │
+  │ writing-skills           │ currently documented as a gap                │
+  ├──────────────────────────┼──────────────────────────────────────────────┤
+  │ app-store-optimizer      │ If the mod browser gets an actual listing or │
+  │                          │  landing page                                │
+  ├──────────────────────────┼──────────────────────────────────────────────┤
+  │                          │ Essentials Bundle and Mod Request Board —    │
+  │ rapid-prototyper         │ both are 6-day sprint targets per the        │
+  │                          │ research                                     │
+  └──────────────────────────┴──────────────────────────────────────────────┘
+
+✻ Sautéed for 54s
+
+❯ create an expansive extensive comprehensive markdown with TOC and links       
+  /Users/steven/CoX-mod-Adventure/data/community-research-deep.md               
+  mods-to-create/reshade/RESHADE-EXPLAINED.md                                   
+
+  Read 2 files (ctrl+o to expand)
+
+⏺ Write(data/COX-MOD-MASTER-REFERENCE.md)
+  ⎿  Wrote 713 lines to data/COX-MOD-MASTER-REFERENCE.md
+      2 # City of Heroes — Mod Ecosystem Master Reference
+      3 > Compiled 2026-07-14 from two deep research passes, OuroDev wiki
+         audit, GitHub ecosystem scan,
+      4 > competing-server analysis, creator pain-point synthesis, and Re
+        Shade technical breakdown.
+      5 > Living document — update as ecosystem evolves.
+      6 
+      7 ---
+      8 
+      9 ## Table of Contents
+     … +1069 lines (ctrl+o to expand)
+
+  Read 1 file (ctrl+o to expand)
+
+⏺ Created data/COX-MOD-MASTER-REFERENCE.md — 713 lines, 12 sections, full TOC
+  with anchor links.
+
+  What's in it:
+
+  ┌─────────────────────┬───────────────────────────────────────────────────┐
+  │       Section       │                      Content                      │
+  ├─────────────────────┼───────────────────────────────────────────────────┤
+  │ §1 Ecosystem        │ Scale/player stats, the full mod stack diagram,   │
+  │ Overview            │ discovery path flow                               │
+  ├─────────────────────┼───────────────────────────────────────────────────┤
+  │ §2 Community Demand │ Reddit signals, all 7 high-engagement threads, 5  │
+  │  Signals            │ repeat question patterns, download table          │
+  ├─────────────────────┼───────────────────────────────────────────────────┤
+  │ §3 GitHub Ecosystem │ All active repos with star/commit context, 6      │
+  │                     │ confirmed GitHub gaps                             │
+  ├─────────────────────┼───────────────────────────────────────────────────┤
+  │ §4 Texture Pipeline │ Full 6-step workflow, 5 hard limitations, 6       │
+  │                     │ documentation gaps, audio pipeline                │
+  ├─────────────────────┼───────────────────────────────────────────────────┤
+  │ §5 Competing        │ Homecoming / Thunderspy / Rebirth deep comparison │
+  │ Servers             │  + cross-server compatibility matrix              │
+  ├─────────────────────┼───────────────────────────────────────────────────┤
+  │ §6 Creator Pain     │ Submission bottleneck flowchart, distribution     │
+  │ Points              │ failures, missing infrastructure table            │
+  ├─────────────────────┼───────────────────────────────────────────────────┤
+  │ §7 Confirmed Gaps   │ 15-row table — verified absent from ecosystem as  │
+  │                     │ of mid-2026                                       │
+  ├─────────────────────┼───────────────────────────────────────────────────┤
+  │ §8 Build            │ 6 ranked opportunities with confidence level and  │
+  │ Opportunities       │ build path                                        │
+  ├─────────────────────┼───────────────────────────────────────────────────┤
+  │ §9 MMORPG Patterns  │ 9 analog patterns mapped to CoH translations with │
+  │                     │  FFXIV/ESO/WoW comparisons                        │
+  ├─────────────────────┼───────────────────────────────────────────────────┤
+  │ §10 ReShade Deep    │ DLL injection explained, .ini anatomy, parameter  │
+  │ Dive                │ space, execution order, all 14 shaders            │
+  ├─────────────────────┼───────────────────────────────────────────────────┤
+  │ §11 Preset Pack     │ All 11 presets organized into 3 categories with   │
+  │                     │ design decision rationale                         │
+  ├─────────────────────┼───────────────────────────────────────────────────┤
+  │ §12 Sources         │ Forum threads, GitHub repos, official docs,       │
+  │                     │ related project files with relative links         │
+  └─────────────────────┴───────────────────────────────────────────────────┘
+
+✻ Churned for 4m 32s
+
+❯ /config                                                                       
+  ⎿  Enabled auto-compact
+
+❯ continue                                                                      
+
+⏺ Popmenu files are the next buildable mod type — plain text, no game access
+  needed, and the research confirmed two gaps: roleplay tools for Everlasting
+  and a new-player essentials onboarding bundle. Creating both now.
+
+  ★ Insight ─────────────────────────────────────
+  CoH popmenus are loaded from data/menus/ as .mnu files. The syntax is a nested
+  Menu block structure where each Option either runs a /command or opens a
+  SubMenu. They appear in-game when you type popmenu <MenuName> in chat or bind
+  them to a key. Since they're pure text with no binary, they're the fastest mod
+  type to create and the easiest to iterate.
+  ─────────────────────────────────────────────────
+
+  Listed 1 directory (ctrl+o to expand)
+
+⏺ Bash(mkdir -p
+      /Users/steven/CoX-mod-Adventure/mods-to-create/popmenus/everlasting-rp &&
+      mkdir -p
+      /Users/steven/CoX-mod-Adventure/mods-to-create/popmenus/essentials-b…)
+  ⎿  Done
+
+⏺ Write(mods-to-create/popmenus/everlasting-rp/EverlastingRP.mnu)
+  ⎿  Wrote 162 lines to
+     mods-to-create/popmenus/everlasting-rp/EverlastingRP.mnu
+       2 // Place in: data/menus/EverlastingRP.mnu
+       3 // Bind to key: /bind KEY "popmenu EverlastingRP"
+       4 // Suggested bind: /bind LSHIFT+R "popmenu EverlastingRP"
+       5 //
+       6 // Covers: emotes, IC/OOC toggle, scene-setting, location tools,
+          RP status flags
+       7 
+       8 Menu "EverlastingRP"
+       9 {
+      10     Title "Everlasting RP Toolkit"
+     … +189 lines (ctrl+o to expand)
+
+⏺ Write(mods-to-create/popmenus/everlasting-rp/EverlastingRP_README.md)
+  ⎿  Wrote 56 lines to
+     mods-to-create/popmenus/everlasting-rp/EverlastingRP_README.md
+       2 # Everlasting RP Toolkit — Popmenu
+       3 The first dedicated roleplay popmenu for Everlasting, CoH's RP-f
+         ocused server.
+       4 Fills the confirmed gap: base location popmenu exists in the eco
+         system; nothing else does.
+       6 ---
+       7 
+       8 ## Install
+       9 
+      10 1. Drop `EverlastingRP.mnu` into your CoH `data/menus/` folder:
+     … +63 lines (ctrl+o to expand)
+
+❯ AI Voices suggestion thread 
+
+⏺ Now the essentials bundle, then addressing the AI Voices thread:
+
+⏺ Write(mods-to-create/popmenus/essentials-bundle/NewPlayerEssentials.mnu)
+  ⎿  Wrote 146 lines to
+     mods-to-create/popmenus/essentials-bundle/NewPlayerEssentials.mnu
+       1 // New Player Essentials — Popmenu
+       2 // Place in: data/menus/NewPlayerEssentials.mnu
+       3 // Bind: /bind F10 "popmenu NewPlayerEssentials"
+       4 //
+       5 // Curated commands for players new to CoH Homecoming.
+       6 // Replaces the need to memorize dozens of slash commands.
+       7 
+       8 Menu "NewPlayerEssentials"
+       9 {
+      10     Title "New Player Essentials"
+     … +167 lines (ctrl+o to expand)
+
+⏺ Now addressing the AI Voices thread (topic 45039):
+⏺ Write(mods-to-create/ai-voices/CONCEPT.md)
+  ⎿  Wrote 133 lines to mods-to-create/ai-voices/CONCEPT.md
+       2 # CoH AI NPC Voices — Concept Brief
+       3 > Based on Homecoming Suggestions forum topic 45039 (May 2026)
+       4 > "AI Voices for all missions and NPCs" — invoking Ascension WoW
+         's AI voice addon model
+       5 
+       7 ---
+       8 ## What the Thread Is Asking For
+       9 
+      10 Players on Homecoming are requesting AI-generated voice acting f
+         or mission text and NPC dialogue.
+     … +164 lines (ctrl+o to expand)
+
+⏺ ★ Insight ─────────────────────────────────────
+  The coh_npc_voices approach works because CoH writes NPC dialogue to a
+  plain-text log file (chatlog.txt) as a side effect of rendering it to the chat
+  window. Reading a log file is fundamentally different from injecting into the
+  game process — it's the same pattern as OBS scene detection, Discord game
+  activity detection, and GW2's ArcDPS overlay. The OS file-watch API (watchdog
+  in Python) fires on every new line, making latency sub-100ms. No admin rights,
+  no anti-cheat conflict, no binary modification.
+  ─────────────────────────────────────────────────
+
+  Here's what was built this pass:
+
+  mods-to-create/popmenus/everlasting-rp/
+  - EverlastingRP.mnu — 9 submenus, 80+ options: emotes, IC/OOC status titles,
+  scene-setter lines, zone location announces, SG base flavor, contact info,
+  combat RP narration
+  - EverlastingRP_README.md — install + bind + customization guide
+
+  mods-to-create/popmenus/essentials-bundle/
+  - NewPlayerEssentials.mnu — 11 submenus covering graphics, sound, camera,
+  combat, chat channels, powers display, team tools, badges, costume, UI
+  windows, and new player tips
+
+  mods-to-create/ai-voices/CONCEPT.md
+  - Full breakdown of topic 45039 (the Ascension WoW AI voice request), what
+  coh_npc_voices already does vs what's missing, two buildable approaches ranked
+  by barrier, starter NPC→voice archetype mapping table, and the exact files
+  needed to extend the existing tool
+
+✻ Cogitated for 2m 38s
+
+❯ /using-superpowers and explore and audit  AI Voices suggestion thread         
+                                                                                
+⏺ Now the essentials bundle, then addressing the AI Voices thread:              
+
+⏺ Fetching the actual thread content to audit what's being asked for
+  specifically.
+
+⏺ trend-researcher(Fetch and audit Homecoming AI Voices thread)
+  ⎿  Done (43 tool uses · 63.6k tokens · 4m 55s)
+  (ctrl+o to expand)
+
+⏺ The agent surfaced much more than we had. Let me update the concept file with
+  the real data, then summarize.
+
+  ★ Insight ─────────────────────────────────────
+  The critical finding: CoH mission briefing popups (contact briefings,
+  debriefs, souvenirs, clue text) do not appear in the chat log. coh_npc_voices
+  only sees what flows through the chat log. This is the key architectural gap
+  between what exists and what the community is asking for — and it's why
+  Ascension WoW's approach (client-side addon reading quest data directly from
+  game memory) is architecturally different from the Python log-watcher
+  approach.
+  ─────────────────────────────────────────────────
+
+⏺ Write(mods-to-create/ai-voices/CONCEPT.md)
+  ⎿  Added 165 lines, removed 88 lines
+        1  # CoH AI NPC Voices — Concept Brief
+        2  
+        3 -> Based on Homecoming Suggestions forum topic 45039 (May 2026)
+        4 -> "AI Voices for all missions and NPCs" — invoking Ascension W
+          -oW's AI voice addon model                                     
+        3 +> Researched 2026-07-14. Sources: Homecoming forum threads 450
+          +39, 50337, 4458, 64162, 57864;                                
+        4 +> GitHub jason-kane/coh_npc_voices (v4.5.3); GitHub mrthinger/
+          +wow-voiceover;                                                
+        5 +> Ascension WoW announcement; live forum archive 2009 thread. 
+        6  
+        7  ---
+        8  
+        8 -## What the Thread Is Asking For                              
+        9 +## What the Community Is Asking For                           
+       10  
+       10 -Players on Homecoming are requesting AI-generated voice acting
+          - for mission text and NPC dialogue.                           
+       11 -The thread explicitly references what Ascension WoW did with t
+          -heir AI voice addon in 2024–2025:                             
+       12 -every quest text, NPC greeting, and mission briefing was AI-vo
+          -iced and delivered through the                                
+       13 -existing audio system — players could enable/disable per chara
+          -cter or globally.                                             
+       11 +**Thread:** "AI Voices for all missions and NPCs." — Homecomin
+          +g Suggestions, topic 45039, May 3, 2026. 3 pages of replies.  
+       12  
+       15 -CoH has thousands of mission briefings, clue text, villain mon
+          -ologues, and contact NPC dialogue                             
+       16 -that exists only as text in the client. No voice acting was ev
+          -er recorded for most of them.                                 
+       13 +The request is server-integrated AI voice acting for all NPC d
+          +ialogue and mission text, similar to what Ascension WoW shippe
+          +d in their launcher. The poster explicitly cites the **VoiceOv
+          +er addon by mrthinger** (github.com/mrthinger/wow-voiceover), 
+          +which Ascension distributes through their own addons tab. When
+          + a player clicks a quest NPC on Ascension, the NPC reads their
+          + quest text aloud with a consistent AI voice. Zero setup requi
+          +red — it ships as part of the launcher.                       
+       14  
+       15 +This is a 15-year-old community request in new clothes. The 20
+          +09 live-game forum archive (topic 198865) has players fantasy-
+          +casting voice actors for specific NPCs — Kathleen Turner for S
+          +ister Psyche, Eddie Izzard for Commander Castillo. The communi
+          +ty has wanted voiced NPCs since the game launched.            
+       16 +                                                              
+       17 +**No Homecoming developer has publicly acknowledged or respond
+          +ed** to any voice-related suggestion thread. No roadmap mentio
+          +n found.                                                      
+       18 +                                                              
+       19  ---
+       20  
+       20 -## What Already Exists: coh_npc_voices                        
+       21 +## What Already Exists: Sidekick (coh_npc_voices)             
+       22  
+       22 -GitHub: jason-kane/coh_npc_voices (last commit: July 22, 2025)
+       23 +- **GitHub:** github.com/jason-kane/coh_npc_voices            
+       24 +- **Author:** Jason Kane — sole maintainer, highly responsive 
+          +(often same-day replies)                                      
+       25 +- **Application name in-tool:** Sidekick                      
+       26 +- **Created:** March 23, 2024                                 
+       27 +- **Latest version:** v4.5.3 (November 22, 2025)              
+       28 +- **Stars / Forks:** 3 / 0                                    
+       29 +- **Issues filed total:** 43 (indicates active use despite low
+          + star count)                                                  
+       30 +- **YouTube demo:** youtube.com/watch?v=Ov29c91NtYQ           
+       31  
+       24 -This is a Python TTS (Text-to-Speech) tool that:              
+       25 -- Reads the CoH chat log file in real time                    
+       26 -- Detects when NPC dialogue appears in the log                
+       27 -- Passes that text through a TTS engine (configurable: system 
+          -TTS, ElevenLabs, etc.)                                        
+       28 -- Plays the audio output through your system audio            
+       32 +### How It Works                                              
+       33  
+       30 -**Key architectural insight:** It does NOT touch any game file
+          -s. Zero PIGG manipulation.                                    
+       31 -The CoH client logs NPC dialogue to a text file automatically.
+          - The tool reads that file,                                    
+       32 -not the game binary. This is the cleanest possible implementat
+          -ion — no install risk.                                        
+       34 +Sidekick watches the CoH client `chatlog.txt` file using a fil
+          +e-system watcher. When an NPC dialogue line appears, it:      
+       35 +1. Looks up the NPC name in a local SQLite database (`voices.d
+          +b`)                                                           
+       36 +2. If the NPC has no assigned voice yet, picks one from the co
+          +nfigured TTS engine                                           
+       37 +3. Generates speech (or retrieves it from cache)              
+       38 +4. Plays audio with optional per-NPC voice effects            
+       39  
+       40 +The SQLite cache is the key cost-saving feature: NPC lines rep
+          +eat constantly, so after the first generation, subsequent play
+          +s cost nothing. Player chat is **not cached** — developer made
+          + this an explicit privacy decision.                           
+       41 +                                                              
+       42 +### Supported TTS Engines (as of v4.5.3)                      
+       43 +                                                              
+       44 +| Engine | Quality | Cost | Notes |                           
+       45 +|---|---|---|---|                                             
+       46 +| Windows TTS | Low | Free | Default. "Price is right." Requir
+          +es PowerShell unlock on Win10 |                               
+       47 +| Google Cloud TTS | High | Paid | Slow generation. Requires A
+          +DC login setup |                                              
+       48 +| ElevenLabs | Excellent | ~$5–$22/mo | 10k chars/mo free tier
+          + (5–15 hrs gameplay); user burned through free tier in 4 days 
+          +|                                                             
+       49 +| OpenAI TTS | Very good | ~$4/mo | "Works best" per most acti
+          +ve user (Orinvath). $1.28/week for heavy play |               
+       50 +| Amazon Polly | Good | Paid | Bug in v4.1.0 fixed in v4.1.1 |
+       51 +| Azure | Good | Paid | Supported |                           
+       52 +| Disabled | — | Free | Turns off TTS entirely while keeping o
+          +ther features (damage graph, XP tracker) |                    
+       53 +                                                              
+       54 +**User report on OpenAI cost (Issue #34, Orinvath):**         
+       55 +> "A weeks worth of heavy gameplay for $1.28, and for great vo
+          +ices! Everything has been working pretty flawlessly."         
+       56 +                                                              
+       57 +**User report on ElevenLabs (Issue #18, Orinvath):**          
+       58 +> "I blew through 100k credits in 4 days... Now that I have al
+          +l the NPC's talking I cant go back...lol"                     
+       59 +                                                              
+       60 +**Developer on the experience (Issue #34):**                  
+       61 +> "it's really hard to go back to vanilla once you've gotten u
+          +sed to voices."                                               
+       62 +                                                              
+       63 +### Notable Technical Features                                
+       64 +                                                              
+       65 +- **Async audio (v4.0.0, June 2025):** Multiple NPCs can speak
+          + simultaneously — "makes a big difference in allowing narratio
+          +n to keep up with the action"                                 
+       66 +- **Per-NPC voice effects:** Clockwork faction gets vocoder/ro
+          +botic pitch effect via numpy. Ring modulator available for oth
+          +ers.                                                          
+       67 +- **Pluggable TTS engine architecture (v4.1.0, July 2025):** E
+          +ach engine is a separate module — adding new engines is clean 
+       68 +- **Profanity filter + gamer abbreviation expander (v4.5.x):**
+          + Expands afk/brb/gg/etc. before passing to TTS; optional filte
+          +r for player chat channels                                    
+       69 +- **Supergroup and league chat toggle (v4.5.0)**              
+       70 +- **Patterns tab (v4.4.0):** Custom patterns for matching spec
+          +ific chat types                                               
+       71 +- **Win10 note:** Requires `enable_all_win10_voices.ps1` (incl
+          +uded in repo) to unlock system TTS voices from transcription-o
+          +nly registry path                                             
+       72 +- **Win11 note:** No TTS voices installed by default — separat
+          +e setup step                                                  
+       73 +                                                              
+       74 +### Full Version History                                      
+       75 +                                                              
+       76 +| Version | Date | Key Change |                               
+       77 +|---|---|---|                                                 
+       78 +| v4.5.3 | 2025-11-22 | Externalized gamespeak abbreviations t
+          +o editable `gamespeak.json` |                                 
+       79 +| v4.5.2 | 2025-11-22 | Bugfix: missing profanity filter data 
+          +files |                                                       
+       80 +| v4.5.1 | 2025-11-21 | Optional profanity filter + gamer abbr
+          +eviation expander |                                           
+       81 +| v4.5.0 | 2025-11-01 | SG and league chat toggles |          
+       82 +| v4.4.1 | 2025-08-28 | Patterns bugfixes, declared stable |  
+       83 +| v4.4.0 | 2025-08-17 | Full Patterns tab release |           
+       84 +| v4.3.0 | 2025-07-27 | Category toggles (recharges, snark, re
+          +cipes); OpenAI voice fix |                                    
+       85 +| v4.2.0 | 2025-07-26 | "Disabled" engine option |            
+       86 +| v4.1.1 | 2025-07-19 | Amazon Polly bugfix; verified clean Wi
+          +n10 install |                                                 
+       87 +| v4.1.0 | 2025-07-18 | TTS engines made pluggable modules (ma
+          +jor refactor) |                                               
+       88 +| v4.0.0 | 2025-06-21 | Async audio; terminal chat history vie
+          +w |                                                           
+       89 +| v1.1.0 | 2024-04-06 | Sidekick UI started |                 
+       90 +| v1.0.0 | 2024-03-31 | UI, unique voices per character, Googl
+          +e support, audio effects, team voices |                       
+       91 +| v0.0.1 | 2024-03-23 | Initial release (simple Python log wat
+          +cher) |                                                       
+       92 +                                                              
+       93  ---
+       94  
+       36 -## The Gap Between coh_npc_voices and the Thread's Request    
+       95 +## The Critical Architectural Gap                             
+       96  
+       38 -| coh_npc_voices (exists) | Thread request (missing) |        
+       39 -|---|---|                                                     
+       40 -| Reads chat log → TTS on the fly | Pre-generated voices for A
+          -LL mission text |                                             
+       41 -| Voice changes every run (live TTS) | Consistent character vo
+          -ices per NPC |                                                
+       42 -| Requires Python + dependencies | One-click install |        
+       43 -| No NPC-to-voice mapping | Specific voice per contact/NPC |  
+       44 -| Text only from what appears in chat log | Full mission brief
+          -ing text (not all in log) |                                   
+       45 -| No GUI | User-adjustable voice settings |                   
+       97 +**Mission briefing popup text does not appear in the chat log.
+          +**                                                            
+       98  
+       99 +CoH contact briefings, debriefs, clue text, and souvenir text 
+          +are rendered as in-game popup windows — they never flow throug
+          +h the chat system. coh_npc_voices can only hear what appears i
+          +n the log. This means:                                        
+      100 +                                                              
+      101 +| Content Type | In Chat Log? | Voiced by coh_npc_voices? |   
+      102 +|---|---|---|                                                 
+      103 +| NPC speech bubbles in missions | Yes | Yes |                
+      104 +| Contact greetings (world dialogue) | Yes | Yes |            
+      105 +| Team / SG / League chat | Yes | Yes (toggleable) |          
+      106 +| Badge notifications | Yes | Yes |                           
+      107 +| **Mission briefing text** | **No** | **No** |               
+      108 +| **Debriefing text** | **No** | **No** |                     
+      109 +| **Clue / souvenir text** | **No** | **No** |                
+      110 +| **Contact phone call text** | **No** | **No** |             
+      111 +                                                              
+      112 +The Ascension WoW VoiceOver addon reads quest text directly fr
+          +om game memory — a fundamentally different architecture. On Co
+          +H, accessing the popup text would require either:             
+      113 +a) A game client hook (not possible without modifying the bina
+          +ry)                                                           
+      114 +b) Pre-generated audio files keyed to the specific mission tex
+          +t IDs (Approach B below)                                      
+      115 +c) Homecoming server-side implementation (not a client mod)   
+      116 +                                                              
+      117  ---
+      118  
+       49 -## Two Buildable Approaches                                   
+      119 +## Related Threads                                            
+      120  
+       51 -### Approach A — Extend coh_npc_voices (Low barrier, works now
+          -)                                                             
+      121 +| Thread | Topic # | Date | What It Is |                      
+      122 +|---|---|---|---|                                             
+      123 +| "Mission Text TTS" | 4458 | July 2022 | Player manually copy
+          +-pasting mission text into external TTS. Oldest confirmed voic
+          +e request. Accessibility framing. |                           
+      124 +| "Gender Trouble: Badge/NPC Dialog/Voice" | 64162 | May 2026 
+          +| Request to fix existing voice logic bugs: badges use wrong g
+          +ender, NPC dialogue ignores character gender, default vocaliza
+          +tions are all male-coded. Different but adjacent. |           
+      125 +| "Transcripts?" | 57864 | June 2025 | Player wants NPC dialog
+          +ue transcripts to dub for YouTube. Points to demand for missio
+          +n text as a raw asset. |                                      
+      126 +| "Voice of the City?" | 43313 | June 2023 | Not voice acting 
+          +— about a hypothetical animated anthology series narrator. Unr
+          +elated. |                                                     
+      127  
+       53 -Fork or extend jason-kane/coh_npc_voices to add:              
+       54 -1. **NPC-to-voice mapping** — detect NPC name in log line, ass
+          -ign a consistent voice                                        
+       55 -   (e.g., Ms. Liberty always uses Voice ID X, Ghost Widow uses
+          - Voice ID Y)                                                  
+       56 -2. **Voice library** — use ElevenLabs or Coqui-TTS to pre-gene
+          -rate audio for                                                
+       57 -   the most common NPC contacts (top 50 contacts cover ~80% of
+          - content)                                                     
+       58 -3. **Simple GUI** — toggle per-NPC voice on/off, volume slider
+          -, voice selection                                             
+       59 -4. **Installer wrapper** — package as a single `.exe` with Pyt
+          -hon bundled                                                   
+      128 +---                                                           
+      129  
+       61 -**What you need:** The NPC name list (extractable from the gam
+          -e wiki or contact list),                                      
+       62 -a TTS API key (ElevenLabs free tier), Python.                 
+      130 +## Two Buildable Approaches                                   
+      131  
+       64 -**What you don't need:** Game files, PIGG access, binary manip
+          -ulation.                                                      
+      132 +### Approach A — Extend coh_npc_voices / Sidekick             
+      133  
+       66 -### Approach B — Pre-generated Audio Mod Pack (Harder, better 
+          -result)                                                       
+      134 +**What it adds:** NPC-to-voice personality mapping, pre-config
+          +ured voices for the 50 most common contacts, one-page installe
+          +r for non-technical players.                                  
+      135  
+       68 -Generate audio files ahead of time for all mission briefing te
+          -xt, package as a standard                                     
+       69 -client-side audio mod using the `data/sound/` override system.
+      136 +**What it can't do:** Mission briefing text (not in chat log —
+          + see gap above).                                              
+      137  
+       71 -This requires:                                                
+       72 -1. Extract all mission/contact dialogue text from game data (P
+          -igg Viewer or community wiki)                                 
+       73 -2. Run through ElevenLabs or similar to generate consistent pe
+          -r-NPC audio files                                             
+       74 -3. Name files to match the game's audio path system           
+       75 -4. Package as City Mod Installer mod                          
+      138 +**Barrier:** Low. Jason Kane is active and responsive. The eng
+          +ine plugin architecture (v4.1.0) makes adding a new capability
+          + clean. The codebase is well-organized Python.                
+      139  
+       77 -**Challenge:** Mission briefings aren't clean audio paths in t
+          -he current game — they were                                   
+       78 -designed as text-only from the start. Mapping generated audio 
+          -to the right trigger points                                   
+       79 -requires understanding the game's audio event system more deep
+          -ly.                                                           
+      140 +**Cost for users:** OpenAI engine at ~$4/month is the sweet sp
+          +ot confirmed by active users.                                 
+      141  
+       81 ----                                                           
+      142 +**Steps:**                                                    
+      143 +1. Fork `coh_npc_voices`                                      
+      144 +2. Add `contact_profiles.json` — maps contact name → specific 
+          +voice ID + personality prompt                                 
+      145 +3. Pre-populate with the 50 most common Homecoming contacts (d
+          +erived from wiki or community list)                           
+      146 +4. Wrap in a one-page PyInstaller executable (removes Python s
+          +etup requirement)                                             
+      147 +5. Submit to Homecoming forum Tools & Utilities               
+      148  
+       83 -## Recommended Path: Approach A First                         
+      149 +### Approach B — Pre-generated Audio Mod Pack                 
+      150  
+       85 -The jason-kane/coh_npc_voices architecture is proven and alrea
+          -dy has community attention.                                   
+       86 -An extended fork with:                                        
+       87 -- Per-NPC voice consistency                                   
+       88 -- Pre-mapped voices for the 50 most common contacts           
+       89 -- A one-page UI                                               
+      151 +**What it adds:** Voiced mission briefings and popup text — th
+          +e gap Approach A can't fill.                                  
+      152  
+       91 -Would fulfill the thread's core request and could ship without
+          - any game file access.                                        
+       92 -The ElevenLabs free tier generates enough audio for a proof-of
+          --concept.                                                     
+      153 +**What it requires:**                                         
+      154 +1. Extract all mission contact dialogue text from game data (P
+          +IGG extraction or community wiki)                             
+      155 +2. Generate audio files via ElevenLabs / OpenAI for each uniqu
+          +e text string                                                 
+      156 +3. Map each generated file to the game's audio event path (req
+          +uires understanding CoH audio event system)                   
+      157 +4. Package as a City Mod Installer mod using the `data/sound/`
+          + override path                                                
+      158  
+      159 +**Barrier:** Very high. CoH mission text was designed text-onl
+          +y from the start — no audio path infrastructure exists for it.
+          + This would require reverse-engineering the audio event system
+          + or creating a new trigger mechanism that doesn't exist in the
+          + client.                                                      
+      160 +                                                              
+      161 +**Realistic scope:** Doable only for a subset of iconic contac
+          +ts (Ghost Widow, Lord Recluse, the 5 Freedom Phalanx members, 
+          +Statesman) where the effort is clearly worth it.              
+      162 +                                                              
+      163  ---
+      164  
+       96 -## NPC Voice Mapping — Starter List                           
+      165 +## NPC Voice Archetype Mapping — Starter List                 
+      166  
+       98 -Based on contact frequency and community recognition:         
+      167 +Based on research into contact frequency, community recognitio
+          +n, and character lore:                                        
+      168  
+      100 -| Contact / NPC | Suggested Voice Archetype |                 
+      101 -|---|---|                                                     
+      102 -| Ms. Liberty | Professional, military, American — confident f
+          -emale |                                                       
+      103 -| Ghost Widow | Cold, ethereal, formal — haunting female |    
+      104 -| Lord Recluse | Commanding, theatrical villain monologue — de
+          -ep male |                                                     
+      105 -| Statesman | Heroic, measured, authoritative — classic Americ
+          -an male |                                                     
+      106 -| Sister Psyche | Warm, empathetic, slightly formal — female |
+      107 -| Synapse | Energetic, enthusiastic, rapid speech — young male
+          - |                                                            
+      108 -| Numina | Ethereal, calm, slightly otherworldly — female |   
+      109 -| Back Alley Brawler | Street-tough, blunt, working-class — gr
+          -uff male |                                                    
+      110 -| Penny Preston | Young, eager, optimistic — younger female | 
+      111 -| Arbiter Sands | Bureaucratic, officious — formal male |     
+      112 -| Dr. Aeon | Manic, intellectual, enthusiastic — eccentric mal
+          -e |                                                           
+      113 -| Scirocco | Weary, poetic, conflicted — accented male |      
+      169 +| Contact / NPC | Voice Archetype | Rationale |               
+      170 +|---|---|---|                                                 
+      171 +| Ms. Liberty | Professional, military, confident — American f
+          +emale | Freedom Phalanx leader voice |                        
+      172 +| Ghost Widow | Cold, ethereal, formal — haunting female | Ara
+          +chnos; slow cadence, precise diction |                        
+      173 +| Lord Recluse | Commanding, theatrical villain — deep, resona
+          +nt male | Monologue-heavy; needs presence |                   
+      174 +| Statesman | Heroic, measured, authoritative — classic Americ
+          +an male | The hero ideal archetype |                          
+      175 +| Sister Psyche | Warm, empathetic, slightly formal — female |
+          + Counselor energy |                                           
+      176 +| Synapse | Energetic, rapid speech, enthusiastic — young male
+          + | Speed powerset personality |                               
+      177 +| Numina | Ethereal, calm, slightly otherworldly — female | Sp
+          +irit character; breathier tone |                              
+      178 +| Back Alley Brawler | Street-tough, blunt, working-class — gr
+          +uff male | Punchy, no-nonsense delivery |                     
+      179 +| Penny Preston | Eager, optimistic, younger — female | New re
+          +porter energy |                                               
+      180 +| Arbiter Sands | Bureaucratic, officious — dry male | Villain
+          +-side, procedural |                                           
+      181 +| Dr. Aeon | Manic, intellectual, excitable — eccentric male |
+          + Mad scientist cadence |                                      
+      182 +| Scirocco | Weary, poetic, conflicted — accented male | Tragi
+          +c villain register |                                          
+      183 +| Clockwork King | Fragmented, glitchy — distorted (vocoder) |
+          + Already supported by Sidekick |                              
+      184 +| The Clockwork (faction) | Robotic, simple — low pitch (vocod
+          +er) | Already implemented in Sidekick |                       
+      185  
+      186  ---
+      187  
+      117 -## Connection to Community Research                           
+      188 +## What This Project Should Actually Do                       
+      189  
+      119 -- Forum topic 45039 explicitly references Ascension WoW — this
+          - is a player-identified gap                                   
+      120 -  pointing at a proven pattern from another MMORPG            
+      121 -- coh_npc_voices (Jul 2025 last commit) proves the technical p
+          -ath without game file access                                  
+      122 -- Each coh_npc_voices post generates "immediate follow-up ques
+          -tions" — active latent demand                                 
+      123 -- No packaged version exists for non-technical users — the bar
+          -rier is distribution, not tech                                
+      190 +Given the research:                                           
+      191  
+      192 +1. **Immediate:** Contribute to coh_npc_voices — submit a `con
+          +tact_profiles.json` PR with personality mappings for the 50 mo
+          +st common contacts. Jason Kane is active and responsive. This 
+          +gets proper voices to existing Sidekick users without a fork. 
+      193 +                                                              
+      194 +2. **Near-term:** Package coh_npc_voices as a one-page Windows
+          + installer (PyInstaller .exe with bundled OpenAI engine defaul
+          +t). Drop the setup barrier from "install Python, configure API
+          + key in a config file" to "run installer, paste your OpenAI ke
+          +y." This is the Ascension WoW-model difference: zero-friction 
+          +distribution.                                                 
+      195 +                                                              
+      196 +3. **Long-term:** Pre-generated audio pack for the 10 most ico
+          +nic contacts (Ghost Widow, Lord Recluse, Statesman, Ms. Libert
+          +y, Sister Psyche, Synapse, Back Alley Brawler, Scirocco, Dr. A
+          +eon, Numina). Ship as a standard City Mod Installer mod with `
+          +data/sound/` overrides. Requires solving the audio event path 
+          +mapping — high effort but high impact.                        
+      197 +                                                              
+      198  ---
+      199  
+      127 -## Files Needed to Start                                      
+      200 +## Sources                                                    
+      201  
+      129 -- `npc_voice_mapper.py` — extend coh_npc_voices with NPC→voice
+          - ID mapping                                                   
+      130 -- `voice_profiles.json` — NPC name → ElevenLabs voice ID mappi
+          -ng                                                            
+      131 -- `gui.py` — simple tkinter or webview control panel          
+      132 -- `requirements.txt` — ElevenLabs SDK, watchdog (file watcher)
+          -, pygame (audio)                                              
+      133 -- `README.md` — one-page install guide for non-technical playe
+          -rs                                                            
+      202 +- Homecoming Forums topic 45039 — AI Voices for all missions a
+          +nd NPCs (May 2026)                                            
+      203 +- Homecoming Forums topic 50337 — Talking NPCs / Sidekick rele
+          +ase thread (July 2025)                                        
+      204 +- Homecoming Forums topic 4458 — Mission Text TTS (July 2022) 
+      205 +- Homecoming Forums topic 57864 — Transcripts? (June 2025)    
+      206 +- Homecoming Forums topic 64162 — Gender Trouble: Badge/NPC Di
+          +alog/Voice (May 2026)                                         
+      207 +- github.com/jason-kane/coh_npc_voices — all issues, releases,
+          + README                                                       
+      208 +- github.com/mrthinger/wow-voiceover — the Ascension WoW prece
+          +dent                                                          
+      209 +- ascension.gg/en/news/azeroth-has-a-voice-and-its-ai-generate
+          +d/402 — Ascension announcement                                
+      210 +- forumarchive.cityofheroes.dev/topic/198865 — 2009 "Voices of
+          + the NPCs" thread (live game era)                             
+
+❯ best part is i have the skills and such to do this already ive just never done it on game 
+
+⏺ Here's what the deep audit found that we didn't know before:
+
+  The big gaps our CONCEPT.md had wrong:
+  - Mission briefing popups never appear in the chat log — coh_npc_voices is
+  structurally blocked from voicing them. That's the core ask of thread 45039,
+  and it requires a different approach entirely.
+  - coh_npc_voices is far more mature than we knew: v4.5.3, 43 issues, async
+  audio, per-NPC voice effects, SQLite cache, Clockwork already gets a vocoder
+  effect. Jason Kane is an active solo maintainer who replies same-day.
+  - OpenAI TTS at ~$4/month is the confirmed sweet spot. One user ran heavy
+  gameplay for $1.28/week.
+
+  The Ascension WoW precedent is more specific than cited: It's the VoiceOver 
+  addon by mrthinger — reads quest data directly from WoW game memory, which is
+  why it can voice popup text. CoH would need either a binary hook (not possible
+  client-side) or pre-generated audio files.
+
+  ---
+  And yes — you already have everything needed. The entire Approach A path is:
+
+  - Python — you have it
+  - ElevenLabs or OpenAI API — you have AI accounts
+  - File watching — watchdog library, trivial
+  - Audio playback — pygame or playsound
+  - Voice per NPC identity — a JSON map, nothing exotic
+
+  The only thing you've never done is point it at a game. The codebase at
+  jason-kane/coh_npc_voices is the reference implementation — you could fork it,
+  add contact_profiles.json with personality-mapped voices for Ghost Widow,
+  Lord Recluse, etc., and have something real running in a day. Jason Kane would
+  likely merge a good PR.
+
+✻ Baked for 6m 30s
+
+❯ compile all the sources and details links etc from Fetching the actual thread 
+  content to audit what's being asked for                                       
+    specifically.                                                               
+                                                                                
+  ⏺ trend-researcher(Fetch and audit Homecoming AI Voices thread)               
+  ⏺ ⎿  Fetch(url:                                                               
+       W b Search("city of heroes homecoming 2025 roadmap developer response    
+                 "AI" OR "voice acting" OR "audio" announcement")               
+       Fetch(url: "https://massivelyop.com/2025/01/08/city-of-heroes-homecoming 
+            -offers-a-brief-roadmap-with-two-major-updates-planned-for-2025/",  
+            prompt: "Extract the full article. Any mention of voice acting,     
+            audio features, AI, NPC improvements? What are the two major        
+            updates planned?")                                                  
+       Fetching…                                                                
+       Bash(gh api "repos/jason-kane/coh_npc_voices/issues/15/comments"         
+           2>/dev/null | python3 -c "                                           
+           import json, sys                                                     
+           data = json.load(sys.stdin)                                          
+           for c in data:                                                       
+               print(f\"Author: {c['user']['login']}\")                         
+               print(f\"Date: {c['created_at']}\")                              
+               print(f\"Body: {c['body'][:1200]}\")                             
+               print()                                                          
+           " 2>/dev/null                                                        
+                                                                                
+           gh api "repos/jason-kane/coh_npc_voices/issues/18/comments"          
+           2>/dev/null | python3 -c "                                           
+    mods-to-create/popmenus/everlasting-rp/                                     
+    - EverlastingRP.mnu — 9 submenus, 80+ options: emotes, IC/OOC status        
+    titles, scene-setter lines, zone location announces, SG base flavor,        
+    contact info, combat RP narration                                           
+    - EverlastingRP_README.md — install + bind + customization guide            
+                                                                                
+    mods-to-create/popmenus/essentials-bundle/                                  
+    - NewPlayerEssentials.mnu — 11 submenus covering graphics, sound, camera,   
+    combat, chat channels, powers display, team tools, badges, costume, UI      
+    windows, and new player tips                                                
+                                                                                
+    mods-to-create/ai-voices/CONCEPT.md                                         
+    - Full breakdown of topic 45039 (the Ascension WoW AI voice request), what  
+    coh_npc_voices already does vs what's missing, two buildable approaches     
+    ranked by barrier, starter NPC→voice archetype mapping table, and the exact 
+    files needed to extend the existing tool and create a markdown              
+  trend-researcher(Fetch and audit Homecoming AI Voices thread)                 
+    ⎿  Fetch(url: "https://forums.homecomingservers.com/topic/45039-ai-voices-f 
+            or-all-missions-and-npcs/", prompt: "Extract everything: thread     
+            prompt: "Extract everything: thread title, original poster, date    
+            posted, the full text of the original post, every reply (poster     
+            name, date, full text of reply), total reply count, any links to    
+            external tools or demos, any games cited as precedents, any         
+            technical suggestions, whether any developers responded, and the    
+            date of last activity. Be exhaustive and quote directly where       
+            possible.")                                                         
+       Fetching…                                                                
+       Web Search("homecoming forums "talking NPCs" "50337" city of heroes      
+           "repos/jason-kane/coh_npc_voices/issues?state=all&per_page=50"       
+           2>/dev/null | python3 -c "                                           
+           import json, sys                                                     
+           data = json.load(sys.stdin)                                          
+           for issue in data:                                                   
+               print(f\"--- ISSUE #{issue['number']}: {issue['title']} ---\")   
+               print(f\"State: {issue['state']}\")                              
+               print(f\"Author: {issue['user']['login']}\")                     
+               print(f\"Created: {issue['created_at']}\")                       
+               print(f\"Updated: {issue['updated_at']}\")                       
+               print(f\"Comments: {issue['comments']}\")                        
+               print(f\"Labels: {[l['name'] for l in issue['labels']]}\")       
+               body = issue['body'] or 'None'                                   
+           " 2>/dev/null || echo "gh api failed")                               
+       Running…                                                                 
+       Bash(gh api "repos/jason-kane/coh_npc_voices/discussions?per_page=50"    
+           2>/dev/null | python3 -c "                                           
+           import json, sys                                                     
+                                                                                
+  ⏺ trend-researcher(Fetch and audit Homecoming AI Voices thread)               
+    ⎿  Web Search("homecoming city of heroes "coh_npc_voices" OR "jason kane"   
+                 TTS voice NPC forum thread 2024 2025")                         
+       Web Search("homecoming forums "Ascension WoW" AI voice city of heroes    
+                 suggestion "voice acting" NPCs")                               
+       Bash(gh api "repos/jason-kane/coh_npc_voices/issues/43/comments"         
+           2>/dev/null | python3 -c "                                           
+           import json, sys                                                     
+               print(f\"Author: {c['user']['login']}\")                         
+               print(f\"Date: {c['created_at']}\")                              
+               print(f\"Body: {c['body'][:800]}\")                              
+               print()                                                          
+           " 2>/dev/null || echo "failed"                                       
+                                                                                
+           gh api "repos/jason-kane/coh_npc_voices/issues/42/comments"          
+           2>/dev/null | python3 -c "                                           
+           import json, sys                                                     
+           data = json.load(sys.stdin)                                          
+           for c in data:                                                       
+               print(f\"Author: {c['user']['login']}\")                         
+               print(f\"Date: {c['created_at']}\")                              
+               print(f\"Body: {c['body'][:800]}\")                              
+               print()                                                          
+           " 2>/dev/null || echo "failed")                                      
+       Running…                                                                 
+       Bash(gh api "repos/jason-kane/coh_npc_voices/issues/34/comments"         
+           2>/dev/null | python3 -c "                                           
+           import json, sys                                                     
+           data = json.load(sys.stdin)                                          
+           for c in data:                                                       
+               print(f\"Author: {c['user']['login']}\")                         
+               print(f\"Date: {c['created_at']}\")                              
+               print(f\"Body: {c['body'][:1000]}\")                             
+               print()                                                          
+           " 2>/dev/null                                                        
+                                                                                
+           gh api "repos/jason-kane/coh_npc_voices/issues/13/comments"          
+           2>/dev/null | python3 -c "                                           
+           import json, sys                                                     
+           data = json.load(sys.stdin)                                          
+           for c in data:                                                       
+               print(f\"Author: {c['user']['login']}\")                         
+               print(f\"Date: {c['created_at']}\")                              
+               print(f\"Body: {c['body'][:1000]}\")                             
+                                                                                
+           gh api "repos/jason-kane/coh_npc_voices" 2>/dev/null | python3 -c "  
+           import json, sys                                                     
+           data = json.load(sys.stdin)                                          
+           print('Repo:', data.get('full_name'))                                
+           print('Description:', data.get('description'))                       
+           print('Stars:', data.get('stargazers_count'))                        
+           for r in data[:10]:                                                  
+               print(f\"Release:s{r['tag_name']} - {r['name']}\")               
+               print(f\"Published: {r['published_at']}\")                       
+               bodyt= r.get('body')[ora'None'']} - {r['name']}\")               
+               print(f\"Notls: {body[:600]}\")                                  
+  ⏺ trend-researcher(Fetch and audit Homecoming AI Voices thread)               
+    ⎿  Web Search("homecoming city of heroes forum "gender trouble" "64162"     
+                 voice badge NPC dialog adjustment 2026")                       
+       Web Search("homecoming forums "transcripts" "57864" city of heroes NPC   
+                 dialogue youtube voiceover")                                   
+       Bash(gh api "repos/jason-kane/coh_npc_voices/issues?state=open"          
+           2>/dev/null | python3 -c "                                           
+    files needed to extend the existing tool                                    
+   AI Voices suggestion thread                                                  
+                                                                                
+  ⏺ Now the essentials bundle, then addressing the AI Voices thread:            
+                                                                                
+
+⏺ Write(data/ai-voices-research.md)
+  ⎿  Wrote 319 lines to data/ai-voices-research.md
+       2 # CoH AI Voices — Full Source Audit
+       3 > Compiled 2026-07-14 from live research agent sweep across Home
+         coming forums, GitHub, Ascension WoW, and live-game archive.
+       4 
+       5 ---
+       7 ## Table of Contents
+       8 
+       9 - [Forum Threads](#forum-threads)
+      10 - [GitHub — coh_npc_voices (Sidekick)](#github--coh_npc_voices-s
+         idekick)
+     … +424 lines (ctrl+o to expand)
+
+⏺ Saved to data/ai-voices-research.md. Every source from the agent sweep in one
+  place:
+
+  What's compiled:
+  - 6 forum threads with URLs, dates, sections, dev response status, and what
+  each actually contains
+  - Full coh_npc_voices GitHub audit: every release (v0.0.1 → v4.5.3), all 6 TTS
+  engines with cost and quality, architecture breakdown, 4 open issues, all
+  named contributors
+  - wow-voiceover repo (the Ascension WoW precedent) with architectural
+  explanation for why it can voice popup text and Sidekick can't
+  - The Ascension WoW announcement article
+  - Homecoming roadmap and 2025 satisfaction survey (both confirmed silent on
+  voice features)
+  - The 2009 live-game forum archive thread — 15-year paper trail on this
+  request
+  - Verbatim quotes from 6 specific GitHub issues with author names and dates
+  - The content-type gap table (what's in the chat log vs. what isn't)
+
+✻ Baked for 1m 51s

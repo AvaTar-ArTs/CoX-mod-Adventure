@@ -1,0 +1,333 @@
+{
+  "_meta": {
+    "description": "Contact and NPC voice personality profiles for coh_npc_voices (Sidekick)",
+    "version": "0.1.0",
+    "source": "City of Heroes Homecoming — common contacts across hero and villain sides",
+    "notes": [
+      "Voice IDs here are descriptive archetypes, not provider-specific IDs.",
+      "Each TTS engine plugin maps archetype -> its own voice ID in its config.",
+      "Clockwork King and generic Clockwork faction already handled by Sidekick's built-in vocoder — not duplicated here.",
+      "Entries ordered by estimated player contact frequency."
+    ]
+  },
+  "contacts": [
+    {
+      "name": "Ms. Liberty",
+      "aliases": ["Ms Liberty", "Ms. Liberty (contact)"],
+      "gender": "female",
+      "archetype": "professional_military_female",
+      "personality": "Confident, authoritative, military bearing. Brisk delivery. Believes in the letter of law and civic duty. No-nonsense but respectful.",
+      "speech_rate": "medium",
+      "pitch": "medium",
+      "faction": "Freedom Corps / Longbow",
+      "zone": "Atlas Park",
+      "notes": "Daughter of Statesman. Voice should convey institutional authority, not warmth."
+    },
+    {
+      "name": "Statesman",
+      "aliases": ["Marcus Cole"],
+      "gender": "male",
+      "archetype": "heroic_authoritative_male",
+      "personality": "The hero ideal. Measured, deliberate, deeply moral. Never brash. Carries the weight of decades of leadership.",
+      "speech_rate": "slow_medium",
+      "pitch": "medium_low",
+      "faction": "Freedom Phalanx",
+      "zone": "Atlas Park",
+      "notes": "Classic American hero voice. Think Walter Cronkite energy, not action movie energy."
+    },
+    {
+      "name": "Sister Psyche",
+      "aliases": ["Aurora Borealis"],
+      "gender": "female",
+      "archetype": "empathetic_counselor_female",
+      "personality": "Warm, perceptive, slightly formal. Speaks with the careful precision of someone who reads emotions. Compassionate but measured.",
+      "speech_rate": "medium",
+      "pitch": "medium",
+      "faction": "Freedom Phalanx",
+      "notes": "Should feel like a therapist who knows exactly what you're feeling. Not bubbly — wise."
+    },
+    {
+      "name": "Synapse",
+      "aliases": ["Justin Webb"],
+      "gender": "male",
+      "archetype": "energetic_young_male",
+      "personality": "Enthusiastic, rapid-fire, slightly scattered. His thoughts come faster than his mouth. Jokes don't always land but he doesn't notice.",
+      "speech_rate": "fast",
+      "pitch": "medium_high",
+      "faction": "Freedom Phalanx",
+      "notes": "Speed powerset personality bleeds into his speech patterns. Should feel slightly breathless."
+    },
+    {
+      "name": "Numina",
+      "aliases": ["Samantha Arbor"],
+      "gender": "female",
+      "archetype": "ethereal_calm_female",
+      "personality": "Otherworldly, serene, slightly sad. She exists partially outside the physical world. Speaks in longer sentences with thoughtful pauses.",
+      "speech_rate": "slow",
+      "pitch": "medium_high",
+      "faction": "Freedom Phalanx",
+      "notes": "Ghost/spirit character. Breathy, ethereal tone. The only living member of the Phalanx who's technically dead."
+    },
+    {
+      "name": "Back Alley Brawler",
+      "aliases": ["Back Alley Brawler (contact)", "B.A.B."],
+      "gender": "male",
+      "archetype": "streetwise_working_class_male",
+      "personality": "Blunt, practical, working-class. Zero patience for pretense. Direct to the point of seeming rude. Genuinely cares but won't show it.",
+      "speech_rate": "medium",
+      "pitch": "low",
+      "faction": "Freedom Phalanx",
+      "notes": "Brooklyn/South Side energy. Contrast with Statesman's gravitas — same team, completely different register."
+    },
+    {
+      "name": "Positron",
+      "aliases": ["Raymond Keyes"],
+      "gender": "male",
+      "archetype": "academic_engineer_male",
+      "personality": "Scientific, analytical, occasionally pedantic. Explains things more thoroughly than necessary. Genuinely excited by problems.",
+      "speech_rate": "medium_fast",
+      "pitch": "medium",
+      "faction": "Freedom Phalanx",
+      "notes": "Speaks through a suit — slight metallic resonance appropriate. Nuclear physicist energy."
+    },
+    {
+      "name": "Ghost Widow",
+      "aliases": ["Ghost Widow (contact)"],
+      "gender": "female",
+      "archetype": "cold_ethereal_formal_female",
+      "personality": "Cold, deliberate, formal. Zero warmth — not cruelty, just complete emotional absence. Every word precisely chosen.",
+      "speech_rate": "slow",
+      "pitch": "low_medium",
+      "faction": "Arachnos",
+      "notes": "Contrast with Numina — also dead, completely different register. Numina is sad; Ghost Widow is empty."
+    },
+    {
+      "name": "Lord Recluse",
+      "aliases": ["Stefan Richter", "Lord Recluse (contact)"],
+      "gender": "male",
+      "archetype": "theatrical_villain_deep_male",
+      "personality": "Grand, theatrical, savors every word. Believes in Social Darwinism with religious conviction. Villain monologue energy always present.",
+      "speech_rate": "slow_deliberate",
+      "pitch": "very_low",
+      "faction": "Arachnos",
+      "notes": "The main villain of CoV. Should feel like every sentence is a speech. Never hurried."
+    },
+    {
+      "name": "Black Scorpion",
+      "aliases": ["Black Scorpion (contact)"],
+      "gender": "male",
+      "archetype": "aggressive_mercenary_male",
+      "personality": "Aggressive, loud, prone to threats. Not subtle. The muscle, not the brain. Short sentences. Impatient.",
+      "speech_rate": "medium_fast",
+      "pitch": "medium_low",
+      "faction": "Arachnos",
+      "notes": "Military mercenary type who joined Arachnos for the firepower. Contrast with Ghost Widow's precision."
+    },
+    {
+      "name": "Scirocco",
+      "aliases": ["Paolo Aoziello", "Scirocco (contact)"],
+      "gender": "male",
+      "archetype": "weary_poetic_tragic_male",
+      "personality": "Melancholic, poetic, regretful. A former hero who made the wrong choice long ago and knows it. Speaks with the cadence of someone who has given up on being saved.",
+      "speech_rate": "slow",
+      "pitch": "medium_low",
+      "faction": "Arachnos",
+      "notes": "Italian accent appropriate. The tragic figure of CoV. Most sympathetic Arachnos patron."
+    },
+    {
+      "name": "Mako",
+      "aliases": ["Mako (contact)"],
+      "gender": "male",
+      "archetype": "predatory_feral_male",
+      "personality": "Predatory, barely contained, excited by violence. Speaks in short bursts. Can go from conversational to threatening instantly.",
+      "speech_rate": "variable",
+      "pitch": "medium",
+      "faction": "Arachnos",
+      "notes": "Shark person. The most 'monster' of the Arachnos patrons. Restraint in delivery makes the implied threat worse."
+    },
+    {
+      "name": "Dr. Aeon",
+      "aliases": ["Dr Aeon", "Doctor Aeon"],
+      "gender": "male",
+      "archetype": "manic_scientist_eccentric_male",
+      "personality": "Manic, excited, talks too fast when something interests him. Mad scientist register — brilliant but unstable. Laughs at inappropriate moments.",
+      "speech_rate": "fast_variable",
+      "pitch": "medium_high",
+      "faction": "Arachnos / Cap au Diable",
+      "notes": "Zone controller for Cap au Diable. Should feel like he's three ideas ahead of where he's talking."
+    },
+    {
+      "name": "Arbiter Sands",
+      "aliases": ["Arbiter Sands (contact)"],
+      "gender": "male",
+      "archetype": "bureaucratic_officious_male",
+      "personality": "Procedural, dry, everything is policy. Not cruel — just utterly impersonal. Treats heroes like paperwork.",
+      "speech_rate": "medium",
+      "pitch": "medium",
+      "faction": "Arachnos Arbiters",
+      "notes": "The Arachnos middle-management experience. Flat affect. References regulations often."
+    },
+    {
+      "name": "Penny Preston",
+      "aliases": ["Penny Preston (contact)"],
+      "gender": "female",
+      "archetype": "eager_optimistic_young_female",
+      "personality": "Enthusiastic, optimistic, idealistic. Aspiring journalist who hasn't had those qualities crushed yet. Excited to be near heroes.",
+      "speech_rate": "medium_fast",
+      "pitch": "medium_high",
+      "faction": "Hero (Paragon City)",
+      "notes": "Contrast with the world-weary tone of most contacts. Her optimism should feel genuine, not naive."
+    },
+    {
+      "name": "Coyote",
+      "aliases": ["Coyote (contact)"],
+      "gender": "male",
+      "archetype": "trickster_casual_male",
+      "personality": "Casual, irreverent, enjoys the chaos. Speaks like someone who knows the joke everyone else is missing. Never fully serious.",
+      "speech_rate": "medium",
+      "pitch": "medium",
+      "faction": "Neutral / Praetoria adjacent",
+      "notes": "Trickster archetype. Wry humor. Never answers directly when a sideways answer will do."
+    },
+    {
+      "name": "Jim Temblor",
+      "aliases": ["Jim Temblor (contact)"],
+      "gender": "male",
+      "archetype": "rough_blunt_veteran_male",
+      "personality": "Experienced, no-nonsense, seen everything. Short sentences. Does not over-explain. Respects competence, ignores posturing.",
+      "speech_rate": "medium",
+      "pitch": "medium_low",
+      "faction": "Hero (Independence Port)",
+      "notes": "Old-school hero energy. Has been doing this for decades and is tired of rookies."
+    },
+    {
+      "name": "Billie Heck",
+      "aliases": ["Billie Heck (contact)"],
+      "gender": "female",
+      "archetype": "street_tough_pragmatic_female",
+      "personality": "Pragmatic, street-level, deals with reality not ideals. Not unkind but not soft. Knows the neighborhood.",
+      "speech_rate": "medium",
+      "pitch": "medium",
+      "faction": "Hero (Hollows area)",
+      "notes": "Working-class hero contact. Less formal than Atlas Park heroes."
+    },
+    {
+      "name": "Jose Brogan",
+      "aliases": ["Jose Brogan (contact)"],
+      "gender": "male",
+      "archetype": "working_class_direct_male",
+      "personality": "Practical, salt-of-the-earth. Doesn't trust things he can't see. Talks about problems like a contractor would — what needs fixing, how, in what order.",
+      "speech_rate": "medium",
+      "pitch": "medium",
+      "faction": "Hero (Steel Canyon)",
+      "notes": "Steel Canyon contact. Blue-collar Paragon City energy."
+    },
+    {
+      "name": "Calvin Scott",
+      "aliases": ["Calvin Scott (contact)"],
+      "gender": "male",
+      "archetype": "community_leader_earnest_male",
+      "personality": "Community-minded, earnest, driven by genuine care for residents. Political but not cynical. Speaks in terms of people, not power.",
+      "speech_rate": "medium",
+      "pitch": "medium",
+      "faction": "Hero / Faultline",
+      "notes": "Faultline arc contact. Grief-motivated, community focus."
+    },
+    {
+      "name": "Sunstorm",
+      "aliases": ["Sunstorm (contact)"],
+      "gender": "male",
+      "archetype": "noble_alien_formal_male",
+      "personality": "Formal, alien cadence, chooses words with visible care. Not cold — deeply compassionate but expresses it through duty. Language is slightly structured.",
+      "speech_rate": "slow_medium",
+      "pitch": "medium_high",
+      "faction": "Kheldian (hero side)",
+      "notes": "Kheldian Peacebringer contact. Should feel non-human without being robotic."
+    },
+    {
+      "name": "Requiem",
+      "aliases": ["Requiem (contact)"],
+      "gender": "male",
+      "archetype": "ancient_cold_calculating_male",
+      "personality": "Ancient, cold, patient. Has been planning for centuries. Every sentence suggests he knows more than he's saying. No urgency — he's waited this long.",
+      "speech_rate": "slow",
+      "pitch": "low",
+      "faction": "Council / Villain",
+      "notes": "Council arc villain. Should feel genuinely ancient, not just old."
+    },
+    {
+      "name": "Renault",
+      "aliases": ["Renault (contact)"],
+      "gender": "male",
+      "archetype": "smooth_operator_male",
+      "personality": "Charming, smooth, always has an angle. Never raises his voice. Makes manipulation look like a favor.",
+      "speech_rate": "medium",
+      "pitch": "medium",
+      "faction": "Arachnos / Villain side",
+      "notes": "The fixer type. Everything is a negotiation."
+    },
+    {
+      "name": "Technician Naylor",
+      "aliases": ["Naylor (contact)"],
+      "gender": "female",
+      "archetype": "technical_precise_female",
+      "personality": "Technical, efficient, slight condescension toward non-technical people. Not unkind — just used to being the smartest person in the room.",
+      "speech_rate": "medium_fast",
+      "pitch": "medium",
+      "faction": "Longbow / Hero",
+      "notes": "Tech contact. Precision in word choice mirrors precision in engineering."
+    }
+  ],
+  "faction_defaults": {
+    "_note": "When an NPC name is unrecognized, use these faction-level defaults based on what appears before the ':' in the log line.",
+    "Longbow": {
+      "archetype": "professional_military",
+      "gender_distribution": "mixed",
+      "speech_rate": "medium",
+      "pitch": "medium"
+    },
+    "Arachnos": {
+      "archetype": "menacing_formal",
+      "gender_distribution": "mixed",
+      "speech_rate": "medium",
+      "pitch": "medium_low"
+    },
+    "Council": {
+      "archetype": "authoritarian_formal_male",
+      "speech_rate": "medium",
+      "pitch": "low"
+    },
+    "Vahzilok": {
+      "archetype": "disturbed_fragmented",
+      "speech_rate": "variable",
+      "pitch": "medium_low"
+    },
+    "Skulls": {
+      "archetype": "street_gang",
+      "speech_rate": "medium_fast",
+      "pitch": "medium"
+    },
+    "Hellions": {
+      "archetype": "cult_aggressive",
+      "speech_rate": "medium_fast",
+      "pitch": "medium_high"
+    },
+    "Circle of Thorns": {
+      "archetype": "arcane_formal",
+      "speech_rate": "slow",
+      "pitch": "medium_low"
+    },
+    "Rikti": {
+      "archetype": "alien_clipped_syntax",
+      "speech_rate": "slow_deliberate",
+      "pitch": "low",
+      "notes": "Rikti speak in clipped noun phrases: 'Heroes: identified. Threat: minimal. Elimination: proceeding.' TTS should reflect this syntax."
+    },
+    "Nemesis": {
+      "archetype": "victorian_automaton_military",
+      "speech_rate": "slow",
+      "pitch": "low",
+      "notes": "Nemesis soldiers speak in 19th century military formalism. Automaton variants may warrant vocoder."
+    }
+  }
+}
