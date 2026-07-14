@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CoX Mod Archive — Server</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+<link rel="stylesheet" href="/core/style.css">
+<style>
+.status-bar {
+  background: var(--surface); border-bottom: 1px solid var(--border);
+  padding: .35rem 2rem; display: flex; align-items: center; gap: .75rem;
+}
+.status-dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: var(--green); box-shadow: 0 0 6px var(--green);
+}
+.status-label {
+  font-family: 'FiraCode', monospace; font-size: .7rem; color: var(--muted);
+}
+.install-btn { min-width: 90px; text-align: center; }
+.install-btn:disabled { opacity: .5; cursor: default; }
+.badge-installed {
+  font-family: 'Gobold', monospace; font-size: .55rem;
+  letter-spacing: .15em; color: var(--green); margin-left: .25rem;
+}
+</style>
+</head>
+<body class="theme-terminal density-standard">
+<canvas id="p5-canvas"></canvas>
+<main>
+  <div class="status-bar">
+    <div class="status-dot"></div>
+    <span class="status-label">SERVER ACTIVE · localhost:7777</span>
+    <span class="status-label" id="installed-count" style="margin-left:auto"></span>
+  </div>
+
+  <div class="hero">
+    <div class="hero-content">
+      <div class="eyebrow">CITY OF HEROES · HOMECOMING</div>
+      <div class="hero-title">MOD ARCHIVE</div>
+      <div class="hero-sub">291 MODS · ONE-CLICK INSTALL</div>
+    </div>
+  </div>
+
+  <div class="bento-label">TOP DOWNLOADS</div>
+  <div class="bento" id="bento"></div>
+
+  <div class="controls">
+    <input id="search" type="search" placeholder="Search mods, authors…" autocomplete="off">
+    <select id="sort" class="ctrl-select">
+      <option value="downloads">SORT: DOWNLOADS</option>
+      <option value="name">SORT: NAME A→Z</option>
+      <option value="author">SORT: AUTHOR</option>
+    </select>
+    <select id="layout" class="ctrl-select">
+      <option value="masonry">LAYOUT: MASONRY</option>
+      <option value="bento">LAYOUT: BENTO</option>
+      <option value="list">LAYOUT: LIST</option>
+    </select>
+    <select id="density" class="ctrl-select">
+      <option value="standard">DENSITY: STANDARD</option>
+      <option value="compact">DENSITY: COMPACT</option>
+    </select>
+    <select id="theme" class="ctrl-select">
+      <option value="terminal">THEME: TERMINAL</option>
+      <option value="hud">THEME: HUD</option>
+      <option value="comic">THEME: COMIC</option>
+    </select>
+    <span id="count"></span>
+  </div>
+
+  <div class="tabs" id="tabs"></div>
+  <div class="archive-wrap">
+    <div class="archive layout-masonry" id="archive"></div>
+  </div>
+</main>
+
+<script src="/core/mods.js"></script>
+<script src="/core/render.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>
